@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // =====================================
 // Hero Timeline
 // =====================================
@@ -261,4 +262,22 @@ repeat:-1,
 yoyo:true,
 
 duration:2
+=======
+// Mobile Hamburger Animation Toggle
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.getElementById('navLinks');
+
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+  
+  // Icon Change Effect (Bars to Cross Icon)
+  const icon = hamburger.querySelector('i');
+  if (navLinks.classList.contains('active')) {
+    icon.classList.remove('fa-bars');
+    icon.classList.add('fa-xmark');
+  } else {
+    icon.classList.remove('fa-xmark');
+    icon.classList.add('fa-bars');
+  }
+>>>>>>> 165f92da1abb1c3a4555d3d7c2a2f86f1e05f8fd
 });
