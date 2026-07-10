@@ -196,6 +196,84 @@ Learn More
   </header>
 
   <script src="script.js"></script>
+  <!-- Font Awesome CDN Link (Icons chalane ke liye zaroori hai) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<footer class="gov-footer">
+    <div class="footer-container">
+        <div class="footer-row">
+
+            <!--  Quick Links -->
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-circle-info"></i>About Us</a></li>
+                    <li><a href="#"><i class="fa-solid fa-layer-group"></i>Schemes & Services</a></li>
+                    <li><a href="#"><i class="fa-solid fa-chart-line"></i>Transforming India</a></li>
+                </ul>
+            </div>
+
+            <!-- important links  -->
+            <div class="footer-col">
+                <h3>Quick Support</h3>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-phone"></i>Contacts</a></li>
+                    <li><a href="#"><i class="fa-solid fa-comments"></i>Feedback</a></li>
+                    <li><a href="#"><i class="fa-solid fa-circle-question"></i>FAQs</a></li>
+                    <li><a href="#"><i class="fa-solid fa-circle-user"></i>Help</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Important links</h3>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-phone"></i>Contacts</a></li>
+                    <li><a href="#"><i class="fa-solid fa-comments"></i>Feedback</a></li>
+                    <li><a href="#"><i class="fa-solid fa-circle-question"></i>FAQs</a></li>
+                    <li><a href="#"><i class="fa-solid fa-circle-user"></i>Help</a></li>
+                </ul>
+            </div>
+        
+        </div>
+    </div>
+
+    <!-- copyright wala section hai -->
+    <div class="footer-bottom">
+        <div class="footer-container bottom-flex">
+           <p style="text-align: center;">&copy; 2026 Govt. of India. All rights reserved.</p>
+           <p id="live-clock" style="font-size: 13px; color: var(--text-muted); margin: 5px 0 0 0; text-align: right; font-weight: 500;"></p>
+        </div>
+    </div>
+</footer>
+<!-- Live Clock Script --> 
+<script>
+    function updateClock() {
+        const now = new Date();
+        
+        const options = { 
+            year: 'numeric', 
+            month: 'numeric', 
+            day: 'numeric', 
+            hour: '2-digit', 
+            minute: '2-digit', 
+            second: '2-digit', 
+            hour12: true 
+        };
+        
+        // Formats time perfectly (e.g., 10 July 2026, 05:37:15 PM)
+        const formattedTime = now.toLocaleString('en-IN', options);
+        
+        // Updates the HTML element
+        document.getElementById('live-clock').innerHTML = `<i class="fa-regular  style="color: var(--gov-accent); margin-right: 6px;"></i> ${formattedTime}`;
+    }
+
+    // Refresh clock every 1 second
+    setInterval(updateClock, 1000);
+    
+    // Initial call to load immediately
+    updateClock();
+</script>
 </body>
 </html>
 >>>>>>> 165f92da1abb1c3a4555d3d7c2a2f86f1e05f8fd
