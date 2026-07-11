@@ -65,6 +65,12 @@ body {
   padding: 8px 12px;
   border-radius: 4px;
   transition: all 0.3s ease;
+
+  white-space: nowrap; /* Prevents the text from wrapping to the next line */
+  display: flex;       /* Turns the link into a flex container */
+  align-items: center; /* Vertically centers the icon and the text */
+  gap: 8px;            /* Adds a consistent gap between the icon and the text */
+}
 }
 
 .nav-links a:hover,
