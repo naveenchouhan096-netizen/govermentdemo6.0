@@ -95,4 +95,34 @@
       }
     ]
   }
+  ,
+  {
+    "id": "central-004",
+    "category": "Central Services",
+    "title": "Aadhaar Services (UIDAI)",
+    "shortDescription": "Managed by the UIDAI Portal, allowing citizens to download e-Aadhaar, update demographic data, and verify identity.",
+    "officialLink": "https://myaadhaar.uidai.gov.in/",
+    "icon": "fa-solid fa-id-card",
+    "tags": ["Identity", "Mandatory", "Demographics"],
+    "eligibility": "All residents of India.",
+    "fees": "Free for enrollment and mandatory biometric updates. ₹50 for online demographic updates.",
+    "requiredDocuments": [
+      "Proof of Identity (POI)",
+      "Proof of Address (POA)",
+      "Registered Mobile Number (for OTP)"
+    ],
+    "stepsToApply": [
+      "Visit the official UIDAI website or MyAadhaar portal.",
+      "Select your required service (e.g., Download Aadhaar, Update Address).",
+      "Log in using your 12-digit number and the OTP sent to your registered mobile.",
+      "Upload scanned copies of required proof documents.",
+      "Pay the ₹50 update fee (if applicable) and save the Service Request Number (SRN) to track status."
+    ],
+    "faqs": [
+      {
+        "question": "Can I update my biometric details online?",
+        "answer": "No. While demographic details (like address) can be updated online, biometric updates (photo, fingerprints, iris) require a physical visit to an Aadhaar Enrollment Center."
+      }
+    ]
+  }
 ]
