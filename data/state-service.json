@@ -1,0 +1,256 @@
+{
+  "localServicesDatabase": [
+    {
+      "state": "andhra_pradesh",
+      "category": "administration",
+      "title": "Andhra Pradesh State Portal",
+      "desc": "Official Citizen Portal, AP Seva & Public Grievances",
+      "link": "https://www.ap.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "arunachal_pradesh",
+      "category": "administration",
+      "title": "Arunachal Pradesh Portal",
+      "desc": "Official e-Services & Citizen Welfare Schemes",
+      "link": "https://arunachalpradesh.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "assam",
+      "category": "administration",
+      "title": "e-District Assam Portal",
+      "desc": "Sewa Setu, Public Certificates & Citizen Services",
+      "link": "https://sewasetu.assam.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "bihar",
+      "category": "certificates",
+      "title": "RTPS Bihar (e-District)",
+      "desc": "Apply Income, Caste, Residence & Land Possession Certificates",
+      "link": "https://serviceonline.bihar.gov.in/",
+      "icon": "fa-file-contract",
+      "color": "#16a085"
+    },
+    {
+      "state": "chhattisgarh",
+      "category": "administration",
+      "title": "e-District Chhattisgarh",
+      "desc": "e-District Portal, Revenue & Public Services",
+      "link": "https://edistrict.cgstate.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "goa",
+      "category": "administration",
+      "title": "Goa Online Services Portal",
+      "desc": "Single Window Portal for Citizen Services & Permits",
+      "link": "https://goaonline.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "gujarat",
+      "category": "administration",
+      "title": "Digital Gujarat Portal",
+      "desc": "Scholarships, Revenue & e-Services Portal",
+      "link": "https://www.digitalgujarat.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "haryana",
+      "category": "administration",
+      "title": "Antyodaya SARAL Haryana",
+      "desc": "Single Platform for All Haryana Schemes & Certificates",
+      "link": "https://saralharyana.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "himachal_pradesh",
+      "category": "administration",
+      "title": "e-District Himachal Pradesh",
+      "desc": "Online Certificates & Citizen Revenue Services",
+      "link": "https://edistrict.hp.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "jharkhand",
+      "category": "certificates",
+      "title": "JharSewa Jharkhand",
+      "desc": "Online Certificates, Caste/Income & Land Records",
+      "link": "https://jharsewa.jharkhand.gov.in/",
+      "icon": "fa-file-contract",
+      "color": "#d35400"
+    },
+    {
+      "state": "karnataka",
+      "category": "administration",
+      "title": "Seva Sindhu Karnataka",
+      "desc": "Integrated Citizen Services Portal & Guarantees",
+      "link": "https://sevasindhuservices.karnataka.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "kerala",
+      "category": "administration",
+      "title": "e-District Kerala Portal",
+      "desc": "Akshaya e-Services & Citizen Certificates",
+      "link": "https://edistrict.kerala.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "madhya_pradesh",
+      "category": "administration",
+      "title": "MP Lok Seva Guarantee Portal",
+      "desc": "e-District MP, Khasra/Khatoni & Certificates",
+      "link": "https://mpedistrict.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "maharashtra",
+      "category": "administration",
+      "title": "Aaple Sarkar Maharashtra",
+      "desc": "Right to Services Portal & Public Services",
+      "link": "https://aaplesarkar.mahaonline.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "manipur",
+      "category": "administration",
+      "title": "Manipur e-District Portal",
+      "desc": "Citizen Online Certificates & Welfare Schemes",
+      "link": "https://edistrict.mn.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "meghalaya",
+      "category": "administration",
+      "title": "Meghalaya e-District",
+      "desc": "Government to Citizen Online Services Portal",
+      "link": "https://edistrict.meghalaya.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "mizoram",
+      "category": "administration",
+      "title": "Mizoram State Portal",
+      "desc": "e-Services & State Government Circulars",
+      "link": "https://mizoram.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "nagaland",
+      "category": "administration",
+      "title": "Nagaland State Portal",
+      "desc": "e-Services & Citizen Facilitation Portal",
+      "link": "https://nagaland.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "odisha",
+      "category": "administration",
+      "title": "e-District Odisha Portal",
+      "desc": "Odisha Revenue Services, Certificates & Revenue",
+      "link": "https://edistrict.odisha.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "punjab",
+      "category": "administration",
+      "title": "e-Sewa Punjab Portal",
+      "desc": "Sewa Kendra Services, Certificates & Revenue",
+      "link": "https://eservices.punjab.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "rajasthan",
+      "category": "administration",
+      "title": "e-Mitra Rajasthan Portal",
+      "desc": "Unified Citizen Services & Online Applications",
+      "link": "https://emitra.rajasthan.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "sikkim",
+      "category": "administration",
+      "title": "Sikkim State Portal",
+      "desc": "Citizen Services & Government Notifications",
+      "link": "https://sikkim.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "tamil_nadu",
+      "category": "administration",
+      "title": "TNeGA Tamil Nadu e-Sevai",
+      "desc": "e-Sevai Citizen Services & Revenue Certificates",
+      "link": "https://www.tnesevai.tn.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "telangana",
+      "category": "administration",
+      "title": "MeeSeva Telangana",
+      "desc": "MeeSeva Citizen Portal & Digital Services",
+      "link": "https://meeseva.telangana.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "tripura",
+      "category": "administration",
+      "title": "e-District Tripura",
+      "desc": "Online Public Services & Certificates Portal",
+      "link": "https://edistrict.tripura.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "up",
+      "category": "administration",
+      "title": "UP e-District Portal",
+      "desc": "Official Citizen Services, Revenue & District Services",
+      "link": "https://edistrict.up.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "uttarakhand",
+      "category": "administration",
+      "title": "e-District Uttarakhand (eServices)",
+      "desc": "Citizen Revenue Certificates & Public Services",
+      "link": "https://edistrict.uk.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    },
+    {
+      "state": "west_bengal",
+      "category": "administration",
+      "title": "e-District West Bengal",
+      "desc": "Banglarbhumi, e-Services & Public Grievance Portal",
+      "link": "https://edistrict.wb.gov.in/",
+      "icon": "fa-building-columns",
+      "color": "#0b2545"
+    }
+  ]
+}

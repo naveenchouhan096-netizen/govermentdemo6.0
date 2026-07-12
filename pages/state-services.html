@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Local Services Locator - GovHub</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="../css/state-style.css">
+</head>
+<body>
+
+  <section class="state-services-panel">
+    
+    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #0056b3; padding-bottom: 12px; margin-bottom: 15px;">
+      <h3 style="border-bottom: none; padding-bottom: 0; margin-bottom: 0;">
+        <i class="fa-solid fa-map-location-dot"></i>STATE-SERVICES 
+      </h3>
+      
+      <a href="../index.html" class="top-back-btn" style="background-color: #0056b3; color: white; text-decoration: none; padding: 8px 16px; border-radius: 6px; font-size: 13px; font-weight: 600; display: inline-flex; align-items: center; gap: 8px;">
+        <i class="fa-solid fa-house"></i> Home Dashboard
+      </a>
+    </div>
+
+    <p class="subtitle" style="font-size: 13px; color: #666; margin-top: 5px; margin-bottom: 25px;">Select your location to find official State Portals, Public Services & Helplines.</p>
+
+    <div class="filter-form-container">
+      
+      <div class="form-group">
+        <label><i class="fa-solid fa-flag"></i> 1. Select State:</label>
+       <select id="stateSelect">
+          <option value="">-- Select State --</option>
+          <option value="andhra_pradesh">Andhra Pradesh (आंध्र प्रदेश)</option>
+          <option value="arunachal_pradesh">Arunachal Pradesh (अरुणाचल प्रदेश)</option>
+          <option value="assam">Assam (असम)</option>
+          <option value="bihar">Bihar (बिहार)</option>
+          <option value="chhattisgarh">Chhattisgarh (छत्तीसगढ़)</option>
+          <option value="goa">Goa (गोवा)</option>
+          <option value="gujarat">Gujarat (गुजरात)</option>
+          <option value="haryana">Haryana (हरियाणा)</option>
+          <option value="himachal_pradesh">Himachal Pradesh (हिमाचल प्रदेश)</option>
+          <option value="jharkhand">Jharkhand (झारखंड)</option>
+          <option value="karnataka">Karnataka (कर्नाटक)</option>
+          <option value="kerala">Kerala (केरल)</option>
+          <option value="madhya_pradesh">Madhya Pradesh (मध्य प्रदेश)</option>
+          <option value="maharashtra">Maharashtra (महाराष्ट्र)</option>
+          <option value="manipur">Manipur (मणिपुर)</option>
+          <option value="meghalaya">Meghalaya (मेघालय)</option>
+          <option value="mizoram">Mizoram (मिज़ोरम)</option>
+          <option value="nagaland">Nagaland (नागालैंड)</option>
+          <option value="odisha">Odisha (ओडिशा)</option>
+          <option value="punjab">Punjab (पंजाब)</option>
+          <option value="rajasthan">Rajasthan (राजस्थान)</option>
+          <option value="sikkim">Sikkim (सिक्किम)</option>
+          <option value="tamil_nadu">Tamil Nadu (तमिलनाडु)</option>
+          <option value="telangana">Telangana (तेलंगाना)</option>
+          <option value="tripura">Tripura (त्रिपुरा)</option>
+          <option value="up">Uttar Pradesh (उत्तर प्रदेश)</option>
+          <option value="uttarakhand">Uttarakhand (उत्तराखंड)</option>
+          <option value="west_bengal">West Bengal (पश्चिम बंगाल)</option>
+       </select>
+      <div class="form-group">
+        <label><i class="fa-solid fa-list-check"></i> 2. Service Need:</label>
+        <select id="serviceTypeSelect">
+          <option value="">-- Select Category --</option>
+          <option value="administration">Local Administration (DM/Tehsil/Police)</option>
+          <option value="certificates">Certificates & Identity (आय/जाति/निवास)</option>
+          <option value="municipal">Municipal & Utilities (नगर निगम/टैक्स)</option>
+          <option value="health">Local Healthcare & Emergency</option>
+        </select>
+      </div>
+
+      <div class="form-group form-group-btn">
+        <button class="btn-search" onclick="filterLocalServices()">
+          <i class="fa-solid fa-magnifying-glass"></i> Find Services
+        </button>
+      </div>
+
+    </div>
+
+    <div id="stateServicesGrid" class="grid-container">
+      <p class="initial-msg">Select your State and Category to fetch official links and helplines.</p>
+    </div>
+
+    <div class="back-container" style="text-align: center; margin-top: 30px;">
+      <a href="../index.html" class="back-link" style="text-decoration: none; color: #0056b3; font-weight: 600; font-size: 14px;"><i class="fa-solid fa-arrow-left"></i> Back to Main Dashboard</a>
+    </div>
+  </section>
+
+  <script src="../js/state-app.js"></script>
+</body>
+</html>
