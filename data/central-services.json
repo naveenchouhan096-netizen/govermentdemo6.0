@@ -1,0 +1,128 @@
+[
+  { 
+    "id": "central-001",
+    "category": "Central Services",
+    "title": "Train Ticket Booking (IRCTC)",
+    "shortDescription": "Official portal for booking Indian Railway train tickets, checking PNR status, and train schedules.",
+    "officialLink": "https://www.irctc.co.in/",
+    "icon": "fa-solid fa-train-subway",
+    "tags": ["Travel", "High Demand"],
+    "eligibility": "Anyone with a valid Indian mobile number and email ID can register.",
+    "fees": "Varies based on train class and distance.",
+    "requiredDocuments": [
+      "Valid Government ID for travel",
+      "Mobile number for OTP validation"
+    ],
+    "stepsToApply": [
+      "Visit the official IRCTC website.",
+      "Click on 'Register' to create a new account or 'Login' if you already have one.",
+      "Enter your travel route (From and To stations) and date of journey.",
+      "Select your preferred train and class, then click 'Book Now'.",
+      "Enter passenger details, complete the payment, and download your ticket."
+    ],
+    "faqs": [
+      {
+        "question": "Can I book a ticket without an account?",
+        "answer": "No, an IRCTC account is mandatory for booking tickets online."
+      }
+    ]
+  },
+  {
+    "id": "central-002",
+    "category": "Central Services",
+    "title": "Passport Application (Passport Seva)",
+    "shortDescription": "Official portal for applying for a new passport, passport renewal, reissue, and related passport services in India.",
+    "officialLink": "https://www.passportindia.gov.in/",
+    "icon": "fa-solid fa-passport",
+    "tags": ["Identity", "Travel", "Document"],
+    "eligibility": "Any Indian citizen eligible for a passport under the Passport Act.",
+    "fees": "Varies depending on passport type, number of pages, and Tatkal/Normal service.",
+    "requiredDocuments": [
+      "Proof of Identity",
+      "Proof of Address",
+      "Date of Birth Proof",
+      "Recent Passport-size Photograph (if required)"
+    ],
+    "stepsToApply": [
+      "Visit the official Passport Seva Portal.",
+      "Register a new account or log in.",
+      "Select 'Apply for Fresh Passport/Re-issue of Passport'.",
+      "Fill in the application form online.",
+      "Pay the applicable fee.",
+      "Book an appointment at your nearest Passport Seva Kendra (PSK).",
+      "Visit the PSK with original documents for verification.",
+      "Track your application status online until passport dispatch."
+    ],
+    "faqs": [
+      {
+        "question": "Is Aadhaar mandatory for a passport?",
+        "answer": "No. Aadhaar is one of several accepted identity and address proof documents."
+      }
+    ]
+  },
+  {
+    "id": "central-003",
+    "category": "Central Services",
+    "title": "Income Tax e-Filing",
+    "shortDescription": "Official portal for filing Income Tax Returns (ITR), checking refund status, and accessing various income tax services.",
+    "officialLink": "https://www.incometax.gov.in/",
+    "icon": "fa-solid fa-file-invoice-dollar",
+    "tags": ["Finance", "Taxes", "Mandatory"],
+    "eligibility": "Individuals, businesses, and organizations required or eligible to file Income Tax Returns in India.",
+    "fees": "No government fee for filing ITR on the official portal. Professional charges may apply if using tax consultants.",
+    "requiredDocuments": [
+      "PAN Card",
+      "Aadhaar Card",
+      "Bank Account Details",
+      "Form 16 (if applicable)",
+      "Salary Slips",
+      "Investment Proofs",
+      "Other Income Documents"
+    ],
+    "stepsToApply": [
+      "Visit the official Income Tax e-Filing portal.",
+      "Log in using your PAN/User ID.",
+      "Select 'File Income Tax Return'.",
+      "Choose the applicable Assessment Year and ITR form.",
+      "Enter income, deductions, and tax details.",
+      "Verify the information and submit the return.",
+      "Complete e-Verification using Aadhaar OTP, Net Banking, or other available methods."
+    ],
+    "faqs": [
+      {
+        "question": "Can I file my Income Tax Return for free?",
+        "answer": "Yes. Eligible taxpayers can file their Income Tax Return free of cost through the official Income Tax e-Filing portal."
+      }
+    ]
+  }
+  ,
+  {
+    "id": "central-004",
+    "category": "Central Services",
+    "title": "Aadhaar Services (UIDAI)",
+    "shortDescription": "Managed by the UIDAI Portal, allowing citizens to download e-Aadhaar, update demographic data, and verify identity.",
+    "officialLink": "https://myaadhaar.uidai.gov.in/",
+    "icon": "fa-solid fa-id-card",
+    "tags": ["Identity", "Mandatory", "Demographics"],
+    "eligibility": "All residents of India.",
+    "fees": "Free for enrollment and mandatory biometric updates. ₹50 for online demographic updates.",
+    "requiredDocuments": [
+      "Proof of Identity (POI)",
+      "Proof of Address (POA)",
+      "Registered Mobile Number (for OTP)"
+    ],
+    "stepsToApply": [
+      "Visit the official UIDAI website or MyAadhaar portal.",
+      "Select your required service (e.g., Download Aadhaar, Update Address).",
+      "Log in using your 12-digit number and the OTP sent to your registered mobile.",
+      "Upload scanned copies of required proof documents.",
+      "Pay the ₹50 update fee (if applicable) and save the Service Request Number (SRN) to track status."
+    ],
+    "faqs": [
+      {
+        "question": "Can I update my biometric details online?",
+        "answer": "No. While demographic details (like address) can be updated online, biometric updates (photo, fingerprints, iris) require a physical visit to an Aadhaar Enrollment Center."
+      }
+    ]
+  }
+]

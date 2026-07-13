@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central Services - Government Portal</title>
+
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS Links (Note the ../ to go up one folder) -->
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    
+    <!-- We will create this new CSS file in the next phase -->
+    <link rel="stylesheet" href="../css/central-services.css">
+</head>
+<body>
+
+    <!-- Main Navigation (Reused from your home page) -->
+    <header class="navbar-container">
+        <div class="top-bar">
+            <span><i class="fa-solid fa-flag"></i> Government Resources Portal</span>
+            <div class="top-links">
+                <a href="#help">Helpline: 112</a>
+                <a href="#lang">Language: Hindi / English</a>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-landmark"></i>
+                <span>Government<strong>Portal</strong></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="../index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="central-services.html" class="active"><i class="fa-solid fa-building-columns"></i> Central Services</a></li>
+                <li><a href="state-services.html"><i class="fa-solid fa-map-location-dot"></i> State Services</a></li>
+                <li><a href="all-schemes.html"><i class="fa-solid fa-layer-group"></i> All Schemes</a></li>
+                <li><a href="about-us.html"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
+                <li><a href="#login"><i class="fa-solid fa-right-to-bracket"></i>Sign In / Sign Up</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="page-content">
+        <div class="page-header">
+            <h1>Central Government Services</h1>
+            <p>Browse and apply for nationwide official services.</p>
+            
+            <!-- Search bar specific to this page -->
+            <div class="page-search">
+                <input type="text" id="service-search" placeholder="Search Central Services...">
+            </div>
+        </div>
+
+        <!-- THIS IS THE MAGIC CONTAINER -->
+        <!-- Our JavaScript will loop through your JSON and put the cards in here -->
+        <div class="services-grid" id="services-grid">
+            <!-- Data will load here automatically -->
+        </div>
+        <!-- The Pop-up Modal (Hidden by default) -->
+        <div id="service-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal()">&times;</span>
+                <div id="modal-body">
+                    <!-- JavaScript will inject the details here -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer (Reused from your home page) -->
+    <footer class="gov-footer">
+        <div class="footer-bottom">
+            <div class="footer-container bottom-flex">
+               <p style="text-align: center;">&copy; 2026 Govt. of India. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript files -->
+    <script src="../js/home.js"></script>
+    <!-- JavaScript file-->
+    <script src="../js/central-services.js"></script>
+
+</body>
+</html>
