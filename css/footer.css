@@ -138,3 +138,54 @@
         justify-content: center;
     }
 }
+
+        /* yaha se footer ka social media link ka css start ho raha hai */
+
+        footer {
+  background-color: #1a1a1a; /* Dark background typical for footers */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-container {
+  display: flex;
+  gap: 20px; /* Space between icons */
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #2d2d2d;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effects with Brand Colors */
+.social-icon:hover {
+  transform: translateY(-5px); /* Subtle lift effect */
+  color: #fff;
+}
+
+.social-icon.github:hover {
+  background-color: #333;
+}
+
+.social-icon.linkedin:hover {
+  background-color: #0077b5;
+}
+
+.social-icon.twitter:hover {
+  background-color: #000000; /* X / Twitter black */
+}
+
+.social-icon.instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
