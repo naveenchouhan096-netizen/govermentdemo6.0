@@ -141,7 +141,8 @@
 
         /* yaha se footer ka social media link ka css start ho raha hai */
 
-        footer {
+        
+  footer {
   background-color: #1a1a1a; /* Dark background typical for footers */
   padding: 20px;
   display: flex;

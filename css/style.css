@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+
+    /* Colors */
+
+    --primary-color:#2563eb;
+    --primary-dark:#1d4ed8;
+    --secondary-color:#4f46e5;
+    --accent-color:#10b981;
+
+    --text-dark:#0f172a;
+    --text-light:#64748b;
+
+    --white:#ffffff;
+    --body-bg:#f8fafc;
+
+    --border-color:#e2e8f0;
+
+    --shadow-sm:0 5px 15px rgba(0,0,0,.06);
+    --shadow-md:0 15px 35px rgba(0,0,0,.10);
+    --shadow-lg:0 25px 50px rgba(0,0,0,.15);
+
+    --radius-sm:10px;
+    --radius-md:18px;
+    --radius-lg:30px;
+
+    --transition:.35s ease;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+    background:var(--body-bg);
+    color:var(--text-dark);
+    overflow-x:hidden;
+}
+
+
+/*
+   Selection
+ */
+
+::selection{
+    background:var(--primary-color);
+    color:var(--white);
+}
+
+
+/*
+   Scrollbar
+ */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#edf2f7;
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--primary-color);
+    border-radius:50px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:var(--primary-dark);
+}
+
+
+/* 
+   Images
+*/
+
+img{
+
+    width:100%;
+    display:block;
+}
+
+
+/* 
+   Links
+ */
+
+a{
+
+    text-decoration:none;
+    color:inherit;
+}
+
+
+/* ===========================
+   List
+=========================== */
+
+ul{
+    list-style:none;
+}
+
+
+/* ===========================
+   Buttons
+=========================== */
+
+button{
+
+    border:none;
+    outline:none;
+    cursor:pointer;
+    font-family:inherit;
+}
+
+
+/* ===========================
+   Inputs
+=========================== */
+
+input{
+
+    border:none;
+    outline:none;
+    font-family:inherit;
+}
+
+
+/* ===========================
+   Main Container
+=========================== */
+
+.container{
+
+    width:100%;
+    max-width:1280px;
+
+    margin:auto;
+
+    padding-inline:40px;
+}
+
+
+/* ===========================
+   Section
+=========================== */
+
+section{
+
+    width:100%;
+}
+
+
+/* ===========================
+   Common Button
+=========================== */
+
+.btn{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+
+    padding:15px 30px;
+
+    border-radius:50px;
+
+    font-size:16px;
+    font-weight:600;
+
+    transition:var(--transition);
+
+}
+
+
+/* Primary Button */
+
+.primary-btn{
+
+    background:var(--primary-color);
+    color:var(--white);
+}
+
+.primary-btn:hover{
+
+    background:var(--primary-dark);
+    transform:translateY(-4px);
+    box-shadow:var(--shadow-md);
+}
+
+
+/* Secondary Button */
+
+.secondary-btn{
+
+    background:var(--white);
+
+    color:var(--text-dark);
+
+    border:1px solid var(--border-color);
+}
+
+.secondary-btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:var(--shadow-sm);
+
+    border-color:var(--primary-color);
+
+}
+
+
+/* ===========================
+   Headings
+=========================== */
+
+h1,h2,h3,h4{
+
+    font-weight:700;
+    line-height:1.2;
+}
+
+
+/* ===========================
+   Paragraph
+=========================== */
+
+p{
+
+    color:var(--text-light);
+
+    line-height:1.7;
+}
+
+
+/* ===================================================
+            Responsive
+=================================================== */
+
+@media(max-width:992px){
+
+    .container{
+
+        padding-inline:25px;
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    .container{
+
+        padding-inline:20px;
+    }
+
+    .btn{
+
+        width:100%;
+    }
+
+}
+
+
+@media(max-width:480px){
+
+    .container{
+
+        padding-inline:15px;
+    }
+
+}
