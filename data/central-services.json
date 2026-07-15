@@ -1,128 +1,3365 @@
 [
-  { 
-    "id": "central-001",
-    "category": "Central Services",
-    "title": "Train Ticket Booking (IRCTC)",
-    "shortDescription": "Official portal for booking Indian Railway train tickets, checking PNR status, and train schedules.",
-    "officialLink": "https://www.irctc.co.in/",
-    "icon": "fa-solid fa-train-subway",
-    "tags": ["Travel", "High Demand"],
-    "eligibility": "Anyone with a valid Indian mobile number and email ID can register.",
-    "fees": "Varies based on train class and distance.",
-    "requiredDocuments": [
-      "Valid Government ID for travel",
-      "Mobile number for OTP validation"
-    ],
-    "stepsToApply": [
-      "Visit the official IRCTC website.",
-      "Click on 'Register' to create a new account or 'Login' if you already have one.",
-      "Enter your travel route (From and To stations) and date of journey.",
-      "Select your preferred train and class, then click 'Book Now'.",
-      "Enter passenger details, complete the payment, and download your ticket."
-    ],
-    "faqs": [
-      {
-        "question": "Can I book a ticket without an account?",
-        "answer": "No, an IRCTC account is mandatory for booking tickets online."
-      }
-    ]
-  },
   {
-    "id": "central-002",
-    "category": "Central Services",
-    "title": "Passport Application (Passport Seva)",
-    "shortDescription": "Official portal for applying for a new passport, passport renewal, reissue, and related passport services in India.",
-    "officialLink": "https://www.passportindia.gov.in/",
-    "icon": "fa-solid fa-passport",
-    "tags": ["Identity", "Travel", "Document"],
-    "eligibility": "Any Indian citizen eligible for a passport under the Passport Act.",
-    "fees": "Varies depending on passport type, number of pages, and Tatkal/Normal service.",
+    "id": "identity-001",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "PAN Card Application",
+    "slug": "pan-card-application",
+    "shortDescription": "Official service for new PAN card application or data correction for Indian citizens.",
+    "officialLink": "https://www.proteantech.in/",
+    "icon": "fa-solid fa-credit-card",
+    "tags": ["Identity", "Finance", "Mandatory"],
+    "eligibility": "Any individual, including minors, NRIs, and HUFs.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹107 for Indian communication addresses."
+    },
     "requiredDocuments": [
       "Proof of Identity",
       "Proof of Address",
-      "Date of Birth Proof",
-      "Recent Passport-size Photograph (if required)"
+      "Proof of Date of Birth"
     ],
     "stepsToApply": [
-      "Visit the official Passport Seva Portal.",
-      "Register a new account or log in.",
-      "Select 'Apply for Fresh Passport/Re-issue of Passport'.",
-      "Fill in the application form online.",
-      "Pay the applicable fee.",
-      "Book an appointment at your nearest Passport Seva Kendra (PSK).",
-      "Visit the PSK with original documents for verification.",
-      "Track your application status online until passport dispatch."
-    ],
-    "faqs": [
-      {
-        "question": "Is Aadhaar mandatory for a passport?",
-        "answer": "No. Aadhaar is one of several accepted identity and address proof documents."
-      }
+      "Visit the official Protean-TIN PAN portal.",
+      "Select 'Online PAN Services' and click 'Paperless PAN Application'.",
+      "Register to generate a token number for your application.",
+      "Fill in personal and contact details, and choose your preferred PAN type.",
+      "Upload required supporting documents, submit the form, and complete the payment."
     ]
   },
   {
-    "id": "central-003",
-    "category": "Central Services",
-    "title": "Income Tax e-Filing",
-    "shortDescription": "Official portal for filing Income Tax Returns (ITR), checking refund status, and accessing various income tax services.",
-    "officialLink": "https://www.incometax.gov.in/",
-    "icon": "fa-solid fa-file-invoice-dollar",
-    "tags": ["Finance", "Taxes", "Mandatory"],
-    "eligibility": "Individuals, businesses, and organizations required or eligible to file Income Tax Returns in India.",
-    "fees": "No government fee for filing ITR on the official portal. Professional charges may apply if using tax consultants.",
+    "id": "identity-002",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of External Affairs",
+    "department": "Passport Seva",
+    "title": "Passport Application",
+    "slug": "passport-application",
+    "shortDescription": "Portal for applying for fresh passports or re-issue of existing passports.",
+    "officialLink": "https://www.passportindia.gov.in/",
+    "icon": "fa-solid fa-passport",
+    "tags": ["Identity", "Travel"],
+    "eligibility": "Any Indian citizen.",
+    "fees": {
+      "type": "Variable",
+      "details": "Varies by passport type (Normal/Tatkal) and booklet size."
+    },
     "requiredDocuments": [
-      "PAN Card",
-      "Aadhaar Card",
-      "Bank Account Details",
-      "Form 16 (if applicable)",
-      "Salary Slips",
-      "Investment Proofs",
-      "Other Income Documents"
+      "Proof of Date of Birth",
+      "Proof of Identity",
+      "Proof of Address"
     ],
     "stepsToApply": [
-      "Visit the official Income Tax e-Filing portal.",
-      "Log in using your PAN/User ID.",
-      "Select 'File Income Tax Return'.",
-      "Choose the applicable Assessment Year and ITR form.",
-      "Enter income, deductions, and tax details.",
-      "Verify the information and submit the return.",
-      "Complete e-Verification using Aadhaar OTP, Net Banking, or other available methods."
-    ],
-    "faqs": [
-      {
-        "question": "Can I file my Income Tax Return for free?",
-        "answer": "Yes. Eligible taxpayers can file their Income Tax Return free of cost through the official Income Tax e-Filing portal."
-      }
+      "Register as a new user on the Passport Seva Portal.",
+      "Log in and select 'Apply for Fresh Passport/Re-issue of Passport'.",
+      "Fill out the application form online and submit it.",
+      "Schedule an appointment at the nearest Passport Seva Kendra (PSK).",
+      "Visit the PSK with original documents for verification."
     ]
-  }
-  ,
+  },
   {
-    "id": "central-004",
-    "category": "Central Services",
-    "title": "Aadhaar Services (UIDAI)",
-    "shortDescription": "Managed by the UIDAI Portal, allowing citizens to download e-Aadhaar, update demographic data, and verify identity.",
+    "id": "identity-003",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "department": "UIDAI",
+    "title": "e-Aadhaar Download",
+    "slug": "eaadhaar-download",
+    "shortDescription": "Download a digitally signed electronic copy of your identity card.",
     "officialLink": "https://myaadhaar.uidai.gov.in/",
     "icon": "fa-solid fa-id-card",
-    "tags": ["Identity", "Mandatory", "Demographics"],
+    "tags": ["Identity", "Mandatory"],
     "eligibility": "All residents of India.",
-    "fees": "Free for enrollment and mandatory biometric updates. ₹50 for online demographic updates.",
+    "fees": {
+      "type": "Free",
+      "details": "No charge for downloading e-Aadhaar."
+    },
     "requiredDocuments": [
-      "Proof of Identity (POI)",
-      "Proof of Address (POA)",
       "Registered Mobile Number (for OTP)"
     ],
     "stepsToApply": [
-      "Visit the official UIDAI website or MyAadhaar portal.",
-      "Select your required service (e.g., Download Aadhaar, Update Address).",
-      "Log in using your 12-digit number and the OTP sent to your registered mobile.",
-      "Upload scanned copies of required proof documents.",
-      "Pay the ₹50 update fee (if applicable) and save the Service Request Number (SRN) to track status."
+      "Visit the official MyAadhaar portal.",
+      "Click on 'Download Aadhaar' under the services section.",
+      "Authenticate using your Aadhaar number or Enrollment ID.",
+      "Verify the OTP sent to your registered mobile number.",
+      "Download the password-protected PDF copy of your e-Aadhaar."
+    ]
+  },
+  {
+    "id": "identity-004",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Office of the Registrar General",
+    "title": "Birth Certificate Application",
+    "slug": "birth-certificate",
+    "shortDescription": "Official registration and issuance of birth certificates for citizens.",
+    "officialLink": "https://crsorgi.gov.in/",
+    "icon": "fa-solid fa-baby",
+    "tags": ["Identity", "Certificate"],
+    "eligibility": "All Indian citizens born in India.",
+    "fees": {
+      "type": "Variable",
+      "details": "Depends on state-specific municipal fees."
+    },
+    "requiredDocuments": [
+      "Hospital birth report/letter",
+      "Parents' identity proof"
     ],
-    "faqs": [
-      {
-        "question": "Can I update my biometric details online?",
-        "answer": "No. While demographic details (like address) can be updated online, biometric updates (photo, fingerprints, iris) require a physical visit to an Aadhaar Enrollment Center."
-      }
+    "stepsToApply": [
+      "Obtain the registration form from the local municipal/registrar office or their website.",
+      "Fill in the form with birth details and parent information.",
+      "Attach supporting documents including hospital records.",
+      "Submit the application to the Registrar's office or via the state portal.",
+      "Collect the certificate once processing is complete."
+    ]
+  },
+  {
+    "id": "identity-005",
+    "category": "Identity & Documents",
+    "ministry": "Election Commission of India",
+    "department": "Voters' Service Portal",
+    "title": "Voter ID Registration",
+    "slug": "voter-id-registration",
+    "shortDescription": "Register as a new voter to participate in Indian elections.",
+    "officialLink": "https://voters.eci.gov.in/",
+    "icon": "fa-solid fa-check-to-slot",
+    "tags": ["Identity", "Election"],
+    "eligibility": "Indian citizens aged 18+ years.",
+    "fees": {
+      "type": "Free",
+      "details": "Registration is free of cost."
+    },
+    "requiredDocuments": [
+      "Passport-sized photograph",
+      "Age proof",
+      "Address proof"
+    ],
+    "stepsToApply": [
+      "Visit the official Voters' Service Portal or use the Voter Helpline App.",
+      "Fill out Form 6 for new voter registration.",
+      "Provide personal details, address, and upload the required documents.",
+      "Submit the form for field verification by the local booth officer.",
+      "Receive your Elector's Photo Identity Card (EPIC) via speed post."
+    ]
+  },
+  {
+    "id": "identity-006",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Driving Licence Application",
+    "slug": "driving-licence-application",
+    "shortDescription": "Official service to apply for a new Learner's Licence or permanent Driving Licence.",
+    "officialLink": "https://parivahan.gov.in/",
+    "icon": "fa-solid fa-car",
+    "tags": ["Identity", "Travel", "Document"],
+    "eligibility": "Minimum 16 years for motorcycle without gear; 18 years for light motor vehicles.",
+    "fees": {
+      "type": "Variable",
+      "details": "Varies by state and licence class."
+    },
+    "requiredDocuments": [
+      "Age proof (Birth Certificate/10th Marksheet)",
+      "Address proof",
+      "Passport-sized photograph"
+    ],
+    "stepsToApply": [
+      "Visit the Parivahan Sewa portal.",
+      "Select 'Online Services' and choose 'Driving Licence Related Services'.",
+      "Fill out the application form and upload scanned copies of required documents.",
+      "Book an appointment for the learner's test or driving skill test.",
+      "Visit the RTO for biometric verification and the driving test."
+    ]
+  },
+  {
+    "id": "identity-007",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "department": "Digital India Corporation",
+    "title": "DigiLocker Account",
+    "slug": "digilocker-account",
+    "shortDescription": "A platform for issuance and verification of documents and certificates in a digital format.",
+    "officialLink": "https://www.digilocker.gov.in/",
+    "icon": "fa-solid fa-box-archive",
+    "tags": ["Identity", "Document", "Digital"],
+    "eligibility": "Residents with an [Aadhaar Redacted] number.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to all users."
+    },
+    "requiredDocuments": [
+      "[Aadhaar Redacted] Number for authentication"
+    ],
+    "stepsToApply": [
+      "Visit the DigiLocker website or mobile app.",
+      "Click on 'Sign Up' and enter your mobile number linked to your identity.",
+      "Verify your identity using the OTP received on your mobile.",
+      "Set a security PIN for account access.",
+      "Link your government-issued documents to your digital locker."
+    ]
+  },
+  {
+    "id": "identity-008",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Health Authority",
+    "title": "ABHA Health Card",
+    "slug": "abha-health-card",
+    "shortDescription": "Ayushman Bharat Health Account (ABHA) for digitizing health records.",
+    "officialLink": "https://abha.abdm.gov.in/",
+    "icon": "fa-solid fa-notes-medical",
+    "tags": ["Identity", "Health"],
+    "eligibility": "All Indian residents.",
+    "fees": {
+      "type": "Free",
+      "details": "Zero cost for account creation."
+    },
+    "requiredDocuments": [
+      "[Aadhaar Redacted] or Driving Licence"
+    ],
+    "stepsToApply": [
+      "Go to the official ABHA website.",
+      "Click on 'Create ABHA Number'.",
+      "Authenticate using your identity proof (e.g., [Aadhaar Redacted] or mobile number).",
+      "Enter personal demographic details as requested.",
+      "Download and save your ABHA card for medical records."
+    ]
+  },
+  {
+    "id": "identity-009",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Registrar General of India",
+    "title": "Death Certificate Application",
+    "slug": "death-certificate-application",
+    "shortDescription": "Registration of death events for legal and administrative record-keeping.",
+    "officialLink": "https://crsorgi.gov.in/",
+    "icon": "fa-solid fa-file-contract",
+    "tags": ["Document", "Legal"],
+    "eligibility": "Next of kin or authorized representatives of the deceased.",
+    "fees": {
+      "type": "Variable",
+      "details": "Depends on municipal corporation fee structures."
+    },
+    "requiredDocuments": [
+      "Medical Certificate of Cause of Death",
+      "Identity proof of the applicant",
+      "Cremation/Burial ground certificate"
+    ],
+    "stepsToApply": [
+      "Report the death to the local registrar within 21 days.",
+      "Visit the Civil Registration System (CRS) portal.",
+      "Fill in the death report form online with the necessary supporting documents.",
+      "Submit the application to the local municipal authority.",
+      "Receive the certificate via the portal or at the municipal office."
+    ]
+  },
+  {
+    "id": "identity-010",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Law and Justice",
+    "department": "Department of Legal Affairs",
+    "title": "Marriage Certificate",
+    "slug": "marriage-certificate-registration",
+    "shortDescription": "Official documentation certifying the marriage of two individuals under Indian law.",
+    "officialLink": "https://www.india.gov.in/",
+    "icon": "fa-solid fa-ring",
+    "tags": ["Document", "Legal"],
+    "eligibility": "Parties must meet the legal age requirements (18 for women, 21 for men).",
+    "fees": {
+      "type": "Variable",
+      "details": "State-specific registration fees apply."
+    },
+    "requiredDocuments": [
+      "Proof of age and address for both parties",
+      "Marriage invitation card or temple/church certificate",
+      "Two passport-sized photographs of both parties"
+    ],
+    "stepsToApply": [
+      "Visit the state-specific Marriage Registration portal.",
+      "Fill out the application form for marriage registration.",
+      "Upload required identity, address, and marriage proof documents.",
+      "Book an appointment for the Registrar's office.",
+      "Appear before the Registrar with witnesses for final verification and issuance."
+    ]
+  }, 
+  {
+    "id": "identity-011",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "department": "Department of Food and Public Distribution",
+    "title": "Ration Card Application",
+    "slug": "ration-card-application",
+    "shortDescription": "Official service to apply for a ration card for accessing subsidized food grains.",
+    "officialLink": "https://nfsa.gov.in/",
+    "icon": "fa-solid fa-wheat-awn",
+    "tags": ["Identity", "Welfare", "Document"],
+    "eligibility": "Indian citizens meeting state-specific income criteria.",
+    "fees": {
+      "type": "Variable",
+      "details": "Nominal fee depending on state regulations."
+    },
+    "requiredDocuments": [
+      "Proof of Residence",
+      "Income certificate",
+      "Family photographs"
+    ],
+    "stepsToApply": [
+      "Visit the state-specific Food and Civil Supplies portal.",
+      "Select 'Apply for New Ration Card'.",
+      "Fill in family details and upload required income and address proofs.",
+      "Submit the application for verification by the local Food Supply Officer.",
+      "Download/collect the card once approved."
+    ]
+  },
+  {
+    "id": "identity-012",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "department": "Department of Empowerment of Persons with Disabilities",
+    "title": "Unique Disability ID (UDID)",
+    "slug": "udid-card",
+    "shortDescription": "National database for persons with disabilities to facilitate universal accessibility.",
+    "officialLink": "https://www.swavlambancard.gov.in/",
+    "icon": "fa-solid fa-wheelchair",
+    "tags": ["Identity", "Disability", "Health"],
+    "eligibility": "Indian citizens with a benchmark disability.",
+    "fees": {
+      "type": "Free",
+      "details": "No application or issuance fee."
+    },
+    "requiredDocuments": [
+      "Disability certificate",
+      "Proof of Identity",
+      "Passport-sized photograph"
+    ],
+    "stepsToApply": [
+      "Visit the official UDID portal.",
+      "Register and fill out the 'Apply for Disability Certificate & UDID Card' form.",
+      "Upload medical certificates and personal identification documents.",
+      "Application is forwarded to the District Medical Authority for assessment.",
+      "Receive the digital card upon successful verification."
+    ]
+  },
+  {
+    "id": "identity-013",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Labour and Employment",
+    "department": "Employees' Provident Fund Organisation (EPFO)",
+    "title": "UAN Generation",
+    "slug": "uan-generation",
+    "shortDescription": "Universal Account Number (UAN) for employees to manage their Provident Fund.",
+    "officialLink": "https://unifiedportal-mem.epfindia.gov.in/",
+    "icon": "fa-solid fa-briefcase",
+    "tags": ["Identity", "Finance", "Employment"],
+    "eligibility": "Salaried employees covered under EPFO.",
+    "fees": {
+      "type": "Free",
+      "details": "Free service."
+    },
+    "requiredDocuments": [
+      "PAN Card",
+      "[Aadhaar Redacted] Number",
+      "Bank account details"
+    ],
+    "stepsToApply": [
+      "Employer typically initiates UAN generation upon joining.",
+      "Activate the UAN on the EPFO Member Portal.",
+      "Link your mobile number and identity documents for verification.",
+      "Create your login credentials.",
+      "Access PF balance and services through the portal."
+    ]
+  },
+  {
+    "id": "identity-014",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Education",
+    "department": "Department of School Education and Literacy",
+    "title": "APAAR ID Registration",
+    "slug": "apaar-id",
+    "shortDescription": "Automated Permanent Academic Account Registry for tracking student academic progress.",
+    "officialLink": "https://abc.gov.in/",
+    "icon": "fa-solid fa-graduation-cap",
+    "tags": ["Identity", "Education"],
+    "eligibility": "Students enrolled in educational institutions.",
+    "fees": {
+      "type": "Free",
+      "details": "No fee."
+    },
+    "requiredDocuments": [
+      "[Aadhaar Redacted] Number",
+      "School enrollment ID"
+    ],
+    "stepsToApply": [
+      "Visit the Academic Bank of Credits (ABC) portal.",
+      "Sign up using your [Aadhaar Redacted] for e-KYC authentication.",
+      "Provide school/university details.",
+      "Generate the unique 12-digit APAAR ID.",
+      "Store and share academic credits digitally."
+    ]
+  },
+  {
+    "id": "identity-015",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Department of Border Management",
+    "title": "Arms License Application",
+    "slug": "arms-license",
+    "shortDescription": "Official portal for application and renewal of arms licenses.",
+    "officialLink": "https://www.armslicence.gov.in/",
+    "icon": "fa-solid fa-gun",
+    "tags": ["Identity", "Legal", "Security"],
+    "eligibility": "Indian citizens aged 21+ with verified credentials.",
+    "fees": {
+      "type": "Variable",
+      "details": "Based on license type and state fee schedules."
+    },
+    "requiredDocuments": [
+      "Proof of age/identity",
+      "Safety training certificate",
+      "Police verification report"
+    ],
+    "stepsToApply": [
+      "Register on the NDAL-ALIS portal.",
+      "Fill the application form with required justifications.",
+      "Undergo mandatory safety training at a licensed facility.",
+      "Submit the application for police investigation.",
+      "Appear before the licensing authority for final approval."
+    ]
+  },
+  {
+    "id": "identity-016",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Corporate Affairs",
+    "department": "Registrar of Companies",
+    "title": "Director Identification Number (DIN)",
+    "slug": "din-application",
+    "shortDescription": "Unique identifier for company directors in India.",
+    "officialLink": "https://www.mca.gov.in/",
+    "icon": "fa-solid fa-user-tie",
+    "tags": ["Identity", "Business", "Legal"],
+    "eligibility": "Individuals intending to be directors of a company.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Applicable filing fees as per MCA guidelines."
+    },
+    "requiredDocuments": [
+      "Proof of Identity",
+      "Proof of Address",
+      "Digital Signature Certificate (DSC)"
+    ],
+    "stepsToApply": [
+      "Create a user account on the MCA portal.",
+      "Apply for the DIR-3 form online.",
+      "Attach attested ID and address proofs.",
+      "Digitally sign the form.",
+      "Submit and track the approval of your unique DIN."
+    ]
+  },
+  {
+    "id": "identity-017",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "TAN Registration",
+    "slug": "tan-registration",
+    "shortDescription": "Tax Deduction and Collection Account Number for business entities.",
+    "officialLink": "https://www.proteantech.in/",
+    "icon": "fa-solid fa-building-columns",
+    "tags": ["Identity", "Tax", "Business"],
+    "eligibility": "Businesses liable to deduct tax at source.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Application fee as per NSDL guidelines."
+    },
+    "requiredDocuments": [
+      "Proof of incorporation",
+      "Business address proof",
+      "Authorized signatory details"
+    ],
+    "stepsToApply": [
+      "Visit the NSDL TIN-PAN portal.",
+      "Fill Form 49B for TAN application.",
+      "Submit the application online.",
+      "Pay the fee using net banking or credit/debit card.",
+      "Receive the 10-digit TAN via post."
+    ]
+  },
+  {
+    "id": "identity-018",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of MSME",
+    "department": "Office of Development Commissioner",
+    "title": "Udyam Registration",
+    "slug": "udyam-registration",
+    "shortDescription": "Identity registration for Micro, Small, and Medium Enterprises (MSME).",
+    "officialLink": "https://udyamregistration.gov.in/",
+    "icon": "fa-solid fa-industry",
+    "tags": ["Identity", "Business", "MSME"],
+    "eligibility": "Business entities meeting MSME turnover/investment criteria.",
+    "fees": {
+      "type": "Free",
+      "details": "No government fee."
+    },
+    "requiredDocuments": [
+      "[Aadhaar Redacted] Number",
+      "PAN Card",
+      "GST registration details"
+    ],
+    "stepsToApply": [
+      "Visit the Udyam portal.",
+      "Enter [Aadhaar Redacted] and name for validation.",
+      "Fill in enterprise details and investment information.",
+      "Submit for automated verification against PAN/GST databases.",
+      "Download the Udyam Certificate."
+    ]
+  },
+  {
+    "id": "identity-019",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "GST Identification Number (GSTIN)",
+    "slug": "gstin-registration",
+    "shortDescription": "Unique registration number for businesses under the GST regime.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-file-invoice",
+    "tags": ["Identity", "Tax", "Business"],
+    "eligibility": "Businesses with turnover exceeding exemption limits.",
+    "fees": {
+      "type": "Free",
+      "details": "Government registration is free."
+    },
+    "requiredDocuments": [
+      "PAN Card",
+      "Proof of business place",
+      "Authorized signatory photos/KYC"
+    ],
+    "stepsToApply": [
+      "Visit the GST portal and select 'New Registration'.",
+      "Complete Part A of the application using PAN/Mobile/Email.",
+      "Fill Part B with business details and upload documents.",
+      "Undergo e-KYC verification.",
+      "Receive GSTIN upon approval."
+    ]
+  },
+  {
+    "id": "identity-020",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Department of Pension & Pensioners' Welfare",
+    "title": "Jeevan Pramaan (Life Certificate)",
+    "slug": "jeevan-pramaan",
+    "shortDescription": "Digital life certificate for pensioners.",
+    "officialLink": "https://jeevanpramaan.gov.in/",
+    "icon": "fa-solid fa-user-clock",
+    "tags": ["Identity", "Pension", "Senior Citizen"],
+    "eligibility": "Government pensioners.",
+    "fees": {
+      "type": "Free",
+      "details": "Free service."
+    },
+    "requiredDocuments": [
+      "Pension Payment Order (PPO)",
+      "[Aadhaar Redacted] Number"
+    ],
+    "stepsToApply": [
+      "Download Jeevan Pramaan app or visit a service center.",
+      "Register using [Aadhaar Redacted] and Pension details.",
+      "Perform biometric authentication (fingerprint/iris).",
+      "System generates a digital certificate.",
+      "Certificate is automatically updated in the pension department's records."
+    ]
+  },
+  {
+    "id": "identity-021",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Registrar General of India",
+    "title": "Caste/Domicile Certificate",
+    "slug": "caste-domicile-certificate",
+    "shortDescription": "Certificate verifying an individual's caste or state of residence.",
+    "officialLink": "https://www.india.gov.in/",
+    "icon": "fa-solid fa-landmark",
+    "tags": ["Identity", "Certificate", "Social"],
+    "eligibility": "Citizens residing in specific state for required duration.",
+    "fees": {
+      "type": "Variable",
+      "details": "State government service fees apply."
+    },
+    "requiredDocuments": [
+      "Proof of residence",
+      "Affidavit",
+      "Family tree/Revenue records"
+    ],
+    "stepsToApply": [
+      "Visit the relevant state government service portal.",
+      "Select 'Issue of Caste/Domicile Certificate'.",
+      "Fill the form and upload supporting revenue/residency records.",
+      "Field verification by local revenue officials.",
+      "Certificate issued electronically or via CSC."
+    ]
+  },
+  {
+    "id": "identity-022",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Registrar General of India",
+    "title": "Legal Name Change",
+    "slug": "name-change-gazette",
+    "shortDescription": "Official process for legal change of name through Gazette Notification.",
+    "officialLink": "https://egazette.gov.in/",
+    "icon": "fa-solid fa-pen-nib",
+    "tags": ["Identity", "Legal"],
+    "eligibility": "Any Indian citizen.",
+    "fees": {
+      "type": "Variable",
+      "details": "Gazette notification fees apply."
+    },
+    "requiredDocuments": [
+      "Affidavit of name change",
+      "Newspaper advertisement copies",
+      "Passport-sized photos"
+    ],
+    "stepsToApply": [
+      "Draft an affidavit for name change with a notary.",
+      "Publish the change in two local newspapers.",
+      "Submit the application through the e-Gazette portal.",
+      "Pay the notification fee.",
+      "Receive the Gazette notification certifying the name change."
+    ]
+  },
+  {
+    "id": "identity-023",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of External Affairs",
+    "department": "Consular, Passport & Visa Division",
+    "title": "Overseas Citizen of India (OCI)",
+    "slug": "oci-card",
+    "shortDescription": "Registration for OCI card for individuals of Indian origin.",
+    "officialLink": "https://ociservices.gov.in/",
+    "icon": "fa-solid fa-globe",
+    "tags": ["Identity", "Citizenship", "International"],
+    "eligibility": "Foreign citizens of Indian origin.",
+    "fees": {
+      "type": "Variable",
+      "details": "Applicable registration fees."
+    },
+    "requiredDocuments": [
+      "Proof of Indian origin",
+      "Current foreign passport",
+      "Relationship proof"
+    ],
+    "stepsToApply": [
+      "Visit the OCI services portal.",
+      "Fill the online registration form.",
+      "Upload digital photo and supporting documents.",
+      "Submit physical application at the nearest Indian Mission/Post.",
+      "Collect OCI card after verification."
+    ]
+  },
+  {
+    "id": "identity-024",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Law and Justice",
+    "department": "Department of Justice",
+    "title": "Succession Certificate",
+    "slug": "succession-certificate",
+    "shortDescription": "Document certifying the legal heir of a deceased person's movable property.",
+    "officialLink": "https://districts.ecourts.gov.in/",
+    "icon": "fa-solid fa-gavel",
+    "tags": ["Identity", "Legal"],
+    "eligibility": "Legal heirs of the deceased.",
+    "fees": {
+      "type": "Variable",
+      "details": "Court fees apply based on asset value."
+    },
+    "requiredDocuments": [
+      "Death certificate",
+      "Affidavit from heirs",
+      "Proof of relationship"
+    ],
+    "stepsToApply": [
+      "File a petition in the District Court or relevant local authority.",
+      "Provide public notice regarding the intent to claim.",
+      "Court conducts inquiry and invites objections.",
+      "Grant of certificate by the judge.",
+      "Certificate issued for collection of debts/securities."
+    ]
+  },
+  {
+    "id": "identity-025",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Railways",
+    "department": "Railway Board",
+    "title": "Railway Identity Card",
+    "slug": "railway-id",
+    "shortDescription": "Identity document for authorized railway employees and beneficiaries.",
+    "officialLink": "https://indianrailways.gov.in/",
+    "icon": "fa-solid fa-train",
+    "tags": ["Identity", "Employment"],
+    "eligibility": "Railway employees.",
+    "fees": {
+      "type": "Free",
+      "details": "Issuance is departmental."
+    },
+    "requiredDocuments": [
+      "Employee service records",
+      "Passport photograph"
+    ],
+    "stepsToApply": [
+      "Submit application through HR/Admin portal.",
+      "Get photo and credentials verified by supervisor.",
+      "Processed through the internal rail administrative portal.",
+      "Physical/Digital card issued by the department.",
+      "Used for travel and duty identification."
+    ]
+  },
+  {
+    "id": "identity-026",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Police Department",
+    "title": "Police Clearance Certificate (PCC)",
+    "slug": "police-clearance",
+    "shortDescription": "Certificate of good conduct issued by the police for immigration or employment.",
+    "officialLink": "https://www.passportindia.gov.in/",
+    "icon": "fa-solid fa-shield-halved",
+    "tags": ["Identity", "Legal", "Document"],
+    "eligibility": "Indian citizens.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Nominal processing fee."
+    },
+    "requiredDocuments": [
+      "Passport details",
+      "[Aadhaar Redacted] number",
+      "Proof of address"
+    ],
+    "stepsToApply": [
+      "Apply via Passport Seva portal or local Police station portal.",
+      "Submit personal and address information.",
+      "Undergo police background verification.",
+      "Record of any criminal history is verified.",
+      "Receive PCC via email or post."
+    ]
+  },
+  {
+    "id": "identity-027",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Central Government Health Scheme (CGHS)",
+    "title": "CGHS Card",
+    "slug": "cghs-card",
+    "shortDescription": "Health identification card for Central Government employees and pensioners.",
+    "officialLink": "https://cghs.gov.in/",
+    "icon": "fa-solid fa-hospital-user",
+    "tags": ["Identity", "Health"],
+    "eligibility": "Central government employees/pensioners.",
+    "fees": {
+      "type": "Variable",
+      "details": "Based on salary/pension bracket."
+    },
+    "requiredDocuments": [
+      "Employment ID",
+      "Proof of residence",
+      "Recent photographs"
+    ],
+    "stepsToApply": [
+      "Register on the CGHS portal.",
+      "Fill online application forms.",
+      "Upload documents and payment receipt.",
+      "Submit for department verification.",
+      "Collect card from the CGHS wellness center."
+    ]
+  },
+  {
+    "id": "identity-028",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "department": "Department of Posts",
+    "title": "Post Office Identity Card",
+    "slug": "post-office-id",
+    "shortDescription": "Photo identity card issued by the Department of Posts.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-envelope",
+    "tags": ["Identity", "Postal"],
+    "eligibility": "Any citizen can apply at designated post offices.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Standard fee charged by India Post."
+    },
+    "requiredDocuments": [
+      "Proof of identity",
+      "Residential proof",
+      "Photographs"
+    ],
+    "stepsToApply": [
+      "Visit the local Head Post Office.",
+      "Fill the prescribed application form.",
+      "Provide verification of identity/address.",
+      "Pay the requisite card issuance fee.",
+      "Receive the card at the registered address."
+    ]
+  },
+  {
+    "id": "identity-029",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "department": "Department of Agriculture",
+    "title": "Kisan Credit Card (KCC)",
+    "slug": "kisan-credit-card",
+    "shortDescription": "Agricultural credit card serving as both credit tool and identity.",
+    "officialLink": "https://agricoop.nic.in/",
+    "icon": "fa-solid fa-tractor",
+    "tags": ["Identity", "Finance", "Agriculture"],
+    "eligibility": "Farmers and cultivators.",
+    "fees": {
+      "type": "Free",
+      "details": "No application fee."
+    },
+    "requiredDocuments": [
+      "Land records",
+      "Proof of identity",
+      "Crop details"
+    ],
+    "stepsToApply": [
+      "Visit the bank branch or portal.",
+      "Submit application with land ownership records.",
+      "Bank conducts field inspection.",
+      "Credit limit is approved.",
+      "KCC is issued to the farmer."
+    ]
+  },
+  {
+    "id": "identity-030",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Registrar General of India",
+    "title": "Gazette Notification for Correction",
+    "slug": "gazette-correction",
+    "shortDescription": "Official process for correcting errors in name, DOB, or other details via Gazette.",
+    "officialLink": "https://egazette.gov.in/",
+    "icon": "fa-solid fa-file-pen",
+    "tags": ["Identity", "Legal"],
+    "eligibility": "Any citizen with documentation discrepancies.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Gazette processing fee."
+    },
+    "requiredDocuments": [
+      "Affidavit",
+      "Evidence of original/correct data",
+      "Newspaper clippings"
+    ],
+    "stepsToApply": [
+      "Draft an affidavit stating the required correction.",
+      "Publish in local newspapers.",
+      "Upload request on the e-Gazette portal.",
+      "Authorities process the request.",
+      "Gazette issue published with corrected details."
+    ]
+  }, 
+  {
+    "id": "identity-031",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Department of Official Language",
+    "title": "Hindi Language Proficiency Certificate",
+    "slug": "hindi-proficiency-cert",
+    "shortDescription": "Certificate for government employees demonstrating proficiency in Hindi.",
+    "officialLink": "https://rajbhasha.gov.in/",
+    "icon": "fa-solid fa-language",
+    "tags": ["Identity", "Employment", "Certificate"],
+    "eligibility": "Central government employees.",
+    "fees": { "type": "Free", "details": "No fee for departmental candidates." },
+    "requiredDocuments": ["Employee ID", "Training completion proof"],
+    "stepsToApply": ["Enroll via departmental portal.", "Attend mandated training modules.", "Appear for the proficiency examination.", "Evaluation by Rajbhasha Vibhag.", "Certificate issued upon qualifying."]
+  },
+  {
+    "id": "identity-032",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Economic Affairs",
+    "title": "NPS Subscriber ID",
+    "slug": "nps-subscriber-id",
+    "shortDescription": "Unique Permanent Retirement Account Number (PRAN) for NPS subscribers.",
+    "officialLink": "https://npscra.nsdl.co.in/",
+    "icon": "fa-solid fa-piggy-bank",
+    "tags": ["Identity", "Finance", "Pension"],
+    "eligibility": "Indian citizens aged 18-70.",
+    "fees": { "type": "Fixed", "details": "Initial registration charges apply." },
+    "requiredDocuments": ["PAN Card", "[Aadhaar Redacted] Number", "Bank details"],
+    "stepsToApply": ["Visit CRA portal.", "Select 'Registration' for new subscriber.", "Authenticate using OTP.", "Fill subscriber and nominee details.", "Submit form to generate PRAN."]
+  },
+  {
+    "id": "identity-033",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National AIDS Control Organization",
+    "title": "NACO Registration ID",
+    "slug": "naco-id",
+    "shortDescription": "Identification for individuals registered under national health outreach programs.",
+    "officialLink": "https://naco.gov.in/",
+    "icon": "fa-solid fa-heart-pulse",
+    "tags": ["Identity", "Health"],
+    "eligibility": "Registered program beneficiaries.",
+    "fees": { "type": "Free", "details": "Free service." },
+    "requiredDocuments": ["Identity proof", "Referral documentation"],
+    "stepsToApply": ["Visit local NACO center.", "Provide consent and identity info.", "Undergo initial assessment.", "Receive unique registration ID.", "Access health monitoring services."]
+  },
+  {
+    "id": "identity-034",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Culture",
+    "department": "Archaeological Survey of India",
+    "title": "ASI Researcher ID",
+    "slug": "asi-researcher-id",
+    "shortDescription": "Identity card for scholars researching at protected monuments.",
+    "officialLink": "https://asi.nic.in/",
+    "icon": "fa-solid fa-microscope",
+    "tags": ["Identity", "Research", "Document"],
+    "eligibility": "Verified researchers and academics.",
+    "fees": { "type": "Variable", "details": "Processing fee applies." },
+    "requiredDocuments": ["University ID", "Research proposal"],
+    "stepsToApply": ["Submit research proposal to ASI.", "Get departmental approval.", "Provide photos and ID proof.", "Submit for identity card generation.", "Receive scholar card."]
+  },
+  {
+    "id": "identity-035",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Education",
+    "department": "National Institute of Open Schooling",
+    "title": "NIOS Enrollment ID",
+    "slug": "nios-enrollment",
+    "shortDescription": "Student ID for individuals enrolled in open school education.",
+    "officialLink": "https://www.nios.ac.in/",
+    "icon": "fa-solid fa-book-open",
+    "tags": ["Identity", "Education"],
+    "eligibility": "Learners meeting age/study criteria.",
+    "fees": { "type": "Variable", "details": "Course-specific admission fees." },
+    "requiredDocuments": ["Proof of DOB", "Previous marksheets"],
+    "stepsToApply": ["Apply online via NIOS portal.", "Fill admission details.", "Upload scanned docs and photo.", "Pay registration fee.", "Download ID after verification."]
+  },
+  {
+    "id": "identity-036",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Environment",
+    "department": "Pollution Control Board",
+    "title": "Pollution Consent ID",
+    "slug": "pollution-consent",
+    "shortDescription": "Operating consent ID for industrial units.",
+    "officialLink": "https://cpcb.nic.in/",
+    "icon": "fa-solid fa-industry",
+    "tags": ["Identity", "Environment", "Business"],
+    "eligibility": "Industrial establishments.",
+    "fees": { "type": "Variable", "details": "Depends on unit category." },
+    "requiredDocuments": ["Land records", "Site plan"],
+    "stepsToApply": ["File application on OCMMS portal.", "Upload technical documents.", "Undergo site inspection.", "Clear compliance audit.", "Receive consent identification."]
+  },
+  {
+    "id": "identity-037",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Skill Development",
+    "department": "National Skill Development Corporation",
+    "title": "Skill India ID",
+    "slug": "skill-india-id",
+    "shortDescription": "Identifier for candidates enrolled under PMKVY and skill programs.",
+    "officialLink": "https://www.skillindia.gov.in/",
+    "icon": "fa-solid fa-tools",
+    "tags": ["Identity", "Employment", "Training"],
+    "eligibility": "Candidates aged 15-45.",
+    "fees": { "type": "Free", "details": "Government funded training." },
+    "requiredDocuments": ["[Aadhaar Redacted] Number", "Education proof"],
+    "stepsToApply": ["Register on Skill India portal.", "Complete candidate profiling.", "Select training partner.", "Enroll in course.", "Generate candidate ID."]
+  },
+  {
+    "id": "identity-038",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of External Affairs",
+    "department": "e-Migrate System",
+    "title": "Emigration Clearance ID",
+    "slug": "emigration-clearance",
+    "shortDescription": "Required clearance ID for ECR passport holders working abroad.",
+    "officialLink": "https://emigrate.gov.in/",
+    "icon": "fa-solid fa-plane-departure",
+    "tags": ["Identity", "Travel", "Legal"],
+    "eligibility": "Indian emigrants.",
+    "fees": { "type": "Fixed", "details": "Nominal service charges." },
+    "requiredDocuments": ["Employment contract", "Visa copy"],
+    "stepsToApply": ["Register on e-Migrate portal.", "Submit employment offer details.", "Attach visa/contract docs.", "Verification by Protector of Emigrants.", "Download clearance receipt."]
+  },
+  {
+    "id": "identity-039",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Law and Justice",
+    "department": "Bar Council of India",
+    "title": "Advocate Enrollment ID",
+    "slug": "advocate-enrollment",
+    "shortDescription": "Professional ID for legal practitioners in India.",
+    "officialLink": "http://www.barcouncilofindia.org/",
+    "icon": "fa-solid fa-scale-balanced",
+    "tags": ["Identity", "Professional", "Legal"],
+    "eligibility": "Law graduates.",
+    "fees": { "type": "Variable", "details": "State Bar Council fee." },
+    "requiredDocuments": ["LLB Degree", "Pass certificate"],
+    "stepsToApply": ["Apply to State Bar Council.", "Submit academic transcripts.", "Undergo verification process.", "Clear enrollment examination.", "Receive enrollment ID."]
+  },
+  {
+    "id": "identity-040",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Directorate of Census Operations",
+    "title": "Census Enumerator ID",
+    "slug": "census-enumerator",
+    "shortDescription": "ID assigned to temporary census field staff.",
+    "officialLink": "https://censusindia.gov.in/",
+    "icon": "fa-solid fa-clipboard-user",
+    "tags": ["Identity", "Government", "Staff"],
+    "eligibility": "Appointed government staff.",
+    "fees": { "type": "Free", "details": "N/A" },
+    "requiredDocuments": ["Departmental appointment letter"],
+    "stepsToApply": ["Nominated by department.", "Register on Census portal.", "Complete field training.", "Submit personal details.", "Receive digital Enumerator ID."]
+  },
+  {
+    "id": "identity-041",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Agriculture",
+    "department": "Plant Quarantine",
+    "title": "Phytosanitary ID",
+    "slug": "phytosanitary-cert",
+    "shortDescription": "Document ID for export of plant materials.",
+    "officialLink": "https://pqms.gov.in/",
+    "icon": "fa-solid fa-seedling",
+    "tags": ["Identity", "Export", "Document"],
+    "eligibility": "Exporters/Traders.",
+    "fees": { "type": "Variable", "details": "Based on material volume." },
+    "requiredDocuments": ["Export documents", "Material inspection report"],
+    "stepsToApply": ["File application on PQMS portal.", "Sample materials for inspection.", "Pass phytosanitary audit.", "Pay inspection fees.", "Download certificate/ID."]
+  },
+  {
+    "id": "identity-042",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Electronics and IT",
+    "department": "Standardization Testing and Quality Certification",
+    "title": "Lab Accreditation ID",
+    "slug": "lab-accreditation",
+    "shortDescription": "Accreditation ID for testing laboratories.",
+    "officialLink": "https://stqc.gov.in/",
+    "icon": "fa-solid fa-flask-vial",
+    "tags": ["Identity", "Quality", "Technical"],
+    "eligibility": "Testing laboratories.",
+    "fees": { "type": "Variable", "details": "Standard testing fees." },
+    "requiredDocuments": ["Equipment calibration proof", "Quality manual"],
+    "stepsToApply": ["Apply on STQC portal.", "Submit technical infrastructure data.", "On-site quality assessment.", "Rectification of findings.", "Receive accreditation ID."]
+  },
+  {
+    "id": "identity-043",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Commerce",
+    "title": "IEC Registration",
+    "slug": "iec-registration",
+    "shortDescription": "Import Export Code for international trade.",
+    "officialLink": "https://dgft.gov.in/",
+    "icon": "fa-solid fa-ship",
+    "tags": ["Identity", "Trade", "Business"],
+    "eligibility": "Import/Export entities.",
+    "fees": { "type": "Fixed", "details": "Standard processing fee." },
+    "requiredDocuments": ["PAN Card", "Business proof"],
+    "stepsToApply": ["Register on DGFT portal.", "Submit business details.", "Digitally sign application.", "Pay fee.", "Receive IEC code via email."]
+  },
+  {
+    "id": "identity-044",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Science and Technology",
+    "department": "Department of Science and Technology",
+    "title": "Scientist Registration ID",
+    "slug": "scientist-reg",
+    "shortDescription": "Official registration for researchers in DST-funded projects.",
+    "officialLink": "https://dst.gov.in/",
+    "icon": "fa-solid fa-atom",
+    "tags": ["Identity", "Research"],
+    "eligibility": "Registered researchers.",
+    "fees": { "type": "Free", "details": "N/A" },
+    "requiredDocuments": ["PhD certificate", "Project grant ID"],
+    "stepsToApply": ["Submit research credentials.", "Link to approved project.", "Undergo verification.", "Receive unique scientist registration ID.", "Access grant management dashboard."]
+  },
+  {
+    "id": "identity-045",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Civil Defence",
+    "title": "Civil Defence Volunteer ID",
+    "slug": "civil-defence-id",
+    "shortDescription": "Identity for authorized volunteers during emergencies.",
+    "officialLink": "https://civildefence.nic.in/",
+    "icon": "fa-solid fa-user-shield",
+    "tags": ["Identity", "Social", "Security"],
+    "eligibility": "Indian residents.",
+    "fees": { "type": "Free", "details": "Voluntary service." },
+    "requiredDocuments": ["Identity proof", "Background check"],
+    "stepsToApply": ["Visit local office.", "Submit enrollment form.", "Undergo physical training.", "Pass aptitude test.", "Receive volunteer badge/ID."]
+  },
+  {
+    "id": "identity-046",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Power",
+    "department": "Bureau of Energy Efficiency",
+    "title": "Energy Auditor ID",
+    "slug": "energy-auditor-id",
+    "shortDescription": "Certification for professionals conducting energy audits.",
+    "officialLink": "https://beeindia.gov.in/",
+    "icon": "fa-solid fa-bolt",
+    "tags": ["Identity", "Energy", "Professional"],
+    "eligibility": "Certified energy manager/auditor.",
+    "fees": { "type": "Variable", "details": "Examination and cert fee." },
+    "requiredDocuments": ["Exam pass certificate", "Engineering degree"],
+    "stepsToApply": ["Enroll for BEE examination.", "Pass the national cert exam.", "Submit professional experience.", "Register on portal.", "Receive Auditor ID."]
+  },
+  {
+    "id": "identity-047",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "Customs Broker ID",
+    "slug": "customs-broker-id",
+    "shortDescription": "Authorized identifier for licensed customs brokers.",
+    "officialLink": "https://www.cbic.gov.in/",
+    "icon": "fa-solid fa-truck-ramp-box",
+    "tags": ["Identity", "Trade", "Professional"],
+    "eligibility": "Licensed individuals/firms.",
+    "fees": { "type": "Variable", "details": "Based on license tenure." },
+    "requiredDocuments": ["License document", "Identity card"],
+    "stepsToApply": ["Apply at local Customs Commissionerate.", "Pass CB examination.", "Provide security bond.", "Submit application form.", "Issue of broker identification card."]
+  },
+  {
+    "id": "identity-048",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Jal Shakti",
+    "department": "Central Ground Water Board",
+    "title": "Borewell Drilling License",
+    "slug": "borewell-license",
+    "shortDescription": "Operational permit/ID for licensed drillers.",
+    "officialLink": "http://cgwb.gov.in/",
+    "icon": "fa-solid fa-water",
+    "tags": ["Identity", "Utility", "Business"],
+    "eligibility": "Authorized drilling contractors.",
+    "fees": { "type": "Variable", "details": "State-specific fee." },
+    "requiredDocuments": ["Company registration", "Drilling machine specs"],
+    "stepsToApply": ["Apply at state groundwater cell.", "Submit infrastructure credentials.", "Verification of drilling equipment.", "Pay registration fee.", "Receive License/ID card."]
+  },
+  {
+    "id": "identity-049",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Tourism",
+    "department": "India Tourism",
+    "title": "Tourist Guide ID",
+    "slug": "tourist-guide-id",
+    "shortDescription": "Government-recognized ID for professional tourist guides.",
+    "officialLink": "https://tourism.gov.in/",
+    "icon": "fa-solid fa-camera",
+    "tags": ["Identity", "Travel", "Tourism"],
+    "eligibility": "Certified regional guide trainees.",
+    "fees": { "type": "Variable", "details": "Processing fee." },
+    "requiredDocuments": ["Certification of course completion", "ID proof"],
+    "stepsToApply": ["Complete Ministry-approved guide course.", "Register on portal.", "Submit training certs.", "Verify language proficiency.", "Receive ID card."]
+  },
+  {
+    "id": "identity-050",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Mines",
+    "department": "Indian Bureau of Mines",
+    "title": "Mining Lease ID",
+    "slug": "mining-lease-id",
+    "shortDescription": "Unique registration ID for legal mining lease operations.",
+    "officialLink": "https://ibm.gov.in/",
+    "icon": "fa-solid fa-mountain",
+    "tags": ["Identity", "Mining", "Business"],
+    "eligibility": "Approved lease holders.",
+    "fees": { "type": "Variable", "details": "Lease-specific royalties." },
+    "requiredDocuments": ["Lease deed", "Mining plan approval"],
+    "stepsToApply": ["Submit lease proposal.", "Get environmental clearance.", "Finalize mining plan.", "Apply for unique lease ID on portal.", "Receive ID for regulatory reporting."]
+  }, 
+  {
+    "id": "finance-001",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Income Tax Return (ITR) Filing",
+    "slug": "itr-filing",
+    "shortDescription": "Portal for filing annual Income Tax Returns for individuals and businesses.",
+    "officialLink": "https://www.incometax.gov.in/",
+    "icon": "fa-solid fa-file-invoice-dollar",
+    "tags": ["Tax", "Finance", "Mandatory"],
+    "eligibility": "Taxpayers with annual income exceeding basic exemption limits.",
+    "fees": { "type": "Free", "details": "No government fee for online filing." },
+    "requiredDocuments": ["PAN Card", "Form 16", "Bank Account Details"],
+    "stepsToApply": ["Login to e-Filing portal.", "Select 'File Income Tax Return'.", "Choose Assessment Year and ITR form.", "Enter income/deduction details.", "Verify and e-Verify using [Aadhaar Redacted] OTP."]
+  },
+  {
+    "id": "finance-002",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "GST Registration",
+    "slug": "gst-registration",
+    "shortDescription": "Registration for businesses to comply with Goods and Services Tax laws.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-receipt",
+    "tags": ["Tax", "Business"],
+    "eligibility": "Businesses with turnover above threshold limits.",
+    "fees": { "type": "Free", "details": "Government registration is free." },
+    "requiredDocuments": ["PAN Card", "Business Proof", "Authorized Signatory KYC"],
+    "stepsToApply": ["Visit GST portal.", "Submit Part A (PAN/Mobile).", "Fill Part B with business info.", "Complete e-KYC.", "Receive GSTIN."]
+  },
+  {
+    "id": "finance-003",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Labour and Employment",
+    "department": "EPFO",
+    "title": "EPF Balance Check",
+    "slug": "epf-balance-check",
+    "shortDescription": "Check Employees' Provident Fund balance and claim status.",
+    "officialLink": "https://passbook.epfindia.gov.in/",
+    "icon": "fa-solid fa-landmark",
+    "tags": ["Finance", "Pension"],
+    "eligibility": "Employees with an active UAN.",
+    "fees": { "type": "Free", "details": "No cost." },
+    "requiredDocuments": ["UAN", "Registered mobile number"],
+    "stepsToApply": ["Visit UAN member portal.", "Log in with UAN and password.", "Navigate to 'View' tab.", "Select 'Passbook'.", "Download/View balance."]
+  },
+  {
+    "id": "finance-004",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Economic Affairs",
+    "title": "National Pension System (NPS) Enrollment",
+    "slug": "nps-enrollment",
+    "shortDescription": "Enrollment for the government-sponsored pension scheme.",
+    "officialLink": "https://enps.nsdl.com/",
+    "icon": "fa-solid fa-piggy-bank",
+    "tags": ["Finance", "Pension"],
+    "eligibility": "Indian citizens aged 18-70.",
+    "fees": { "type": "Variable", "details": "Initial contribution + processing fee." },
+    "requiredDocuments": ["PAN", "[Aadhaar Redacted]", "Bank details"],
+    "stepsToApply": ["Visit eNPS portal.", "Choose registration type.", "Authenticate via [Aadhaar Redacted] OTP.", "Provide personal/nominee details.", "Make initial payment."]
+  },
+  {
+    "id": "finance-005",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Posts",
+    "title": "Public Provident Fund (PPF) Account",
+    "slug": "ppf-account",
+    "shortDescription": "Open a tax-saving long-term investment account.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-chart-line",
+    "tags": ["Finance", "Investment", "Tax-Saving"],
+    "eligibility": "Resident Indian citizens.",
+    "fees": { "type": "Free", "details": "Zero opening fee." },
+    "requiredDocuments": ["[Aadhaar Redacted]", "PAN", "Photograph"],
+    "stepsToApply": ["Visit local Post Office or net banking portal.", "Submit account opening form.", "Complete KYC verification.", "Make initial deposit.", "Receive passbook/account confirmation."]
+  },
+  {
+    "id": "finance-006",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Economic Affairs",
+    "title": "Sovereign Gold Bonds (SGB) Purchase",
+    "slug": "sgb-purchase",
+    "shortDescription": "Government securities denominated in grams of gold.",
+    "officialLink": "https://www.rbi.org.in/",
+    "icon": "fa-solid fa-coins",
+    "tags": ["Finance", "Investment"],
+    "eligibility": "Residents, HUFs, Trusts.",
+    "fees": { "type": "Variable", "details": "Market price of gold." },
+    "requiredDocuments": ["PAN Card", "Bank Account"],
+    "stepsToApply": ["Log in to your bank's net banking.", "Navigate to 'Investment' section.", "Select 'Sovereign Gold Bond'.", "Enter quantity and pay.", "Receive holding certificate."]
+  },
+  {
+    "id": "finance-007",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "PM Jan Dhan Yojana Account",
+    "slug": "pmjdy-account",
+    "shortDescription": "Opening a basic savings bank deposit account.",
+    "officialLink": "https://pmjdy.gov.in/",
+    "icon": "fa-solid fa-user-plus",
+    "tags": ["Finance", "Welfare"],
+    "eligibility": "Unbanked Indian citizens.",
+    "fees": { "type": "Free", "details": "Zero balance account." },
+    "requiredDocuments": ["ID proof", "Address proof"],
+    "stepsToApply": ["Visit any bank branch.", "Fill the Jan Dhan form.", "Provide identity/address proof.", "Undergo verification.", "Receive account and RuPay card."]
+  },
+  {
+    "id": "finance-008",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "TDS Refund Status",
+    "slug": "tds-refund-status",
+    "shortDescription": "Check the status of your Tax Deducted at Source refund.",
+    "officialLink": "https://www.incometax.gov.in/",
+    "icon": "fa-solid fa-money-check-dollar",
+    "tags": ["Tax", "Finance"],
+    "eligibility": "Taxpayers who filed ITR.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["PAN Card", "Assessment Year"],
+    "stepsToApply": ["Login to IT portal.", "Navigate to 'e-File'.", "Select 'Income Tax Returns'.", "Click 'View Filed Returns'.", "Check refund status."]
+  },
+  {
+    "id": "finance-009",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "Professional Tax Registration",
+    "slug": "professional-tax",
+    "shortDescription": "Registration for professional tax in relevant states.",
+    "officialLink": "https://www.india.gov.in/",
+    "icon": "fa-solid fa-briefcase",
+    "tags": ["Tax", "Business"],
+    "eligibility": "Employers and Professionals in specific states.",
+    "fees": { "type": "Variable", "details": "State-specific fee." },
+    "requiredDocuments": ["Business PAN", "Address proof"],
+    "stepsToApply": ["Visit state Commercial Tax portal.", "Select 'Professional Tax Registration'.", "Fill company details.", "Submit application.", "Receive registration certificate."]
+  },
+  {
+    "id": "finance-010",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "NSDL",
+    "title": "PAN Correction",
+    "slug": "pan-correction",
+    "shortDescription": "Update details like name or address on your PAN card.",
+    "officialLink": "https://www.proteantech.in/",
+    "icon": "fa-solid fa-user-pen",
+    "tags": ["Tax", "Identity"],
+    "eligibility": "Existing PAN holders.",
+    "fees": { "type": "Fixed", "details": "Applicable processing fee." },
+    "requiredDocuments": ["Proof of change", "Existing PAN copy"],
+    "stepsToApply": ["Visit NSDL portal.", "Fill 'Change/Correction' form.", "Upload supporting docs.", "Pay online.", "Submit application."]
+  },
+  {
+    "id": "finance-011",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Atal Pension Yojana (APY)",
+    "slug": "atal-pension-yojana",
+    "shortDescription": "Pension scheme for unorganized sector workers.",
+    "officialLink": "https://npscra.nsdl.co.in/",
+    "icon": "fa-solid fa-umbrella-beach",
+    "tags": ["Finance", "Pension"],
+    "eligibility": "18-40 years old with a bank account.",
+    "fees": { "type": "Variable", "details": "Based on contribution amount." },
+    "requiredDocuments": ["Bank Account", "Mobile number"],
+    "stepsToApply": ["Visit your bank.", "Fill APY enrollment form.", "Provide nominee details.", "Authorize auto-debit.", "Receive PRAN card."]
+  },
+  {
+    "id": "finance-012",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "GST Payment Portal",
+    "slug": "gst-payment",
+    "shortDescription": "Make online GST tax payments.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-credit-card",
+    "tags": ["Tax", "Finance"],
+    "eligibility": "Registered GST taxpayers.",
+    "fees": { "type": "Free", "details": "No transaction fee on portal." },
+    "requiredDocuments": ["GSTIN", "Net banking credentials"],
+    "stepsToApply": ["Log in to GST portal.", "Go to 'Services' -> 'Payments'.", "Create Challan.", "Select payment mode.", "Complete transaction."]
+  },
+  {
+    "id": "finance-013",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "PM Suraksha Bima Yojana (PMSBY)",
+    "slug": "pmsby",
+    "shortDescription": "Accidental insurance scheme at a nominal premium.",
+    "officialLink": "https://jansuraksha.gov.in/",
+    "icon": "fa-solid fa-shield-halved",
+    "tags": ["Finance", "Insurance"],
+    "eligibility": "18-70 years old with a bank account.",
+    "fees": { "type": "Fixed", "details": "₹20 per year." },
+    "requiredDocuments": ["Bank Account"],
+    "stepsToApply": ["Visit your bank.", "Fill consent-cum-application form.", "Ensure balance for auto-debit.", "Submit to branch.", "Insurance coverage starts."]
+  },
+  {
+    "id": "finance-014",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "PM Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "slug": "pmjjby",
+    "shortDescription": "Life insurance scheme for bank account holders.",
+    "officialLink": "https://jansuraksha.gov.in/",
+    "icon": "fa-solid fa-heart",
+    "tags": ["Finance", "Insurance"],
+    "eligibility": "18-50 years old with a bank account.",
+    "fees": { "type": "Fixed", "details": "₹436 per year." },
+    "requiredDocuments": ["Bank Account"],
+    "stepsToApply": ["Visit your bank.", "Fill application form.", "Authorize auto-debit of premium.", "Submit form.", "Insurance activated."]
+  },
+  {
+    "id": "finance-015",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Economic Affairs",
+    "title": "RBI Retail Direct Scheme",
+    "slug": "rbi-retail-direct",
+    "shortDescription": "Invest directly in Government Securities (G-Sec).",
+    "officialLink": "https://rbiretaildirect.org.in/",
+    "icon": "fa-solid fa-building-columns",
+    "tags": ["Finance", "Investment"],
+    "eligibility": "Resident Indian citizens.",
+    "fees": { "type": "Free", "details": "Zero account opening fee." },
+    "requiredDocuments": ["PAN", "Bank account", "[Aadhaar Redacted]"],
+    "stepsToApply": ["Visit portal.", "Click 'Open Retail Direct Account'.", "Verify via OTP.", "Fill bank/personal details.", "Submit and activate."]
+  },
+  {
+    "id": "finance-016",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "Advance Tax Payment",
+    "slug": "advance-tax",
+    "shortDescription": "Pay tax in installments if liability exceeds ₹10,000.",
+    "officialLink": "https://www.incometax.gov.in/",
+    "icon": "fa-solid fa-calendar-check",
+    "tags": ["Tax", "Finance"],
+    "eligibility": "Taxpayers with liability > ₹10,000.",
+    "fees": { "type": "Free", "details": "No portal fee." },
+    "requiredDocuments": ["PAN", "Tax computation details"],
+    "stepsToApply": ["Login to portal.", "Select 'e-Pay Tax'.", "Choose 'Advance Tax'.", "Select Assessment Year.", "Proceed to payment."]
+  },
+  {
+    "id": "finance-017",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "TDS on Property (Form 26QB)",
+    "slug": "tds-on-property",
+    "shortDescription": "Pay TDS when buying immovable property.",
+    "officialLink": "https://www.incometax.gov.in/",
+    "icon": "fa-solid fa-house-chimney",
+    "tags": ["Tax", "Finance"],
+    "eligibility": "Buyers of property over specific values.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["PAN of buyer/seller", "Property details"],
+    "stepsToApply": ["Login to e-File.", "Go to 'e-Pay Tax'.", "Select 'TDS on Sale of Property'.", "Fill Form 26QB.", "Pay online."]
+  },
+  {
+    "id": "finance-018",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Kisan Credit Card (KCC) Loan",
+    "slug": "kcc-loan",
+    "shortDescription": "Access agriculture credit for farmers.",
+    "officialLink": "https://agricoop.nic.in/",
+    "icon": "fa-solid fa-tractor",
+    "tags": ["Finance", "Agriculture"],
+    "eligibility": "Farmers/Cultivators.",
+    "fees": { "type": "Variable", "details": "Interest rates as per bank." },
+    "requiredDocuments": ["Land records", "ID proof"],
+    "stepsToApply": ["Visit bank.", "Submit KCC application.", "Get land/crop verified.", "Sanction of credit limit.", "Card issued."]
+  },
+  {
+    "id": "finance-019",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Vivad se Vishwas Scheme",
+    "slug": "vivad-se-vishwas",
+    "shortDescription": "Tax dispute resolution scheme.",
+    "officialLink": "https://www.incometax.gov.in/",
+    "icon": "fa-solid fa-gavel",
+    "tags": ["Tax", "Legal"],
+    "eligibility": "Taxpayers with pending disputes.",
+    "fees": { "type": "Variable", "details": "Settlement amount varies." },
+    "requiredDocuments": ["Appeal documents", "PAN"],
+    "stepsToApply": ["Login to portal.", "Navigate to 'e-File'.", "Select 'Vivad se Vishwas'.", "Fill form.", "Submit for approval."]
+  },
+  {
+    "id": "finance-020",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "Correction of GST Return",
+    "slug": "gst-return-correction",
+    "shortDescription": "Amend errors in filed GST returns.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-pen-to-square",
+    "tags": ["Tax", "Business"],
+    "eligibility": "GST registered taxpayers.",
+    "fees": { "type": "Free", "details": "No fee for amendments." },
+    "requiredDocuments": ["GSTIN", "Original return data"],
+    "stepsToApply": ["Log in to GST portal.", "Go to 'Returns'.", "Select period.", "Use 'Amendment' section.", "Save and submit."]
+  },
+  {
+    "id": "finance-021",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "TDS Certificate (Form 16A) Download",
+    "slug": "tds-certificate-download",
+    "shortDescription": "Download certificates for TDS deducted on non-salary income.",
+    "officialLink": "https://www.tdscpc.gov.in/",
+    "icon": "fa-solid fa-file-contract",
+    "tags": ["Tax", "Finance"],
+    "eligibility": "Deductees/Assessees.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["PAN", "TAN of deductor"],
+    "stepsToApply": ["Login to TRACES portal.", "Navigate to 'Downloads' tab.", "Select 'Requested Downloads'.", "Filter by Form 16A.", "Download and extract the zip file."]
+  },
+  {
+    "id": "finance-022",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Sukanaya Samriddhi Yojana (SSY)",
+    "slug": "ssy-account",
+    "shortDescription": "Small savings scheme for the girl child.",
+    "officialLink": "https://www.nsiindia.gov.in/",
+    "icon": "fa-solid fa-child-reaching",
+    "tags": ["Finance", "Savings"],
+    "eligibility": "Guardians of girl child under 10 years.",
+    "fees": { "type": "Free", "details": "Minimum deposit ₹250." },
+    "requiredDocuments": ["Birth certificate of girl", "Parent ID"],
+    "stepsToApply": ["Visit Post Office/Bank.", "Submit SSY form.", "Provide child's KYC.", "Make initial deposit.", "Receive passbook."]
+  },
+  {
+    "id": "finance-023",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "PAN Application (Form 49A)",
+    "slug": "pan-application",
+    "shortDescription": "Apply for a new Permanent Account Number.",
+    "officialLink": "https://www.proteantech.in/",
+    "icon": "fa-solid fa-id-card",
+    "tags": ["Tax", "Identity"],
+    "eligibility": "Indian citizens/entities.",
+    "fees": { "type": "Fixed", "details": "Processing charges apply." },
+    "requiredDocuments": ["[Aadhaar Redacted]", "Address proof"],
+    "stepsToApply": ["Visit NSDL/Protean portal.", "Select 'Apply Online'.", "Fill Form 49A.", "Upload scanned documents.", "Pay fee and submit."]
+  },
+  {
+    "id": "finance-024",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "GST Refund Application",
+    "slug": "gst-refund",
+    "shortDescription": "Apply for a refund of excess tax paid.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-hand-holding-dollar",
+    "tags": ["Tax", "Finance"],
+    "eligibility": "Registered GST taxpayers.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["ARN number", "Supporting invoices"],
+    "stepsToApply": ["Login to GST portal.", "Go to 'Services' -> 'Refunds'.", "Select 'Create Refund Application'.", "Attach required invoices.", "Submit with DSC/EVC."]
+  },
+  {
+    "id": "finance-025",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Mahila Samman Savings Certificate",
+    "slug": "mahila-samman",
+    "shortDescription": "One-time small savings scheme for women.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-user-tie",
+    "tags": ["Finance", "Savings"],
+    "eligibility": "Women/Guardian of girl child.",
+    "fees": { "type": "Free", "details": "Min deposit ₹1000." },
+    "requiredDocuments": ["KYC documents"],
+    "stepsToApply": ["Visit Post Office.", "Submit Form-I.", "Provide KYC.", "Deposit amount.", "Collect certificate."]
+  },
+  {
+    "id": "finance-026",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "ITR Verification (e-Verification)",
+    "slug": "itr-verification",
+    "shortDescription": "Verify filed ITR to complete the filing process.",
+    "officialLink": "https://www.incometax.gov.in/",
+    "icon": "fa-solid fa-check-double",
+    "tags": ["Tax", "Compliance"],
+    "eligibility": "Taxpayers who filed ITR.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["Acknowledgment Number"],
+    "stepsToApply": ["Login to portal.", "Go to 'e-File' -> 'Income Tax Returns'.", "Click 'e-Verify Return'.", "Select verification method.", "Enter OTP/DSC."]
+  },
+  {
+    "id": "finance-027",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Pradhan Mantri Mudra Yojana (PMMY)",
+    "slug": "mudra-loan",
+    "shortDescription": "Loans for non-corporate, non-farm small enterprises.",
+    "officialLink": "https://www.mudra.org.in/",
+    "icon": "fa-solid fa-building-user",
+    "tags": ["Finance", "Business"],
+    "eligibility": "Small business owners.",
+    "fees": { "type": "Variable", "details": "Bank processing charges." },
+    "requiredDocuments": ["Business Plan", "ID/Address proof"],
+    "stepsToApply": ["Visit bank branch.", "Fill Mudra loan application.", "Submit business proposal.", "Bank appraisal.", "Sanction and disbursement."]
+  },
+  {
+    "id": "finance-028",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "TAN Registration (Form 49B)",
+    "slug": "tan-registration",
+    "shortDescription": "Tax Deduction and Collection Account Number.",
+    "officialLink": "https://www.proteantech.in/",
+    "icon": "fa-solid fa-list-ol",
+    "tags": ["Tax", "Business"],
+    "eligibility": "Tax deductors.",
+    "fees": { "type": "Fixed", "details": "Processing fee applies." },
+    "requiredDocuments": ["Business incorporation docs"],
+    "stepsToApply": ["Visit NSDL portal.", "Submit Form 49B.", "Make payment.", "Receive TAN via mail."]
+  },
+  {
+    "id": "finance-029",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Senior Citizen Savings Scheme (SCSS)",
+    "slug": "scss-account",
+    "shortDescription": "Savings scheme for individuals aged 60+.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-person-cane",
+    "tags": ["Finance", "Savings"],
+    "eligibility": "Age 60 or above.",
+    "fees": { "type": "Free", "details": "N/A" },
+    "requiredDocuments": ["Age proof", "PAN"],
+    "stepsToApply": ["Visit bank/Post Office.", "Submit application form.", "Deposit funds.", "Complete KYC.", "Receive passbook."]
+  },
+  {
+    "id": "finance-030",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "LUT Filing for Exports",
+    "slug": "lut-filing",
+    "shortDescription": "Letter of Undertaking for GST-free exports.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-file-export",
+    "tags": ["Tax", "Business"],
+    "eligibility": "Registered exporters.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["GSTIN", "Authorized signatory details"],
+    "stepsToApply": ["Login to GST portal.", "Go to 'User Services'.", "Select 'Furnish LUT'.", "Fill required fields.", "Sign and submit."]
+  },
+  {
+    "id": "finance-031",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "PM SVANidhi",
+    "slug": "pm-svanidhi",
+    "shortDescription": "Micro-credit for street vendors.",
+    "officialLink": "https://pmsvanidhi.mohua.gov.in/",
+    "icon": "fa-solid fa-cart-shopping",
+    "tags": ["Finance", "Welfare"],
+    "eligibility": "Street vendors.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["Vending certificate", "ID proof"],
+    "stepsToApply": ["Register on portal.", "Submit application.", "Survey validation.", "Loan approval by bank.", "Disbursement."]
+  },
+  {
+    "id": "finance-032",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Link Aadhaar with PAN",
+    "slug": "link-aadhaar-pan",
+    "shortDescription": "Mandatory linkage of your PAN and [Aadhaar Redacted] number.",
+    "officialLink": "https://www.incometax.gov.in/",
+    "icon": "fa-solid fa-link",
+    "tags": ["Tax", "Compliance"],
+    "eligibility": "PAN holders.",
+    "fees": { "type": "Variable", "details": "Penalty fees apply." },
+    "requiredDocuments": ["PAN", "[Aadhaar Redacted]"],
+    "stepsToApply": ["Visit IT portal.", "Click 'Link Aadhaar'.", "Enter PAN and [Aadhaar Redacted].", "Validate payment.", "Submit request."]
+  },
+  {
+    "id": "finance-033",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Know Your Assessing Officer",
+    "slug": "know-ao",
+    "shortDescription": "Locate jurisdiction of your Assessing Officer.",
+    "officialLink": "https://www.incometax.gov.in/",
+    "icon": "fa-solid fa-location-dot",
+    "tags": ["Tax", "Finance"],
+    "eligibility": "PAN holders.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["PAN", "Mobile number"],
+    "stepsToApply": ["Login to portal.", "Select 'Know your AO'.", "Enter PAN.", "Verify OTP.", "View AO details."]
+  },
+  {
+    "id": "finance-034",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "GST Registration Amendment",
+    "slug": "gst-amendment",
+    "shortDescription": "Update business core/non-core fields in GST registration.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-pen-nib",
+    "tags": ["Tax", "Business"],
+    "eligibility": "GST registered taxpayers.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["Proof of change", "GSTIN"],
+    "stepsToApply": ["Log in to portal.", "Select 'Amendment of Registration'.", "Select Core/Non-core field.", "Update details.", "Submit with DSC/EVC."]
+  },
+  {
+    "id": "finance-035",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Economic Affairs",
+    "title": "Post Office Monthly Income Scheme (POMIS)",
+    "slug": "pomis",
+    "shortDescription": "Monthly interest income investment scheme.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-calendar-days",
+    "tags": ["Finance", "Savings"],
+    "eligibility": "Indian residents.",
+    "fees": { "type": "Free", "details": "N/A" },
+    "requiredDocuments": ["ID proof", "Address proof"],
+    "stepsToApply": ["Visit Post Office.", "Submit application form.", "Deposit amount.", "KYC verification.", "Receive passbook."]
+  },
+  {
+    "id": "finance-036",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "e-Way Bill Generation",
+    "slug": "eway-bill",
+    "shortDescription": "Required for goods transport over ₹50,000.",
+    "officialLink": "https://ewaybillgst.gov.in/",
+    "icon": "fa-solid fa-truck-fast",
+    "tags": ["Tax", "Business"],
+    "eligibility": "Registered taxpayers/transporters.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["Invoice", "Vehicle number"],
+    "stepsToApply": ["Log in to e-Way Bill portal.", "Select 'Generate New'.", "Enter invoice details.", "Submit.", "Print e-Way bill."]
+  },
+  {
+    "id": "finance-037",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Generate Challan 280",
+    "slug": "challan-280",
+    "shortDescription": "Payment of Advance Tax or Self-Assessment Tax.",
+    "officialLink": "https://www.tin-nsdl.com/",
+    "icon": "fa-solid fa-wallet",
+    "tags": ["Tax", "Finance"],
+    "eligibility": "Taxpayers.",
+    "fees": { "type": "Free", "details": "No portal fee." },
+    "requiredDocuments": ["PAN", "Assessment Year"],
+    "stepsToApply": ["Visit NSDL/IT portal.", "Select 'Challan 280'.", "Enter PAN/Tax details.", "Proceed to bank login.", "Complete payment."]
+  },
+  {
+    "id": "finance-038",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "National Savings Certificate (NSC)",
+    "slug": "nsc",
+    "shortDescription": "Safe investment tool with tax benefits.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-file-shield",
+    "tags": ["Finance", "Investment"],
+    "eligibility": "Resident Indians.",
+    "fees": { "type": "Free", "details": "Min investment ₹1000." },
+    "requiredDocuments": ["ID/Address proof"],
+    "stepsToApply": ["Visit Post Office.", "Fill application form.", "Make payment.", "Submit KYC.", "Get certificate."]
+  },
+  {
+    "id": "finance-039",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "GST Cancellation Application",
+    "slug": "gst-cancellation",
+    "shortDescription": "Voluntary cancellation of GST registration.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-ban",
+    "tags": ["Tax", "Business"],
+    "eligibility": "GST registered taxpayers.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["Closure reason docs"],
+    "stepsToApply": ["Log in to portal.", "Go to 'Registration' -> 'Cancellation'.", "Submit reasons.", "Verification by officer.", "Cancellation processed."]
+  },
+  {
+    "id": "finance-040",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "PAN Card Reprints",
+    "slug": "pan-reprint",
+    "shortDescription": "Request a physical copy of your existing PAN card.",
+    "officialLink": "https://www.proteantech.in/",
+    "icon": "fa-solid fa-print",
+    "tags": ["Tax", "Identity"],
+    "eligibility": "Existing PAN holders.",
+    "fees": { "type": "Fixed", "details": "Reprint charges apply." },
+    "requiredDocuments": ["PAN Number"],
+    "stepsToApply": ["Visit NSDL/Protean portal.", "Select 'Reprint PAN'.", "Enter details.", "Make payment.", "Request processing."]
+  },
+  {
+    "id": "finance-041",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "GST Annual Return (GSTR-9)",
+    "slug": "gstr-9",
+    "shortDescription": "Filing annual financial summaries.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-chart-pie",
+    "tags": ["Tax", "Business"],
+    "eligibility": "Registered taxpayers.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["Turnover records", "Tax summary"],
+    "stepsToApply": ["Log in to portal.", "Go to 'Annual Return'.", "Select year.", "Fill GSTR-9 details.", "Submit with DSC."]
+  },
+  {
+    "id": "finance-042",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Micro Unit Refinancing (MUDRA Card)",
+    "slug": "mudra-card",
+    "shortDescription": "Debit card linked to Mudra loan limit.",
+    "officialLink": "https://www.mudra.org.in/",
+    "icon": "fa-solid fa-credit-card",
+    "tags": ["Finance", "Business"],
+    "eligibility": "Mudra loan beneficiaries.",
+    "fees": { "type": "Variable", "details": "Bank issuance fee." },
+    "requiredDocuments": ["Loan sanction letter"],
+    "stepsToApply": ["Visit sanctioning bank.", "Request Mudra card.", "Submit documentation.", "Activation of card.", "Access credit."]
+  },
+  {
+    "id": "finance-043",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Income Tax Grievance (e-Nivaran)",
+    "slug": "e-nivaran",
+    "shortDescription": "Resolve tax-related complaints.",
+    "officialLink": "https://www.incometax.gov.in/",
+    "icon": "fa-solid fa-envelope-open-text",
+    "tags": ["Tax", "Compliance"],
+    "eligibility": "Taxpayers.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["PAN", "Communication reference"],
+    "stepsToApply": ["Login to portal.", "Navigate to 'Helpdesk'.", "Submit grievance.", "Track status.", "Receive resolution."]
+  },
+  {
+    "id": "finance-044",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "GST ITC-04 Filing",
+    "slug": "itc-04",
+    "shortDescription": "Reporting of goods sent to job work.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-industry",
+    "tags": ["Tax", "Business"],
+    "eligibility": "GST registered taxpayers.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["Job work data"],
+    "stepsToApply": ["Log in to portal.", "Go to 'Returns'.", "Select ITC-04.", "Enter details.", "Submit."]
+  },
+  {
+    "id": "finance-045",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "View Form 26AS",
+    "slug": "form-26as",
+    "shortDescription": "Check tax credit statement.",
+    "officialLink": "https://www.incometax.gov.in/",
+    "icon": "fa-solid fa-file-waveform",
+    "tags": ["Tax", "Finance"],
+    "eligibility": "PAN holders.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["PAN"],
+    "stepsToApply": ["Login to portal.", "Navigate to 'e-File' -> 'Income Tax Returns'.", "Click 'View Form 26AS'.", "Agree to terms.", "Download statement."]
+  },
+  {
+    "id": "finance-046",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Economic Affairs",
+    "title": "Kisan Vikas Patra (KVP)",
+    "slug": "kvp",
+    "shortDescription": "Investment scheme that doubles the principal amount.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-arrow-up-right-dots",
+    "tags": ["Finance", "Investment"],
+    "eligibility": "Indian citizens.",
+    "fees": { "type": "Free", "details": "Min investment ₹1000." },
+    "requiredDocuments": ["Identity proof"],
+    "stepsToApply": ["Visit Post Office.", "Fill application.", "Deposit money.", "Submit KYC.", "Receive certificate."]
+  },
+  {
+    "id": "finance-047",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "GST Payment Ledger Check",
+    "slug": "gst-ledger",
+    "shortDescription": "Verify electronic cash and credit ledgers.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-book-journal-whills",
+    "tags": ["Tax", "Finance"],
+    "eligibility": "GST registered taxpayers.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["GSTIN"],
+    "stepsToApply": ["Log in to portal.", "Go to 'Services' -> 'Ledgers'.", "Select specific ledger.", "View balance.", "Export statement."]
+  },
+  {
+    "id": "finance-048",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "TDS Return Filing (e-TDS)",
+    "slug": "e-tds-filing",
+    "shortDescription": "Filing periodic TDS statements.",
+    "officialLink": "https://www.tdscpc.gov.in/",
+    "icon": "fa-solid fa-file-arrow-up",
+    "tags": ["Tax", "Compliance"],
+    "eligibility": "Tax deductors.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["TAN", "TDS data"],
+    "stepsToApply": ["Prepare return file via RPU.", "Upload file on TRACES.", "Verify with DSC.", "Submit.", "Receive acknowledgment."]
+  },
+  {
+    "id": "finance-049",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Revenue",
+    "title": "GST Offline Tool Usage",
+    "slug": "gst-offline",
+    "shortDescription": "Bulk upload data using GST offline tool.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-desktop",
+    "tags": ["Tax", "Business"],
+    "eligibility": "GST registered taxpayers.",
+    "fees": { "type": "Free", "details": "No fee." },
+    "requiredDocuments": ["Invoice records"],
+    "stepsToApply": ["Download offline tool from GST portal.", "Enter data in templates.", "Validate.", "Generate JSON file.", "Upload JSON on portal."]
+  },
+  {
+    "id": "finance-050",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "PAN Verification Service",
+    "slug": "pan-verification",
+    "shortDescription": "Verify PAN card authenticity online.",
+    "officialLink": "https://www.incometax.gov.in/",
+    "icon": "fa-solid fa-shield-check",
+    "tags": ["Tax", "Identity"],
+    "eligibility": "Authorized entities.",
+    "fees": { "type": "Variable", "details": "Based on volume." },
+    "requiredDocuments": ["PAN Number"],
+    "stepsToApply": ["Register on portal.", "Submit bulk/single inquiry.", "Upload data.", "Verify.", "Receive response."]
+  },
+  {
+    "id": "health-001",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Health Authority",
+    "title": "Ayushman Bharat PM-JAY",
+    "slug": "ayushman-bharat-pmjay",
+    "shortDescription": "Provides health insurance cover of up to ₹5 lakhs per family per year for secondary and tertiary care hospitalization.",
+    "officialLink": "https://pmjay.gov.in/",
+    "icon": "fa-solid fa-heart-pulse",
+    "tags": ["Health Insurance", "Hospitalization", "BPL"],
+    "eligibility": "Families identified under the SECC 2011 database or those with active Rashtriya Swasthya Bima Yojana (RSBY) cards.",
+    "fees": {
+      "type": "Free",
+      "details": "No enrollment fee or premium for eligible beneficiaries."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Ration Card",
+      "Mobile Number linked to Aadhaar"
+    ],
+    "stepsToApply": [
+      "Visit the 'Am I Eligible' portal on the PM-JAY website.",
+      "Enter your mobile number and verify via OTP.",
+      "Search for your name using Ration Card, Aadhaar, or SECC details.",
+      "If eligible, visit the nearest empanelled hospital or Common Service Centre (CSC) for KYC.",
+      "Receive your e-card post verification."
+    ]
+  },
+  {
+    "id": "health-002",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Health Authority",
+    "title": "ABHA (Ayushman Bharat Health Account)",
+    "slug": "abha-health-id",
+    "shortDescription": "Create a 14-digit digital health ID to store and share medical records securely.",
+    "officialLink": "https://abha.abdm.gov.in/",
+    "icon": "fa-solid fa-id-card",
+    "tags": ["Digital Health", "Medical Records", "Identity"],
+    "eligibility": "Any Indian citizen.",
+    "fees": {
+      "type": "Free",
+      "details": "Zero cost for creation and maintenance."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Aadhaar-linked Mobile Number or Driving License"
+    ],
+    "stepsToApply": [
+      "Visit the official ABHA portal or download the ABHA mobile app.",
+      "Click on 'Create ABHA Number'.",
+      "Choose authentication via Aadhaar or Driving License.",
+      "Enter the OTP received on the registered mobile number.",
+      "Fill in basic profile details and download the ABHA card."
+    ]
+  },
+  {
+    "id": "health-003",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Immunization Division",
+    "title": "CoWIN Vaccination Portal",
+    "slug": "cowin-vaccination",
+    "shortDescription": "Digital platform for scheduling and tracking COVID-19 and other routine immunizations.",
+    "officialLink": "https://www.cowin.gov.in/",
+    "icon": "fa-solid fa-syringe",
+    "tags": ["Vaccination", "Immunization", "COVID-19"],
+    "eligibility": "All age groups eligible for approved vaccines.",
+    "fees": {
+      "type": "Variable",
+      "details": "Free at government centers; fixed costs at private hospitals."
+    },
+    "requiredDocuments": [
+      "Photo ID (Aadhaar, PAN, Passport, or Voter ID)"
+    ],
+    "stepsToApply": [
+      "Visit the CoWIN portal or use the Umang/Aarogya Setu app.",
+      "Register using your mobile number and enter the OTP.",
+      "Add family members and enter their ID details.",
+      "Search for nearby vaccination centers using PIN code.",
+      "Book an available slot and download the certificate post-vaccination."
+    ]
+  },
+  {
+    "id": "health-004",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Telemedicine Services",
+    "title": "eSanjeevani OPD",
+    "slug": "esanjeevani-opd",
+    "shortDescription": "National teleconsultation service for seeking medical advice from doctors remotely.",
+    "officialLink": "https://esanjeevaniopd.in/",
+    "icon": "fa-solid fa-stethoscope",
+    "tags": ["Telemedicine", "Doctor Consultation", "Digital Health"],
+    "eligibility": "Any Indian citizen needing non-emergency medical advice.",
+    "fees": {
+      "type": "Free",
+      "details": "Consultations are completely free of charge."
+    },
+    "requiredDocuments": [
+      "Mobile Number",
+      "Previous Medical Reports (Optional for upload)"
+    ],
+    "stepsToApply": [
+      "Download the eSanjeevani app or visit the web portal.",
+      "Verify your mobile number via OTP to register.",
+      "Generate a token and wait for your turn in the digital queue.",
+      "Connect with the doctor via video call when called.",
+      "Download the digital e-prescription after the consultation."
+    ]
+  },
+  {
+    "id": "health-005",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Central Government Health Scheme",
+    "title": "CGHS Beneficiary Services",
+    "slug": "cghs-services",
+    "shortDescription": "Comprehensive healthcare facilities for central government employees and pensioners.",
+    "officialLink": "https://cghs.nic.in/",
+    "icon": "fa-solid fa-hospital-user",
+    "tags": ["Government Employees", "Healthcare", "Pensioners"],
+    "eligibility": "Central government employees, pensioners, and their dependent family members.",
+    "fees": {
+      "type": "Tiered",
+      "details": "Monthly contribution deducted from salary/pension based on pay matrix level."
+    },
+    "requiredDocuments": [
+      "Proof of Employment/Pension",
+      "Aadhaar Card",
+      "Photographs of dependents"
+    ],
+    "stepsToApply": [
+      "Fill out the CGHS application form available online or at the department.",
+      "Attach required proof of residence, pay slip, and family details.",
+      "Submit the verified form to the Additional Director of CGHS.",
+      "Receive the index card temporarily.",
+      "Collect the plastic CGHS beneficiary cards when printed."
+    ]
+  },
+  {
+    "id": "health-006",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Women and Child Development",
+    "department": "Maternal Benefit",
+    "title": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+    "slug": "pmmvy-maternity-benefit",
+    "shortDescription": "Maternity benefit program providing cash incentives for pregnant women and lactating mothers.",
+    "officialLink": "https://pmmvy.wcd.gov.in/",
+    "icon": "fa-solid fa-person-pregnant",
+    "tags": ["Maternity", "Cash Incentive", "Women"],
+    "eligibility": "Pregnant Women and Lactating Mothers for their first living child.",
+    "fees": {
+      "type": "Free",
+      "details": "No enrollment cost."
+    },
+    "requiredDocuments": [
+      "Mother and Child Protection (MCP) Card",
+      "Aadhaar Card of Applicant and Husband",
+      "Bank Account Details"
+    ],
+    "stepsToApply": [
+      "Register at the nearest Anganwadi Centre (AWC) or approved health facility within 150 days of LMP.",
+      "Submit Form 1-A with Aadhaar and bank details to receive the first installment.",
+      "Submit Form 1-B after one ante-natal check-up (after 6 months of pregnancy) for the second installment.",
+      "Submit Form 1-C after childbirth and first cycle of immunization for the final installment."
+    ]
+  },
+  {
+    "id": "health-007",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Labour & Employment",
+    "department": "Employees' State Insurance Corporation",
+    "title": "ESIC Health Scheme",
+    "slug": "esic-health",
+    "shortDescription": "Social security and health insurance scheme for Indian workers providing full medical care.",
+    "officialLink": "https://www.esic.gov.in/",
+    "icon": "fa-solid fa-briefcase-medical",
+    "tags": ["Workers", "Insurance", "Medical Care"],
+    "eligibility": "Employees in non-seasonal factories/establishments earning up to ₹21,000 per month.",
+    "fees": {
+      "type": "Payroll Deduction",
+      "details": "0.75% of wages from employee, 3.25% from employer."
+    },
+    "requiredDocuments": [
+      "Employer Registration Form",
+      "Aadhaar Card",
+      "Bank Details"
+    ],
+    "stepsToApply": [
+      "Employer registers the establishment on the ESIC portal.",
+      "Employer registers the eligible employee on the portal.",
+      "An insurance number is generated automatically.",
+      "Employee provides family details and biometrics at the ESIC branch to get the Pehchan card.",
+      "Access medical care at ESIC dispensaries and hospitals using the card."
+    ]
+  },
+  {
+    "id": "health-008",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Chemicals and Fertilizers",
+    "department": "Pharmaceuticals & Medical Devices Bureau",
+    "title": "PM Bhartiya Janaushadhi Pariyojana",
+    "slug": "pm-janaushadhi",
+    "shortDescription": "Quality generic medicines at affordable prices through special Kendra outlets.",
+    "officialLink": "http://janaushadhi.gov.in/",
+    "icon": "fa-solid fa-pills",
+    "tags": ["Generic Medicines", "Pharmacy", "Affordable Care"],
+    "eligibility": "Open to all citizens.",
+    "fees": {
+      "type": "Purchase Based",
+      "details": "Medicines are priced 50% to 90% lower than branded equivalents."
+    },
+    "requiredDocuments": [
+      "Valid Medical Prescription (for schedule H/X drugs)"
+    ],
+    "stepsToApply": [
+      "Download the 'Janaushadhi Sugam' mobile application.",
+      "Use the app to locate the nearest Pradhan Mantri Bhartiya Janaushadhi Kendra (PMBJK).",
+      "Search for the required generic medicines or their branded equivalents.",
+      "Visit the Kendra with your prescription.",
+      "Purchase the affordable generic medicines directly."
+    ]
+  },
+  {
+    "id": "health-009",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Health Mission",
+    "title": "Janani Suraksha Yojana (JSY)",
+    "slug": "janani-suraksha-yojana",
+    "shortDescription": "Safe motherhood intervention promoting institutional delivery among poor pregnant women.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-baby",
+    "tags": ["Maternal Health", "Institutional Delivery", "Financial Assistance"],
+    "eligibility": "BPL pregnant women delivering in government health facilities or accredited private institutions.",
+    "fees": {
+      "type": "Free",
+      "details": "Beneficiaries receive cash assistance; no fees apply."
+    },
+    "requiredDocuments": [
+      "BPL Ration Card",
+      "Aadhaar Card",
+      "Bank Account Passbook",
+      "MCP Card"
+    ],
+    "stepsToApply": [
+      "Register pregnancy with the local ASHA worker or at the nearest Sub-Centre.",
+      "Undergo at least three antenatal check-ups.",
+      "Deliver the baby at a government facility or accredited private hospital.",
+      "Submit delivery documents and bank details to the medical officer.",
+      "Cash assistance is transferred via Direct Benefit Transfer (DBT)."
+    ]
+  },
+  {
+    "id": "health-010",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Central TB Division",
+    "title": "Nikshay Poshan Yojana",
+    "slug": "nikshay-poshan-yojana",
+    "shortDescription": "Direct Benefit Transfer scheme for nutritional support to Tuberculosis (TB) patients.",
+    "officialLink": "https://nikshay.in/",
+    "icon": "fa-solid fa-lungs",
+    "tags": ["Tuberculosis", "Nutrition", "DBT"],
+    "eligibility": "All notified TB patients receiving treatment in public or private sectors.",
+    "fees": {
+      "type": "Free",
+      "details": "Beneficiaries receive ₹500/month for the duration of treatment."
+    },
+    "requiredDocuments": [
+      "Medical Certificate confirming TB",
+      "Bank Account Details",
+      "Aadhaar Card"
+    ],
+    "stepsToApply": [
+      "Get diagnosed and notified on the Nikshay portal by the treating medical facility.",
+      "Submit bank account and Aadhaar details to the healthcare provider.",
+      "The health facility updates the details on the Nikshay portal.",
+      "Verification is completed by the District TB Officer.",
+      "Funds are directly credited to the patient's bank account monthly."
+    ]
+  },
+  {
+    "id": "health-011",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Immunization Division",
+    "title": "Mission Indradhanush",
+    "slug": "mission-indradhanush",
+    "shortDescription": "Routine immunization campaign to cover partially and unvaccinated children and pregnant women.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-shield-virus",
+    "tags": ["Immunization", "Child Health", "Vaccination"],
+    "eligibility": "Children up to 2 years of age and pregnant women.",
+    "fees": {
+      "type": "Free",
+      "details": "All vaccines under the program are free of cost."
+    },
+    "requiredDocuments": [
+      "MCP (Mother and Child Protection) Card",
+      "Aadhaar or Parent's ID (optional but recommended)"
+    ],
+    "stepsToApply": [
+      "Identify the dates for the Intensified Mission Indradhanush (IMI) drive in your district.",
+      "Visit the nearest local Anganwadi Centre, Sub-Centre, or designated vaccination camp.",
+      "Present the MCP card to the health worker.",
+      "Receive the scheduled vaccines.",
+      "Worker updates the immunization record physically and digitally (U-WIN)."
+    ]
+  },
+  {
+    "id": "health-012",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Child Health Division",
+    "title": "Rashtriya Bal Swasthya Karyakram (RBSK)",
+    "slug": "rbsk-child-health",
+    "shortDescription": "Early identification and early intervention for children from birth to 18 years for 4Ds (Defects, Diseases, Deficiencies, Development delays).",
+    "officialLink": "https://rbsk.gov.in/",
+    "icon": "fa-solid fa-child-reaching",
+    "tags": ["Child Health", "Screening", "Free Surgery"],
+    "eligibility": "All children from 0 to 18 years enrolled in government/govt-aided schools and Anganwadis.",
+    "fees": {
+      "type": "Free",
+      "details": "Screening and subsequent tertiary treatments are completely free."
+    },
+    "requiredDocuments": [
+      "School ID or Anganwadi Registration",
+      "Aadhaar Card (Parent/Child)"
+    ],
+    "stepsToApply": [
+      "Attend the health screening conducted by mobile health teams at the Anganwadi or school.",
+      "If a condition is detected, receive a referral card from the health team.",
+      "Visit the designated District Early Intervention Center (DEIC) or public health facility.",
+      "Undergo specialized testing.",
+      "Receive free medical or surgical treatment as required."
+    ]
+  },
+  {
+    "id": "health-013",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Maternal Health Division",
+    "title": "Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)",
+    "slug": "pmsma-maternity",
+    "shortDescription": "Assured, comprehensive, and quality antenatal care to pregnant women on the 9th of every month.",
+    "officialLink": "https://pmsma.mohfw.gov.in/",
+    "icon": "fa-solid fa-user-nurse",
+    "tags": ["Antenatal Care", "Maternity", "Free Checkup"],
+    "eligibility": "Pregnant women in their 2nd and 3rd trimesters.",
+    "fees": {
+      "type": "Free",
+      "details": "No cost for check-ups, ultrasounds, or medicines on the designated day."
+    },
+    "requiredDocuments": [
+      "MCP Card",
+      "Any valid Identity Proof"
+    ],
+    "stepsToApply": [
+      "Visit any government health facility or empanelled private clinic on the 9th of the month.",
+      "Register at the PMSMA desk.",
+      "Undergo diagnostic tests (blood, urine, BP, ultrasound).",
+      "Consult with the medical officer/OBGYN specialist.",
+      "Receive color-coded stickers on the MCP card based on risk level and free supplements."
+    ]
+  },
+  {
+    "id": "health-014",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Grants Section",
+    "title": "Rashtriya Arogya Nidhi (RAN)",
+    "slug": "ran-health-fund",
+    "shortDescription": "Financial assistance to BPL patients suffering from major life-threatening diseases for treatment at super specialty hospitals.",
+    "officialLink": "https://mohfw.gov.in/",
+    "icon": "fa-solid fa-hand-holding-medical",
+    "tags": ["Financial Aid", "Major Diseases", "BPL"],
+    "eligibility": "BPL citizens needing treatment for specified life-threatening diseases in government super specialty hospitals.",
+    "fees": {
+      "type": "Free",
+      "details": "Grant-based financial assistance up to ₹15 lakhs."
+    },
+    "requiredDocuments": [
+      "BPL Certificate / Income Certificate",
+      "Medical Certificate & Estimate from Government Hospital",
+      "Aadhaar Card"
+    ],
+    "stepsToApply": [
+      "Obtain an estimated cost of treatment from the treating doctor at a government super specialty hospital.",
+      "Fill out the RAN application form.",
+      "Get the form forwarded and recommended by the Medical Superintendent of the hospital.",
+      "Submit the application to the Ministry of Health or the hospital's revolving fund desk.",
+      "Upon approval, funds are released directly to the Medical Superintendent of the hospital."
+    ]
+  },
+  {
+    "id": "health-015",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Health Mission",
+    "title": "Janani Shishu Suraksha Karyakaram (JSSK)",
+    "slug": "jssk",
+    "shortDescription": "Entitles all pregnant women and sick infants to completely free delivery and treatment in public health institutions.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-truck-medical",
+    "tags": ["Maternal Health", "Infant Care", "Free Delivery"],
+    "eligibility": "All pregnant women delivering in public health institutions and sick infants up to 1 year.",
+    "fees": {
+      "type": "Free",
+      "details": "Free drugs, diagnostics, diet, and transport."
+    },
+    "requiredDocuments": [
+      "MCP Card",
+      "Aadhaar Card or valid ID"
+    ],
+    "stepsToApply": [
+      "Register the pregnancy at a public health facility.",
+      "Call the toll-free number (102/108) to avail of free transport to the hospital during labor.",
+      "Get admitted to the government hospital without paying any admission fees.",
+      "Receive free delivery (including C-section), drugs, consumables, and food.",
+      "Utilize free drop-back transport to home after discharge."
+    ]
+  },
+  {
+    "id": "health-016",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Mental Health Division",
+    "title": "Tele-MANAS",
+    "slug": "tele-manas",
+    "shortDescription": "National Telemental Health Programme offering 24x7 free tele-mental health services.",
+    "officialLink": "https://telemanas.mohfw.gov.in/",
+    "icon": "fa-solid fa-brain",
+    "tags": ["Mental Health", "Counseling", "Helpline"],
+    "eligibility": "Any individual seeking mental health support or counseling in India.",
+    "fees": {
+      "type": "Free",
+      "details": "Toll-free helpline."
+    },
+    "requiredDocuments": [
+      "None required for initial counseling."
+    ],
+    "stepsToApply": [
+      "Dial the toll-free number 14416 or 1-800-891-4416 from any phone.",
+      "Select your preferred language through the IVRS.",
+      "Speak to a trained counselor for basic psychological support.",
+      "If required, get referred to a clinical psychologist or psychiatrist (Tier 2).",
+      "For severe cases, receive guidance for in-person consultation at district centers."
+    ]
+  },
+  {
+    "id": "health-017",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Health Mission",
+    "title": "National Dialysis Programme",
+    "slug": "national-dialysis-programme",
+    "shortDescription": "Free dialysis services for BPL patients at district hospitals under the PMNDP.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-droplet",
+    "tags": ["Kidney Care", "Dialysis", "BPL"],
+    "eligibility": "All citizens; BPL patients receive services completely free of cost.",
+    "fees": {
+      "type": "Variable",
+      "details": "Free for BPL; heavily subsidized fixed rates for non-BPL patients."
+    },
+    "requiredDocuments": [
+      "BPL Ration Card",
+      "Nephrologist's Prescription for Dialysis",
+      "Aadhaar Card"
+    ],
+    "stepsToApply": [
+      "Get a diagnosis and dialysis prescription from a recognized medical officer/nephrologist.",
+      "Visit the Dialysis unit at the nearest District Hospital.",
+      "Submit the BPL card and prescription at the registration counter.",
+      "Book your dialysis slots.",
+      "Undergo the hemodialysis procedure at the scheduled times."
+    ]
+  },
+  {
+    "id": "health-018",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "eHealth",
+    "title": "eRaktKosh (Blood Bank Management)",
+    "slug": "eraktkosh-blood-bank",
+    "shortDescription": "Centralized blood bank management system to check real-time availability of blood components.",
+    "officialLink": "https://www.eraktkosh.in/",
+    "icon": "fa-solid fa-droplet",
+    "tags": ["Blood Bank", "Emergency", "Donation"],
+    "eligibility": "Anyone looking for blood or wishing to donate blood.",
+    "fees": {
+      "type": "Variable",
+      "details": "App usage is free; blood processing fees apply per NACO guidelines."
+    },
+    "requiredDocuments": [
+      "Patient's Blood Requisition Form (if receiving)",
+      "Photo ID (if donating)"
+    ],
+    "stepsToApply": [
+      "Visit the eRaktKosh portal or download the mobile app.",
+      "Select 'Check Blood Availability' and enter state, district, and blood group.",
+      "View the list of nearby blood banks with real-time stock.",
+      "Visit the selected blood bank with the doctor's requisition form.",
+      "Complete the cross-matching process and receive the blood."
+    ]
+  },
+  {
+    "id": "health-019",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of AYUSH",
+    "department": "Ayurveda, Yoga and Naturopathy",
+    "title": "Ayush Sanjivani",
+    "slug": "ayush-sanjivani",
+    "shortDescription": "Initiative to promote and document the use of traditional Indian medicine for immunity and wellness.",
+    "officialLink": "https://ayush.gov.in/",
+    "icon": "fa-solid fa-leaf",
+    "tags": ["AYUSH", "Traditional Medicine", "Immunity"],
+    "eligibility": "All citizens interested in or using AYUSH systems for health.",
+    "fees": {
+      "type": "Free",
+      "details": "App and guidelines are free to access."
+    },
+    "requiredDocuments": [
+      "None"
+    ],
+    "stepsToApply": [
+      "Download the Ayush Sanjivani app from the app store.",
+      "Register using a mobile number and OTP.",
+      "Access guidelines and advisories on immunity-boosting measures.",
+      "Participate in surveys documenting the usage of AYUSH remedies.",
+      "Find nearby AYUSH wellness centers and practitioners."
+    ]
+  },
+  {
+    "id": "health-020",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "department": "Senior Citizens Welfare",
+    "title": "Rashtriya Vayoshri Yojana (RVY)",
+    "slug": "rashtriya-vayoshri-yojana",
+    "shortDescription": "Provides physical aids and assisted-living devices for senior citizens suffering from age-related disabilities.",
+    "officialLink": "https://socialjustice.gov.in/",
+    "icon": "fa-solid fa-wheelchair",
+    "tags": ["Senior Citizens", "Disability Aids", "Wellness"],
+    "eligibility": "Senior citizens (above 60 years) belonging to BPL category or monthly income below ₹15,000.",
+    "fees": {
+      "type": "Free",
+      "details": "Devices (wheelchairs, hearing aids, spectacles, etc.) provided completely free."
+    },
+    "requiredDocuments": [
+      "BPL Card or Income Certificate",
+      "Aadhaar Card (Proof of Age)",
+      "Medical Certificate of Vision/Hearing/Locomotor Impairment"
+    ],
+    "stepsToApply": [
+      "Wait for the assessment camp organized by ALIMCO or the district administration in your area.",
+      "Visit the camp with necessary age, income, and identity proofs.",
+      "Undergo a medical assessment by doctors present at the camp.",
+      "Get registered for the required assistive device.",
+      "Collect the prescribed aid at the subsequent distribution camp."
+    ]
+  },
+  {
+    "id": "health-021",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Health Mission",
+    "title": "NHM Free Drugs Service Initiative",
+    "slug": "nhm-free-drugs-service",
+    "shortDescription": "Provision of essential medicines free of cost in public health facilities to reduce out-of-pocket expenses.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-capsules",
+    "tags": ["Free Medicines", "Healthcare", "Essential Drugs"],
+    "eligibility": "All patients visiting public healthcare facilities (PHCs, CHCs, District Hospitals).",
+    "fees": {
+      "type": "Free",
+      "details": "Essential medicines listed under the state formulary are provided at zero cost."
+    },
+    "requiredDocuments": [
+      "Prescription from a Government Medical Officer"
+    ],
+    "stepsToApply": [
+      "Consult a doctor at a government health facility.",
+      "Get the required medicines prescribed on the official hospital slip.",
+      "Present the prescription at the in-house hospital pharmacy counter.",
+      "Collect the prescribed essential medicines free of charge."
+    ]
+  },
+  {
+    "id": "health-022",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Health Mission",
+    "title": "NHM Free Diagnostics Service Initiative",
+    "slug": "nhm-free-diagnostics-service",
+    "shortDescription": "Provides free essential diagnostic services like pathology, radiology, and imaging tests in public hospitals.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-microscope",
+    "tags": ["Free Labs", "Diagnostics", "X-Ray"],
+    "eligibility": "All patients visiting government health facilities.",
+    "fees": {
+      "type": "Free",
+      "details": "Listed essential lab tests and imaging are free."
+    },
+    "requiredDocuments": [
+      "Diagnostic requisition form signed by a government doctor"
+    ],
+    "stepsToApply": [
+      "Visit a government hospital and undergo a medical checkup.",
+      "Receive a test recommendation from the attending physician.",
+      "Take the requisition slip to the hospital's internal laboratory or imaging unit.",
+      "Undergo the required test and collect the reports on the specified date."
+    ]
+  },
+  {
+    "id": "health-023",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Health Authority",
+    "title": "Ayushman Arogya Mandir (Health & Wellness Centres)",
+    "slug": "ayushman-arogya-mandir",
+    "shortDescription": "Decentralized primary healthcare centers providing comprehensive healthcare, yoga wellness, and diagnostic services closer to communities.",
+    "officialLink": "https://ab-hwc.nhp.gov.in/",
+    "icon": "fa-solid fa-house-medical",
+    "tags": ["Primary Healthcare", "Yoga", "Wellness Centre"],
+    "eligibility": "Open to all residents within the community catchment area.",
+    "fees": {
+      "type": "Free",
+      "details": "Primary consultations, wellness activities, and medicines are completely free."
+    },
+    "requiredDocuments": [
+      "ABHA Card or Aadhaar Card (recommended for history tracking)"
+    ],
+    "stepsToApply": [
+      "Locate the nearest Ayushman Arogya Mandir in your village or urban block.",
+      "Walk in during working hours for a consultation or screening.",
+      "Register using your ABHA ID or basic demographic info.",
+      "Avail of outpatient care, lifestyle/wellness counseling, or free diagnostics."
+    ]
+  },
+  {
+    "id": "health-024",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Maternal Health Division",
+    "title": "Surakshit Matritva Aashwasan (SUMAN)",
+    "slug": "suman-maternity-assurance",
+    "shortDescription": "Assures dignified, respectful, and quality healthcare at zero cost for every woman and newborn visiting public facilities.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-hand-holding-heart",
+    "tags": ["Maternity Care", "Zero Expense", "Newborn Health"],
+    "eligibility": "All pregnant women, mothers up to 6 months post-delivery, and sick newborns.",
+    "fees": {
+      "type": "Free",
+      "details": "Complete zero-expense guarantee for delivery and complications."
+    },
+    "requiredDocuments": [
+      "MCP Card",
+      "Identity Proof (Aadhaar or Voter ID)"
+    ],
+    "stepsToApply": [
+      "Visit any SUMAN-notified public health facility during pregnancy.",
+      "Register at the antenatal care counter.",
+      "Avail guaranteed services including at least 4 ANC checkups, free delivery, and referral transport.",
+      "Report any grievance or out-of-pocket demand to the dedicated SUMAN toll-free desk if required."
+    ]
+  },
+  {
+    "id": "health-025",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Policy for Rare Diseases",
+    "title": "Financial Support for Rare Diseases",
+    "slug": "rare-diseases-support",
+    "shortDescription": "One-time financial assistance for patients suffering from rare diseases for treatment at designated Centers of Excellence.",
+    "officialLink": "https://rarediseases.mohfw.gov.in/",
+    "icon": "fa-solid fa-hand-holding-dollar",
+    "tags": ["Rare Diseases", "Financial Grant", "Super Specialty"],
+    "eligibility": "Patients suffering from rare diseases categorized under the national policy, treated at Centers of Excellence.",
+    "fees": {
+      "type": "Free",
+      "details": "Financial assistance of up to ₹50 lakhs is provided directly to the hospital."
+    },
+    "requiredDocuments": [
+      "Medical Diagnostic Report from a Center of Excellence",
+      "Income Certificate (if applicable for priority groups)",
+      "Aadhaar Card"
+    ],
+    "stepsToApply": [
+      "Get evaluated at one of the government-designated Centers of Excellence (CoE) for rare diseases.",
+      "The institutional clinical committee confirms the condition and develops a treatment layout.",
+      "Apply online through the digital portal setup for rare diseases with the help of the CoE coordinator.",
+      "The application is processed by the Ministry, and funds are disbursed directly to the designated CoE."
+    ]
+  },
+  {
+    "id": "health-026",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Chemicals and Fertilizers",
+    "department": "Pharmaceuticals & Medical Devices Bureau",
+    "title": "AMRIT Pharmacy Scheme",
+    "slug": "amrit-pharmacy",
+    "shortDescription": "Outlets providing highly subsidized medicines, implants, and surgical consumables for cancer and cardiovascular diseases.",
+    "officialLink": "http://janaushadhi.gov.in/",
+    "icon": "fa-solid fa-heart-circle-bolt",
+    "tags": ["Cancer Drugs", "Implants", "Subsidized Pharmacy"],
+    "eligibility": "Open to all patients with valid specialist prescriptions.",
+    "fees": {
+      "type": "Purchase Based",
+      "details": "Discounts ranging from 60% to 90% on maximum retail prices."
+    },
+    "requiredDocuments": [
+      "Valid Medical Prescription from a Registered Medical Practitioner",
+      "Patient Identity Card (Optional)"
+    ],
+    "stepsToApply": [
+      "Locate an AMRIT pharmacy store, typically situated inside major government medical colleges and hospitals.",
+      "Present your prescription for specialized cancer, cardiac, or chronic disease drugs.",
+      "The pharmacist checks availability and calculates the heavily discounted rate.",
+      "Complete the payment and collect the medicines along with a detailed invoice."
+    ]
+  },
+  {
+    "id": "health-027",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Organ and Tissue Transplant Organisation",
+    "title": "NOTTO Organ Donor Registration",
+    "slug": "notto-organ-donor",
+    "shortDescription": "National registry for citizens to pledge their organs and tissues for transplantation after death.",
+    "officialLink": "https://www.notto.mohfw.gov.in/",
+    "icon": "fa-solid fa-child",
+    "tags": ["Organ Donation", "Pledge", "Life Saving"],
+    "eligibility": "Any Indian citizen aged 18 years or above (or minors with parental consent).",
+    "fees": {
+      "type": "Free",
+      "details": "Voluntary pledge registration is completely free."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Mobile Number linked to Aadhaar"
+    ],
+    "stepsToApply": [
+      "Visit the official NOTTO web portal.",
+      "Click on the 'Register as Organ/Tissue Donor' tab.",
+      "Fill out Form 7 online with your demographic data and organ preferences.",
+      "Verify your details using Aadhaar-linked OTP.",
+      "Download and print your official National Organ Donor Card."
+    ]
+  },
+  {
+    "id": "health-028",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National AIDS Control Organisation",
+    "title": "NACO HIV/AIDS Care & Support",
+    "slug": "naco-hiv-care",
+    "shortDescription": "Provides free counseling, testing, and lifelong Anti-Retroviral Therapy (ART) medicines through specialized centers.",
+    "officialLink": "https://naco.gov.in/",
+    "icon": "fa-solid fa-ribbon",
+    "tags": ["HIV Care", "ART Clinic", "Free Treatment"],
+    "eligibility": "Any person seeking HIV screening or living with HIV/AIDS in India.",
+    "fees": {
+      "type": "Free",
+      "details": "Testing, psychological counseling, and ART medicines are provided free of cost."
+    },
+    "requiredDocuments": [
+      "Consent Form (filled at the testing center)",
+      "Identity Proof (confidentiality strictly maintained)"
+    ],
+    "stepsToApply": [
+      "Visit a nearby Integrated Counseling and Testing Centre (ICTC) located within public hospitals.",
+      "Undergo pre-test counseling and give a blood sample.",
+      "Collect reports confidentially after post-test counseling.",
+      "If diagnosed positive, register at the designated Anti-Retroviral Therapy (ART) center.",
+      "Undergo clinical evaluation and receive regular free ART medication supplies."
+    ]
+  },
+  {
+    "id": "health-029",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Adolescent Health Division",
+    "title": "Rashtriya Kishor Swasthya Karyakram (RKSK)",
+    "slug": "rksk-adolescent-health",
+    "shortDescription": "Holistic healthcare program for adolescents targeting nutrition, mental health, menstrual hygiene, and substance abuse counseling.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-user-group",
+    "tags": ["Adolescent Health", "Counseling", "Menstrual Hygiene"],
+    "eligibility": "Adolescents between the ages of 10 and 19 years.",
+    "fees": {
+      "type": "Free",
+      "details": "All clinics, counseling, and sanitary pad distribution systems are free."
+    },
+    "requiredDocuments": [
+      "School ID card or age certificate (recommended for record registration)"
+    ],
+    "stepsToApply": [
+      "Visit the closest 'Adolescent Friendly Health Clinic' (AFHC) or Saathiya Centre.",
+      "Consult with a peer educator or an assigned institutional counselor.",
+      "Participate in weekly iron-folic acid supplementation or wellness tracking screenings.",
+      "Collect structural health resources, like sanitary napkins or informational booklets, directly from the kiosk."
+    ]
+  },
+  {
+    "id": "health-030",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Viral Hepatitis Control Program",
+    "title": "National Viral Hepatitis Control Program (NVHCP)",
+    "slug": "nvhcp-hepatitis-treatment",
+    "shortDescription": "National service providing free diagnostic evaluation and comprehensive treatment for Hepatitis B and C infections.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-virus-covid",
+    "tags": ["Hepatitis Care", "Liver Health", "Free Diagnostics"],
+    "eligibility": "Any person diagnosed with or suspected of having viral hepatitis infections.",
+    "fees": {
+      "type": "Free",
+      "details": "Screening tests, viral load assessment, and antiviral medicines are completely free."
+    },
+    "requiredDocuments": [
+      "Doctor's screening referral card",
+      "Aadhaar Card or relevant photo identity check"
+    ],
+    "stepsToApply": [
+      "Visit a designated NVHCP treatment center situated at public medical colleges or district hospitals.",
+      "Undergo rapid diagnostic screening for Hepatitis B & C.",
+      "If positive, proceed to confirmatory viral load quantification testing.",
+      "Get registered under the NVHCP patient registration register.",
+      "Collect your regular monthly dosage of prescribed direct-acting antiviral medications from the treatment desk."
+    ]
+  },
+  {
+    "id": "health-031",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Programme for Health Care of the Elderly",
+    "title": "NPHCE Elderly Care Services",
+    "slug": "nphce-elderly-care",
+    "shortDescription": "Dedicated healthcare framework offering promotional, preventive, curative, and rehabilitative services custom-tailored for senior citizens.",
+    "officialLink": "https://main.mohfw.gov.in/",
+    "icon": "fa-solid fa-cane",
+    "tags": ["Senior Citizens", "Geriatric Care", "Physiotherapy"],
+    "eligibility": "Indian citizens aged 60 years and above.",
+    "fees": {
+      "type": "Free",
+      "details": "Specialized geriatric OPD services and medical aids are provided free."
+    },
+    "requiredDocuments": [
+      "Age proof document (Aadhaar Card, Voter ID, or Birth Certificate)"
+    ],
+    "stepsToApply": [
+      "Visit a district hospital containing a dedicated NPHCE Geriatric Clinic.",
+      "Register your details at the senior citizens special counter.",
+      "Consult with a geriatric medical specialist.",
+      "Access dedicated laboratory investigations, physical rehabilitation, or specialized weekly clinics without general queues."
+    ]
+  },
+  {
+    "id": "health-032",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Programme for Control of Blindness",
+    "title": "NPCBVI Cataract Surgery Services",
+    "slug": "npcbvi-cataract-surgery",
+    "shortDescription": "National program focusing on reducing visual impairments by providing free cataract identification screening and operational surgeries.",
+    "officialLink": "https://npcbvi.mohfw.gov.in/",
+    "icon": "fa-solid fa-eye",
+    "tags": ["Eye Care", "Free Surgery", "Cataract"],
+    "eligibility": "Individuals suffering from visually blinding cataracts, with priority to marginalized and rural communities.",
+    "fees": {
+      "type": "Free",
+      "details": "Screening, surgical operation, intraocular lens installation, and spectacles are free."
+    },
+    "requiredDocuments": [
+      "Identity Proof (Aadhaar or Voter card)",
+      "Income status verification (if applying via specific camp systems)"
+    ],
+    "stepsToApply": [
+      "Attend an official NPCBVI mobile eye screening camp or go directly to the district hospital ophthalmology unit.",
+      "Undergo professional visual acuity checks and ophthalmic validation mapping.",
+      "If diagnosed with operable cataracts, schedule a surgical date.",
+      "Get admitted to the operative block for lens replacement processing.",
+      "Collect post-operative tracking medicines and free corrective glasses upon medical release."
+    ]
+  },
+  {
+    "id": "health-033",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "department": "Department of Empowerment of Persons with Disabilities",
+    "title": "Unique Disability ID (UDID) Health Benefits",
+    "slug": "udid-disability-card",
+    "shortDescription": "A unified nationwide identity card for persons with disabilities to streamline healthcare allocations and medical benefits.",
+    "officialLink": "https://www.swavlambancard.gov.in/",
+    "icon": "fa-solid fa-wheelchair-move",
+    "tags": ["Disability ID", "Medical Benefits", "Divyangjan"],
+    "eligibility": "Any individual possessing a certified medical disability condition.",
+    "fees": {
+      "type": "Free",
+      "details": "Card processing and assessment validation carry no cost elements."
+    },
+    "requiredDocuments": [
+      "Disability Certificate issued by a competent Medical Board",
+      "Recent passport-sized identity photograph",
+      "Address Proof and Aadhaar Card"
+    ],
+    "stepsToApply": [
+      "Visit the digital Swavlamban online platform portal.",
+      "Click on 'Apply for Disability Certificate & UDID Card'.",
+      "Complete the structured application form detailing demographic data and personal medical impairments.",
+      "Upload digital copies of required identity proofs and active medical certificates.",
+      "Attend the assigned date validation at the local government hospital for medical board review, post which the physical card is dispatched."
+    ]
+  },
+  {
+    "id": "health-034",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Tobacco Control Division",
+    "title": "National Tobacco Cessation Quitline",
+    "slug": "tobacco-cessation-quitline",
+    "shortDescription": "A toll-free telephone-based counseling service to help citizens overcome addiction to smoking and smokeless tobacco products.",
+    "officialLink": "https://ntcp.mohfw.gov.in/",
+    "icon": "fa-solid fa-ban-smoking",
+    "tags": ["De-addiction", "Counseling", "Mental Wellness"],
+    "eligibility": "Any citizen seeking help to quit tobacco usage.",
+    "fees": {
+      "type": "Free",
+      "details": "Toll-free tele-counseling service."
+    },
+    "requiredDocuments": [
+      "None"
+    ],
+    "stepsToApply": [
+      "Dial the national toll-free quitline number 1800-11-2356.",
+      "Choose your preferred language for interaction.",
+      "Register your details anonymously with the intake counselor.",
+      "Receive personalized behavior cessation therapy and planning schedules.",
+      "Engage in proactively managed follow-up tracking calls over the next few weeks."
+    ]
+  },
+  {
+    "id": "health-035",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Women and Child Development",
+    "department": "POSHAN Abhiyaan",
+    "title": "POSHAN Tracker Subsidized Nutrition",
+    "slug": "poshan-tracker-nutrition",
+    "shortDescription": "Real-time monitoring system providing nutritional tracking and supplementary food delivery for children and mothers.",
+    "officialLink": "https://poshantracker.in/",
+    "icon": "fa-solid fa-apple-whole",
+    "tags": ["Nutrition", "Anganwadi", "Child Development"],
+    "eligibility": "Children under 6 years, pregnant women, and lactating mothers.",
+    "fees": {
+      "type": "Free",
+      "details": "Take-Home Rations (THR) and Hot Cooked Meals are provided free."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card of Parent/Mother",
+      "Child's Birth Registration details"
+    ],
+    "stepsToApply": [
+      "Visit the local area Anganwadi Centre.",
+      "Provide identity details to register the beneficiary on the Poshan Tracker system.",
+      "Undergo monthly height and weight checks by the Anganwadi worker.",
+      "Collect designated Take-Home Ration packages every month.",
+      "Ensure real-time attendance registration for children to get Hot Cooked Meals."
+    ]
+  },
+  {
+    "id": "health-036",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Non-Communicable Diseases Division",
+    "title": "NPCDCS Chronic Disease Screening",
+    "slug": "npcdcs-chronic-screening",
+    "shortDescription": "National program managing mass screening and primary treatment facilities for cancer, diabetes, and cardiovascular diseases.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-heart-pulse",
+    "tags": ["Diabetes", "Cancer Screening", "NCD"],
+    "eligibility": "All citizens, with special focus on individuals over 30 years old.",
+    "fees": {
+      "type": "Free",
+      "details": "Basic blood sugar checks, blood pressure monitoring, and screening tests are free."
+    },
+    "requiredDocuments": [
+      "Basic Demographic Identity Proof (Aadhaar or Voter card)"
+    ],
+    "stepsToApply": [
+      "Visit the NCD cell or clinic at the nearest primary health center or district hospital.",
+      "Request a generic non-communicable disease screening checklist validation.",
+      "Undergo physiological evaluations including random blood sugar tracking and blood pressure measurement.",
+      "Participate in physical cancer screening examinations if recommended by the officer.",
+      "Receive basic counseling and long-term diagnostic tracking books if risk factors emerge."
+    ]
+  },
+  {
+    "id": "health-037",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Consumers Affairs, Food and Public Distribution",
+    "department": "Food Safety and Standards Authority of India",
+    "title": "FSSAI Food Safety Training (FoSTaC)",
+    "slug": "fssai-fostac-training",
+    "shortDescription": "Mandatory and voluntary health training certification courses covering clean food handling for food businesses.",
+    "officialLink": "https://fostac.fssai.gov.in/",
+    "icon": "fa-solid fa-utensils",
+    "tags": ["Food Safety", "Public Health", "Certification"],
+    "eligibility": "Food business operators, catering managers, students, and home bakers.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Varies by training partner, typically ranges between ₹500 and ₹2000."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card or PAN Card",
+      "Active email ID and digital passport photo"
+    ],
+    "stepsToApply": [
+      "Open the web portal interface for FoSTaC.",
+      "Click on 'Register as Trainee' and build your user account profiles.",
+      "Select an active course category matching your needs (Basic, Advanced, or Special).",
+      "Choose a convenient slot provided by verified training partners and make the payment.",
+      "Attend the classroom sessions, pass the baseline exam, and download your Food Safety Supervisor Certificate."
+    ]
+  },
+  {
+    "id": "health-038",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Maternal Health Division",
+    "title": "LaQshya Labour Room Certification",
+    "slug": "laqshya-quality-maternity",
+    "shortDescription": "Quality improvement program optimizing public hospital labor rooms to ensure safe and complication-free childbirth environments.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-baby-carriage",
+    "tags": ["Safe Delivery", "Quality Standards", "Maternity"],
+    "eligibility": "All pregnant women delivering inside public health structures.",
+    "fees": {
+      "type": "Free",
+      "details": "Integrated structural services under the quality standard umbrella cost nothing."
+    },
+    "requiredDocuments": [
+      "MCP Card tracking details"
+    ],
+    "stepsToApply": [
+      "Identify nearby government medical colleges or district hospitals carrying a 'LaQshya' quality badge.",
+      "Get admitted to the high-dependency delivery unit during early labor stages.",
+      "Avail standard protocol-driven intrapartum monitoring checks overseen by trained labor nurses.",
+      "Benefit from private labor pods, professional triage processing, and zero illegal out-of-pocket charges."
+    ]
+  },
+  {
+    "id": "health-039",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Leprosy Eradication Programme",
+    "title": "NLEP Leprosy Medical & Welfare Benefits",
+    "slug": "nlep-leprosy-welfare",
+    "shortDescription": "Provides early diagnosis screening, free Multi-Drug Therapy (MDT) medication, and reconstructive surgery allowances.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-hand-dots",
+    "tags": ["Leprosy Treatment", "Free Surgery", "Financial Assistance"],
+    "eligibility": "Any individual diagnosed with leprosy skin patch variations or physical nerve thickening.",
+    "fees": {
+      "type": "Free",
+      "details": "MDT drug course is free; patients receive a cash allowance for reconstructive procedures."
+    },
+    "requiredDocuments": [
+      "Medical Diagnostic Report from a Leprosy Officer",
+      "Aadhaar Card",
+      "Bank Account passbook details for structural allowance transfer"
+    ],
+    "stepsToApply": [
+      "Report visible anesthetic skin lesions to the medical officer at any public healthcare clinic.",
+      "Undergo skin smear laboratory diagnostics to map structural bacterial presence.",
+      "Receive initial categorization and log into the NLEP patient master tracking books.",
+      "Collect free monthly MDT blister packs regularly.",
+      "Apply for structural disability deformity surgeries if needed to secure financial welfare support."
+    ]
+  },
+  {
+    "id": "health-040",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Emergency Medical Services",
+    "title": "National Ambulance Service (102 / 108 Helpline)",
+    "slug": "national-ambulance-service",
+    "shortDescription": "Emergency healthcare transportation network providing free transit to critical patients and mothers.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-truck-ramp-box",
+    "tags": ["Emergency Transit", "Ambulance", "Trauma Support"],
+    "eligibility": "Any citizen facing acute trauma emergencies, labor onset, or childhood illnesses.",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free transit provisioning when using centralized helpline links."
+    },
+    "requiredDocuments": [
+      "None required during emergency transport processing."
+    ],
+    "stepsToApply": [
+      "Dial the emergency phone digits 108 (for medical/accident emergencies) or 102 (for maternity cases).",
+      "Relay precise geographic tracking details and user condition metrics to the helpline agent.",
+      "Keep lines clear while the nearest GPS-mapped emergency vehicle shifts towards you.",
+      "Board the vehicle to receive basic pre-hospital stabilizer treatments during transit to the nearest hospital."
+    ]
+  },
+  {
+    "id": "health-041",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Mental Health Programme",
+    "title": "NMHP Community Mental Health Services",
+    "slug": "nmhp-mental-health",
+    "shortDescription": "District-level mental health services offering institutional psychiatric counseling and free psychiatric drugs.",
+    "officialLink": "https://main.mohfw.gov.in/",
+    "icon": "fa-solid fa-head-side-virus",
+    "tags": ["Psychiatry", "Mental Health", "Free Counseling"],
+    "eligibility": "Any citizen experiencing psychological stress or mental illness conditions.",
+    "fees": {
+      "type": "Free",
+      "details": "Outpatient consultation and baseline psychotropic medication courses carry zero fee markers."
+    },
+    "requiredDocuments": [
+      "Identity Document (Optional for basic counseling sessions)"
+    ],
+    "stepsToApply": [
+      "Visit the dedicated District Mental Health Programme (DMHP) clinic block inside your district hospital.",
+      "Complete an initial psychological profiling questionnaire via the clinic desk.",
+      "Consult with an active clinical psychologist or consulting psychiatrist.",
+      "Attend follow-up therapeutic sessions and collect tracking medication slips for collection at the internal pharmacy kiosk."
+    ]
+  },
+  {
+    "id": "health-042",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Vector Borne Disease Control Programme",
+    "title": "NVBDCP Vector Borne Disease Treatment",
+    "slug": "nvbdcp-malaria-care",
+    "shortDescription": "Integrated platform providing diagnostic tools and medicines for malaria, dengue, kala-azar, and filariasis.",
+    "officialLink": "https://ncvbdc.mohfw.gov.in/",
+    "icon": "fa-solid fa-mosquito",
+    "tags": ["Malaria Treatment", "Dengue Check", "Free Diagnostics"],
+    "eligibility": "Any person showing typical symptoms like periodic fever, body aches, or chills.",
+    "fees": {
+      "type": "Free",
+      "details": "Rapid diagnostic test kits and complete drug regimens are completely free."
+    },
+    "requiredDocuments": [
+      "None (Symptomatic assessment gets rapid treatment validation)"
+    ],
+    "stepsToApply": [
+      "Approach a local ASHA worker or public health post upon experiencing unexplained high fever conditions.",
+      "Undergo a finger-prick blood test using a Rapid Diagnostic Kit (RDK) or prepare a blood slide.",
+      "Receive instantaneous diagnostic confirmation within 15 minutes.",
+      "Collect immediate age-appropriate blister pack courses of Artesunate or Chloroquine based on guidelines.",
+      "Coordinate vector management checking if localized cluster outbreaks occur."
+    ]
+  },
+  {
+    "id": "health-043",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Integrated Disease Surveillance Programme",
+    "title": "IHIP Infectious Disease Reporting",
+    "slug": "ihip-disease-reporting",
+    "shortDescription": "Digital interface allowing community members and health units to instantly report localized infectious disease outbreaks.",
+    "officialLink": "https://idsp.mohfw.gov.in/",
+    "icon": "fa-solid fa-circle-exclamation",
+    "tags": ["Epidemic Watch", "Public Health", "Digital Portal"],
+    "eligibility": "Healthcare workers, institutional private practitioners, and community members tracking outbreak signatures.",
+    "fees": {
+      "type": "Free",
+      "details": "Reporting platform operations carry zero charges."
+    },
+    "requiredDocuments": [
+      "Lab confirmation report detailing the pathogen signature (if available)"
+    ],
+    "stepsToApply": [
+      "Open the Integrated Health Information Platform portal interface.",
+      "Navigate to the community outbreak report window.",
+      "Input localized details regarding specific symptom clusters observed (e.g., sudden waterborne illness, fever spike).",
+      "Submit the digital form to prompt automated tracking responses from the district epidemiological investigation team."
+    ]
+  },
+  {
+    "id": "health-044",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Department of Pension & Pensioners' Welfare",
+    "title": "Sanjeevani Teleconsultation for Pensioners",
+    "slug": "sanjeevani-pensioner-health",
+    "shortDescription": "Tailored online medical consultation modules linked to CGHS panels customized to provide swift digital care for retired personnel.",
+    "officialLink": "https://esanjeevani.mohfw.gov.in/",
+    "icon": "fa-solid fa-user-shield",
+    "tags": ["Pensioners", "Telehealth", "Senior Care"],
+    "eligibility": "Retired government employees carrying active pension card tracking.",
+    "fees": {
+      "type": "Free",
+      "details": "Specialized virtual queues are free to use."
+    },
+    "requiredDocuments": [
+      "Pension Payment Order (PPO) number confirmation",
+      "CGHS plastic identification card digits"
+    ],
+    "stepsToApply": [
+      "Log into the digital eSanjeevani online hub using your primary mobile numbers.",
+      "Select the dedicated 'Pensioner Care Consultation Room' node option.",
+      "Provide validation details linked to your PPO register indices.",
+      "Connect with a specialty physician via high-definition video call systems.",
+      "Download certified system e-prescriptions valid across global retail drug outlets."
+    ]
+  },
+  {
+    "id": "health-045",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Health Mission",
+    "title": "National Iron Plus Initiative (NIPI)",
+    "slug": "iron-plus-anemia",
+    "shortDescription": "Comprehensive strategy providing Iron and Folic Acid (IFA) supplementation to completely prevent and manage anemia across age groups.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-droplet-slash",
+    "tags": ["Anemia Control", "Supplements", "Maternal Health"],
+    "eligibility": "Infants, adolescents, women of reproductive age, and pregnant/lactating individuals.",
+    "fees": {
+      "type": "Free",
+      "details": "All preventative syrup distributions and therapeutic tablets are free."
+    },
+    "requiredDocuments": [
+      "MCP Card (for pregnant women) or School Enrollment Ledger profile"
+    ],
+    "stepsToApply": [
+      "Visit your neighborhood Anganwadi center or public primary school layout.",
+      "Participate in designated weekly or bi-weekly health checkups.",
+      "Collect age-appropriate Iron-Folic Acid packages (pink, blue, or red tablets depending on target group criteria).",
+      "Undergo hemoglobin screening if continuous physical fatigue signs persist."
+    ]
+  },
+  {
+    "id": "health-046",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Food Safety and Standards Authority of India",
+    "title": "FSSAI Food Product Licensing (FOSCOS)",
+    "slug": "fssai-foscos-license",
+    "shortDescription": "Cloud-based framework for food business operators to acquire mandatory food safety operational licenses and hygiene registration cards.",
+    "officialLink": "https://foscos.fssai.gov.in/",
+    "icon": "fa-solid fa-file-shield",
+    "tags": ["Food Quality", "Licensing", "Business Safety"],
+    "eligibility": "All individuals or corporate groups producing, selling, storing, or transferring food products.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Standard registration starts at ₹100/year; State/Central licenses vary from ₹2000 to ₹7500/year."
+    },
+    "requiredDocuments": [
+      "Identity Proof and Address Verification documents",
+      "Layout blueprint of manufacturing plant blueprints",
+      "Water analysis safety validation report certificates"
+    ],
+    "stepsToApply": [
+      "Access the digital FOSCOS online framework application hub.",
+      "Enter your setup operational parameters to check baseline license tier eligibility rules.",
+      "Fill out the comprehensive application profile details (Form A or Form B).",
+      "Upload verified document scans alongside factory setup proof matrices.",
+      "Submit the state processing fees online and await structural verification checks by the local Food Safety Officer."
+    ]
+  },
+  {
+    "id": "health-047",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of AYUSH",
+    "department": "National Medicinal Plants Board",
+    "title": "e-Charak (Medicinal Plants Portal)",
+    "slug": "e-charak-medicinal-plants",
+    "shortDescription": "Digital marketplace showcase helping farmers and herbal experts exchange authentic medicinal herbs and wellness items safely.",
+    "officialLink": "https://www.e-charak.in/",
+    "icon": "fa-solid fa-seedling",
+    "tags": ["Herbal Wellness", "AYUSH Trade", "Medicinal Herbs"],
+    "eligibility": "Farmers growing medicinal plants, traditional wellness practitioners, and alternative pharmaceutical buyers.",
+    "fees": {
+      "type": "Free",
+      "details": "Registration and market showcase listings are free."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card copy",
+      "Land Ownership papers or Trade License registers"
+    ],
+    "stepsToApply": [
+      "Open the online e-Charak web portal space.",
+      "Create a user account profile categorizing yourself as a 'Seller' or 'Buyer'.",
+      "Log detailed item listings including verified images and botanical names.",
+      "Connect securely with potential buyers or contract farming units.",
+      "Execute safe commercial exchanges without deep middleman market margins."
+    ]
+  },
+  {
+    "id": "health-048",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Blood Cell Division",
+    "title": "Voluntary Blood Donation Voluntary Portal",
+    "slug": "voluntary-blood-donation",
+    "shortDescription": "Centralized interface linking willing blood donors with certified public blood banks during emergencies.",
+    "officialLink": "https://www.eraktkosh.in/",
+    "icon": "fa-solid fa-heart-circle-check",
+    "tags": ["Blood Donation", "Voluntary Care", "Emergency Network"],
+    "eligibility": "Healthy individuals aged 18 to 65 years weighing at least 45 kg.",
+    "fees": {
+      "type": "Free",
+      "details": "Voluntary donation platforms carry zero fees; donors receive health validation certificates."
+    },
+    "requiredDocuments": [
+      "Valid Government Photo ID Card (Aadhaar, Driving License, etc.)"
+    ],
+    "stepsToApply": [
+      "Access the eRaktKosh online platform interface.",
+      "Click on the 'Register as a Voluntary Donor' tab link.",
+      "Fill out your health profiling metrics alongside blood type markers.",
+      "Select a convenient neighborhood donation camp or specific government blood storage branch.",
+      "Complete basic hemoglobin evaluations at the center prior to donating blood securely."
+    ]
+  },
+  {
+    "id": "health-049",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Center for Disease Control",
+    "title": "NCDC Diagnostic Lab Services",
+    "slug": "ncdc-lab-services",
+    "shortDescription": "Specialized laboratory diagnostics for complex zoonotic, bacterial, and viral pathogens under national surveillance protocols.",
+    "officialLink": "https://ncdc.mohfw.gov.in/",
+    "icon": "fa-solid fa-vial-virus",
+    "tags": ["Reference Lab", "Specialized Testing", "Pathogen Watch"],
+    "eligibility": "Patients carrying specific clinical reference notes from institutional medical boards or state departments.",
+    "fees": {
+      "type": "Subsidized",
+      "details": "Highly subsidized baseline pricing or free if handled under national epidemiological tracking drives."
+    },
+    "requiredDocuments": [
+      "Official reference sheet stamped by a government medical college hospital board",
+      "Patient dynamic case clinical files summary history documentation"
+    ],
+    "stepsToApply": [
+      "Secure a specialized diagnostic screening referral note from a tertiary healthcare center doctor.",
+      "Visit the designated sample handling reception point at an NCDC regional reference lab branch.",
+      "Submit sample extractions under exact cold-chain tracking frameworks.",
+      "Monitor status check codes via the digital notification trackers provided.",
+      "Collect final molecular sequencing results or specialized culture testing matrices."
+    ]
+  },
+  {
+    "id": "health-050",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Central Drugs Standard Control Organisation",
+    "title": "CDSCO Sugam Drug Portal Registration",
+    "slug": "cdsco-sugam-registration",
+    "shortDescription": "Official portal managing authorization reviews, clinical study updates, and manufacturing clearances for critical healthcare products.",
+    "officialLink": "https://cdscoonline.gov.in/",
+    "icon": "fa-solid fa-passport",
+    "tags": ["Drug Safety", "Pharma Licensing", "Clinical Oversight"],
+    "eligibility": "Pharmaceutical researchers, corporate developers, clinical research organizations, and import firms.",
+    "fees": {
+      "type": "Variable",
+      "details": "Pricing matches specific statutory clearance schedules defined by the drug rules."
+    },
+    "requiredDocuments": [
+      "Corporate registration profiles or Manufacturing Site operational permits",
+      "Chemical dossier validation files and analytical stability test data logs",
+      "Detailed clinical trail monitoring reports summary parameters"
+    ],
+    "stepsToApply": [
+      "Open the primary CDSCO Sugam online operational application portal.",
+      "Create a secure enterprise profile using verified organization certificates.",
+      "Select the relevant application node (e.g., import permit, clinical trial submission).",
+      "Fill out technical specification data cards and link digital testing data folders.",
+      "Complete statutory system payments online to initiate review panels by central drug inspectors."
     ]
   }
 ]
