@@ -8,6 +8,16 @@ document.addEventListener('DOMContentLoaded', () => {
     
     grid = document.getElementById('services-grid');
     searchInput = document.getElementById('service-search');
+
+    // Search Keyboard Shortcut
+    // Pressing '/' will automatically focus the search bar
+    document.addEventListener('keydown', (e) => {
+        // Check if the key pressed is '/' AND the user isn't already typing in an input field
+        if (e.key === '/' && document.activeElement !== searchInput) {
+            e.preventDefault(); // Stops the '/' character from actually being typed into the box
+            searchInput.focus();
+        }
+    });
     
     // 1. FETCH THE DATA
     fetch('../data/central-services.json')
@@ -22,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => {
             console.error('Error loading services data:', error);
             grid.innerHTML = '<p style="text-align:center; color:red;">Failed to load services. Please check your JSON file.</p>';
+        
         });
 
     // 3. SEARCH FILTERING
@@ -50,8 +61,18 @@ document.addEventListener('DOMContentLoaded', () => {
 function renderCards(servicesToDisplay) {
     grid.innerHTML = '';
 
+    // Upgraded "No Results" UI
     if (servicesToDisplay.length === 0) {
-        grid.innerHTML = '<p style="text-align:center; grid-column: 1 / -1;">No services found matching your search.</p>';
+        grid.innerHTML = `
+            <div style="grid-column: 1 / -1; text-align: center; padding: 50px 20px; background: #f8f9fa; border-radius: 12px; border: 2px dashed #dee2e6;">
+                <i class="fa-solid fa-magnifying-glass-minus" style="font-size: 48px; color: #adb5bd; margin-bottom: 15px;"></i>
+                <h3 style="color: #343a40; margin-bottom: 10px; font-size: 20px;">No services match your search</h3>
+                <p style="color: #6c757d; margin-bottom: 20px;">We couldn't find anything for "<strong>${document.getElementById('service-search').value}</strong>". <br>Try searching for general terms like 'Passport', 'Travel', or 'Tax'.</p>
+                <button onclick="document.getElementById('service-search').value=''; document.getElementById('service-search').dispatchEvent(new Event('input'));" class="btn-official" style="border: none; padding: 10px 24px; cursor: pointer;">
+                    Clear Search
+                </button>
+            </div>
+        `;
         return;
     }
 
@@ -82,46 +103,60 @@ function renderCards(servicesToDisplay) {
     });
 }
 
-// 4. MODAL FUNCTIONS (Must be outside DOMContentLoaded to work with onclick)
+// 4. MODAL FUNCTIONS
 function openDetails(serviceId) {
     // Find the exact service the user clicked on
     const service = allServices.find(s => s.id === serviceId);
     if (!service) return;
 
-    // Build the HTML for the steps (mapping array to list items)
-    const stepsHTML = service.stepsToApply.map(step => `<li>${step}</li>`).join('');
+    // Safely build HTML for lists (checks if array exists and has items)
+    const stepsHTML = (service.stepsToApply && service.stepsToApply.length > 0) 
+        ? service.stepsToApply.map(step => `<li>${step}</li>`).join('') 
+        : '';
     
-    // Build the HTML for the documents
-    const docsHTML = service.requiredDocuments.map(doc => `<li>${doc}</li>`).join('');
+    const docsHTML = (service.requiredDocuments && service.requiredDocuments.length > 0) 
+        ? service.requiredDocuments.map(doc => `<li>${doc}</li>`).join('') 
+        : '';
 
-    // Inject all the data into the modal body
+    // Inject data using conditional rendering (Empty State Handling)
     document.getElementById('modal-body').innerHTML = `
         <h2 class="modal-title"><i class="${service.icon}" style="color:#1565ff; margin-right:10px;"></i> ${service.title}</h2>
         
+        ${service.eligibility ? `
         <div class="modal-section">
-            <h4>Eligibility</h4>
+            <h4><i class="fa-solid fa-user-check" style="color: #f4a261; margin-right: 8px;"></i> Eligibility</h4>
             <p>${service.eligibility}</p>
-        </div>
+        </div>` : ''}
 
-        <div class="modal-section">
-            <h4>Fees</h4>
-            <p>${service.fees}</p>
-        </div>
+       ${service.fees ? `
+       <div class="modal-section">
+    <h4><i class="fa-solid fa-money-bill-wave" style="color: #2a9d8f; margin-right: 8px;"></i> Fees</h4>
+    <p>${service.fees.details}</p>
+        </div>` : ''}
 
+        ${docsHTML ? `
         <div class="modal-section">
-            <h4>Required Documents</h4>
+            <h4><i class="fa-regular fa-folder-open" style="color: #1565ff; margin-right: 8px;"></i> Required Documents</h4>
             <ul>${docsHTML}</ul>
-        </div>
+        </div>` : ''}
 
+        ${stepsHTML ? `
         <div class="modal-section">
-            <h4>Steps to Apply</h4>
+            <h4><i class="fa-solid fa-list-ol" style="color: #9d4edd; margin-right: 8px;"></i> Steps to Apply</h4>
             <ol>${stepsHTML}</ol>
-        </div>
+        </div>` : ''}
         
-        <div style="text-align:center; margin-top: 30px;">
-             <a href="${service.officialLink}" target="_blank" class="btn-official" style="display:inline-block; padding: 12px 30px;">Proceed to Official Website</a>
+
+        <div style="text-align:center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #eef2f7;">
+            <p style="font-size: 13px; color: #2a9d8f; font-weight: 600; margin-bottom: 12px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+                <i class="fa-solid fa-shield-halved"></i> Verified Government Portal
+            </p>
+            <a href="${service.officialLink}" target="_blank" class="btn-official" style="display:inline-block; padding: 14px 30px; width: 100%; max-width: 350px; font-size: 16px;">
+                Proceed to Official Website <i class="fa-solid fa-arrow-up-right-from-square" style="margin-left: 8px; font-size: 14px;"></i>
+            </a>
         </div>
     `;
+
 
     // Show the modal
     document.getElementById('service-modal').style.display = 'flex';
