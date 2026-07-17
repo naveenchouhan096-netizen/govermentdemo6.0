@@ -37,7 +37,14 @@ body {
   align-items: center;
   padding: 12px 5%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-  position: fixed;
+  
+  /* --- Yeh changes add kiye hain --- */
+  position: fixed;   /* Navbar ko ek jagah lock karne ke liye */
+  top: 0;            /* Screen ke bilkul top par rakhne ke liye */
+  left: 0;           /* Left side se start karne ke liye */
+  width: 100%;       /* Pura screen cover karne ke liye */
+  box-sizing: border-box; /* Padding ki wajah se width screen se bahar na jaye */
+  z-index: 1000;     /* Taaki scroll karne par content iske niche rahe */
 }
 
 .logo {
