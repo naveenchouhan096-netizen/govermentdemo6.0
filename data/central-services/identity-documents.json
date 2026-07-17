@@ -1,0 +1,1462 @@
+[
+  {
+    "id": "ident-001",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "department": "Unique Identification Authority of India (UIDAI)",
+    "title": "Aadhaar New Enrollment",
+    "slug": "aadhaar-new-enrollment",
+    "shortDescription": "Enroll for a new 12-digit unique identity number based on biometric and demographic data.",
+    "officialLink": "https://uidai.gov.in/",
+    "icon": "fa-solid fa-fingerprint",
+    "tags": ["Identity", "Aadhaar", "Biometrics"],
+    "eligibility": "Any resident of India (including NRIs and foreigners residing in India for over 182 days).",
+    "fees": {
+      "type": "Free",
+      "details": "First-time enrollment is completely free of cost."
+    },
+    "requiredDocuments": [
+      "Proof of Identity (Voter ID, Passport, PAN)",
+      "Proof of Address (Utility bill, Bank Statement)",
+      "Proof of Date of Birth (Birth Certificate, 10th Marksheet)"
+    ],
+    "stepsToApply": [
+      "Visit the UIDAI official website and click on 'Locate an Enrolment Center' to find a nearby facility.",
+      "Optionally, click on 'Book an Appointment' to schedule a time slot at an Aadhaar Seva Kendra to avoid queues.",
+      "Visit the center physically with your original supporting documents (Identity, Address, and Date of Birth proofs).",
+      "Fill out the Aadhaar Enrolment Form available at the center.",
+      "Submit your biometric data (iris scan, 10 fingerprints, and a facial photograph) captured by the operator.",
+      "Collect the acknowledgment slip containing your 14-digit Enrolment ID (EID) to track the generation status online."
+    ]
+  },
+  {
+    "id": "ident-002",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "department": "UIDAI",
+    "title": "Aadhaar Address Update (Online)",
+    "slug": "aadhaar-address-update",
+    "shortDescription": "Update your residential address on your Aadhaar profile digitally without visiting a center.",
+    "officialLink": "https://myaadhaar.uidai.gov.in/",
+    "icon": "fa-solid fa-house-user",
+    "tags": ["Identity", "Update", "Aadhaar"],
+    "eligibility": "Aadhaar holders whose mobile number is already linked and active to receive OTPs.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹50 non-refundable processing fee."
+    },
+    "requiredDocuments": [
+      "Valid Proof of Address (Passport, Voter ID, Ration Card, Bank Passbook, etc.)"
+    ],
+    "stepsToApply": [
+      "Navigate to the 'myAadhaar' portal and click on the 'Login' button.",
+      "Enter your 12-digit Aadhaar number, solve the captcha, and authenticate using the OTP sent to your registered mobile number.",
+      "Click on 'Address Update' and select 'Update Aadhaar Online'.",
+      "Edit your address fields carefully, ensuring the new address matches your proof document exactly (available in English and local language).",
+      "Upload a clear, scanned color copy of your valid Proof of Address document.",
+      "Pay the ₹50 fee via UPI, Card, or Net Banking, and download the Service Request Number (SRN) receipt to track the update."
+    ]
+  },
+  {
+    "id": "ident-003",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "department": "UIDAI",
+    "title": "Order Aadhaar PVC Card",
+    "slug": "aadhaar-pvc-card",
+    "shortDescription": "Order a pocket-sized, durable PVC Aadhaar card equipped with advanced security features like a secure QR code and hologram.",
+    "officialLink": "https://myaadhaar.uidai.gov.in/",
+    "icon": "fa-solid fa-address-card",
+    "tags": ["Identity", "Smart Card", "Aadhaar"],
+    "eligibility": "Any individual possessing a valid Aadhaar number (can be ordered even if mobile is not linked).",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹50 inclusive of GST and Speed Post delivery charges."
+    },
+    "requiredDocuments": [
+      "Aadhaar Number or 28-digit Enrolment ID"
+    ],
+    "stepsToApply": [
+      "Visit the myAadhaar portal and click on the 'Order Aadhaar PVC Card' service link.",
+      "If your mobile is linked, log in using Aadhaar and OTP. If not linked, select 'My mobile number is not registered'.",
+      "Enter your Aadhaar number, captcha, and an alternate mobile number to receive a temporary OTP for login.",
+      "Preview your demographic details (preview is only available for registered mobile logins).",
+      "Make the online payment of ₹50 through the integrated payment gateway.",
+      "Save the SRN receipt. The PVC card will be printed and dispatched via India Post (Speed Post) to your registered Aadhaar address within 5-7 working days."
+    ]
+  },
+  {
+    "id": "ident-004",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "department": "UIDAI",
+    "title": "Download e-Aadhaar",
+    "slug": "download-eaadhaar",
+    "shortDescription": "Download a digitally signed, password-protected electronic copy of your Aadhaar card, legally equivalent to the physical copy.",
+    "officialLink": "https://myaadhaar.uidai.gov.in/",
+    "icon": "fa-solid fa-file-pdf",
+    "tags": ["Identity", "Digital Document", "Aadhaar"],
+    "eligibility": "Any Aadhaar holder with an active linked mobile number.",
+    "fees": {
+      "type": "Free",
+      "details": "Downloading the e-Aadhaar PDF is completely free."
+    },
+    "requiredDocuments": [
+      "Aadhaar Number, Virtual ID (VID), or Enrolment ID (EID)"
+    ],
+    "stepsToApply": [
+      "Go to the myAadhaar portal and click on 'Download Aadhaar' directly from the dashboard.",
+      "Select your input method: Aadhaar Number, Enrolment ID, or Virtual ID.",
+      "Enter the digits along with the captcha code. (Check the 'Do you want a masked Aadhaar?' box if you want the first 8 digits hidden for privacy).",
+      "Click 'Send OTP' and enter the 6-digit code received on your registered mobile number.",
+      "Click 'Verify & Download' to save the PDF file to your device.",
+      "Open the PDF using the 8-character password format: First 4 letters of your name in CAPITAL letters followed by your Year of Birth (e.g., SURE1990)."
+    ]
+  },
+  {
+    "id": "ident-005",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Instant e-PAN via Aadhaar",
+    "slug": "instant-epan-aadhaar",
+    "shortDescription": "Get a digitally signed Permanent Account Number (PAN) instantly based on Aadhaar e-KYC without submitting physical documents.",
+    "officialLink": "https://eportal.incometax.gov.in/",
+    "icon": "fa-solid fa-bolt",
+    "tags": ["PAN", "Tax", "Instant"],
+    "eligibility": "Indian citizens above 18 years holding a valid Aadhaar with an updated mobile number, who have never been allotted a PAN before.",
+    "fees": {
+      "type": "Free",
+      "details": "The instant digital e-PAN is issued free of cost."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card (must have complete Date of Birth in DD/MM/YYYY format)"
+    ],
+    "stepsToApply": [
+      "Access the official Income Tax e-Filing portal.",
+      "Under the 'Quick Links' section on the homepage, click on 'Instant e-PAN'.",
+      "Click on 'Get New e-PAN' and enter your 12-digit Aadhaar number, then confirm the declaration.",
+      "Authenticate the request by entering the OTP sent to your Aadhaar-linked mobile number.",
+      "Validate your Aadhaar details (photo, name, DOB) fetched automatically from the UIDAI database and submit the request.",
+      "Use the 'Check Status / Download PAN' option on the same page using your Aadhaar number to download your e-PAN PDF within minutes."
+    ]
+  },
+  {
+    "id": "ident-006",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department (Protean/UTIITL)",
+    "title": "Physical PAN Card Application",
+    "slug": "pan-card-application",
+    "shortDescription": "Apply for a new physical PAN card or process data corrections through the official NSDL/Protean portal.",
+    "officialLink": "https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html",
+    "icon": "fa-solid fa-id-card-clip",
+    "tags": ["Finance", "Mandatory", "Identity"],
+    "eligibility": "Any individual, minor, NRI, HUF, or corporate entity.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹107 for Indian delivery addresses; ₹1017 for foreign delivery addresses."
+    },
+    "requiredDocuments": [
+      "Proof of Identity (Aadhaar, Voter ID, Passport)",
+      "Proof of Address",
+      "Proof of Date of Birth"
+    ],
+    "stepsToApply": [
+      "Visit the official Protean (formerly NSDL) TIN portal and select 'New PAN - Indian Citizen (Form 49A)'.",
+      "Fill out the initial registration form to generate a temporary token number sent to your email.",
+      "Continue the application, choosing how to submit documents: 'Submit digitally through e-KYC/e-Sign (Paperless)' is the fastest method.",
+      "Enter your personal details, parent's names, source of income, and residential address.",
+      "Select your Assessing Officer (AO) code using the automated search tool based on your city.",
+      "Complete the payment of ₹107 online, authenticate via Aadhaar OTP to e-Sign the form, and the physical card will be mailed to you in 10-15 days."
+    ]
+  },
+  {
+    "id": "ident-007",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "PAN Data Correction / Update",
+    "slug": "pan-correction",
+    "shortDescription": "Update or correct discrepancies (name, photo, signature, DOB) in your existing PAN database.",
+    "officialLink": "https://www.onlineservices.nsdl.com/",
+    "icon": "fa-solid fa-pen-to-square",
+    "tags": ["PAN", "Correction", "Tax"],
+    "eligibility": "Existing PAN cardholders requiring updates to their demographic or biometric data.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹107 for Indian address dispatch (includes physical card reprint)."
+    },
+    "requiredDocuments": [
+      "Proof of Identity, Address, and DOB",
+      "Proof of PAN (Copy of old PAN card or allotment letter)",
+      "Documentary proof for the specific change requested (e.g., Marriage Certificate for name change)"
+    ],
+    "stepsToApply": [
+      "Open the Protean/NSDL online PAN application portal.",
+      "Under Application Type, select 'Changes or Correction in existing PAN Data / Reprint of PAN Card'.",
+      "Fill the basic details to generate a Token Number.",
+      "In the detailed form, tick the checkbox on the left margin only against the specific fields you want to update (e.g., Name, Date of Birth).",
+      "Upload the required proofs for the change and your Aadhaar for e-Sign.",
+      "Make the payment, verify via Aadhaar OTP, and a newly printed PAN card reflecting the corrections will be dispatched."
+    ]
+  },
+  {
+    "id": "ident-008",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Link Aadhaar with PAN",
+    "slug": "link-aadhaar-pan",
+    "shortDescription": "Mandatory process to link your Aadhaar number with your PAN to keep your PAN operational and valid.",
+    "officialLink": "https://eportal.incometax.gov.in/",
+    "icon": "fa-solid fa-link",
+    "tags": ["Compliance", "Aadhaar", "PAN"],
+    "eligibility": "Every person who has been allotted a PAN and is eligible to obtain an Aadhaar number.",
+    "fees": {
+      "type": "Penalty",
+      "details": "A late fee penalty of ₹1000 is applicable before submission (unless exempted)."
+    },
+    "requiredDocuments": [
+      "Valid PAN Card",
+      "Valid Aadhaar Card"
+    ],
+    "stepsToApply": [
+      "Visit the Income Tax e-Filing portal and click on 'Link Aadhaar' under the Quick Links menu.",
+      "Enter your PAN and Aadhaar number. If not already linked, you will be prompted to pay the ₹1000 penalty.",
+      "Click on 'Continue to Pay Through e-Pay Tax', enter your PAN, and verify with mobile OTP.",
+      "Select Assessment Year (current) and Type of Payment as 'Other Receipts (500)', then pay ₹1000 via Net Banking/UPI.",
+      "Wait 3-4 working days for the payment to update in the e-Filing system.",
+      "Return to the 'Link Aadhaar' page, enter details again, validate the payment, and submit the final linking request for UIDAI verification."
+    ]
+  },
+  {
+    "id": "ident-009",
+    "category": "Identity & Documents",
+    "ministry": "Election Commission of India",
+    "department": "Voter Services",
+    "title": "New Voter ID Registration (Form 6)",
+    "slug": "voter-id-form6",
+    "shortDescription": "Apply for inclusion of your name in the electoral roll and generate a new Voter ID (EPIC) card.",
+    "officialLink": "https://voters.eci.gov.in/",
+    "icon": "fa-solid fa-check-to-slot",
+    "tags": ["Elections", "Voting", "Identity"],
+    "eligibility": "Indian citizens aged 18 years or above on the qualifying date (1st Jan/Apr/Jul/Oct of the year).",
+    "fees": {
+      "type": "Free",
+      "details": "Voter registration is entirely free."
+    },
+    "requiredDocuments": [
+      "Passport Size Color Photograph",
+      "Proof of Age (Birth Certificate, 10th Marksheet, PAN)",
+      "Proof of Residence (Aadhaar, Utility Bill, Rent Agreement)"
+    ],
+    "stepsToApply": [
+      "Access the Voters' Service Portal and click on 'Sign Up' to create a user account using your mobile number.",
+      "Log in and select 'Form 6 - Register as a New Elector/Voter'.",
+      "Select your State, District, and specific Assembly Constituency.",
+      "Fill out the comprehensive form providing personal details, family details, address, and date of birth.",
+      "Upload clear scans of your passport-size photograph, age proof, and address proof documents in JPG/PDF format.",
+      "Review the declaration, submit the form, and note the reference number. A Booth Level Officer (BLO) will conduct a field verification before your EPIC is generated."
+    ]
+  },
+  {
+    "id": "ident-010",
+    "category": "Identity & Documents",
+    "ministry": "Election Commission of India",
+    "department": "Voter Services",
+    "title": "Voter ID Correction / Shifting (Form 8)",
+    "slug": "voter-id-correction-form8",
+    "shortDescription": "Apply for correction of entries, shifting of residence, or replacement of EPIC using Form 8.",
+    "officialLink": "https://voters.eci.gov.in/",
+    "icon": "fa-solid fa-pen",
+    "tags": ["Voter ID", "Correction", "Elections"],
+    "eligibility": "Existing registered voters possessing an EPIC number who need to update their data.",
+    "fees": {
+      "type": "Free",
+      "details": "Updating details is free. A fee of ₹25 may apply only if requesting a physical replacement card."
+    },
+    "requiredDocuments": [
+      "EPIC Number",
+      "Documentary proof for the requested change (e.g., New Address Proof for shifting, Marriage Certificate for name change)"
+    ],
+    "stepsToApply": [
+      "Log into the Voters' Service Portal.",
+      "Click on 'Form 8 - Shifting of residence/Correction of entries in existing electoral roll/Replacement of EPIC'.",
+      "Choose whether you are applying for yourself or another family member, and input the EPIC number.",
+      "Select the exact reason for the application (e.g., 'Correction of Entries').",
+      "Tick the specific checkboxes for the fields you wish to change (Name, Age, Address, Photo, etc.).",
+      "Input the corrected data, upload the corresponding validation document, submit the form, and save the tracking reference ID."
+    ]
+  },
+  {
+    "id": "ident-011",
+    "category": "Identity & Documents",
+    "ministry": "Election Commission of India",
+    "department": "Voter Services",
+    "title": "Download e-EPIC (Digital Voter ID)",
+    "slug": "download-e-epic",
+    "shortDescription": "Download a secure, unalterable PDF version of your Electoral Photo Identity Card (Voter ID).",
+    "officialLink": "https://voters.eci.gov.in/",
+    "icon": "fa-solid fa-address-card",
+    "tags": ["Digital Document", "Voting", "e-EPIC"],
+    "eligibility": "All registered voters whose mobile number is uniquely linked to the electoral roll.",
+    "fees": {
+      "type": "Free",
+      "details": "Downloading the e-EPIC is free."
+    },
+    "requiredDocuments": [
+      "EPIC Number or Form 6 Reference Number"
+    ],
+    "stepsToApply": [
+      "Visit the Voters' Service Portal and log in with your registered mobile number.",
+      "Click on the 'e-EPIC Download' icon on the dashboard.",
+      "Select the radio button for 'EPIC No' or 'Form Reference No' and input the corresponding alphanumeric code.",
+      "Select your state from the dropdown list and click 'Search'.",
+      "Your details will appear on screen. Click 'Send OTP' to authenticate the request via your registered mobile number.",
+      "Enter the OTP, validate, and click 'Download e-EPIC' to save the official PDF to your device."
+    ]
+  },
+  {
+    "id": "ident-012",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "department": "National e-Governance Division (NeGD)",
+    "title": "DigiLocker Account Setup",
+    "slug": "digilocker-account",
+    "shortDescription": "Create a secure cloud-based platform to store, share, and verify digital documents and certificates issued by various authorities.",
+    "officialLink": "https://www.digilocker.gov.in/",
+    "icon": "fa-solid fa-cloud-arrow-up",
+    "tags": ["Digital Wallet", "Cloud Storage", "Document Verification"],
+    "eligibility": "Any Indian citizen holding an Aadhaar card linked to a mobile number.",
+    "fees": {
+      "type": "Free",
+      "details": "Account creation and document storage are completely free."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Active Mobile Number"
+    ],
+    "stepsToApply": [
+      "Download the DigiLocker app from the Google Play Store or Apple App Store, or visit the web portal.",
+      "Click on 'Sign Up' and enter your full name (as per Aadhaar), Date of Birth, gender, and mobile number.",
+      "Create a 6-digit secure security PIN.",
+      "Submit the form and authenticate using the OTP sent to your mobile number.",
+      "To upgrade the account and fetch official documents, enter your 12-digit Aadhaar number, consent to UIDAI verification, and enter the Aadhaar OTP.",
+      "Once verified, navigate to 'Search Documents' to pull your Driving License, PAN, Marksheets, and Vaccination certificates directly from issuing authorities."
+    ]
+  },
+  {
+    "id": "ident-013",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Foreigners Division",
+    "title": "Overseas Citizen of India (OCI) Card",
+    "slug": "oci-card-registration",
+    "shortDescription": "Apply for OCI status offering lifelong visa-free travel to India and parity with NRIs in economic and educational fields.",
+    "officialLink": "https://ociservices.gov.in/",
+    "icon": "fa-solid fa-passport",
+    "tags": ["NRI", "Immigration", "Lifelong Visa"],
+    "eligibility": "Foreign nationals of Indian origin, their spouses, or those whose parents/grandparents were Indian citizens (excluding Pakistan/Bangladesh roots).",
+    "fees": {
+      "type": "Fixed",
+      "details": "US $275 (or equivalent local currency) for fresh OCI application."
+    },
+    "requiredDocuments": [
+      "Current Foreign Passport",
+      "Proof of Indian Origin (former Indian passport, Nativity certificate)",
+      "Digital Photograph and Signature"
+    ],
+    "stepsToApply": [
+      "Visit the official OCI Services portal and click on 'New OCI Registration'.",
+      "Fill out Part-A of the online application with personal, passport, and family details, generating a Web File Number.",
+      "Fill out Part-B, detailing your profession and providing the address of the Indian Mission/FRRO where you will submit the form.",
+      "Upload digital photographs, signature, and PDF copies of your current passport and proof of Indian origin.",
+      "Pay the application fee online or via demand draft as specified by the local Indian Mission.",
+      "Print the completed application (Part A & B) and submit it physically along with original documents to the selected Indian Mission or VFS center for verification."
+    ]
+  },
+  {
+    "id": "ident-014",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of External Affairs",
+    "department": "CPV Division (Passport Seva)",
+    "title": "Police Clearance Certificate (PCC)",
+    "slug": "police-clearance-certificate",
+    "shortDescription": "Obtain a PCC required by foreign governments for employment, long-term visa, residential status, or immigration purposes.",
+    "officialLink": "https://www.passportindia.gov.in/",
+    "icon": "fa-solid fa-building-shield",
+    "tags": ["PCC", "Immigration", "Passport"],
+    "eligibility": "Indian citizens holding a valid passport seeking to emigrate or work abroad.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹500 application processing fee."
+    },
+    "requiredDocuments": [
+      "Valid Indian Passport",
+      "Proof of Present Address",
+      "Letter from foreign employer/embassy requesting the PCC"
+    ],
+    "stepsToApply": [
+      "Log into the Passport Seva portal using your existing user ID and password.",
+      "Click on 'Apply for Police Clearance Certificate'.",
+      "Fill in the online form, specifying your passport details, the country for which the PCC is required, and the purpose of the request.",
+      "Click on 'Pay and Schedule Appointment', remit the ₹500 fee online, and book a slot at your nearest Passport Seva Kendra (PSK) or Post Office PSK.",
+      "Print the application receipt and visit the PSK on the scheduled date with all original documents for biometric capture.",
+      "Once local police verify your background, you will receive an SMS to collect the physical PCC from the passport office or it will be mailed to you."
+    ]
+  },
+  {
+    "id": "ident-015",
+    "category": "Identity & Documents",
+    "ministry": "State Governments",
+    "department": "Revenue / e-District Department",
+    "title": "Domicile / Resident Certificate",
+    "slug": "domicile-certificate",
+    "shortDescription": "Obtain official proof of permanent residence in a specific state, required for local quotas in education and government jobs.",
+    "officialLink": "https://india.gov.in/topics/certificates",
+    "icon": "fa-solid fa-map-location",
+    "tags": ["State Quota", "Residence", "Certificate"],
+    "eligibility": "Individuals who have continuously resided in the respective state for a mandated period (usually 3 to 15 years, varying by state).",
+    "fees": {
+      "type": "Variable",
+      "details": "Nominal portal processing fee varying by state (typically ₹15 to ₹50)."
+    },
+    "requiredDocuments": [
+      "Identity Proof (Aadhaar/Voter ID)",
+      "Proof of continuous residence (Old utility bills, school certificates, property tax receipts)",
+      "Self-declaration Affidavit"
+    ],
+    "stepsToApply": [
+      "Visit your specific state's e-District portal (e.g., e-District Delhi, UP e-Sathi, MeeSeva AP).",
+      "Register a citizen account and log into the dashboard.",
+      "Select 'Apply for Certificates' and choose 'Domicile Certificate' or 'Residence Certificate'.",
+      "Fill in your demographic data, current address, and duration of stay at the location.",
+      "Upload scanned copies of your photograph, identity proof, continuous residence proofs, and the prescribed affidavit.",
+      "Pay the nominal application fee online and submit. A Tehsildar or Patwari will verify the records digitally/physically, after which you can download the digitally signed certificate."
+    ]
+  },
+  {
+    "id": "ident-016",
+    "category": "Identity & Documents",
+    "ministry": "State Governments",
+    "department": "Revenue / e-District Department",
+    "title": "Income Certificate",
+    "slug": "income-certificate",
+    "shortDescription": "Apply for a government-certified document validating your family's annual income, crucial for scholarships and subsidies.",
+    "officialLink": "https://india.gov.in/topics/certificates",
+    "icon": "fa-solid fa-sack-dollar",
+    "tags": ["Income Proof", "Scholarship", "Financial Aid"],
+    "eligibility": "Any resident requiring proof of income, typically earning below a certain threshold to claim state benefits.",
+    "fees": {
+      "type": "Variable",
+      "details": "Nominal fee varying from ₹15 to ₹40 depending on the state e-District portal."
+    },
+    "requiredDocuments": [
+      "Salary Slips or IT Returns (if employed/business)",
+      "Aadhaar Card",
+      "Self-declaration Affidavit of income",
+      "Ration Card / Address Proof"
+    ],
+    "stepsToApply": [
+      "Log into your state's respective e-District or Citizen Services portal.",
+      "Navigate to the 'Revenue Services' or 'Certificates' section and click on 'Income Certificate'.",
+      "Fill out the application form with personal details, family details, and sources of income (agriculture, business, salary).",
+      "Upload the self-declaration affidavit, identity proofs, and any available income proofs (like ITR or salary slips).",
+      "Submit the application and pay the processing fee. The application is routed to the local Patwari/Tehsildar for assessment.",
+      "Once approved (usually within 7-15 days), log back into the portal to download the digitally signed certificate."
+    ]
+  },
+  {
+    "id": "ident-017",
+    "category": "Identity & Documents",
+    "ministry": "State Governments",
+    "department": "Revenue Department",
+    "title": "Caste Certificate (SC/ST/OBC)",
+    "slug": "caste-certificate",
+    "shortDescription": "Official documentary proof of a person belonging to a specific caste (SC/ST/OBC) to avail constitutional reservations.",
+    "officialLink": "https://india.gov.in/topics/certificates",
+    "icon": "fa-solid fa-users-rays",
+    "tags": ["Reservation", "Social Justice", "Certificate"],
+    "eligibility": "Citizens belonging to castes notified under the Presidential Orders for SC/ST or state/central lists for OBC.",
+    "fees": {
+      "type": "Variable",
+      "details": "State portal processing fee (usually ₹15 - ₹50)."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Blood Relative's Caste Certificate (Father/Brother/Uncle)",
+      "Proof of residence in the state since the notification date of the caste",
+      "Self-declaration Affidavit"
+    ],
+    "stepsToApply": [
+      "Access the state e-District portal and log in to your citizen profile.",
+      "Select 'Caste Certificate' from the certificate services menu.",
+      "Fill in the applicant's details, the exact caste/sub-caste claimed, and the genealogical link to the relative holding an existing certificate.",
+      "Upload scanned PDFs of identity proofs, ancestral residence proofs, the relative's caste certificate, and the mandated affidavit.",
+      "Pay the online processing fee and submit. The Revenue Inspector will conduct a local inquiry to verify lineage and community standing before the SDM/Tehsildar issues the digital certificate."
+    ]
+  },
+  {
+    "id": "ident-018",
+    "category": "Identity & Documents",
+    "ministry": "State Governments",
+    "department": "Revenue Department",
+    "title": "Economically Weaker Section (EWS) Certificate",
+    "slug": "ews-certificate",
+    "shortDescription": "Obtain certification to avail 10% reservation in government jobs and education for the general category poor.",
+    "officialLink": "https://india.gov.in/topics/certificates",
+    "icon": "fa-solid fa-scale-unbalanced",
+    "tags": ["Reservation", "EWS", "General Category"],
+    "eligibility": "General category applicants (not SC/ST/OBC) with gross annual family income below ₹8 Lakhs, meeting specific land/property limits.",
+    "fees": {
+      "type": "Variable",
+      "details": "Standard state portal processing fee (~₹20 - ₹50)."
+    },
+    "requiredDocuments": [
+      "Income Proof (ITR / Form 16)",
+      "Property/Land documents of the family",
+      "Aadhaar Card",
+      "Affidavit declaring assets and income"
+    ],
+    "stepsToApply": [
+      "Log into your state's e-District portal and select the application for 'EWS Certificate'.",
+      "Input detailed information regarding all family members, gross annual income from all sources, and total agricultural land or residential flat sizes owned.",
+      "Upload the self-declaration affidavit, income proofs, property tax receipts, and identity documents.",
+      "Submit the processing fee online. The application is routed to the Tehsildar.",
+      "A field verification is conducted to ensure property limits are not breached. Upon successful verification, download the digitally signed EWS certificate (valid for one financial year)."
+    ]
+  },
+  {
+    "id": "ident-019",
+    "category": "Identity & Documents",
+    "ministry": "State Governments",
+    "department": "Registration and Stamps Department",
+    "title": "Marriage Certificate Registration",
+    "slug": "marriage-certificate",
+    "shortDescription": "Register your marriage legally under the Hindu Marriage Act or Special Marriage Act to obtain an official certificate.",
+    "officialLink": "https://india.gov.in/topics/certificates",
+    "icon": "fa-solid fa-rings-wedding",
+    "tags": ["Civil Registry", "Legal", "Marriage"],
+    "eligibility": "Couples where the groom is at least 21 years old and the bride is at least 18 years old.",
+    "fees": {
+      "type": "Variable",
+      "details": "Ranges from ₹100 to ₹500 depending on the state and act applied under."
+    },
+    "requiredDocuments": [
+      "Age and Address proofs of Husband and Wife",
+      "Wedding Invitation Card and photographs of the ceremony",
+      "Joint Affidavit",
+      "Identity proofs of two/three witnesses"
+    ],
+    "stepsToApply": [
+      "Visit the state's Registration Department portal (e.g., IGRS) or e-District portal and select 'Registration of Marriage'.",
+      "Fill out the comprehensive online form detailing the date and location of the marriage, and particulars of the husband, wife, and witnesses.",
+      "Upload scanned copies of wedding photos, the invitation card, ID proofs, and the joint affidavit.",
+      "Book an online appointment slot to visit the Sub-Registrar / SDM office.",
+      "Both partners and the witnesses must physically visit the office on the scheduled date with original documents to sign the registry and receive the marriage certificate."
+    ]
+  },
+  {
+    "id": "ident-020",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "department": "State Food and Civil Supplies",
+    "title": "New Ration Card Application",
+    "slug": "new-ration-card",
+    "shortDescription": "Apply for a household Ration Card to serve as identity proof and secure subsidized food grains under PDS.",
+    "officialLink": "https://nfsa.gov.in/",
+    "icon": "fa-solid fa-wheat-awn",
+    "tags": ["Food Security", "Identity", "Subsidies"],
+    "eligibility": "Indian households not already holding a ration card in any state. Card type (APL/BPL/AAY) determined by income.",
+    "fees": {
+      "type": "Variable",
+      "details": "Application is generally free or incurs a nominal portal fee (₹5-₹45)."
+    },
+    "requiredDocuments": [
+      "Aadhaar Cards of all family members",
+      "Income Certificate of Head of Family",
+      "Address Proof (Electricity Bill, Rent Agreement)",
+      "Group photograph of the family"
+    ],
+    "stepsToApply": [
+      "Go to the National Food Security portal (NFSA) and navigate to your specific State's Food and Civil Supplies portal.",
+      "Register on the state portal and select 'Apply for New Ration Card'.",
+      "Enter the details of the Head of the Family (usually the eldest female member) and sequentially add demographic and Aadhaar details for all other members.",
+      "Upload the income certificate, address proof, and family photograph.",
+      "Submit the form. A Food/Supply Inspector will conduct a physical verification of the residence and income status before generating the smart ration card."
+    ]
+  },
+  {
+    "id": "ident-021",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "department": "MSME Division",
+    "title": "Udyam Registration (MSME Identity)",
+    "slug": "udyam-registration",
+    "shortDescription": "Paperless and free registration process for MSMEs to acquire a unique Udyam Registration Certificate and identity.",
+    "officialLink": "https://udyamregistration.gov.in/",
+    "icon": "fa-solid fa-industry",
+    "tags": ["Business Identity", "MSME", "Enterprise"],
+    "eligibility": "Any individual setting up a micro, small, or medium enterprise (proprietorship, partnership, or company).",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free of cost. No official fees are charged."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card of the proprietor/director",
+      "PAN Card of the business entity",
+      "Bank Account details of the business"
+    ],
+    "stepsToApply": [
+      "Access the official Udyam Registration portal and click on 'For New Entrepreneurs who are not registered yet as MSME'.",
+      "Enter your Aadhaar number and name, and click 'Validate & Generate OTP' to authenticate your identity.",
+      "Verify your PAN details online; the system will automatically fetch your GST and ITR data from government databases.",
+      "Fill in the remaining business details, including the official address, bank account parameters, and the appropriate NIC codes representing your business activity.",
+      "Submit the application via final OTP verification. The Udyam Registration Certificate containing a dynamic QR code will be mailed to you and can be downloaded instantly."
+    ]
+  },
+  {
+    "id": "ident-022",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Labour & Employment",
+    "department": "Employees' Provident Fund Organisation (EPFO)",
+    "title": "UAN (Universal Account Number) Activation",
+    "slug": "uan-activation",
+    "shortDescription": "Activate your 12-digit UAN to consolidate multiple Provident Fund accounts into a single digital identity.",
+    "officialLink": "https://unifiedportal-mem.epfindia.gov.in/memberinterface/",
+    "icon": "fa-solid fa-briefcase",
+    "tags": ["EPF", "Employee Identity", "Provident Fund"],
+    "eligibility": "Any salaried employee assigned a UAN by their employer.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to activate and use."
+    },
+    "requiredDocuments": [
+      "UAN or PF Member ID",
+      "Aadhaar Card",
+      "PAN Card (for KYC seeding)"
+    ],
+    "stepsToApply": [
+      "Visit the EPFO Member e-Sewa portal.",
+      "Under the 'Important Links' section on the bottom right, click on 'Activate UAN'.",
+      "Enter your 12-digit UAN, Aadhaar Number, Name, Date of Birth, and registered Mobile Number exactly as per Aadhaar records.",
+      "Solve the captcha and click on 'Get Authorization Pin'.",
+      "Enter the OTP received on your Aadhaar-linked mobile number to authenticate the request.",
+      "Upon successful activation, an SMS containing your default password will be sent. Log in with your UAN and change the password immediately to access your PF passbook."
+    ]
+  },
+  {
+    "id": "ident-023",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "department": "State Social Welfare Departments",
+    "title": "Senior Citizen Identity Card",
+    "slug": "senior-citizen-card",
+    "shortDescription": "State-issued identity card for senior citizens to avail discounts on travel, healthcare, and prioritize public services.",
+    "officialLink": "https://india.gov.in/",
+    "icon": "fa-solid fa-person-cane",
+    "tags": ["Senior Citizen", "Identity", "Welfare"],
+    "eligibility": "Indian citizens aged 60 years and above residing in the issuing state.",
+    "fees": {
+      "type": "Free",
+      "details": "Typically free or incurs a very nominal processing fee (₹20-₹50)."
+    },
+    "requiredDocuments": [
+      "Age Proof (Birth Certificate, Passport, 10th Certificate)",
+      "Address Proof",
+      "Medical report confirming blood group and emergency contact details",
+      "Passport Size Photographs"
+    ],
+    "stepsToApply": [
+      "Visit your respective state's e-District portal or the specific Social Welfare Department website.",
+      "Navigate to the 'Senior Citizen Certificate/Card' section and register an account.",
+      "Fill out the application form specifying your exact date of birth, residential address, emergency contact person, and blood group.",
+      "Upload scanned copies of your age proof, address proof, and photographs.",
+      "Submit the application. Following verification of your age by the designated officer, a printable Senior Citizen Card ID will be issued on the portal."
+    ]
+  },
+  {
+    "id": "ident-024",
+    "category": "Identity & Documents",
+    "ministry": "State Governments",
+    "department": "Rural/Urban Development Department",
+    "title": "BPL (Below Poverty Line) Certificate",
+    "slug": "bpl-certificate",
+    "shortDescription": "Acquire official certification of BPL status to access specialized welfare schemes, free housing, and medical aid.",
+    "officialLink": "https://india.gov.in/topics/certificates",
+    "icon": "fa-solid fa-file-invoice-dollar",
+    "tags": ["Poverty", "Welfare Aid", "Certificate"],
+    "eligibility": "Families identified in the BPL census/SECC 2011 data meeting strict income and asset deprivation parameters.",
+    "fees": {
+      "type": "Variable",
+      "details": "Application through e-District portals carries a nominal fee (~₹15-₹30)."
+    },
+    "requiredDocuments": [
+      "BPL Survey Number / SECC inclusion proof",
+      "Aadhaar Card",
+      "Income Certificate",
+      "Address Proof"
+    ],
+    "stepsToApply": [
+      "First, check if your name exists in the SECC 2011 or state BPL list through the state rural development portal or Gram Panchayat.",
+      "If listed, log into your state's e-District portal and select 'Apply for BPL Certificate'.",
+      "Enter your BPL family ID or survey number, along with the demographic details of the head of the family.",
+      "Upload your income certificate, Aadhaar, and a passport-size photograph.",
+      "Submit the application. The Revenue Officer or Block Development Officer (BDO) validates the request against the master list and issues the digital certificate."
+    ]
+  },
+  {
+    "id": "ident-025",
+    "category": "Identity & Documents",
+    "ministry": "State Governments",
+    "department": "Revenue Department",
+    "title": "Non-Creamy Layer (NCL) Certificate",
+    "slug": "ncl-certificate-obc",
+    "shortDescription": "Certification for OBC candidates verifying that their family income falls below the 'Creamy Layer' threshold to avail reservations.",
+    "officialLink": "https://india.gov.in/topics/certificates",
+    "icon": "fa-solid fa-layer-group",
+    "tags": ["OBC", "Reservation", "Income Proof"],
+    "eligibility": "Candidates belonging to the OBC category whose parents' gross annual income (excluding agricultural income) is below ₹8 Lakhs.",
+    "fees": {
+      "type": "Variable",
+      "details": "State portal processing fee (usually ₹20 - ₹50)."
+    },
+    "requiredDocuments": [
+      "Applicant's OBC Caste Certificate",
+      "Parents' Income Proofs (ITR, Salary Certificates for last 3 years)",
+      "Aadhaar Card",
+      "Affidavit declaring income sources"
+    ],
+    "stepsToApply": [
+      "Access your state's e-District portal and select the 'Non-Creamy Layer (NCL) Certificate' application link.",
+      "Fill in the applicant's details and provide a detailed breakdown of the parents' income across the last three financial years.",
+      "Upload the existing OBC certificate, parents' ITRs or salary slips, identity proofs, and the prescribed income affidavit.",
+      "Submit the form and pay the online fee.",
+      "The Tehsildar/Revenue Officer will scrutinize the income data. If it falls below the ₹8 Lakh threshold, the digitally signed NCL certificate (valid for one year) will be generated."
+    ]
+  },
+  {
+    "id": "ident-026",
+    "category": "Identity & Documents",
+    "ministry": "State Governments",
+    "department": "State Police Departments",
+    "title": "Character Certificate (Police)",
+    "slug": "police-character-certificate",
+    "shortDescription": "Official document issued by state police verifying that the applicant does not have adverse criminal records, often required for jobs or contracts.",
+    "officialLink": "https://digitalpolice.gov.in/",
+    "icon": "fa-solid fa-id-badge",
+    "tags": ["Police", "Background Check", "Employment"],
+    "eligibility": "Any citizen residing at their current address for at least the last 6 months to 1 year.",
+    "fees": {
+      "type": "Variable",
+      "details": "Varies by state (Typically ₹50 for individuals, ₹200+ for contractors/businesses)."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Address Proof (proving current residence)",
+      "Letter from the requesting authority (Employer/Govt dept)",
+      "Recent Photograph"
+    ],
+    "stepsToApply": [
+      "Visit the Citizen Portal of your specific State Police (e.g., UPCOP, MahaPolice, Delhi Police portal).",
+      "Create a user account and select 'Character Certificate' from the Citizen Services menu.",
+      "Fill in your personal details, complete current and permanent addresses, and mention any past criminal involvement (if none, state 'No').",
+      "Upload your photo, Aadhaar card, and the letter from the employer requiring the certificate.",
+      "Pay the application fee online. Your local police station and the District Crime Record Bureau will conduct a background check, after which the certificate is uploaded to your portal dashboard."
+    ]
+  },
+  {
+    "id": "ident-027",
+    "category": "Identity & Documents",
+    "ministry": "State Governments",
+    "department": "Revenue Department",
+    "title": "Legal Heir / Surviving Member Certificate",
+    "slug": "legal-heir-certificate",
+    "shortDescription": "Official document identifying the rightful surviving family members of a deceased person for claiming insurance, pensions, and transferring assets.",
+    "officialLink": "https://india.gov.in/topics/certificates",
+    "icon": "fa-solid fa-users",
+    "tags": ["Estate", "Inheritance", "Legal"],
+    "eligibility": "Immediate family members (Spouse, Children, Parents) of the deceased individual.",
+    "fees": {
+      "type": "Variable",
+      "details": "Nominal processing fee via e-District portals (~₹20 - ₹100)."
+    },
+    "requiredDocuments": [
+      "Original Death Certificate of the deceased",
+      "Identity and Address Proofs of all surviving family members",
+      "Self-declaration Affidavit identifying all heirs",
+      "Ration card or Family ID showing relationships"
+    ],
+    "stepsToApply": [
+      "Log into the state e-District portal and select the 'Surviving Member Certificate' or 'Legal Heir Certificate' service.",
+      "Input the details of the deceased (Name, Date of Death) and systematically add the details of all surviving legal heirs, defining their relationship to the deceased.",
+      "Upload the death certificate, identity proofs of all listed members, and the sworn affidavit.",
+      "Pay the application fee. The application is sent to the Tehsildar/Revenue Inspector.",
+      "A local field inquiry is conducted, and notices may be published calling for objections. If clear, the official certificate listing all heirs is issued digitally."
+    ]
+  },
+  {
+    "id": "ident-028",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "department": "Department of Publication",
+    "title": "Change of Name (Gazette of India)",
+    "slug": "gazette-name-change",
+    "shortDescription": "Legally formalize a change of name (or religion) by publishing an official notification in the Gazette of India.",
+    "officialLink": "http://deptpub.nic.in/",
+    "icon": "fa-solid fa-signature",
+    "tags": ["Name Change", "Legal", "Gazette"],
+    "eligibility": "Any Indian citizen seeking to legally alter their name for personal, marital, or astrological reasons.",
+    "fees": {
+      "type": "Variable",
+      "details": "Printing charges range from ₹1,100 to ₹1,700 depending on the applicant category (Minor, Adult, NRI)."
+    },
+    "requiredDocuments": [
+      "Notarized Affidavit explaining the name change",
+      "Original cuttings of advertisements placed in two newspapers",
+      "Two passport size photographs",
+      "CD containing the electronic text of the notification",
+      "Aadhaar Card copy"
+    ],
+    "stepsToApply": [
+      "Prepare a legally drafted, notarized affidavit stating your old name, new name, and the reason for the change.",
+      "Publish an advertisement announcing your name change in one national English daily and one local vernacular newspaper.",
+      "Type the prescribed proforma of the notification into a Microsoft Word file and burn it onto a blank CD.",
+      "Pay the publication fee via the Bharatkosh online portal and print the receipt.",
+      "Compile the physical file containing the original affidavit, original newspaper cuttings, printed proforma, CD, photographs, and fee receipt. Submit this file physically or via Speed Post to the Controller of Publications, Delhi. The notification will appear in the upcoming weekly Gazette."
+    ]
+  },
+  {
+    "id": "ident-029",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Education",
+    "department": "Academic Bank of Credits (ABC)",
+    "title": "APAAR ID (One Nation, One Student ID)",
+    "slug": "apaar-student-id",
+    "shortDescription": "Automated Permanent Academic Account Registry (APAAR) is a lifelong 12-digit ID for students to digitally track academic progress and credits.",
+    "officialLink": "https://www.abc.gov.in/",
+    "icon": "fa-solid fa-graduation-cap",
+    "tags": ["Student ID", "Education", "DigiLocker"],
+    "eligibility": "All students enrolled in recognized schools, colleges, and higher education institutions in India.",
+    "fees": {
+      "type": "Free",
+      "details": "Generation of the APAAR ID is completely free."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card (must be linked to a mobile number)",
+      "DigiLocker Account"
+    ],
+    "stepsToApply": [
+      "Parents or students must visit the Academic Bank of Credits (ABC) portal or open the DigiLocker app.",
+      "Navigate to the 'Education' category and click on the 'APAAR/ABC ID' creation link.",
+      "Authenticate the request using Aadhaar e-KYC. An OTP will be sent to the Aadhaar-linked mobile number.",
+      "Provide formal consent allowing the Ministry of Education to access and store academic records against this ID.",
+      "Upon successful verification, a unique 12-digit APAAR ID card is instantly generated and saved to your DigiLocker. Provide this ID to your school or university to link all future marksheets."
+    ]
+  },
+  {
+    "id": "ident-030",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Department of Pension & Pensioners' Welfare",
+    "title": "Jeevan Pramaan (Digital Life Certificate)",
+    "slug": "jeevan-pramaan-life-certificate",
+    "shortDescription": "Biometric-enabled digital service for pensioners to submit their annual Life Certificate from home without visiting the bank.",
+    "officialLink": "https://jeevanpramaan.gov.in/",
+    "icon": "fa-solid fa-heart-pulse",
+    "tags": ["Pensioner", "Authentication", "Senior Citizen"],
+    "eligibility": "Retired employees of Central Government, State Government, or any other government organization receiving a pension.",
+    "fees": {
+      "type": "Free",
+      "details": "Software and service are free. CSCs/Postmen may charge a nominal doorstep service fee (₹70)."
+    },
+    "requiredDocuments": [
+      "Aadhaar Number",
+      "PPO (Pension Payment Order) Number",
+      "Bank Account details",
+      "Compatible Biometric device or Face RD app"
+    ],
+    "stepsToApply": [
+      "Download the Jeevan Pramaan PC/Mobile application and the UIDAI Face RD app (if utilizing face authentication) from the official portal.",
+      "Register the operator (yourself) using your Aadhaar number and mobile OTP.",
+      "Initiate the pensioner authentication process: Enter the pensioner's Aadhaar number, PPO number, Pension Disbursing Agency (Bank), and Account number.",
+      "Scan the pensioner's fingerprint/iris using an attached biometric device, or use the smartphone camera for Face Authentication via the RD app.",
+      "Upon successful Aadhaar verification, a Pramaan ID is generated instantly, and the Digital Life Certificate is automatically pushed to the pension disbursing bank's system."
+    ]
+  },
+{
+    "id": "ident-031",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of External Affairs",
+    "department": "Consular, Passport & Visa Division",
+    "title": "Diplomatic Passport",
+    "slug": "diplomatic-passport",
+    "shortDescription": "Official travel document for designated government officials and diplomats on official duty abroad.",
+    "officialLink": "https://www.passportindia.gov.in/",
+    "icon": "fa-solid fa-user-tie",
+    "tags": ["Identity", "Diplomatic", "Official"],
+    "eligibility": "Designated government officials, diplomats, and their dependents accompanying them.",
+    "fees": {
+      "type": "Free",
+      "details": "Issuance of diplomatic passports is free of charge."
+    },
+    "requiredDocuments": [
+      "Official Identity Card",
+      "Political Clearance from MEA",
+      "Official Note/Letter from Ministry/Department"
+    ],
+    "stepsToApply": [
+      "Obtain the mandatory 'Political Clearance' from the Ministry of External Affairs (MEA).",
+      "Log into the Passport Seva portal and select the 'Diplomatic/Official Passport' application link.",
+      "Fill out the online application form and upload the mandatory departmental letter.",
+      "Submit the printed application form along with the political clearance letter at the Consular Section of the Ministry of External Affairs in New Delhi.",
+      "Post-verification, the passport is issued and dispatched to the official office of the applicant."
+    ]
+  },
+  {
+    "id": "ident-032",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Census Office",
+    "title": "National Population Register (NPR) Updation",
+    "slug": "npr-updation",
+    "shortDescription": "Updating details of usual residents in India to maintain a comprehensive identity database.",
+    "officialLink": "https://nprindia.gov.in/",
+    "icon": "fa-solid fa-users-line",
+    "tags": ["Identity", "Census", "Mandatory"],
+    "eligibility": "All usual residents of India.",
+    "fees": {
+      "type": "Free",
+      "details": "No fee for registration or updation."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Residential proof"
+    ],
+    "stepsToApply": [
+      "When the census notification is active, enumerators visit households for data collection.",
+      "Provide correct demographic details to the government enumerator.",
+      "If self-updating through the portal (when enabled), log in with mobile OTP authentication.",
+      "Review the existing data linked to your Aadhaar and verify or update demographic entries.",
+      "Submit the updated data for approval by the local Registrar of Citizens."
+    ]
+  },
+  {
+    "id": "ident-033",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Home Affairs",
+    "department": "National Crime Records Bureau",
+    "title": "National Database of Arms License (NDAL)",
+    "slug": "arms-license-dal",
+    "shortDescription": "Digital registration and centralized database for gun/weapon licenses in India.",
+    "officialLink": "https://ndal-alis.gov.in/",
+    "icon": "fa-solid fa-gun",
+    "tags": ["Identity", "Arms", "Security"],
+    "eligibility": "Citizens meeting the criteria of the Arms Act for self-defense, sports, or protection of crops.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Varies by license type; processing fees are paid at the local licensing authority (DM/Commissioner)."
+    },
+    "requiredDocuments": [
+      "Identity proof",
+      "Age proof",
+      "Fitness certificate",
+      "Proof of need"
+    ],
+    "stepsToApply": [
+      "Apply through the ALIS (Arms License Issuance System) portal.",
+      "Fill in the applicant details, upload identity/age proofs, and provide the justification for the license.",
+      "Submit the form to the District Magistrate or Licensing Authority.",
+      "Attend the mandatory police verification process as per state protocols.",
+      "Upon approval, the license data is generated in the NDAL database, and a UIN (Unique Identification Number) is issued."
+    ]
+  },
+  {
+    "id": "ident-034",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Finance",
+    "department": "National Securities Depository Ltd.",
+    "title": "TAN (Tax Deduction and Collection Account Number)",
+    "slug": "tan-application",
+    "shortDescription": "Unique 10-digit number required for all entities responsible for deducting or collecting tax at source (TDS/TCS).",
+    "officialLink": "https://www.protean-tin.nsdl.com/",
+    "icon": "fa-solid fa-file-invoice",
+    "tags": ["Tax", "Business", "Finance"],
+    "eligibility": "Individuals, firms, companies, or government bodies deducting TDS.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹65 plus taxes."
+    },
+    "requiredDocuments": [
+      "PAN of the entity",
+      "Registration documents of the firm/company"
+    ],
+    "stepsToApply": [
+      "Visit the Protean TIN portal and select 'Online Application for TAN (Form 49B)'.",
+      "Fill in the required information, including details of the deductor, address, and PAN.",
+      "Proceed to the online payment portal and pay the application fee.",
+      "Submit the application and ensure all required documents are provided for verification.",
+      "Receive the TAN notification through post or email once the Income Tax department validates the request."
+    ]
+  },
+  {
+    "id": "ident-035",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "department": "UIDAI",
+    "title": "Aadhaar Virtual ID (VID)",
+    "slug": "aadhaar-virtual-id",
+    "shortDescription": "A temporary 16-digit random number used to authenticate Aadhaar without sharing the actual Aadhaar number.",
+    "officialLink": "https://myaadhaar.uidai.gov.in/",
+    "icon": "fa-solid fa-user-secret",
+    "tags": ["Identity", "Privacy", "Aadhaar"],
+    "eligibility": "Any Aadhaar holder with an active linked mobile number.",
+    "fees": {
+      "type": "Free",
+      "details": "Free of cost."
+    },
+    "requiredDocuments": [
+      "Aadhaar Number"
+    ],
+    "stepsToApply": [
+      "Log into the myAadhaar portal using your Aadhaar number and OTP.",
+      "Navigate to the 'Virtual ID (VID) Generator' service.",
+      "Select 'Generate VID' and click the submit button.",
+      "The VID will be sent to your registered mobile number via SMS.",
+      "Use this VID as a temporary substitute for Aadhaar when applying for services to enhance data privacy."
+    ]
+  },
+  {
+    "id": "ident-036",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Commerce and Industry",
+    "department": "Directorate General of Foreign Trade",
+    "title": "IEC (Import Export Code)",
+    "slug": "iec-registration",
+    "shortDescription": "A 10-digit code required by any person or business importing or exporting goods/services from/to India.",
+    "officialLink": "https://dgft.gov.in/",
+    "icon": "fa-solid fa-globe",
+    "tags": ["Business", "Trade", "Import-Export"],
+    "eligibility": "Any person or entity involved in import-export trade.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹500 as application fee."
+    },
+    "requiredDocuments": [
+      "PAN card of the applicant",
+      "Cancelled cheque of the current bank account",
+      "Digital signature/Aadhaar for verification"
+    ],
+    "stepsToApply": [
+      "Register on the DGFT portal using your mobile number and email.",
+      "Navigate to the 'Services' menu and click on 'Apply for IEC'.",
+      "Fill in the applicant/business details, including bank account information.",
+      "Pay the application fee online through the payment gateway.",
+      "Submit the application. Upon validation, the IEC is issued digitally and can be downloaded from the portal."
+    ]
+  },
+  {
+    "id": "ident-037",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "International Driving Permit (IDP) Renewal",
+    "slug": "idp-renewal",
+    "shortDescription": "Renew your International Driving Permit to continue driving legally in foreign countries.",
+    "officialLink": "https://sarathi.parivahan.gov.in/",
+    "icon": "fa-solid fa-arrows-rotate",
+    "tags": ["International", "Driving", "Identity"],
+    "eligibility": "Holders of an expired IDP who still possess a valid Indian Driving License and Passport.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹1000 processing fee."
+    },
+    "requiredDocuments": [
+      "Original IDP",
+      "Valid Indian Driving License",
+      "Valid Passport"
+    ],
+    "stepsToApply": [
+      "Visit the Sarathi Parivahan portal and log in with your credentials.",
+      "Select 'Apply for IDP Renewal' under the driving license services.",
+      "Update your travel details and upload necessary documents.",
+      "Pay the renewal fee online through the payment gateway.",
+      "Visit your local RTO for identity verification, and collect the renewed IDP booklet."
+    ]
+  },
+  {
+    "id": "ident-038",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Corporate Affairs",
+    "department": "MCA",
+    "title": "DIN (Director Identification Number)",
+    "slug": "din-application",
+    "shortDescription": "A unique identification number for any person intending to be a director of a company.",
+    "officialLink": "https://www.mca.gov.in/",
+    "icon": "fa-solid fa-id-badge",
+    "tags": ["Business", "Identity", "Corporate"],
+    "eligibility": "Anyone who intends to be a director in an existing or new company.",
+    "fees": {
+      "type": "Free",
+      "details": "No fee if applied during company incorporation; nominal charges for independent applications."
+    },
+    "requiredDocuments": [
+      "Identity proof",
+      "Address proof",
+      "Digital Signature Certificate (DSC)"
+    ],
+    "stepsToApply": [
+      "Register an account on the MCA portal.",
+      "Fill out the SPICe+ form (if for new company) or form DIR-3 (independent).",
+      "Attach the required identity and address proofs, attested by a notary/professional.",
+      "Submit the form electronically with your Digital Signature Certificate.",
+      "Once processed by the RoC, the DIN is generated and allotted."
+    ]
+  },
+  {
+    "id": "ident-039",
+    "category": "Identity & Documents",
+    "ministry": "State Governments",
+    "department": "Revenue Department",
+    "title": "Solvency Certificate",
+    "slug": "solvency-certificate",
+    "shortDescription": "Certificate issued by the revenue authority indicating an individual's financial stability and asset value.",
+    "officialLink": "https://india.gov.in/",
+    "icon": "fa-solid fa-money-check-dollar",
+    "tags": ["Finance", "Identity", "Legal"],
+    "eligibility": "Citizens requiring proof of financial status for contracts, tenders, or legal proceedings.",
+    "fees": {
+      "type": "Variable",
+      "details": "Nominal fee based on the state government's schedule."
+    },
+    "requiredDocuments": [
+      "Bank statements",
+      "Property valuation reports",
+      "Identity proof"
+    ],
+    "stepsToApply": [
+      "Visit your state's e-District portal.",
+      "Submit an application for a 'Solvency Certificate'.",
+      "Provide details of assets, liabilities, and bank statements for evaluation.",
+      "A field verification is conducted by the revenue officer/Tehsildar.",
+      "Upon successful verification of asset value, download the digital certificate."
+    ]
+  },
+  {
+    "id": "ident-040",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Labour & Employment",
+    "department": "Directorate General of Employment",
+    "title": "Employment Exchange Card",
+    "slug": "employment-exchange-registration",
+    "shortDescription": "Official registration card for job seekers, often required for government recruitment in certain states.",
+    "officialLink": "https://www.ncs.gov.in/",
+    "icon": "fa-solid fa-user-tie",
+    "tags": ["Employment", "Identity", "Government"],
+    "eligibility": "Unemployed citizens seeking government or private sector employment.",
+    "fees": {
+      "type": "Free",
+      "details": "Free registration."
+    },
+    "requiredDocuments": [
+      "Educational certificates",
+      "Identity proof",
+      "Passport size photograph"
+    ],
+    "stepsToApply": [
+      "Register on the National Career Service (NCS) portal.",
+      "Complete the profile with educational, skill, and experience details.",
+      "Select your local employment exchange based on your residency.",
+      "Submit the digital form for approval.",
+      "The portal generates a registration number that serves as your employment exchange card."
+    ]
+  },
+  {
+    "id": "ident-041",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Ayush",
+    "department": "National Commission for Indian System of Medicine",
+    "title": "Ayurveda/Unani Practitioner Registration",
+    "slug": "ayush-practitioner-registration",
+    "shortDescription": "Mandatory registration for medical practitioners of Indian systems of medicine to practice legally.",
+    "officialLink": "https://ncismindia.org/",
+    "icon": "fa-solid fa-leaf",
+    "tags": ["Medical", "Identity", "Profession"],
+    "eligibility": "Graduates in Ayurveda, Unani, or Sowa Rigpa from recognized institutions.",
+    "fees": {
+      "type": "Variable",
+      "details": "Set by respective State Boards/Councils."
+    },
+    "requiredDocuments": [
+      "Degree certificate",
+      "Internship completion certificate",
+      "Identity proof"
+    ],
+    "stepsToApply": [
+      "Apply to your respective State Board of Indian System of Medicine.",
+      "Submit the application form with degree and internship completion documents.",
+      "Verification of credentials is conducted by the Council/Board.",
+      "Appear for verification if requested.",
+      "Upon successful review, the permanent practitioner registration number and certificate are issued."
+    ]
+  },
+  {
+    "id": "ident-042",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Women and Child Development",
+    "department": "State Government",
+    "title": "Widow Certificate",
+    "slug": "widow-certificate",
+    "shortDescription": "Document certifying marital status to claim benefits like pensions and housing support for widows.",
+    "officialLink": "https://india.gov.in/",
+    "icon": "fa-solid fa-user-nurse",
+    "tags": ["Welfare", "Identity", "Women"],
+    "eligibility": "Women whose husband has passed away.",
+    "fees": {
+      "type": "Free",
+      "details": "Free registration on most portals."
+    },
+    "requiredDocuments": [
+      "Death Certificate of husband",
+      "Identity proof",
+      "Self-declaration affidavit"
+    ],
+    "stepsToApply": [
+      "Log into your state's e-District portal.",
+      "Apply for 'Widow Certificate' service.",
+      "Upload the husband's death certificate and identity documents.",
+      "Complete the self-declaration affidavit.",
+      "Download the digitally signed certificate after verification."
+    ]
+  },
+  {
+    "id": "ident-043",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Labour & Employment",
+    "department": "ESIC",
+    "title": "Pehchan Card (ESIC Beneficiary ID)",
+    "slug": "pehchan-card",
+    "shortDescription": "Identity card provided to insured persons and their dependents to access medical benefits under the ESI scheme.",
+    "officialLink": "https://www.esic.gov.in/",
+    "icon": "fa-solid fa-hospital-user",
+    "tags": ["Health", "Identity", "Labour"],
+    "eligibility": "Employees covered under the ESI Act.",
+    "fees": {
+      "type": "Free",
+      "details": "Issued free by the employer/EPFO."
+    },
+    "requiredDocuments": [
+      "Aadhaar details of dependents",
+      "Photographs",
+      "Employer declaration"
+    ],
+    "stepsToApply": [
+      "The employer updates the family/dependent details on the ESIC portal.",
+      "Once updated, the 'Pehchan' card is generated.",
+      "Download the e-Pehchan card from the ESIC member portal.",
+      "Present the card at ESIC dispensaries for services.",
+      "For physical copies, visit the nearest Branch Office for printing/issuance."
+    ]
+  },
+  {
+    "id": "ident-044",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "department": "Urban Local Bodies",
+    "title": "Trade License (Business Identity)",
+    "slug": "trade-license",
+    "shortDescription": "Permit issued by the municipal authority to conduct a trade or business within their jurisdiction.",
+    "officialLink": "https://mohua.gov.in/",
+    "icon": "fa-solid fa-store",
+    "tags": ["Business", "Identity", "License"],
+    "eligibility": "Owners/Proprietors of commercial establishments.",
+    "fees": {
+      "type": "Variable",
+      "details": "Depends on business nature and city municipal rules."
+    },
+    "requiredDocuments": [
+      "Identity proof",
+      "Lease/Ownership deed",
+      "NOC from fire/pollution department"
+    ],
+    "stepsToApply": [
+      "Visit your local Municipal Corporation portal.",
+      "Fill out the trade license application form.",
+      "Upload property and business ownership documents.",
+      "Pay the license fee online.",
+      "Download the digitally signed trade license upon verification."
+    ]
+  },
+  {
+    "id": "ident-045",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Finance",
+    "department": "Directorate of Small Savings",
+    "title": "Senior Citizen Savings Scheme (SCSS) Passbook",
+    "slug": "scss-passbook",
+    "shortDescription": "Passbook document for senior citizens who have invested in the government-backed SCSS.",
+    "officialLink": "https://www.nsiindia.gov.in/",
+    "icon": "fa-solid fa-piggy-bank",
+    "tags": ["Finance", "Identity", "Savings"],
+    "eligibility": "Individuals aged 60+ or retirees meeting specific conditions.",
+    "fees": {
+      "type": "Free",
+      "details": "Free issuance."
+    },
+    "requiredDocuments": [
+      "Age proof",
+      "KYC documents",
+      "PAN card"
+    ],
+    "stepsToApply": [
+      "Visit your chosen bank or Post Office.",
+      "Submit the account opening form (Form-1).",
+      "Provide age and KYC proof.",
+      "Deposit the minimum amount.",
+      "Receive the physical passbook as the identity document for your savings."
+    ]
+  },
+  {
+    "id": "ident-046",
+    "category": "Identity & Documents",
+    "ministry": "State Governments",
+    "department": "Revenue Department",
+    "title": "Land Possession Certificate",
+    "slug": "land-possession-certificate",
+    "shortDescription": "Document certifying the possession of a specific piece of land for various legal/financial purposes.",
+    "officialLink": "https://india.gov.in/",
+    "icon": "fa-solid fa-file-contract",
+    "tags": ["Land", "Identity", "Legal"],
+    "eligibility": "Registered owners of land parcels.",
+    "fees": {
+      "type": "Variable",
+      "details": "State-specific fee."
+    },
+    "requiredDocuments": [
+      "Land sale deed",
+      "Mutation document",
+      "Aadhaar Card"
+    ],
+    "stepsToApply": [
+      "Apply through the state Land Records/e-District portal.",
+      "Submit mutation and title documents.",
+      "Revenue official conducts verification of possession.",
+      "Upon clearance, the certificate is issued digitally.",
+      "Download or collect from the Tehsildar office."
+    ]
+  },
+  {
+    "id": "ident-047",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Communications",
+    "department": "Department of Posts",
+    "title": "Post Office Identity Card (POIC)",
+    "slug": "poic-application",
+    "shortDescription": "Identity card issued by the Post Office for citizens needing an accepted photo ID for postal services and travel.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-address-book",
+    "tags": ["Identity", "Postal", "Travel"],
+    "eligibility": "Citizens known to postal staff or those who can verify their identity.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹25 processing fee."
+    },
+    "requiredDocuments": [
+      "Proof of address",
+      "Identity proof",
+      "Two photographs"
+    ],
+    "stepsToApply": [
+      "Visit your local Post Office.",
+      "Submit the application form along with ID and address proofs.",
+      "Provide two recent passport photographs.",
+      "Pay the nominal fee.",
+      "Postmaster verifies the application and issues the POIC."
+    ]
+  },
+  {
+    "id": "ident-048",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Corporate Affairs",
+    "department": "MCA",
+    "title": "LLP Incorporation Certificate",
+    "slug": "llp-incorporation-cert",
+    "shortDescription": "Legal identity document for Limited Liability Partnerships.",
+    "officialLink": "https://www.mca.gov.in/",
+    "icon": "fa-solid fa-building-columns",
+    "tags": ["Business", "Identity", "LLP"],
+    "eligibility": "Partners of the LLP.",
+    "fees": {
+      "type": "Variable",
+      "details": "Based on capital contribution."
+    },
+    "requiredDocuments": [
+      "LLP Agreement",
+      "Address proof",
+      "DPIN of partners"
+    ],
+    "stepsToApply": [
+      "Apply for incorporation via the MCA portal.",
+      "Submit the LLP agreement.",
+      "Pay required incorporation fees.",
+      "RoC reviews and approves the application.",
+      "Download the digitally signed Certificate of Incorporation."
+    ]
+  },
+  {
+    "id": "ident-049",
+    "category": "Identity & Documents",
+    "ministry": "State Governments",
+    "department": "Revenue Department",
+    "title": "Family ID (Parivar Pehchan Patra)",
+    "slug": "family-id",
+    "shortDescription": "Unique identity document for the entire household, streamlining access to state government services.",
+    "officialLink": "https://india.gov.in/",
+    "icon": "fa-solid fa-people-roof",
+    "tags": ["Family Identity", "Social Welfare", "Identity"],
+    "eligibility": "Residents of participating states.",
+    "fees": {
+      "type": "Free",
+      "details": "Free of cost."
+    },
+    "requiredDocuments": [
+      "Aadhaar cards of all family members",
+      "Residence proof"
+    ],
+    "stepsToApply": [
+      "Log into the state-specific Family ID portal.",
+      "Add details of all family members using their Aadhaar.",
+      "Submit the consolidated family profile.",
+      "Local authorities verify the details.",
+      "Download the Family ID certificate."
+    ]
+  },
+  {
+    "id": "ident-050",
+    "category": "Identity & Documents",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "department": "UIDAI",
+    "title": "Aadhaar Card Replacement (Lost Card)",
+    "slug": "aadhaar-card-replacement",
+    "shortDescription": "Service to request a print of your lost Aadhaar card or download it again.",
+    "officialLink": "https://myaadhaar.uidai.gov.in/",
+    "icon": "fa-solid fa-retweet",
+    "tags": ["Identity", "Replacement", "Aadhaar"],
+    "eligibility": "Any Aadhaar holder.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹50 for PVC reprint via post."
+    },
+    "requiredDocuments": [
+      "Aadhaar number or EID"
+    ],
+    "stepsToApply": [
+      "Go to the 'Order Aadhaar PVC Card' link on the myAadhaar portal.",
+      "Enter your Aadhaar number.",
+      "Complete the payment of ₹50.",
+      "The card is printed and shipped to your registered address.",
+      "Alternatively, download and print the e-Aadhaar PDF at no cost."
+    ]
+  }
+]

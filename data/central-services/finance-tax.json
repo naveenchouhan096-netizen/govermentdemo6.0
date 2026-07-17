@@ -1,0 +1,1477 @@
+[
+  {
+    "id": "fin-001",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Income Tax Return (ITR) Filing",
+    "slug": "itr-online-filing",
+    "shortDescription": "File your annual Income Tax Returns electronically to report income, claim deductions, and declare tax liabilities.",
+    "officialLink": "https://eportal.incometax.gov.in/",
+    "icon": "fa-solid fa-file-invoice-dollar",
+    "tags": ["Income Tax", "Compliance", "Tax Return"],
+    "eligibility": "Individuals, HUFs, and businesses whose gross total income exceeds the basic exemption limit.",
+    "fees": {
+      "type": "Variable",
+      "details": "Filing is free. Late filing may incur penalties up to ₹5,000 under Section 234F."
+    },
+    "requiredDocuments": [
+      "PAN Card",
+      "Aadhaar Card",
+      "Form 16 / Form 16A",
+      "Bank Statements and Investment Proofs (80C, etc.)"
+    ],
+    "stepsToApply": [
+      "Visit the Income Tax e-Filing portal and log in using your PAN and password.",
+      "Navigate to 'e-File' > 'Income Tax Returns' > 'File Income Tax Return'.",
+      "Select the relevant Assessment Year, filing mode (Online), and status (Individual/HUF).",
+      "Choose the applicable ITR form (e.g., ITR-1 for salaried individuals).",
+      "Review the pre-filled data, validate your income and deduction details, calculate your tax, and submit the return.",
+      "E-verify the return immediately using Aadhaar OTP, Net Banking, or an EVC to complete the process."
+    ]
+  },
+  {
+    "id": "fin-002",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Annual Information Statement (AIS) Viewer",
+    "slug": "ais-viewer",
+    "shortDescription": "View a comprehensive statement of your financial transactions, including TDS, TCS, mutual funds, and stock market trades.",
+    "officialLink": "https://eportal.incometax.gov.in/",
+    "icon": "fa-solid fa-magnifying-glass-chart",
+    "tags": ["Income Tax", "Financial Data", "Transparency"],
+    "eligibility": "All PAN cardholders registered on the e-Filing portal.",
+    "fees": {
+      "type": "Free",
+      "details": "Viewing and downloading AIS is free of cost."
+    },
+    "requiredDocuments": [
+      "PAN Card",
+      "Registered Mobile Number for OTP"
+    ],
+    "stepsToApply": [
+      "Log into the Income Tax e-Filing portal with your credentials.",
+      "Under the 'Services' tab, select 'Annual Information Statement (AIS)'.",
+      "Click 'Proceed' to be redirected to the AIS compliance portal.",
+      "Select the relevant Financial Year and view the summarized Taxpayer Information Summary (TIS) or the detailed AIS.",
+      "If you notice any incorrect transactions attributed to your PAN, submit online feedback directly on the specific transaction to correct the record."
+    ]
+  },
+  {
+    "id": "fin-003",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "e-Verify Income Tax Return",
+    "slug": "e-verify-itr",
+    "shortDescription": "Mandatory electronic verification of your submitted ITR within 30 days of filing to ensure it is processed by the department.",
+    "officialLink": "https://eportal.incometax.gov.in/",
+    "icon": "fa-solid fa-check-double",
+    "tags": ["Income Tax", "Verification", "Compliance"],
+    "eligibility": "Taxpayers who have successfully filed their ITR but have not yet verified it.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to verify."
+    },
+    "requiredDocuments": [
+      "PAN Card",
+      "Aadhaar Card linked to mobile (for OTP verification)"
+    ],
+    "stepsToApply": [
+      "Visit the Income Tax e-Filing portal and click on 'e-Verify Return' under the Quick Links section.",
+      "Enter your PAN, Assessment Year, Acknowledgment Number, and Mobile Number.",
+      "Alternatively, log into your account, go to 'e-File' > 'Income Tax Returns' > 'e-Verify Return'.",
+      "Select your preferred verification method: Aadhaar OTP, Net Banking, Bank Account EVC, or Demat Account EVC.",
+      "Generate the OTP/EVC, enter it in the required field, and submit to finalize your ITR processing."
+    ]
+  },
+  {
+    "id": "fin-004",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Check Income Tax Refund Status",
+    "slug": "itr-refund-status",
+    "shortDescription": "Track the real-time status of your income tax refund after your ITR has been processed.",
+    "officialLink": "https://tin.tin.nsdl.com/oltas/refundstatuslogin.html",
+    "icon": "fa-solid fa-money-bill-trend-up",
+    "tags": ["Income Tax", "Refund", "Tracking"],
+    "eligibility": "Taxpayers who have filed their ITR, verified it, and are eligible for a tax refund.",
+    "fees": {
+      "type": "Free",
+      "details": "Status checking is free."
+    },
+    "requiredDocuments": [
+      "PAN Number",
+      "Assessment Year"
+    ],
+    "stepsToApply": [
+      "Visit the official NSDL/Protean Refund Tracking portal or the Income Tax e-Filing portal.",
+      "Enter your PAN and select the Assessment Year for which the refund is pending.",
+      "Enter the Captcha code and click 'Proceed'.",
+      "The screen will display the current status of your refund (e.g., Processed, Sent to Refund Banker, Credited, or Failed).",
+      "If the status shows 'Failed', log into the e-Filing portal to submit a 'Refund Reissue Request' with updated bank details."
+    ]
+  },
+  {
+    "id": "fin-005",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "ITR Rectification under Section 154",
+    "slug": "itr-rectification",
+    "shortDescription": "File a rectification request to correct apparent mistakes (like tax credit mismatch or arithmetic errors) in processed ITRs.",
+    "officialLink": "https://eportal.incometax.gov.in/",
+    "icon": "fa-solid fa-eraser",
+    "tags": ["Income Tax", "Correction", "Compliance"],
+    "eligibility": "Taxpayers who have received an Intimation under Section 143(1) containing an apparent mistake.",
+    "fees": {
+      "type": "Free",
+      "details": "Filing a rectification request is free."
+    },
+    "requiredDocuments": [
+      "Intimation Notice u/s 143(1)",
+      "Corrected Income/Tax details"
+    ],
+    "stepsToApply": [
+      "Log into the e-Filing portal using your PAN and password.",
+      "Navigate to 'Services' > 'Rectification'.",
+      "Click on 'New Request', select the Assessment Year, and click 'Continue'.",
+      "Select the Reason for Rectification (e.g., Tax Credit Mismatch, Return Data Correction).",
+      "Fill in the corrected details or upload an updated XML/JSON file if reprocessing the return data.",
+      "Submit the request and e-Verify it. You will receive a Rectification Reference Number to track the status."
+    ]
+  },
+  {
+    "id": "fin-006",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Central Board of Indirect Taxes and Customs (CBIC)",
+    "title": "GST Registration (New)",
+    "slug": "gst-registration",
+    "shortDescription": "Apply for a new Goods and Services Tax Identification Number (GSTIN) to legally supply goods or services in India.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-file-invoice",
+    "tags": ["GST", "Business", "Tax Registration"],
+    "eligibility": "Businesses with an aggregate turnover exceeding ₹40 Lakhs (goods) or ₹20 Lakhs (services), or those engaging in inter-state supply.",
+    "fees": {
+      "type": "Free",
+      "details": "Government portal registration is completely free."
+    },
+    "requiredDocuments": [
+      "PAN Card of the Business/Proprietor",
+      "Aadhaar Card of the Promoter/Director",
+      "Proof of Business Registration (Incorporation Certificate)",
+      "Address Proof of the Principal Place of Business",
+      "Bank Account Statement/Cancelled Cheque"
+    ],
+    "stepsToApply": [
+      "Visit the GST portal and select 'Services' > 'Registration' > 'New Registration'.",
+      "Complete Part A of the form using your PAN, Mobile Number, and Email ID to generate a Temporary Reference Number (TRN).",
+      "Log in using the TRN and complete Part B of the form, filling in business details, promoter details, and authorized signatories.",
+      "Upload all required documents, including principal place of business proofs and bank details.",
+      "Submit the application using a Digital Signature Certificate (DSC) or Aadhaar e-Sign. You will receive an ARN (Application Reference Number) to track your GSTIN issuance."
+    ]
+  },
+  {
+    "id": "fin-007",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "CBIC",
+    "title": "GST Return Filing (GSTR-1 & GSTR-3B)",
+    "slug": "gst-return-filing",
+    "shortDescription": "File mandatory monthly or quarterly GST returns to declare outward supplies and pay tax liabilities.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-calculator",
+    "tags": ["GST", "Tax Filing", "Business"],
+    "eligibility": "All registered GST taxpayers (excluding composition dealers who file CMP-08).",
+    "fees": {
+      "type": "Penalty",
+      "details": "Late filing attracts a late fee of ₹50 per day (₹20 for nil returns)."
+    },
+    "requiredDocuments": [
+      "Sales Invoices",
+      "Purchase Invoices (for Input Tax Credit)"
+    ],
+    "stepsToApply": [
+      "Log into the GST Portal using your valid credentials.",
+      "Navigate to 'Services' > 'Returns' > 'Returns Dashboard'.",
+      "Select the Financial Year and Return Filing Period.",
+      "For GSTR-1 (Outward Supplies): Prepare the data online or use the offline utility to upload B2B and B2C invoice details, then submit and file.",
+      "For GSTR-3B (Summary Return): Auto-populated data from GSTR-1 and GSTR-2B will appear. Verify tax liabilities, claim eligible Input Tax Credit (ITC), and offset liabilities.",
+      "Create a challan to pay any cash balance due, offset the tax, and file using DSC or EVC."
+    ]
+  },
+  {
+    "id": "fin-008",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "National Informatics Centre (NIC) / CBIC",
+    "title": "GST E-Way Bill Generation",
+    "slug": "gst-eway-bill",
+    "shortDescription": "Generate an electronic waybill required for the movement of goods exceeding ₹50,000 in value.",
+    "officialLink": "https://ewaybillgst.gov.in/",
+    "icon": "fa-solid fa-truck-fast",
+    "tags": ["GST", "Logistics", "Compliance"],
+    "eligibility": "Registered GST taxpayers and transporters moving goods exceeding the threshold limit.",
+    "fees": {
+      "type": "Free",
+      "details": "Generation of an E-Way bill is free."
+    },
+    "requiredDocuments": [
+      "Tax Invoice, Bill of Supply, or Delivery Challan",
+      "Transporter ID or Vehicle Number"
+    ],
+    "stepsToApply": [
+      "Visit the E-Way Bill portal and log in with your specific E-Way Bill credentials (different from the main GST portal).",
+      "Select 'E-waybill' > 'Generate New' on the dashboard.",
+      "Select the transaction type (Outward or Inward) and document type (Invoice/Challan).",
+      "Enter the supplier and recipient details, item details (HSN code, value, tax rate), and the transporter details (Vehicle Number).",
+      "Click 'Submit' to generate a unique 12-digit E-Way Bill Number (EBN) and print the PDF for the transporter to carry."
+    ]
+  },
+  {
+    "id": "fin-009",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "CBIC",
+    "title": "GST LUT (Letter of Undertaking) Filing",
+    "slug": "gst-lut-filing",
+    "shortDescription": "File a Letter of Undertaking to export goods or services without paying Integrated Goods and Services Tax (IGST).",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-file-export",
+    "tags": ["GST", "Exports", "Tax Exemption"],
+    "eligibility": "Any registered taxpayer exporting goods or services, provided they have not been prosecuted for tax evasion exceeding ₹2.5 Crores.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to file."
+    },
+    "requiredDocuments": [
+      "Names, addresses, and occupation of two independent witnesses"
+    ],
+    "stepsToApply": [
+      "Log into the GST portal with your credentials.",
+      "Navigate to 'Services' > 'User Services' > 'Furnish Letter of Undertaking (LUT)'.",
+      "Select the financial year for which the LUT is being applied.",
+      "Upload the previous LUT document (if applicable/requested) and read and accept the declaration checkboxes.",
+      "Provide the details of two independent witnesses.",
+      "Sign and file the application using DSC or EVC. The LUT ARN is generated and is valid for the entire financial year."
+    ]
+  },
+  {
+    "id": "fin-010",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Labour & Employment",
+    "department": "Employees' Provident Fund Organisation (EPFO)",
+    "title": "EPFO Member Passbook",
+    "slug": "epfo-member-passbook",
+    "shortDescription": "View and download your digital EPF passbook to check monthly employer-employee contributions and interest earned.",
+    "officialLink": "https://passbook.epfindia.gov.in/MemberPassBook/Login",
+    "icon": "fa-solid fa-book",
+    "tags": ["Provident Fund", "Savings", "Employee Benefits"],
+    "eligibility": "Salaried employees with an active Universal Account Number (UAN) registered with EPFO.",
+    "fees": {
+      "type": "Free",
+      "details": "Free service."
+    },
+    "requiredDocuments": [
+      "12-digit UAN",
+      "Password"
+    ],
+    "stepsToApply": [
+      "Ensure your UAN is activated on the Unified Member Portal.",
+      "Visit the EPFO Member Passbook portal.",
+      "Log in using your UAN, password, and complete the captcha.",
+      "Select the specific Member ID (if you have worked for multiple employers) from the dropdown list.",
+      "Click on 'View Passbook' to see the detailed monthly contribution history, pension accumulations, and available balance.",
+      "Click 'Download Passbook' to save the record as a PDF file."
+    ]
+  },
+  {
+    "id": "fin-011",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Labour & Employment",
+    "department": "EPFO",
+    "title": "EPF Online Claim (Withdrawal & Advance)",
+    "slug": "epf-online-claim",
+    "shortDescription": "Apply online for final PF withdrawal, pension withdrawal, or partial PF advance for emergencies.",
+    "officialLink": "https://unifiedportal-mem.epfindia.gov.in/memberinterface/",
+    "icon": "fa-solid fa-money-bill-transfer",
+    "tags": ["Provident Fund", "Withdrawal", "Finance"],
+    "eligibility": "Employees with an active UAN, verified KYC (Aadhaar, PAN, Bank), and linked mobile number. (Final settlement requires 2 months of unemployment).",
+    "fees": {
+      "type": "Free",
+      "details": "No processing fee. TDS may apply if withdrawn before 5 years of service."
+    },
+    "requiredDocuments": [
+      "Scanned copy of Cheque/Passbook showing name and account number",
+      "Aadhaar linked to UAN"
+    ],
+    "stepsToApply": [
+      "Log into the EPFO Unified Member Portal.",
+      "Verify that your KYC details (Aadhaar, PAN, Bank Account) are approved under the 'Manage' tab.",
+      "Go to 'Online Services' and select 'Claim (Form-31, 19, 10C & 10D)'.",
+      "Enter your bank account number to verify and proceed to the claim form.",
+      "Select the claim type: Form 31 (PF Advance), Form 19 (Full PF settlement), or Form 10C (Pension withdrawal).",
+      "Upload the scanned copy of your cancelled cheque or passbook, verify using Aadhaar OTP, and submit the claim. The amount is usually credited in 7-20 days."
+    ]
+  },
+  {
+    "id": "fin-012",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Labour & Employment",
+    "department": "EPFO",
+    "title": "EPF e-Nomination",
+    "slug": "epf-enomination",
+    "shortDescription": "File your EPF/EPS nomination digitally to ensure social security for your family members without employer intervention.",
+    "officialLink": "https://unifiedportal-mem.epfindia.gov.in/memberinterface/",
+    "icon": "fa-solid fa-users-rectangle",
+    "tags": ["Provident Fund", "Nomination", "Social Security"],
+    "eligibility": "All EPF members whose UAN is active and Aadhaar is linked.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to update."
+    },
+    "requiredDocuments": [
+      "Aadhaar Number of Nominee(s)",
+      "Digital Photograph of Nominee(s)",
+      "Bank Account details of Nominee(s)"
+    ],
+    "stepsToApply": [
+      "Log into the EPFO Member interface using your UAN and password.",
+      "Ensure your profile picture and address are updated in the 'View' > 'Profile' section.",
+      "Navigate to 'Manage' and select 'e-Nomination'.",
+      "Click 'Yes' to update family declaration. Add family members' details (Aadhaar, Name, DOB, Photo) and save.",
+      "Select the family members to nominate for EPF, allocate the percentage share (totaling 100%), and save EPF Nomination.",
+      "Click 'e-Sign' and use Aadhaar Virtual ID (VID) and OTP to digitally sign the document and complete the nomination process."
+    ]
+  },
+  {
+    "id": "fin-013",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+    "slug": "pmjdy-bank-account",
+    "shortDescription": "National mission for financial inclusion ensuring access to a basic savings bank account, remittance, credit, and insurance.",
+    "officialLink": "https://pmjdy.gov.in/",
+    "icon": "fa-solid fa-piggy-bank",
+    "tags": ["Financial Inclusion", "Banking", "Zero Balance"],
+    "eligibility": "Any Indian citizen aged 10 years and above who does not have a bank account.",
+    "fees": {
+      "type": "Free",
+      "details": "Zero minimum balance required. No account opening fees."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Passport Size Photograph",
+      "MGNREGA Job Card / Voter ID (if Aadhaar is unavailable)"
+    ],
+    "stepsToApply": [
+      "Download the PMJDY account opening form from the official website or visit any bank branch/Bank Mitra (Business Correspondent).",
+      "Fill out the physical application form with basic demographic details and nominee information.",
+      "Attach a self-attested copy of your Aadhaar card and a passport-size photograph.",
+      "Submit the form to the bank official. The account is opened instantly, and you will be provided a passbook.",
+      "A free RuPay Debit card will be issued, which comes with an inbuilt accident insurance cover of ₹2 lakhs (subject to card usage conditions)."
+    ]
+  },
+  {
+    "id": "fin-014",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Pradhan Mantri Mudra Yojana (PMMY)",
+    "slug": "pmmy-mudra-loan",
+    "shortDescription": "Apply for a collateral-free micro-credit loan up to ₹10 lakhs for non-corporate, non-farm small/micro-enterprises.",
+    "officialLink": "https://www.mudra.org.in/",
+    "icon": "fa-solid fa-hand-holding-dollar",
+    "tags": ["Business Loan", "MSME", "Entrepreneurship"],
+    "eligibility": "Any Indian citizen with a business plan for a non-farm income-generating activity (manufacturing, trading, or services).",
+    "fees": {
+      "type": "Free",
+      "details": "No processing fee for Shishu and Kishor loans. No collateral required."
+    },
+    "requiredDocuments": [
+      "Identity and Address Proof",
+      "Proof of Business Enterprise (Registration, Licenses)",
+      "Project Report/Business Plan",
+      "Category Certificate (if applicable)"
+    ],
+    "stepsToApply": [
+      "Determine your loan category based on requirement: Shishu (up to ₹50K), Kishor (₹50K to ₹5 Lakhs), or Tarun (₹5 Lakhs to ₹10 Lakhs).",
+      "Apply online via the Udyamimitra portal (udyamimitra.in) or visit any commercial bank, RRB, or Microfinance Institution.",
+      "On Udyamimitra, register as an entrepreneur, fill out the comprehensive loan application form, and upload your business plan and KYC documents.",
+      "Submit the digital application, which is then routed to your preferred bank.",
+      "The bank will process the application, verify your credit history, and upon approval, issue a Mudra Card (working capital debit card) and disburse the funds."
+    ]
+  },
+  {
+    "id": "fin-015",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Stand-Up India Loan Scheme",
+    "slug": "stand-up-india",
+    "shortDescription": "Bank loans between ₹10 lakhs and ₹1 Crore to SC/ST and women entrepreneurs for setting up greenfield enterprises.",
+    "officialLink": "https://www.standupmitra.in/",
+    "icon": "fa-solid fa-arrow-trend-up",
+    "tags": ["Business Loan", "SC/ST", "Women Entrepreneurs"],
+    "eligibility": "SC/ST and/or women entrepreneurs above 18 years setting up a greenfield (first-time) project in manufacturing, services, or trading.",
+    "fees": {
+      "type": "Variable",
+      "details": "Standard bank interest rates apply. Margin money requirement is 10-25%."
+    },
+    "requiredDocuments": [
+      "Aadhaar and PAN Card",
+      "Caste Certificate (for SC/ST)",
+      "Detailed Project Report",
+      "Lease deed of the business premise"
+    ],
+    "stepsToApply": [
+      "Visit the Stand-Up Mitra portal and click on 'Register'.",
+      "Answer the brief questionnaire to assess eligibility and create a user profile.",
+      "Fill out the loan application detailing the promoter's profile, project costs, and margin money availability.",
+      "Select the specific bank branch where you wish to apply for the loan.",
+      "Submit the application online. You can track the status on the portal as the bank reviews the project report and sanctions the term loan and working capital limit."
+    ]
+  },
+  {
+    "id": "fin-016",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Pension Fund Regulatory and Development Authority (PFRDA)",
+    "title": "Atal Pension Yojana (APY) Enrollment",
+    "slug": "atal-pension-yojana",
+    "shortDescription": "Guaranteed minimum pension scheme for unorganized sector workers, ranging from ₹1,000 to ₹5,000 per month post-retirement.",
+    "officialLink": "https://npscra.nsdl.co.in/scheme-details.php",
+    "icon": "fa-solid fa-coins",
+    "tags": ["Pension", "Social Security", "Unorganized Sector"],
+    "eligibility": "All citizens of India aged 18 to 40 years holding a bank/post office savings account. (Non-taxpayers only).",
+    "fees": {
+      "type": "Variable",
+      "details": "Monthly contribution amount varies strictly based on joining age and desired pension slab."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Savings Bank Account Details",
+      "Nominee Details"
+    ],
+    "stepsToApply": [
+      "Contact the bank or post office where you maintain your savings account.",
+      "Alternatively, log into your bank's Net Banking portal and navigate to the 'Social Security Schemes' or 'Investments' tab.",
+      "Select the Atal Pension Yojana (APY) option and fill out the digital enrollment form.",
+      "Provide Aadhaar details, nominee information, marital status, and select your desired monthly pension amount (₹1000 to ₹5000).",
+      "Give consent for auto-debit of the premium amount. The monthly contribution will be automatically deducted from your account until age 60."
+    ]
+  },
+  {
+    "id": "fin-017",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "PFRDA",
+    "title": "National Pension System (eNPS) Registration",
+    "slug": "enps-registration",
+    "shortDescription": "Open an NPS account online to build a retirement corpus with exclusive tax benefits under Section 80CCD(1B).",
+    "officialLink": "https://enps.nsdl.com/",
+    "icon": "fa-solid fa-piggy-bank",
+    "tags": ["Pension", "Investment", "Tax Saving"],
+    "eligibility": "Any Indian citizen (resident or NRI) aged 18 to 70 years.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Initial contribution of ₹500 + nominal CRA registration charges (approx. ₹400)."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card linked to mobile",
+      "PAN Card",
+      "Scanned Photograph and Signature",
+      "Cancelled Cheque"
+    ],
+    "stepsToApply": [
+      "Visit the eNPS portal (Protean or KFintech) and click on 'National Pension System' > 'Registration'.",
+      "Choose 'Individual Subscriber', 'Citizen of India', and register using 'Aadhaar Offline e-KYC' or 'PAN'.",
+      "Fill in demographic details, select your Pension Fund Manager (PFM), and choose your investment choice (Auto or Active).",
+      "Assign nominees and upload scanned images of your photograph, signature, and cancelled cheque.",
+      "Make the initial minimum contribution of ₹500 via Net Banking or UPI.",
+      "Upon successful payment, a PRAN (Permanent Retirement Account Number) is generated. E-sign the form using Aadhaar OTP to complete the process."
+    ]
+  },
+  {
+    "id": "fin-018",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Reserve Bank of India (RBI)",
+    "title": "Sovereign Gold Bond (SGB) Subscription",
+    "slug": "sovereign-gold-bonds",
+    "shortDescription": "Invest in government-backed gold bonds to earn fixed interest (2.5%) and capital appreciation without the risk of holding physical gold.",
+    "officialLink": "https://www.rbi.org.in/",
+    "icon": "fa-solid fa-coins",
+    "tags": ["Investment", "Gold", "RBI"],
+    "eligibility": "Resident Indian entities including individuals, HUFs, Trusts, Universities, and Charitable Institutions.",
+    "fees": {
+      "type": "Variable",
+      "details": "Purchase price is determined by the nominal value of gold; online applicants receive a ₹50/gram discount."
+    },
+    "requiredDocuments": [
+      "PAN Card (Mandatory)",
+      "Demat Account details (if applying for digital allotment)",
+      "Bank Account details"
+    ],
+    "stepsToApply": [
+      "Monitor the RBI notifications for the opening of the SGB subscription tranches (usually issued periodically).",
+      "Log into your Bank's Net Banking portal, Post Office account, or your stock broker's Demat trading platform.",
+      "Navigate to the 'Investments' or 'e-Services' tab and select 'Sovereign Gold Bond'.",
+      "Enter the number of grams of gold you wish to purchase (minimum 1 gram, max 4 kg for individuals).",
+      "Verify your PAN and Demat account details, and complete the payment online.",
+      "Upon closure of the issue, the bonds will be allocated to your Demat account or issued as a Holding Certificate."
+    ]
+  },
+  {
+    "id": "fin-019",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Post / Banks",
+    "title": "Sukanya Samriddhi Yojana (SSY)",
+    "slug": "sukanya-samriddhi-yojana",
+    "shortDescription": "Open a high-interest savings account for a girl child to fund her higher education and marriage, backed by tax exemptions.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-children",
+    "tags": ["Girl Child", "Savings", "Tax Exemption"],
+    "eligibility": "Parents or legal guardians of a girl child below the age of 10 years. Maximum two accounts per family.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Minimum initial deposit of ₹250. Max limit ₹1.5 Lakhs per financial year."
+    },
+    "requiredDocuments": [
+      "Birth Certificate of the Girl Child",
+      "Identity and Address Proof of the Parent/Guardian (Aadhaar, PAN)"
+    ],
+    "stepsToApply": [
+      "Download the SSY Account Opening Form from the India Post or participating commercial bank's website.",
+      "Fill out the form with the details of the girl child and the operating guardian.",
+      "Visit the nearest post office or bank branch with the filled form and original KYC documents.",
+      "Submit the documents along with the initial deposit amount (minimum ₹250) in cash or cheque.",
+      "A passbook will be issued in the name of the girl child. You can link this account to your Net Banking to make subsequent online deposits."
+    ]
+  },
+  {
+    "id": "fin-020",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Economic Affairs",
+    "title": "Public Provident Fund (PPF) Account",
+    "slug": "ppf-account",
+    "shortDescription": "Long-term, tax-free (EEE) savings scheme backed by the government, ideal for retirement planning.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-vault",
+    "tags": ["Investment", "Tax Saving", "Retirement"],
+    "eligibility": "Any resident Indian individual. (HUFs and NRIs cannot open new accounts).",
+    "fees": {
+      "type": "Fixed",
+      "details": "Minimum deposit of ₹500 per year. Max ₹1.5 Lakhs per year."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Passport Size Photograph"
+    ],
+    "stepsToApply": [
+      "Log into your internet banking portal (e.g., SBI, HDFC, ICICI) if they offer instant online PPF opening.",
+      "Navigate to the 'PPF Account' section and select 'Open New PPF Account'.",
+      "Verify your pre-filled KYC details, PAN, and Aadhaar. Provide nominee details.",
+      "Input the initial deposit amount (minimum ₹500) to be transferred from your savings account.",
+      "Submit via OTP authentication. The PPF account is created instantly, and the account number is displayed.",
+      "(Offline): Alternatively, submit Form A along with KYC documents and initial cash deposit to any Post Office or bank branch."
+    ]
+  },
+  {
+    "id": "fin-021",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Economic Affairs",
+    "title": "Kisan Vikas Patra (KVP)",
+    "slug": "kisan-vikas-patra",
+    "shortDescription": "A safe savings certificate scheme provided by India Post that guarantees to double your investment over a fixed period.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-money-bill-wheat",
+    "tags": ["Savings", "Post Office", "Investment"],
+    "eligibility": "Any adult Indian citizen (singly or jointly) or a minor through a guardian.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Minimum investment of ₹1,000 and in multiples of ₹100 thereafter. No maximum limit."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Form-1 (Application Form)"
+    ],
+    "stepsToApply": [
+      "Download the KVP Application Form (Form-1) from the India Post website.",
+      "Fill in the applicant details, purchase amount, and nominee information.",
+      "Visit your nearest Post Office branch and submit the form along with identity and address proofs.",
+      "Make the payment via Cash, Cheque, or Demand Draft.",
+      "Upon realization of the funds, the Post Office will issue the Kisan Vikas Patra certificate (now issued in the shape of a passbook) to you."
+    ]
+  },
+  {
+    "id": "fin-022",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Economic Affairs",
+    "title": "National Savings Certificate (NSC)",
+    "slug": "national-savings-certificate",
+    "shortDescription": "Fixed-income investment scheme you can open with any post office, offering guaranteed returns and tax benefits under 80C.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-certificate",
+    "tags": ["Investment", "Tax Saving", "Post Office"],
+    "eligibility": "Resident Indian individuals. (Trusts, HUFs, and NRIs are not eligible).",
+    "fees": {
+      "type": "Fixed",
+      "details": "Minimum deposit of ₹1,000. No maximum limit."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Form-1 (Application Form)"
+    ],
+    "stepsToApply": [
+      "Visit any branch of the Indian Post Office.",
+      "Ask for the NSC Application Form (Form-1) and fill in your details and nominee assignment.",
+      "Submit self-attested copies of your Aadhaar and PAN card for KYC compliance.",
+      "Pay the investment amount using cash, cheque, or electronic transfer (if available at the branch).",
+      "Collect your NSC passbook/certificate from the postmaster. (Note: Interest is compounded annually but paid at maturity after 5 years)."
+    ]
+  },
+  {
+    "id": "fin-023",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "department": "PM SVANidhi Division",
+    "title": "PM SVANidhi Loan (Street Vendors)",
+    "slug": "pm-svanidhi-loan",
+    "shortDescription": "Micro-credit facility providing affordable working capital loans to street vendors to resume their livelihoods.",
+    "officialLink": "https://pmsvanidhi.mohua.gov.in/",
+    "icon": "fa-solid fa-store",
+    "tags": ["Micro-Credit", "Street Vendors", "Loan"],
+    "eligibility": "Street vendors possessing a Certificate of Vending (CoV) / Identity Card issued by Urban Local Bodies (ULBs).",
+    "fees": {
+      "type": "Free",
+      "details": "No processing fee. Interest subsidy of 7% p.a. is credited directly."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card linked to Mobile Number",
+      "Voter ID",
+      "Certificate of Vending / Letter of Recommendation (LoR)",
+      "Bank Account details"
+    ],
+    "stepsToApply": [
+      "Visit the PM SVANidhi portal and click on 'Apply for LOR' if you do not have a vending certificate. Otherwise, click on 'Apply for Loan'.",
+      "Authenticate your mobile number via OTP and complete the Aadhaar e-KYC process.",
+      "Fill out the loan application form with your vending details, family details, and bank account information.",
+      "Select your preferred lending bank and submit the application digitally.",
+      "The bank will process the collateral-free loan (up to ₹10,000 for the first tranche) and disburse the funds directly to your account to kickstart your business."
+    ]
+  },
+  {
+    "id": "fin-024",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "department": "KVIC",
+    "title": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "slug": "pmegp-loan",
+    "shortDescription": "Credit-linked subsidy program aimed at generating employment opportunities by establishing micro-enterprises in rural and urban areas.",
+    "officialLink": "https://www.kviconline.gov.in/pmegpeportal/pmegphome/index.jsp",
+    "icon": "fa-solid fa-industry",
+    "tags": ["Business Loan", "Subsidy", "MSME"],
+    "eligibility": "Individuals above 18 years, 8th pass (for manufacturing projects > ₹10 Lakhs). SHGs and Co-operatives are also eligible.",
+    "fees": {
+      "type": "Variable",
+      "details": "Project costs up to ₹50 Lakhs (Manufacturing) and ₹20 Lakhs (Service). Subsidy margin ranges from 15% to 35%."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Project Report",
+      "Caste/Special Category Certificate",
+      "Education/EDP Certificate"
+    ],
+    "stepsToApply": [
+      "Visit the KVIC PMEGP e-portal and click on 'Application for New Unit'.",
+      "Fill out the extensive online application form with personal details, proposed project details, and the sponsoring agency (KVIC/KVIB/DIC).",
+      "Select the financing bank branch from the dropdown menu and 'Save Applicant Data'.",
+      "Upload scanned copies of your passport photo, Aadhaar, project report, and education certificates.",
+      "Submit the application. The District Task Force Committee (DTFC) will interview you, after which the application is forwarded to the bank for final loan sanction and subsidy lock-in."
+    ]
+  },
+  {
+    "id": "fin-025",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Corporate Affairs",
+    "department": "MCA",
+    "title": "Company Incorporation (SPICe+)",
+    "slug": "spice-plus-company-incorporation",
+    "shortDescription": "Integrated web form providing multiple services (Name Reservation, Incorporation, DIN, PAN, TAN, EPFO, ESIC) for registering a new company.",
+    "officialLink": "https://www.mca.gov.in/",
+    "icon": "fa-solid fa-building",
+    "tags": ["Corporate", "Business Registration", "MCA"],
+    "eligibility": "Any individual(s) planning to incorporate a Private Limited, Public Limited, or One Person Company in India.",
+    "fees": {
+      "type": "Variable",
+      "details": "Zero MCA fee for companies with authorized capital up to ₹15 Lakhs. Stamp duty varies by state."
+    },
+    "requiredDocuments": [
+      "Digital Signature Certificate (DSC) of Directors",
+      "Address Proof for Registered Office (Utility Bill, NOC)",
+      "Identity & Address Proofs of Promoters/Directors"
+    ],
+    "stepsToApply": [
+      "Log into the MCA V3 Portal and navigate to 'MCA Services' > 'Company e-Filing' > 'SPICe+'.",
+      "Fill out 'Part A' to reserve your company's name. You can submit Part A independently or together with Part B.",
+      "Proceed to 'Part B' which serves as the core incorporation application, detailing capital, directors, and subscribers.",
+      "Fill out the linked web forms (e-MoA, e-AoA, AGILE-PRO-S) to apply for PAN, TAN, GST, and bank account opening simultaneously.",
+      "Download the filled PDF forms, affix the DSCs of the directors and a certifying professional (CA/CS/CMA), and upload them back to the portal.",
+      "Pay the calculated stamp duty online. Upon verification, the Registrar of Companies (RoC) issues the Certificate of Incorporation."
+    ]
+  },
+  {
+    "id": "fin-026",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Corporate Affairs",
+    "department": "MCA",
+    "title": "Director KYC (DIR-3 KYC)",
+    "slug": "dir3-kyc",
+    "shortDescription": "Mandatory annual KYC compliance for all individuals holding a Director Identification Number (DIN).",
+    "officialLink": "https://www.mca.gov.in/",
+    "icon": "fa-solid fa-user-tie",
+    "tags": ["Compliance", "Director", "MCA"],
+    "eligibility": "Every individual who has been allotted a DIN on or before 31st March of a financial year.",
+    "fees": {
+      "type": "Penalty",
+      "details": "Free if filed by the due date (usually Sep 30). Late filing incurs a penalty of ₹5000."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Valid Mobile Number and Email ID",
+      "Digital Signature Certificate (DSC)"
+    ],
+    "stepsToApply": [
+      "Log into the MCA Portal and navigate to 'MCA Services' > 'DIN Services' > 'DIR-3 KYC'.",
+      "If you are updating details for the first time or modifying existing details, download the e-Form DIR-3 KYC, fill it, affix your DSC and a professional's DSC, and upload it.",
+      "If there are no changes in your previously submitted KYC details, select the 'DIR-3 KYC Web' service.",
+      "Enter your DIN, which will pre-fill your mobile number and email ID.",
+      "Click 'Send OTP', enter the OTPs received on your mobile and email to verify them.",
+      "Submit the web form. Your DIN status will remain 'Active' for the financial year."
+    ]
+  },
+  {
+    "id": "fin-027",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Central Board of Indirect Taxes and Customs (CBIC)",
+    "title": "ICEGATE Customs Duty Payment",
+    "slug": "icegate-customs-payment",
+    "shortDescription": "E-payment gateway to pay Customs duties, Cess, and IGST for imported goods cleared at Indian ports.",
+    "officialLink": "https://www.icegate.gov.in/",
+    "icon": "fa-solid fa-ship",
+    "tags": ["Customs", "Import", "Tax"],
+    "eligibility": "Importers, Exporters, or Custom Brokers holding a valid Bill of Entry assessment.",
+    "fees": {
+      "type": "Variable",
+      "details": "Duty amount depends on the assessment of imported goods. No portal fee."
+    },
+    "requiredDocuments": [
+      "IEC (Import Export Code)",
+      "Bill of Entry (BE) Number"
+    ],
+    "stepsToApply": [
+      "Visit the official ICEGATE portal and click on 'e-Payment' on the home page.",
+      "Enter your Document Type (e.g., BE for Bill of Entry), Location Code (Port Code), and IEC Number.",
+      "Click 'Submit' to display a list of all unpaid challans generated against your IEC.",
+      "Select the specific challans you wish to clear and choose your preferred payment gateway/bank.",
+      "Complete the transaction via Net Banking or NEFT/RTGS. Once successful, print the final e-receipt to secure out-of-charge clearance from customs authorities."
+    ]
+  },
+  {
+    "id": "fin-028",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "slug": "pmjjby-life-insurance",
+    "shortDescription": "A one-year renewable life insurance scheme offering coverage of ₹2 Lakhs for death due to any reason.",
+    "officialLink": "https://jansuraksha.gov.in/",
+    "icon": "fa-solid fa-heart-crack",
+    "tags": ["Life Insurance", "Social Security", "Financial Inclusion"],
+    "eligibility": "Any individual holding a savings bank account between the ages of 18 and 50 years.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Premium of ₹436 per annum, auto-debited from the subscriber's bank account."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Savings Bank Account Details",
+      "Consent Form for Auto-Debit"
+    ],
+    "stepsToApply": [
+      "Contact the bank or post office where you hold a savings account (you can also enroll via your bank's Net Banking app).",
+      "Request the PMJJBY consent-cum-declaration form.",
+      "Fill in your Aadhaar details, nominee information, and sign the consent for the auto-debit of ₹436.",
+      "Submit the form to the bank branch.",
+      "The premium will be deducted annually between May 25 and May 31. You will receive an SMS confirmation, securing a ₹2 Lakh life cover for the upcoming policy year (June 1 - May 31)."
+    ]
+  },
+  {
+    "id": "fin-029",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+    "slug": "pmsby-accident-insurance",
+    "shortDescription": "A one-year accidental death and disability insurance scheme providing coverage of up to ₹2 Lakhs.",
+    "officialLink": "https://jansuraksha.gov.in/",
+    "icon": "fa-solid fa-car-burst",
+    "tags": ["Accident Insurance", "Social Security", "Financial Inclusion"],
+    "eligibility": "Any individual holding a savings bank account between the ages of 18 and 70 years.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Premium of ₹20 per annum, auto-debited from the subscriber's bank account."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Savings Bank Account Details",
+      "Consent Form for Auto-Debit"
+    ],
+    "stepsToApply": [
+      "Access your bank's Net Banking or mobile banking application, or visit the branch physically.",
+      "Navigate to the 'Social Security Schemes' or 'Insurance' section and select PMSBY.",
+      "Verify your account details, input your nominee's name and relationship, and agree to the terms.",
+      "Confirm the auto-debit mandate. A premium of ₹20 will be immediately deducted.",
+      "The policy covers ₹2 Lakhs for accidental death/full disability and ₹1 Lakh for partial disability. The renewal auto-debit happens annually before May 31."
+    ]
+  },
+  {
+    "id": "fin-030",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "department": "Department of Financial Services",
+    "title": "Pradhan Mantri Vaya Vandana Yojana (PMVVY)",
+    "slug": "pmvvy-pension-scheme",
+    "shortDescription": "A pension scheme exclusively for senior citizens managed by LIC, providing an assured return of 7.4% p.a.",
+    "officialLink": "https://licindia.in/",
+    "icon": "fa-solid fa-person-cane",
+    "tags": ["Senior Citizen", "Pension", "Investment"],
+    "eligibility": "Senior citizens aged 60 years and above. No maximum age limit for entry.",
+    "fees": {
+      "type": "Variable",
+      "details": "Purchase price ranges from ₹1.56 Lakhs (min) to ₹15 Lakhs (max) depending on the desired pension."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Proof of Age",
+      "Bank Account details for pension credit"
+    ],
+    "stepsToApply": [
+      "Visit any branch of the Life Insurance Corporation of India (LIC) or log onto the official LIC portal.",
+      "Select the PMVVY scheme and decide on your investment amount (lump sum) and your preferred pension payout frequency (monthly, quarterly, half-yearly, yearly).",
+      "Fill out the application form with your demographic data, nominee details, and bank account information for ECS credit.",
+      "Submit KYC documents (Aadhaar, PAN, Age Proof) along with a cheque/draft for the lump-sum purchase price.",
+      "Upon realization, LIC will issue a policy document. You will receive guaranteed pension payouts for 10 years, after which the principal purchase price is refunded."
+    ]
+  },
+  
+  {
+    "id": "fin-031",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Pension Fund Regulatory and Development Authority (PFRDA)",
+    "title": "NPS Tier-II Account Activation",
+    "slug": "nps-tier2-account",
+    "shortDescription": "Activate a voluntary, highly liquid investment account connected to your primary NPS Tier-I account.",
+    "officialLink": "https://enps.nsdl.com/",
+    "icon": "fa-solid fa-money-bill-trend-up",
+    "tags": ["Investment", "Mutual Funds", "NPS"],
+    "eligibility": "Any Indian citizen holding an active NPS Tier-I PRAN (Permanent Retirement Account Number).",
+    "fees": {
+      "type": "Fixed",
+      "details": "Minimum initial contribution of ₹1000. No minimum annual contribution requirement."
+    },
+    "requiredDocuments": [
+      "Active PRAN",
+      "Bank Account details",
+      "PAN Card"
+    ],
+    "stepsToApply": [
+      "Visit the eNPS portal (Protean or KFintech) and select 'Tier II Activation'.",
+      "Enter your PRAN, Date of Birth, and PAN to authenticate using the OTP sent to your registered mobile number.",
+      "Verify your pre-filled demographic and bank details fetched from your Tier-I account.",
+      "Choose your Pension Fund Manager (PFM) and select your asset allocation preference (Equity, Corporate Debt, Govt Bonds).",
+      "Make the initial investment payment of ₹1000 via Net Banking or UPI.",
+      "e-Sign the application using Aadhaar OTP to instantly activate your Tier-II trading account."
+    ]
+  },
+  {
+    "id": "fin-032",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Reserve Bank of India (RBI)",
+    "title": "RBI Retail Direct Scheme",
+    "slug": "rbi-retail-direct",
+    "shortDescription": "Open a Retail Direct Gilt (RDG) Account to invest directly in Government Securities, Treasury Bills, and Sovereign Gold Bonds.",
+    "officialLink": "https://rbiretaildirect.org.in/",
+    "icon": "fa-solid fa-building-columns",
+    "tags": ["Government Bonds", "Investment", "RBI"],
+    "eligibility": "Retail investors holding a Rupee savings bank account in India, a PAN, and a valid email ID/mobile number.",
+    "fees": {
+      "type": "Free",
+      "details": "No fee for opening and maintaining the RDG account."
+    },
+    "requiredDocuments": [
+      "PAN Card",
+      "Aadhaar Card (for e-KYC)",
+      "Bank Account details with active Net Banking/UPI",
+      "Scanned Signature"
+    ],
+    "stepsToApply": [
+      "Visit the RBI Retail Direct portal and click on 'Register / Open RDG Account'.",
+      "Enter your name, PAN, mobile number, and email ID to verify via OTPs.",
+      "Fill out the detailed application form, providing your bank account details for linking.",
+      "Complete the Video KYC process or Aadhaar-based offline e-KYC to verify your identity.",
+      "Upload your scanned signature and submit the application.",
+      "Once approved by the RBI, you will receive your RDG Account credentials via email, allowing you to bid in primary G-Sec auctions or trade in the secondary NDS-OM market."
+    ]
+  },
+  {
+    "id": "fin-033",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Labour & Employment",
+    "department": "Directorate General of Labour Welfare",
+    "title": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+    "slug": "pm-sym-pension",
+    "shortDescription": "A voluntary and contributory pension scheme for unorganized workers ensuring a minimum assured pension of ₹3,000/month after 60 years of age.",
+    "officialLink": "https://maandhan.in/",
+    "icon": "fa-solid fa-coins",
+    "tags": ["Pension", "Unorganized Sector", "Social Security"],
+    "eligibility": "Unorganized workers (street vendors, domestic workers, etc.) aged 18 to 40 years with a monthly income below ₹15,000.",
+    "fees": {
+      "type": "Variable",
+      "details": "Monthly contribution ranges from ₹55 to ₹200 based on entry age, with an equal matching contribution from the Government."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Savings Bank Account / Jan Dhan Account with IFSC",
+      "Valid Mobile Number"
+    ],
+    "stepsToApply": [
+      "Visit the nearest Common Service Centre (CSC) or log onto the Maandhan portal for self-enrollment.",
+      "If self-enrolling, click on 'Click Here to Apply Now' and log in using your mobile number and OTP.",
+      "Enter your Aadhaar number, demographic details, and bank account information to generate the mandate.",
+      "The system will automatically calculate your monthly contribution amount based on your current age.",
+      "Provide consent for the auto-debit facility from your bank account.",
+      "Print the auto-debit mandate form, sign it, upload it back to the portal, and download your PM-SYM Pension Card."
+    ]
+  },
+  {
+    "id": "fin-034",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Income Tax e-Pay Tax (Advance Tax / Self-Assessment)",
+    "slug": "epay-income-tax",
+    "shortDescription": "Pay your Advance Tax, Self-Assessment Tax, or TDS online seamlessly using the e-Pay Tax functionality.",
+    "officialLink": "https://eportal.incometax.gov.in/",
+    "icon": "fa-solid fa-file-invoice",
+    "tags": ["Tax Payment", "Advance Tax", "Compliance"],
+    "eligibility": "Any individual, HUF, or corporate entity liable to pay tax to the Government of India.",
+    "fees": {
+      "type": "Variable",
+      "details": "Payment depends on the taxpayer's computed tax liability. No portal fees."
+    },
+    "requiredDocuments": [
+      "PAN / TAN Number"
+    ],
+    "stepsToApply": [
+      "Visit the Income Tax e-Filing portal and click on 'e-Pay Tax' under the Quick Links section (no login required for basic payments).",
+      "Enter your PAN/TAN, re-enter it for confirmation, and provide a mobile number to receive an OTP.",
+      "After OTP verification, select the appropriate tax payment tile: 'Income Tax', 'Equalisation Levy', or 'Fee/Other Payments'.",
+      "Select the relevant Assessment Year and Type of Payment (e.g., Advance Tax (100) or Self-Assessment Tax (300)).",
+      "Enter the tax breakdown amounts (Tax, Surcharge, Cess, Interest) and click Continue.",
+      "Select your payment method (Net Banking, Debit Card, Pay at Bank Counter, RTGS/NEFT, or Payment Gateway) and complete the transaction to download the Challan Receipt (CRN)."
+    ]
+  },
+  {
+    "id": "fin-035",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "department": "MSME Division",
+    "title": "MSME Samadhaan (Delayed Payment Portal)",
+    "slug": "msme-samadhaan",
+    "shortDescription": "File online applications regarding delayed payments from buyers/government departments to micro and small enterprises.",
+    "officialLink": "https://samadhaan.msme.gov.in/",
+    "icon": "fa-solid fa-handshake-angle",
+    "tags": ["MSME", "Delayed Payments", "Business Finance"],
+    "eligibility": "Any Micro or Small Enterprise possessing a valid Udyam Registration Certificate.",
+    "fees": {
+      "type": "Free",
+      "details": "Filing a grievance is completely free."
+    },
+    "requiredDocuments": [
+      "Udyam Registration Number",
+      "Invoices pending beyond 45 days",
+      "Purchase Orders / Delivery Challans",
+      "Correspondence with the buyer"
+    ],
+    "stepsToApply": [
+      "Access the MSME Samadhaan portal and click on 'Case Filing for Entrepreneur / MSE Units'.",
+      "Validate your MSME entity by entering your Udyam Registration Number and mobile number to receive an OTP.",
+      "Fill in the application form detailing the buyer's name, PAN/GSTIN, and the outstanding principal amount.",
+      "Upload the PDF copies of the delayed invoices, purchase orders, and proof of delivery.",
+      "Submit the application. The system automatically sends notices to the defaulting buyer and forwards the case to the Micro and Small Enterprise Facilitation Council (MSEFC) for legal arbitration."
+    ]
+  },
+  {
+    "id": "fin-036",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Commerce and Industry",
+    "department": "GeM SPV",
+    "title": "GeM (Government e-Marketplace) Seller Registration",
+    "slug": "gem-seller-registration",
+    "shortDescription": "Register as a seller on the GeM portal to supply goods and services directly to Government Departments and PSUs.",
+    "officialLink": "https://gem.gov.in/",
+    "icon": "fa-solid fa-store",
+    "tags": ["Business", "B2G Trade", "Procurement"],
+    "eligibility": "OEMs (Original Equipment Manufacturers), authorized resellers, and service providers with valid business documentation.",
+    "fees": {
+      "type": "Variable",
+      "details": "Registration is free. Caution money deposit (₹5,000 to ₹25,000) applies based on turnover to participate in bids."
+    },
+    "requiredDocuments": [
+      "Aadhaar / PAN of key person",
+      "Business PAN and GSTIN",
+      "Udyam Registration (for MSMEs)",
+      "Active Bank Account details"
+    ],
+    "stepsToApply": [
+      "Visit the GeM portal, click on 'Sign Up', and select 'Seller/Service Provider'.",
+      "Review the terms, click 'Review & Proceed', and authenticate your organization using Aadhaar or PAN of the proprietor/director.",
+      "Enter your business details, email ID, and mobile number to create a User ID and password.",
+      "Log in and complete your vendor profile by entering GSTIN, Bank Account details (validated via penny drop), and MSME Udyam details.",
+      "Pay the required Caution Money Deposit online based on your turnover slab.",
+      "Once the profile is 100% complete, you can begin listing your product catalogs and participating in government tenders."
+    ]
+  },
+  {
+    "id": "fin-037",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Commerce and Industry",
+    "department": "DPIIT",
+    "title": "Startup India Recognition",
+    "slug": "startup-india-recognition",
+    "shortDescription": "Get official DPIIT recognition for your startup to avail tax holidays, self-certification, and easier public procurement norms.",
+    "officialLink": "https://www.startupindia.gov.in/",
+    "icon": "fa-solid fa-rocket",
+    "tags": ["Startup", "Tax Exemption", "Business"],
+    "eligibility": "Private Limited Companies, LLPs, or Registered Partnerships existing for less than 10 years, with a turnover below ₹100 Crores, working towards innovation.",
+    "fees": {
+      "type": "Free",
+      "details": "DPIIT recognition process is completely free of cost."
+    },
+    "requiredDocuments": [
+      "Certificate of Incorporation",
+      "Pitch Deck / Business Plan",
+      "Details of Directors/Partners",
+      "Patent/Trademark details (if any)"
+    ],
+    "stepsToApply": [
+      "Register on the Startup India portal using your name, email, and mobile number.",
+      "Log into your dashboard and click on 'DPIIT Recognition' under the 'Schemes & Policies' tab.",
+      "Click on 'Apply for DPIIT Recognition' to access the detailed questionnaire.",
+      "Fill out the entity details and provide a robust write-up explaining how your startup is innovative, scalable, or solves a core problem.",
+      "Upload the Certificate of Incorporation and your business pitch deck/website link.",
+      "Submit the application. Upon successful review (usually 3-5 days), you will receive a downloadable DPIIT Recognition Certificate."
+    ]
+  },
+  {
+    "id": "fin-038",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Communications",
+    "department": "Department of Posts",
+    "title": "Post Office Monthly Income Scheme (POMIS)",
+    "slug": "pomis-account",
+    "shortDescription": "A low-risk savings scheme that guarantees a fixed monthly income, ideal for conservative investors and retirees.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-money-check-dollar",
+    "tags": ["Investment", "Monthly Income", "Post Office"],
+    "eligibility": "Resident Indian individuals. Single adults, joint accounts (up to 3 adults), or minors above 10 years in their own name.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Minimum deposit is ₹1,000. Maximum limit is ₹9 Lakhs for single accounts and ₹15 Lakhs for joint accounts."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Passport Size Photograph",
+      "Account Opening Form (Form-1)"
+    ],
+    "stepsToApply": [
+      "Download Form-1 (Account Opening Form) from the India Post website or collect it from the nearest branch.",
+      "Fill in the applicant details, nominee assignment, and the desired investment amount.",
+      "Visit your preferred Post Office branch with the filled form and original KYC documents (Aadhaar and PAN) for verification.",
+      "Submit the investment amount via cash (if below ₹20,000) or cheque/demand draft.",
+      "A physical passbook will be issued, and the monthly interest will be auto-credited to your linked Post Office Savings Account."
+    ]
+  },
+  {
+    "id": "fin-039",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Economic Affairs",
+    "title": "Mahila Samman Savings Certificate (MSSC)",
+    "slug": "mahila-samman-savings",
+    "shortDescription": "A targeted, one-time savings scheme for women and girls offering a fixed interest rate of 7.5% for a 2-year tenure.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-person-dress",
+    "tags": ["Women", "Savings", "Investment"],
+    "eligibility": "Any woman for herself, or by a guardian on behalf of a minor girl child.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Minimum deposit ₹1000. Maximum deposit limit is ₹2 Lakhs per individual."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Form-1 Application",
+      "KYC form (if not an existing customer)"
+    ],
+    "stepsToApply": [
+      "Download the specific MSSC Account Opening Form from the India Post website or designated commercial bank portal.",
+      "Fill out the applicant details. If opening for a minor girl, fill in the guardian's details.",
+      "Visit the Post Office or authorized bank branch with your self-attested KYC documents.",
+      "Submit the form along with the investment amount (via cheque or cash).",
+      "The official will process the deposit and hand over the Mahila Samman Savings Certificate passbook as proof of investment."
+    ]
+  },
+  {
+    "id": "fin-040",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "CBIC",
+    "title": "GST Composition Scheme Opt-in",
+    "slug": "gst-composition-scheme",
+    "shortDescription": "Opt into the GST Composition Scheme for lesser compliance, quarterly return filing, and a fixed lower tax rate.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-shop",
+    "tags": ["GST", "Small Business", "Tax Relief"],
+    "eligibility": "Registered taxpayers with aggregate turnover up to ₹1.5 Crore (goods) or ₹50 Lakhs (services), who do not engage in inter-state supplies.",
+    "fees": {
+      "type": "Free",
+      "details": "Opting into the scheme is free of charge."
+    },
+    "requiredDocuments": [
+      "Active GSTIN",
+      "Digital Signature Certificate (DSC) or EVC"
+    ],
+    "stepsToApply": [
+      "Log into the GST portal using your valid username and password.",
+      "Navigate to 'Services' > 'Registration' > 'Application to Opt for Composition Levy' (Form CMP-02).",
+      "Read the 'Composition Declaration' carefully and check the affirmation boxes stating you meet the eligibility rules.",
+      "Enter the Name of the Authorized Signatory and the Place.",
+      "Submit the application by affixing your DSC or generating an EVC via mobile OTP.",
+      "You will receive an ARN indicating success, and your status will change to Composition Dealer starting the next financial year."
+    ]
+  },
+  {
+    "id": "fin-041",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Form 15G / 15H Submission (TDS Exemption)",
+    "slug": "form-15g-15h-tds",
+    "shortDescription": "Submit a self-declaration form to your bank to prevent TDS deduction on interest income if your total income is below the taxable limit.",
+    "officialLink": "https://eportal.incometax.gov.in/",
+    "icon": "fa-solid fa-file-shield",
+    "tags": ["TDS", "Income Tax", "Savings"],
+    "eligibility": "Form 15G for resident Indians below 60 years. Form 15H for senior citizens (60+). Tax on estimated total income must be nil.",
+    "fees": {
+      "type": "Free",
+      "details": "Filing the form with banks or financial institutions is free."
+    },
+    "requiredDocuments": [
+      "PAN Card",
+      "Estimated Income details for the financial year"
+    ],
+    "stepsToApply": [
+      "Log into your Bank's Net Banking portal or mobile banking app.",
+      "Navigate to the 'e-Services', 'Tax', or 'Deposits' section and locate 'Submit Form 15G/15H'.",
+      "Select the Customer ID and the specific deposit accounts (FD/RD) for which you want to apply the exemption.",
+      "Fill in the estimated income for the current financial year and the total number of forms submitted previously.",
+      "Verify the details and submit using transaction password or mobile OTP.",
+      "(Offline): Alternatively, download the physical Form 15G/15H, fill it out with your PAN, sign it, and hand it to the bank manager."
+    ]
+  },
+  {
+    "id": "fin-042",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Jan Samarth Portal (Credit-Linked Schemes)",
+    "slug": "jan-samarth-loans",
+    "shortDescription": "A unique one-stop digital portal linking 13+ Credit Linked Government Schemes (Education, Agri, Business, Livelihood) to connect beneficiaries directly with lenders.",
+    "officialLink": "https://www.jansamarth.in/",
+    "icon": "fa-solid fa-hand-holding-dollar",
+    "tags": ["Business Loan", "Education Loan", "Government Subsidy"],
+    "eligibility": "Students, farmers, MSMEs, and street vendors looking for subsidized government loans.",
+    "fees": {
+      "type": "Free",
+      "details": "Portal checks and loan applications are free. Bank processing fees may apply upon sanction."
+    },
+    "requiredDocuments": [
+      "Aadhaar Number",
+      "PAN Card",
+      "Udyam Registration (for business loans)",
+      "Bank Account Details"
+    ],
+    "stepsToApply": [
+      "Visit the Jan Samarth portal and select the loan category you need (e.g., Education Loan, Business Activity Loan).",
+      "Answer the dynamic questionnaire to check your eligibility across multiple government schemes instantly.",
+      "If eligible, register using your mobile number and OTP.",
+      "Fill out the comprehensive online application, uploading required identity, income, and business/education documents.",
+      "Review the digital offers generated from multiple partnering banks, select the best offer, and secure digital in-principle approval."
+    ]
+  },
+  {
+    "id": "fin-043",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "CBIC",
+    "title": "GST Refund Application (RFD-01)",
+    "slug": "gst-refund-application",
+    "shortDescription": "Apply for a refund of excess GST paid, accumulated Input Tax Credit (ITC) due to exports, or inverted tax structures.",
+    "officialLink": "https://www.gst.gov.in/",
+    "icon": "fa-solid fa-money-bill-transfer",
+    "tags": ["GST", "Refund", "Business"],
+    "eligibility": "Registered taxpayers who have exported goods/services without payment of tax, or possess excess cash balance in their electronic ledger.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to apply."
+    },
+    "requiredDocuments": [
+      "Export Invoices / Shipping Bills",
+      "Bank Realization Certificates (BRC)",
+      "GSTR-1 and GSTR-3B filed up to date",
+      "CA Certification (if refund amount exceeds ₹2 Lakhs)"
+    ],
+    "stepsToApply": [
+      "Log into the GST portal and navigate to 'Services' > 'Refunds' > 'Application for Refund'.",
+      "Select the specific reason for the refund (e.g., Refund of Excess Balance in Electronic Cash Ledger, Refund of ITC on Export).",
+      "Select the Financial Year and corresponding month/quarter.",
+      "Enter the required refund amount, which must not exceed the maximum eligible amount calculated by the system.",
+      "Upload mandatory supporting documents, export invoices (via offline utility JSON if many), and the CA certificate if applicable.",
+      "Submit Form RFD-01 using DSC/EVC. An ARN is generated to track the refund status directly to your bank account."
+    ]
+  },
+  {
+    "id": "fin-044",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises",
+    "department": "CGTMSE",
+    "title": "CGTMSE Collateral-Free Loan Guarantee",
+    "slug": "cgtmse-loan-guarantee",
+    "shortDescription": "Get credit facilities without collateral or third-party guarantee, backed by the Credit Guarantee Fund Trust for Micro and Small Enterprises.",
+    "officialLink": "https://www.cgtmse.in/",
+    "icon": "fa-solid fa-shield-halved",
+    "tags": ["MSME", "Business Loan", "Collateral Free"],
+    "eligibility": "New and existing Micro and Small Enterprises (MSEs) seeking term loans and/or working capital facilities up to ₹5 Crores.",
+    "fees": {
+      "type": "Variable",
+      "details": "Annual Guarantee Fee (AGF) ranging from 0.37% to 1.35% of the guaranteed amount, paid by the borrower."
+    },
+    "requiredDocuments": [
+      "Udyam Registration",
+      "Project Report / Business Plan",
+      "KYC of promoters"
+    ],
+    "stepsToApply": [
+      "Prepare a viable business plan / project report detailing technical and financial feasibility.",
+      "Approach a Member Lending Institution (MLI) such as a PSU bank, private bank, or NBFC.",
+      "Submit your loan application explicitly requesting coverage under the CGTMSE scheme.",
+      "The bank appraises your project and, upon approval, sanctions the credit facility without asking for collateral.",
+      "The bank logs into the CGTMSE portal to apply for the guarantee cover. Once the trust approves, you pay the required Guarantee Fee to activate the cover."
+    ]
+  },
+  {
+    "id": "fin-045",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Income Tax e-Proceedings (Responding to Notices)",
+    "slug": "income-tax-eproceedings",
+    "shortDescription": "View and submit digital responses to statutory notices, intimations, and letters issued by the Income Tax Department.",
+    "officialLink": "https://eportal.incometax.gov.in/",
+    "icon": "fa-solid fa-gavel",
+    "tags": ["Income Tax", "Compliance", "Notices"],
+    "eligibility": "Taxpayers who have received a formal notice or intimation (e.g., Section 143(1)(a), Section 148) from the IT Department.",
+    "fees": {
+      "type": "Free",
+      "details": "Responding through the portal is free."
+    },
+    "requiredDocuments": [
+      "Copy of the IT Notice",
+      "Supporting financial documents (Bank statements, Form 16, Capital Gains statement) proving your stance"
+    ],
+    "stepsToApply": [
+      "Log into the Income Tax e-Filing portal using your PAN and password.",
+      "Navigate to 'Pending Actions' and select 'e-Proceedings'.",
+      "Select the specific proceeding name/notice you wish to respond to and click 'View Notices'.",
+      "Click on 'Submit Response' next to the notice.",
+      "Select 'Agree' or 'Disagree' (fully or partially) with the notice's proposition.",
+      "Type a detailed justification in the text box, upload necessary supporting PDFs, and verify the submission using Aadhaar OTP or EVC."
+    ]
+  },
+  {
+    "id": "fin-046",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Check PAN-Aadhaar Link Status",
+    "slug": "pan-aadhaar-link-status",
+    "shortDescription": "Quickly verify whether your Permanent Account Number (PAN) is successfully linked to your Aadhaar card.",
+    "officialLink": "https://eportal.incometax.gov.in/",
+    "icon": "fa-solid fa-link-slash",
+    "tags": ["PAN", "Aadhaar", "Compliance"],
+    "eligibility": "Any individual possessing a PAN and Aadhaar.",
+    "fees": {
+      "type": "Free",
+      "details": "Checking the status is completely free."
+    },
+    "requiredDocuments": [
+      "PAN Number",
+      "Aadhaar Number"
+    ],
+    "stepsToApply": [
+      "Visit the Income Tax e-Filing portal homepage (no login is required).",
+      "Scroll down to the 'Quick Links' section on the left side of the page.",
+      "Click on 'Link Aadhaar Status'.",
+      "Enter your 10-digit PAN and 12-digit Aadhaar Number in the respective fields.",
+      "Click on 'View Link Aadhaar Status'. A pop-up will immediately display whether your PAN is linked to the provided Aadhaar."
+    ]
+  },
+  {
+    "id": "fin-047",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Communications",
+    "department": "Department of Posts",
+    "title": "National Savings Recurring Deposit (RD)",
+    "slug": "post-office-rd",
+    "shortDescription": "Open a 5-year Post Office Recurring Deposit account to build a guaranteed savings corpus with small monthly investments.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-money-bill-transfer",
+    "tags": ["Savings", "Post Office", "Investment"],
+    "eligibility": "Any resident Indian adult, up to 3 adults jointly, or a minor above 10 years of age in their own name.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Minimum monthly deposit is ₹100. No maximum limit. Defaults incur a small penalty."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Passport Size Photograph",
+      "Account Opening Form (Form-1)"
+    ],
+    "stepsToApply": [
+      "If you have an active Post Office Savings Account with internet banking, log into the e-banking portal, select 'General Services' > 'Service Requests' > 'New Requests' > 'Open RD Account' and follow prompts.",
+      "(Offline): Download Form-1 from the India Post website or get it at the branch.",
+      "Fill in your demographic details, nominee information, and the monthly deposit amount.",
+      "Submit the form with KYC copies and the first month's deposit amount in cash or cheque.",
+      "Receive your RD passbook. Subsequent installments can be paid online via the IPPB app or Post Office Net Banking."
+    ]
+  },
+  {
+    "id": "fin-048",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Economic Affairs",
+    "title": "Senior Citizen Savings Scheme (SCSS)",
+    "slug": "senior-citizen-savings-scheme",
+    "shortDescription": "A government-backed savings instrument offering high interest and regular income to individuals above 60 years of age.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-person-cane",
+    "tags": ["Senior Citizen", "Investment", "Tax Saving"],
+    "eligibility": "Individuals aged 60 years or above (or 55+ for retired civilian employees / 50+ for retired defense personnel under specific rules).",
+    "fees": {
+      "type": "Fixed",
+      "details": "Minimum deposit ₹1,000. Maximum deposit ₹30 Lakhs. Interest is paid quarterly."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Proof of Age / Retirement Document",
+      "Account Opening Form"
+    ],
+    "stepsToApply": [
+      "Download the SCSS Application form from the India Post or authorized commercial bank's website.",
+      "Fill in your personal details, age proof details, and nominate beneficiaries.",
+      "Visit the designated bank branch or Post Office with the original KYC documents.",
+      "Submit the application along with the investment amount (via cheque if above ₹1 Lakh).",
+      "Upon realization, a specific SCSS passbook is issued, and quarterly interest will automatically be credited to your linked savings account."
+    ]
+  },
+  {
+    "id": "fin-049",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "Respond to Defective Return Notice u/s 139(9)",
+    "slug": "defective-return-139-9",
+    "shortDescription": "Rectify and resubmit your Income Tax Return if the IT Department marks it as 'Defective' due to incomplete or inconsistent data.",
+    "officialLink": "https://eportal.incometax.gov.in/",
+    "icon": "fa-solid fa-file-circle-exclamation",
+    "tags": ["Income Tax", "Compliance", "Return Correction"],
+    "eligibility": "Taxpayers who have received a notice under Section 139(9) of the Income Tax Act.",
+    "fees": {
+      "type": "Free",
+      "details": "Responding to the notice is free. Must be done within 15 days of notice receipt to avoid return invalidation."
+    },
+    "requiredDocuments": [
+      "Defective Return Notice u/s 139(9)",
+      "Corrected ITR JSON/XML file or supporting documents"
+    ],
+    "stepsToApply": [
+      "Log into the Income Tax e-Filing portal.",
+      "Go to 'Pending Actions' and select 'e-Proceedings'.",
+      "Find the notice under Section 139(9) and click on 'View Notices'.",
+      "Click 'Submit Response'. Select 'Agree' if you acknowledge the defect, or 'Disagree' if you believe the return was correct.",
+      "If you 'Agree', you must upload a fresh, corrected XML/JSON of your Income Tax Return.",
+      "If you 'Disagree', provide a detailed explanation in the text box. E-verify the response to complete the submission."
+    ]
+  },
+  {
+    "id": "fin-050",
+    "category": "Finance & Tax",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "department": "Department of Agriculture and Farmers Welfare",
+    "title": "Pradhan Mantri Kisan Maan-Dhan Yojana (PM-KMY)",
+    "slug": "pm-kisan-maandhan",
+    "shortDescription": "A voluntary and contributory pension scheme offering ₹3000 monthly pension to Small and Marginal Farmers upon reaching 60 years.",
+    "officialLink": "https://maandhan.in/",
+    "icon": "fa-solid fa-tractor",
+    "tags": ["Pension", "Farmers", "Social Security"],
+    "eligibility": "Small and Marginal Farmers (owning cultivable land up to 2 hectares) aged 18 to 40 years.",
+    "fees": {
+      "type": "Variable",
+      "details": "Monthly contribution between ₹55 and ₹200 based on age. Can be auto-deducted from PM-KISAN benefits."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Account details / PM-KISAN ID",
+      "Land Record Documents (Khasra/Khatauni)"
+    ],
+    "stepsToApply": [
+      "Farmers can self-register via the Maandhan portal or visit the nearest Common Service Centre (CSC) or State Nodal Officer.",
+      "To self-register, click 'Click Here to Apply Now' on the portal and authenticate via mobile OTP.",
+      "Enter Aadhaar and Bank details. If you are a PM-KISAN beneficiary, you can opt to have the premium auto-deducted from your PM-KISAN installments.",
+      "The system will calculate the monthly contribution.",
+      "Download the auto-debit mandate form, sign it, and upload it back. The portal will generate the Kisan Pension Card instantly."
+    ]
+  }
+]

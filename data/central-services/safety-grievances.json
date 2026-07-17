@@ -1,0 +1,1424 @@
+[
+  {
+    "id": "safety-001",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Indian Cyber Crime Coordination Centre (I4C)",
+    "title": "National Cyber Crime Reporting Portal",
+    "slug": "national-cyber-crime-reporting",
+    "shortDescription": "Centralized portal to report cybercrimes, especially those related to women and children, and financial frauds.",
+    "officialLink": "https://cybercrime.gov.in/",
+    "icon": "fa-solid fa-laptop-medical",
+    "tags": ["Cybercrime", "Fraud", "Online Safety"],
+    "eligibility": "Any citizen who has been a victim of or witnessed a cybercrime in India.",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free to report incidents."
+    },
+    "requiredDocuments": [
+      "Evidence of cybercrime (Screenshots, URLs, emails, transaction IDs)",
+      "Identity Proof (Optional for anonymous reporting regarding child pornography)"
+    ],
+    "stepsToApply": [
+      "Visit the official Cybercrime portal and select either 'Report Women/Child Related Crime' or 'Report Other Cyber Crime'.",
+      "Click on 'File a Complaint', accept the terms and conditions, and register using your mobile number and an OTP.",
+      "Fill in the incident details, specifying the category of crime (e.g., Financial Fraud, Social Media Harassment, Hacking).",
+      "Upload all available digital evidence (screenshots, bank statements, URLs) to support your claim.",
+      "Submit the complaint to generate a unique Acknowledgement Number. The complaint is routed automatically to your state/local cyber police station for investigation."
+    ]
+  },
+  {
+    "id": "safety-002",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Department of Administrative Reforms & Public Grievances",
+    "title": "CPGRAMS (Public Grievance Portal)",
+    "slug": "cpgrams-grievance",
+    "shortDescription": "Centralized Public Grievance Redress and Monitoring System for lodging complaints against any central/state government organization.",
+    "officialLink": "https://pgportal.gov.in/",
+    "icon": "fa-solid fa-scale-balanced",
+    "tags": ["Public Grievance", "Government Services", "Complaint"],
+    "eligibility": "Any Indian citizen facing issues with government departments or seeking redressal for delayed public services.",
+    "fees": {
+      "type": "Free",
+      "details": "Filing a grievance is completely free."
+    },
+    "requiredDocuments": [
+      "Supporting documents proving the grievance (letters, receipts, prior complaints)"
+    ],
+    "stepsToApply": [
+      "Open the CPGRAMS portal and click on 'Sign In/Register' to create an account using your mobile number and email ID.",
+      "Log into the dashboard and click on 'Lodge Public Grievance'.",
+      "Select the specific Ministry/Department or State Government against which you have a complaint.",
+      "Draft a detailed description of your grievance (up to 4000 characters) and upload supporting PDF documents.",
+      "Submit the form to receive a unique Registration Number. Track the real-time status as the grievance is escalated to the concerned nodal officer."
+    ]
+  },
+  {
+    "id": "safety-003",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Emergency Response Support System (ERSS)",
+    "title": "112 ERSS (Pan-India Emergency Number)",
+    "slug": "112-erss-emergency",
+    "shortDescription": "Single emergency number (112) integrating Police, Fire, Health, and other emergency services across India.",
+    "officialLink": "https://112.gov.in/",
+    "icon": "fa-solid fa-truck-medical",
+    "tags": ["Emergency", "Police", "Ambulance"],
+    "eligibility": "Anyone in distress or facing a life-threatening emergency within Indian territory.",
+    "fees": {
+      "type": "Free",
+      "details": "Toll-free service."
+    },
+    "requiredDocuments": [
+      "None required during the emergency call."
+    ],
+    "stepsToApply": [
+      "In an emergency, dial 112 from any mobile or landline (works even without a SIM card or active balance).",
+      "Alternatively, press the power button on your smartphone 3 times quickly to trigger a panic alert to the ERC (Emergency Response Centre).",
+      "If using the '112 India' mobile app, tap the specific emergency icon (Police, Fire, Medical) to share your live location.",
+      "Speak to the dispatch operator and concisely explain the nature of your emergency and your exact location.",
+      "Stay on the line if possible while the ERC dispatches the nearest emergency response vehicle (ERV) to your location."
+    ]
+  },
+  {
+    "id": "safety-004",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Women and Child Development",
+    "department": "Women Welfare Division",
+    "title": "Women Helpline (WHL) - 181",
+    "slug": "women-helpline-181",
+    "shortDescription": "24-hour toll-free telecom service offering emergency response, rescue, and counseling to women facing violence.",
+    "officialLink": "https://wcd.nic.in/schemes/universalisation-women-helpline",
+    "icon": "fa-solid fa-person-dress",
+    "tags": ["Women Safety", "Emergency", "Domestic Violence"],
+    "eligibility": "Any woman or girl facing violence, abuse, or harassment in public or private spaces.",
+    "fees": {
+      "type": "Free",
+      "details": "Toll-free emergency helpline."
+    },
+    "requiredDocuments": [
+      "None required for initial contact and rescue."
+    ],
+    "stepsToApply": [
+      "Dial the toll-free number 181 from any mobile phone or landline.",
+      "The call is routed to the state's centralized Women Helpline center.",
+      "Report the incident (domestic violence, harassment, dowry abuse, etc.) to the trained responder.",
+      "The responder will immediately dispatch a police PCR van or a One Stop Centre (OSC) rescue team if you are in immediate danger.",
+      "For non-emergencies, the helpline will provide legal guidance, psychological counseling, or connect you with safe shelter homes."
+    ]
+  },
+  {
+    "id": "safety-005",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Women and Child Development",
+    "department": "Child Welfare Division",
+    "title": "Childline India - 1098",
+    "slug": "childline-1098",
+    "shortDescription": "India's first 24-hour toll-free emergency phone service for children in need of care and protection.",
+    "officialLink": "https://www.childlineindia.org/",
+    "icon": "fa-solid fa-child-reaching",
+    "tags": ["Child Safety", "Rescue", "Helpline"],
+    "eligibility": "Any child in distress, or any concerned citizen reporting child labor, abuse, trafficking, or missing children.",
+    "fees": {
+      "type": "Free",
+      "details": "Toll-free nationwide service."
+    },
+    "requiredDocuments": [
+      "None."
+    ],
+    "stepsToApply": [
+      "Dial 1098 from any phone across India.",
+      "Provide details of the child in distress, including their current exact location and the nature of the emergency (abuse, lost child, child labor).",
+      "A local allied NGO or Childline team will immediately mobilize to the location.",
+      "The child is rescued and provided with medical aid, shelter, and psychological support.",
+      "The child is then presented before the Child Welfare Committee (CWC) for long-term rehabilitation and legal action against abusers."
+    ]
+  },
+  {
+    "id": "safety-006",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "department": "Department of Consumer Affairs",
+    "title": "e-Daakhil (Consumer Commission E-Filing)",
+    "slug": "edaakhil-consumer-dispute",
+    "shortDescription": "Portal for consumers to file online complaints and appeals to District, State, and National Consumer Disputes Redressal Commissions.",
+    "officialLink": "https://edaakhil.nic.in/",
+    "icon": "fa-solid fa-gavel",
+    "tags": ["Consumer Rights", "Legal Filing", "Dispute"],
+    "eligibility": "Any consumer, recognized consumer association, or legal heir registering a dispute regarding defective goods or deficient services.",
+    "fees": {
+      "type": "Variable",
+      "details": "Filing fee varies based on the claim value (often free for claims up to ₹5 Lakhs, then nominal slabs apply)."
+    },
+    "requiredDocuments": [
+      "Index & List of Dates",
+      "Memorandum of Complaint (signed)",
+      "Affidavit supporting the complaint",
+      "Invoices, receipts, and correspondence with the opposite party"
+    ],
+    "stepsToApply": [
+      "Visit the e-Daakhil portal and register as an individual consumer or an advocate.",
+      "Log into the system and select 'File a New Case'. Choose the appropriate commission (District/State/National) based on your claim amount.",
+      "Fill out the comprehensive case details, adding the complainant's and opposite party's complete information.",
+      "Upload all legal documents as separate PDF files, strictly adhering to the file size limits and naming conventions.",
+      "Pay the requisite court fee online. The application is reviewed by the registry, and a case number is assigned for online tracking and virtual hearings."
+    ]
+  },
+  {
+    "id": "safety-007",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Women and Child Development",
+    "department": "Women Welfare Division",
+    "title": "SHe-Box (Sexual Harassment e-Box)",
+    "slug": "she-box-workplace-harassment",
+    "shortDescription": "Single window access to every woman to register complaints related to sexual harassment at the workplace.",
+    "officialLink": "http://shebox.nic.in/",
+    "icon": "fa-solid fa-person-harassing",
+    "tags": ["Workplace Harassment", "Women Safety", "POSH Act"],
+    "eligibility": "Any woman working or visiting any office of the Central Govt, State Govt, or Private sector across India.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to register a complaint."
+    },
+    "requiredDocuments": [
+      "Detailed description of the incident",
+      "Evidence if available (emails, messages, witnesses)",
+      "Details of the Internal Complaints Committee (ICC) of the organization (if known)"
+    ],
+    "stepsToApply": [
+      "Visit the SHe-Box portal and click on 'Register Your Complaint'.",
+      "Choose the category of your employer: Government (Central/State) or Private sector.",
+      "Fill in the registration form with your active email ID to generate a secure login link.",
+      "Log into the portal using the link, and complete the detailed complaint form specifying the accused's details and the exact nature of the harassment.",
+      "Submit the complaint. The portal automatically routes it to the Internal Complaints Committee (ICC) of your organization and the nodal Ministry officer for time-bound tracking."
+    ]
+  },
+  {
+    "id": "safety-008",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Labour & Employment",
+    "department": "Child Labour Division",
+    "title": "PENCIL Portal (Child Labour Reporting)",
+    "slug": "pencil-child-labour",
+    "shortDescription": "Platform for Effective Enforcement for No Child Labour to report incidents of child labour and track rehabilitation.",
+    "officialLink": "https://pencil.gov.in/",
+    "icon": "fa-solid fa-hands-bound",
+    "tags": ["Child Labour", "Social Justice", "Rescue"],
+    "eligibility": "Any concerned citizen, NGO, or official wanting to report child labour.",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free service."
+    },
+    "requiredDocuments": [
+      "Photographs or exact location details of the child labour incident (Optional but highly recommended)"
+    ],
+    "stepsToApply": [
+      "Visit the PENCIL portal and click on 'Complaint Corner'.",
+      "Select 'Report Child Labour' to open the reporting form.",
+      "Provide exact details of the location (shop name, factory, address, city, pin code) where the child is being forced to work.",
+      "Upload any photographic evidence and submit your contact details (you can choose to keep your identity confidential).",
+      "The complaint goes directly to the District Nodal Officer (DNO), who coordinates with the police and labour department to conduct a rescue operation within 48 hours."
+    ]
+  },
+  {
+    "id": "safety-009",
+    "category": "Safety & Grievances",
+    "ministry": "Prime Minister's Office",
+    "department": "Central Vigilance Commission (CVC)",
+    "title": "CVC Anti-Corruption Complaint",
+    "slug": "cvc-anti-corruption",
+    "shortDescription": "Lodge complaints regarding corruption, bribery, or misuse of office by Central Government employees and public sector officials.",
+    "officialLink": "https://portal.cvc.gov.in/",
+    "icon": "fa-solid fa-user-secret",
+    "tags": ["Anti-Corruption", "Vigilance", "Bribery"],
+    "eligibility": "Any citizen who has witnessed or possesses evidence of corrupt practices by a central government/PSU employee.",
+    "fees": {
+      "type": "Free",
+      "details": "No fee for lodging complaints."
+    },
+    "requiredDocuments": [
+      "Specific details of the public servant (Name, Designation, Department)",
+      "Verifiable facts and evidence (Audio, Video, Documents) supporting the corruption claim"
+    ],
+    "stepsToApply": [
+      "Go to the CVC portal and click on 'Lodge Complaint'.",
+      "Choose whether you want to file a general complaint or a whistle-blower complaint under the PIDPI resolution (which keeps your identity completely secret).",
+      "Fill in your personal details and authenticate via OTP.",
+      "Provide a specific, factual, and concise description of the corrupt activity, avoiding vague allegations.",
+      "Upload supporting PDF documents or media files, and submit the complaint. The CVC will assess the verifiable facts and direct the Chief Vigilance Officer (CVO) of the concerned department to investigate."
+    ]
+  },
+  {
+    "id": "safety-010",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Home Affairs",
+    "department": "National Human Rights Commission (NHRC)",
+    "title": "NHRC Human Rights Violation Complaint",
+    "slug": "nhrc-complaint",
+    "shortDescription": "File complaints against public servants for the violation of human rights or negligence in the prevention of such violations.",
+    "officialLink": "https://hrcnet.nic.in/",
+    "icon": "fa-solid fa-hand-holding-hand",
+    "tags": ["Human Rights", "Police Atrocity", "Justice"],
+    "eligibility": "Any victim of a human rights violation, or any person/NGO filing on behalf of the victim.",
+    "fees": {
+      "type": "Free",
+      "details": "Complaints are registered and investigated free of cost."
+    },
+    "requiredDocuments": [
+      "Detailed summary of the incident",
+      "Copies of FIR, medical reports, or court orders (if applicable)"
+    ],
+    "stepsToApply": [
+      "Visit the HRCNet portal and click on 'Complaint Registration'.",
+      "Enter the victim's details, including name, age, and address.",
+      "Fill in the incident details: exact date, place, and a clear description of the human rights violation (e.g., custodial torture, illegal detention, failure to register FIR).",
+      "Identify the public authority or state agency responsible for the violation or negligence.",
+      "Submit the complaint online to receive a Diary Number. The Commission will review the case and may order independent investigations or issue notices to the concerned authorities."
+    ]
+  },
+  {
+    "id": "safety-011",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Women and Child Development",
+    "department": "National Commission for Women (NCW)",
+    "title": "NCW Online Complaint",
+    "slug": "ncw-complaint",
+    "shortDescription": "Register grievances related to deprivation of women's rights, dowry harassment, police apathy, and domestic violence.",
+    "officialLink": "http://ncwapps.nic.in/onlinecomplaintsv2/",
+    "icon": "fa-solid fa-venus",
+    "tags": ["Women Rights", "Domestic Violence", "NCW"],
+    "eligibility": "Any woman facing rights deprivation, or anyone filing a complaint on behalf of a victimized woman.",
+    "fees": {
+      "type": "Free",
+      "details": "Filing a complaint is completely free."
+    },
+    "requiredDocuments": [
+      "Complaint narrative",
+      "Copies of FIRs or previous complaints to police",
+      "Medical records or evidence of harassment"
+    ],
+    "stepsToApply": [
+      "Access the NCW Online Complaint Registration portal.",
+      "Click on 'Register a Complaint' and create a login profile using your details.",
+      "Fill in the complaint form, providing the victim's details and the respondent's (accused) details.",
+      "Select the category of complaint (e.g., Outraging Modesty, Dowry Death, Police Apathy, Cyber Crime against Women).",
+      "Upload supporting documents and submit. The NCW will take cognizance, counsel the parties, or direct the state police DGP to take immediate legal action."
+    ]
+  },
+  {
+    "id": "safety-012",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Women and Child Development",
+    "department": "National Commission for Protection of Child Rights (NCPCR)",
+    "title": "NCPCR Child Rights Violation Complaint (e-BaalNidan)",
+    "slug": "ebaalnidan-child-rights",
+    "shortDescription": "Online complaint management system to report violations of child rights, POCSO offenses, and RTE Act non-compliance.",
+    "officialLink": "https://ebaalnidan.nic.in/",
+    "icon": "fa-solid fa-children",
+    "tags": ["Child Rights", "POCSO", "RTE"],
+    "eligibility": "Any citizen, NGO, or child who has faced or witnessed a violation of child rights.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to report."
+    },
+    "requiredDocuments": [
+      "Details of the child and the incident",
+      "Evidence or media reports (if any)"
+    ],
+    "stepsToApply": [
+      "Visit the e-BaalNidan portal and click on 'Register Complaint'.",
+      "Provide your contact details and authenticate via OTP.",
+      "Fill out the comprehensive form detailing the nature of the violation (e.g., Corporal punishment in school, POCSO, Child Marriage).",
+      "Specify the location and details of the accused institution or individual.",
+      "Submit the complaint. The NCPCR will monitor the complaint, issue summons if necessary, and instruct local authorities (like the DM or SP) to rescue and protect the child."
+    ]
+  },
+  {
+    "id": "safety-013",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Finance",
+    "department": "Securities and Exchange Board of India (SEBI)",
+    "title": "SEBI SCORES (Grievance Redressal)",
+    "slug": "sebi-scores",
+    "shortDescription": "SEBI Complaints Redress System for investors to resolve grievances against listed companies, mutual funds, and brokers.",
+    "officialLink": "https://scores.gov.in/",
+    "icon": "fa-solid fa-chart-line",
+    "tags": ["Investors", "Stock Market", "Financial Fraud"],
+    "eligibility": "Any investor who has invested in the Indian securities market and faced a regulatory or service issue.",
+    "fees": {
+      "type": "Free",
+      "details": "No fee for filing a complaint."
+    },
+    "requiredDocuments": [
+      "PAN Card details",
+      "Demat Account / Folio Number",
+      "Proof of prior communication with the company/broker",
+      "Relevant contract notes or statements"
+    ],
+    "stepsToApply": [
+      "Ensure you have first raised the complaint directly with the broker or company and waited for 30 days for a resolution.",
+      "If unresolved, visit the SCORES portal and click on 'Register' to create an account using your PAN and mobile number.",
+      "Log into SCORES and click on 'Complaint Registration'. Select the correct category (e.g., Listed Company, Mutual Fund, Stock Broker).",
+      "Fill in the complaint details clearly, explaining the financial discrepancy or service failure, and upload correspondence proofs.",
+      "Submit the grievance. SEBI will direct the concerned entity to resolve the issue within a mandated 30-day timeframe."
+    ]
+  },
+  {
+    "id": "safety-014",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Finance",
+    "department": "Reserve Bank of India (RBI)",
+    "title": "RBI Complaint Management System (Ombudsman)",
+    "slug": "rbi-ombudsman-cms",
+    "shortDescription": "Integrated platform to lodge complaints against banks, NBFCs, and digital payment system participants regarding deficient services.",
+    "officialLink": "https://cms.rbi.org.in/",
+    "icon": "fa-solid fa-building-columns",
+    "tags": ["Banking Grievance", "RBI", "Financial Dispute"],
+    "eligibility": "Any banking/NBFC customer whose complaint was rejected or not resolved by the bank within 30 days.",
+    "fees": {
+      "type": "Free",
+      "details": "Filing a complaint with the RBI Ombudsman is entirely free of cost."
+    },
+    "requiredDocuments": [
+      "Bank Account / Credit Card Number",
+      "Copy of the original complaint filed with the bank",
+      "Bank's rejection letter (if any)",
+      "Transaction statements proving the dispute"
+    ],
+    "stepsToApply": [
+      "First, register a formal complaint with your bank/NBFC's internal grievance redressal mechanism.",
+      "If you do not receive a satisfactory reply within 30 days, visit the RBI CMS portal and click on 'File a Complaint'.",
+      "Enter the Captcha, specify your entity type (Bank, NBFC, System Provider), and enter the details of the disputed transaction.",
+      "Upload the initial complaint copy and the bank's reply (if any) in PDF format.",
+      "Submit the form. The Integrated Ombudsman will review the case, mediate, and can order the bank to pay compensation or reverse the charges."
+    ]
+  },
+  {
+    "id": "safety-015",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Finance",
+    "department": "Insurance Regulatory and Development Authority (IRDAI)",
+    "title": "Bima Bharosa (Insurance Grievance Portal)",
+    "slug": "bima-bharosa-igms",
+    "shortDescription": "Centralized portal by IRDAI for policyholders to register complaints against insurance companies regarding claim settlements and mis-selling.",
+    "officialLink": "https://bimabharosa.irdai.gov.in/",
+    "icon": "fa-solid fa-shield-heart",
+    "tags": ["Insurance", "Claims", "Grievance"],
+    "eligibility": "Any policyholder (Life, Health, Motor, General) facing issues with their insurance provider.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to register complaints."
+    },
+    "requiredDocuments": [
+      "Insurance Policy Number",
+      "Claim Rejection Letter (if applicable)",
+      "Previous correspondence with the insurance company"
+    ],
+    "stepsToApply": [
+      "First, escalate your issue to the Grievance Redressal Officer (GRO) of your specific insurance company.",
+      "If unresolved within 15 days, visit the Bima Bharosa portal and register an account.",
+      "Log in and click on 'Register New Complaint'. Provide your policy details, insurer name, and type of complaint (e.g., Claim repudiation, mis-selling, delay).",
+      "Upload all supporting documents, including policy bonds and claim forms.",
+      "Submit the complaint. IRDAI monitors the TAT (Turn Around Time) and ensures the insurance company responds officially through the portal."
+    ]
+  },
+  {
+    "id": "safety-016",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Department of Personnel and Training",
+    "title": "RTI Online (Right to Information)",
+    "slug": "rti-online",
+    "shortDescription": "File RTI applications online to seek information, transparency, and accountability from any Central Government Ministry or Department.",
+    "officialLink": "https://rtionline.gov.in/",
+    "icon": "fa-solid fa-magnifying-glass-chart",
+    "tags": ["RTI", "Transparency", "Information"],
+    "eligibility": "Any Indian citizen seeking verifiable facts, documents, or records from public authorities.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹10 application fee (Exempted for Below Poverty Line (BPL) citizens)."
+    },
+    "requiredDocuments": [
+      "BPL Certificate (only if claiming fee exemption)",
+      "Supporting documents detailing the information requested (optional)"
+    ],
+    "stepsToApply": [
+      "Visit the RTI Online portal and click on 'Submit Request'.",
+      "Read the guidelines, check the consent box, and select the target Ministry/Department and Public Authority from the dropdown lists.",
+      "Provide your personal details, address, and email ID.",
+      "Draft your RTI request clearly in the text box (up to 3000 characters), asking specific questions rather than vague queries.",
+      "Pay the ₹10 fee via Netbanking/UPI/Card. The CPIO (Central Public Information Officer) is mandated to reply with the information within 30 days."
+    ]
+  },
+  {
+    "id": "safety-017",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of External Affairs",
+    "department": "Consular, Passport & Visa (CPV) Division",
+    "title": "MADAD Portal (Consular Grievances)",
+    "slug": "madad-consular-grievance",
+    "shortDescription": "Consular Services Management System to register grievances of Indians living abroad regarding compensation, repatriation, or employer disputes.",
+    "officialLink": "https://madad.gov.in/",
+    "icon": "fa-solid fa-globe",
+    "tags": ["NRI", "Overseas Grievance", "Embassy"],
+    "eligibility": "Any Indian national residing, working, or studying abroad, or their relatives in India.",
+    "fees": {
+      "type": "Free",
+      "details": "Filing a grievance is free."
+    },
+    "requiredDocuments": [
+      "Passport details of the NRI",
+      "Visa and Employment Contract copies",
+      "Details of the foreign employer or university"
+    ],
+    "stepsToApply": [
+      "Visit the MADAD portal and register as a new user (you can register from India on behalf of a relative abroad).",
+      "Log into the dashboard and click on 'Register Grievance'.",
+      "Select the category of the grievance (e.g., Court Case, Repatriation, Salary Dues, Marital Dispute, Mortal Remains).",
+      "Provide detailed information about the Indian national in distress, including their exact location abroad and passport details.",
+      "Submit the grievance. The request is directly routed to the concerned Indian Embassy/Consulate, which will intervene and update the status online."
+    ]
+  },
+  {
+    "id": "safety-018",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Railways",
+    "department": "Railway Board",
+    "title": "RailMadad (Railway Grievance Portal)",
+    "slug": "railmadad-grievance",
+    "shortDescription": "Single portal for Indian Railway passengers to log complaints, request medical help, or report security issues during a train journey.",
+    "officialLink": "https://railmadad.indianrailways.gov.in/",
+    "icon": "fa-solid fa-train-subway",
+    "tags": ["Railways", "Passenger Safety", "Complaint"],
+    "eligibility": "Any passenger travelling on Indian Railways or using railway station premises.",
+    "fees": {
+      "type": "Free",
+      "details": "Free utility service."
+    },
+    "requiredDocuments": [
+      "Valid PNR Number or UTS Ticket Details"
+    ],
+    "stepsToApply": [
+      "Visit the RailMadad website, download the mobile app, or dial the integrated helpline 139.",
+      "Select the type of grievance (e.g., Train Complaint, Station Complaint, Security, Medical Assistance).",
+      "Enter your PNR number to automatically fetch your train and coach details.",
+      "Select the specific issue (e.g., Coach cleanliness, AC not working, unauthorized passengers) and type a brief description.",
+      "Submit the complaint. It triggers an immediate alert to the onboard ticket examiner (TTE) or the RPF squad at the next upcoming station for swift on-the-spot resolution."
+    ]
+  },
+  {
+    "id": "safety-019",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "department": "National Institute of Social Defence",
+    "title": "Elderline (National Helpline for Senior Citizens)",
+    "slug": "elderline-14567",
+    "shortDescription": "Toll-free helpline (14567) providing free information, guidance, emotional support, and field intervention in cases of abuse to senior citizens.",
+    "officialLink": "https://socialjustice.gov.in/",
+    "icon": "fa-solid fa-person-cane",
+    "tags": ["Senior Citizens", "Elder Care", "Rescue"],
+    "eligibility": "Any senior citizen (above 60 years) in India, or anyone reporting the abuse/abandonment of an elderly person.",
+    "fees": {
+      "type": "Free",
+      "details": "Toll-free helpline and free field interventions."
+    },
+    "requiredDocuments": [
+      "None required to initiate a call."
+    ],
+    "stepsToApply": [
+      "Dial the toll-free number 14567 between 8 AM and 8 PM.",
+      "The call center executive will categorize your request into Information, Guidance, Emotional Support, or Field Intervention.",
+      "If reporting elder abuse or a homeless senior citizen, provide the exact location and details of the perpetrators.",
+      "The Elderline team dispatches a field officer to rescue the senior citizen, coordinate with the police, or arrange for an old age home.",
+      "The team also assists seniors in drafting legal complaints under the Maintenance and Welfare of Parents and Senior Citizens Act."
+    ]
+  },
+  {
+    "id": "safety-020",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Labour & Employment",
+    "department": "Employees' Provident Fund Organisation (EPFO)",
+    "title": "EPFiGMS (EPFO Grievance Portal)",
+    "slug": "epfigms-pf-grievance",
+    "shortDescription": "Portal to resolve grievances related to Provident Fund (PF) withdrawal delays, KYC issues, and pension disbursements.",
+    "officialLink": "https://epfigms.gov.in/",
+    "icon": "fa-solid fa-piggy-bank",
+    "tags": ["Provident Fund", "Pension", "Employee Grievance"],
+    "eligibility": "Any EPF subscriber, EPS pensioner, or employer facing issues with EPFO services.",
+    "fees": {
+      "type": "Free",
+      "details": "Free of cost."
+    },
+    "requiredDocuments": [
+      "UAN (Universal Account Number)",
+      "PF Establishment Code",
+      "Screenshots of rejection or error messages"
+    ],
+    "stepsToApply": [
+      "Visit the EPFiGMS portal and click on 'Register Grievance'.",
+      "Select your status (PF Member, EPS Pensioner, Employer, or Others).",
+      "Enter your UAN and security code, then click 'Get Details' to fetch your PF account information.",
+      "Select the specific PF account against which you have an issue, and choose the grievance category (e.g., Final Settlement Delay, KYC mismatch).",
+      "Upload supporting documents and submit. The grievance is routed directly to the specific regional PF office for resolution."
+    ]
+  },
+  {
+    "id": "safety-021",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Finance",
+    "department": "Income Tax Department",
+    "title": "e-Nivaran (Income Tax Grievances)",
+    "slug": "enivaran-income-tax",
+    "shortDescription": "Unified grievance redressal system to resolve issues regarding income tax refunds, PAN mismatches, and e-filing errors.",
+    "officialLink": "https://eportal.incometax.gov.in/",
+    "icon": "fa-solid fa-file-invoice-dollar",
+    "tags": ["Income Tax", "Refund Delay", "Taxpayer Service"],
+    "eligibility": "Any taxpayer registered on the Income Tax e-filing portal.",
+    "fees": {
+      "type": "Free",
+      "details": "Filing a grievance is free."
+    },
+    "requiredDocuments": [
+      "PAN Card details",
+      "Assessment Year and Acknowledgment Number details",
+      "Relevant notices or communications from the IT Department"
+    ],
+    "stepsToApply": [
+      "Log into the Income Tax e-Filing portal using your PAN and password.",
+      "Navigate to the 'Grievances' tab on the top menu and select 'Submit Grievance'.",
+      "Select the relevant department (e.g., CPC-ITR, Assessing Officer, NSDL/UTIITL for PAN).",
+      "Choose the category and sub-category of the grievance (e.g., Processing of Return, Refund not credited).",
+      "Write a brief description, attach supporting PDF files, and submit. You can track the resolution status via the 'Grievance Status' tab."
+    ]
+  },
+  {
+    "id": "safety-022",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "department": "National Commission for Scheduled Castes (NCSC)",
+    "title": "NCSC Online Grievance (Atrocity Complaints)",
+    "slug": "ncsc-atrocity-complaint",
+    "shortDescription": "Register complaints regarding discrimination, untouchability, or atrocities committed against individuals belonging to Scheduled Castes.",
+    "officialLink": "https://ncsc.nic.in/",
+    "icon": "fa-solid fa-scale-unbalanced",
+    "tags": ["SC Rights", "Social Justice", "Atrocity"],
+    "eligibility": "Any individual belonging to a Scheduled Caste facing discrimination, harassment, or denial of rights.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to file complaints."
+    },
+    "requiredDocuments": [
+      "SC Caste Certificate",
+      "Copy of FIR (if filed under SC/ST PoA Act)",
+      "Detailed complaint representation"
+    ],
+    "stepsToApply": [
+      "Visit the official website of the National Commission for Scheduled Castes.",
+      "Navigate to the 'Online Complaint Registration' section and create an account.",
+      "Fill in the applicant's details, ensuring you attach a valid SC caste certificate.",
+      "Provide the details of the respondent (accused) and a comprehensive description of the discriminatory incident or atrocity.",
+      "Submit the complaint. The Commission evaluates the case and can summon civil/police authorities to ensure the enforcement of the SC/ST Prevention of Atrocities Act."
+    ]
+  },
+  {
+    "id": "safety-023",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "department": "National Commission for Backward Classes (NCBC)",
+    "title": "NCBC Grievance Portal",
+    "slug": "ncbc-backward-classes-grievance",
+    "shortDescription": "File complaints regarding the deprivation of rights, reservation policies, or safeguards provided for the Socially and Educationally Backward Classes.",
+    "officialLink": "http://www.ncbc.nic.in/",
+    "icon": "fa-solid fa-users-viewfinder",
+    "tags": ["OBC Rights", "Reservation", "Grievance"],
+    "eligibility": "Individuals belonging to the Other Backward Classes (OBC) facing administrative or social injustices.",
+    "fees": {
+      "type": "Free",
+      "details": "Filing is free of cost."
+    },
+    "requiredDocuments": [
+      "Valid OBC Caste Certificate",
+      "Copies of representations made to government authorities",
+      "Relevant court orders or employment rejection letters"
+    ],
+    "stepsToApply": [
+      "Visit the NCBC web portal and download the official complaint format, or access the online complaint link.",
+      "Detail the specific grievance, such as denial of an OBC certificate, violation of reservation rosters in employment, or social discrimination.",
+      "Attach clear copies of your caste certificate and previously ignored representations to the concerned government department.",
+      "Submit the complaint digitally or send it via registered post to the NCBC headquarters in Delhi.",
+      "The Commission will examine the grievance and may hold hearings, directing state or central bodies to rectify the policy implementation."
+    ]
+  },
+  {
+    "id": "safety-024",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "department": "CERT-In (Indian Computer Emergency Response Team)",
+    "title": "CERT-In Cyber Incident Reporting",
+    "slug": "cert-in-incident-reporting",
+    "shortDescription": "National nodal agency portal for reporting severe cyber security incidents, ransomware attacks, and data breaches.",
+    "officialLink": "https://www.cert-in.org.in/",
+    "icon": "fa-solid fa-bug",
+    "tags": ["Cyber Security", "Data Breach", "Malware"],
+    "eligibility": "IT administrators, organizations, and citizens affected by major cyber security incidents.",
+    "fees": {
+      "type": "Free",
+      "details": "Incident reporting and advisory support are free."
+    },
+    "requiredDocuments": [
+      "Incident Logs (Server logs, firewall logs)",
+      "Malware samples (if isolated)",
+      "Technical description of the breach"
+    ],
+    "stepsToApply": [
+      "Visit the CERT-In website and click on the 'Report Incident' tab.",
+      "Download the 'Incident Reporting Form' (available in PDF/Word format).",
+      "Fill in critical technical details: Time of occurrence, affected IPs, operating systems, and a summary of the attack (e.g., Ransomware, DDoS, Defacement).",
+      "If you have logs or malicious payloads, encrypt them in a ZIP file securely.",
+      "Email the completed form and encrypted files to incident@cert-in.org.in. The team will analyze the threat and provide mitigation advisories."
+    ]
+  },
+  {
+    "id": "safety-025",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Communications",
+    "department": "Telecom Regulatory Authority of India (TRAI)",
+    "title": "TRAI DND (Do Not Disturb) Complaint",
+    "slug": "trai-dnd-complaint",
+    "shortDescription": "Report unsolicited commercial communication (spam calls and SMS) despite being registered on the National Do Not Call registry.",
+    "officialLink": "https://ucc-trai.gov.in/",
+    "icon": "fa-solid fa-phone-slash",
+    "tags": ["Spam Calls", "Telecom", "Privacy"],
+    "eligibility": "Any telecom subscriber who receives spam calls/SMS after 7 days of activating DND.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to report."
+    },
+    "requiredDocuments": [
+      "Spam SMS text or details of the spam call",
+      "Date, time, and number of the spammer"
+    ],
+    "stepsToApply": [
+      "Download the 'TRAI DND 3.0' app from your smartphone's app store.",
+      "Register your mobile number on the app (this will verify your DND status).",
+      "To report an SMS, select the 'Report SMS' option, which will read your inbox (with permission) and let you select the specific spam message.",
+      "To report a call, select 'Report Call' and choose the spam number from your recent call log.",
+      "Provide a brief description of the product being marketed and submit. TRAI routes this to your telecom operator, who will warn or block the spammer within 3-7 days."
+    ]
+  },
+  {
+    "id": "safety-026",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Food Safety and Standards Authority of India (FSSAI)",
+    "title": "FSSAI Food Safety Connect",
+    "slug": "fssai-food-safety-connect",
+    "shortDescription": "Portal and app to register complaints against unhygienic food premises, adulterated products, or expired food items.",
+    "officialLink": "https://foscos.fssai.gov.in/consumergrievance/",
+    "icon": "fa-solid fa-utensils",
+    "tags": ["Food Safety", "Adulteration", "Public Health"],
+    "eligibility": "Any consumer who purchases food products or visits food establishments in India.",
+    "fees": {
+      "type": "Free",
+      "details": "Filing a grievance is free."
+    },
+    "requiredDocuments": [
+      "Photograph of the adulterated food, bill, or packaging showing the batch number",
+      "FSSAI License number of the restaurant/brand (if available)"
+    ],
+    "stepsToApply": [
+      "Visit the FSSAI Consumer Grievance portal or download the 'Food Safety Connect' mobile app.",
+      "Click on 'Register Grievance' and select the category: Food Product, Food Establishment, or FSSAI License issue.",
+      "Fill in the details of the complaint (e.g., insect found in food, expired product sold, unhygienic kitchen).",
+      "Upload photographs of the product, the invoice, and explicitly mention the name and address of the vendor/brand.",
+      "Submit the complaint. It will be forwarded to the Designated Food Safety Officer (FSO) of that district for inspection and sampling."
+    ]
+  },
+  {
+    "id": "safety-027",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Micro, Small & Medium Enterprises",
+    "department": "MSME Division",
+    "title": "CHAMPIONS Portal (MSME Grievance)",
+    "slug": "champions-msme-grievance",
+    "shortDescription": "Unified portal to assist Indian MSMEs in resolving grievances regarding delayed payments, banking issues, and raw material shortages.",
+    "officialLink": "https://champions.gov.in/",
+    "icon": "fa-solid fa-industry",
+    "tags": ["MSME", "Delayed Payments", "Business Grievance"],
+    "eligibility": "Any registered Micro, Small, or Medium Enterprise (holding Udyam Registration).",
+    "fees": {
+      "type": "Free",
+      "details": "Free to register complaints."
+    },
+    "requiredDocuments": [
+      "Udyam Registration Number",
+      "Invoices and proof of delivery (for delayed payment issues)",
+      "Bank correspondence (for loan issues)"
+    ],
+    "stepsToApply": [
+      "Visit the CHAMPIONS portal and click on 'Register Grievance'.",
+      "Validate your MSME status by entering your Udyam Registration Number and the registered mobile number to receive an OTP.",
+      "Select the category of the grievance (e.g., Delayed Payments from Govt/PSUs, Bank Credit denial, Regulatory issues).",
+      "Draft a clear description of the problem and attach supporting documents like unpaid invoices or bank rejection letters.",
+      "Submit the grievance. The Central Control Room routes it to the respective State Champion Control Room, which actively liaises with the defaulting party or bank for resolution."
+    ]
+  },
+  {
+    "id": "safety-028",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Finance",
+    "department": "Pension Fund Regulatory and Development Authority (PFRDA)",
+    "title": "NPS Grievance Redressal (CGMS)",
+    "slug": "nps-grievance-cgms",
+    "shortDescription": "Centralized Grievance Management System for National Pension System (NPS) subscribers to resolve issues with PRAN, contributions, or exits.",
+    "officialLink": "https://npscra.nsdl.co.in/log-your-grievance.php",
+    "icon": "fa-solid fa-piggy-bank",
+    "tags": ["NPS", "Pension", "Grievance"],
+    "eligibility": "Any subscriber of the National Pension System (NPS) or Atal Pension Yojana (APY).",
+    "fees": {
+      "type": "Free",
+      "details": "Filing a grievance is free."
+    },
+    "requiredDocuments": [
+      "PRAN (Permanent Retirement Account Number)",
+      "Transaction statements or deduction proofs from employer",
+      "Correspondence with the POP (Point of Presence)"
+    ],
+    "stepsToApply": [
+      "Visit the CRA (Central Recordkeeping Agency) website associated with your NPS account (e.g., NSDL/Protean or KFintech).",
+      "Navigate to the 'Subscriber' section and click on 'Log Your Grievance / Inquiry'.",
+      "Authenticate using your PRAN and password, or use the OTP-based login.",
+      "Select the grievance against the specific entity: POP (Bank), Nodal Office (Employer), or CRA.",
+      "Select the grievance type (e.g., Non-credit of contribution, Delay in withdrawal) and submit. Escalation to the NPS Ombudsman is available if unresolved within 30 days."
+    ]
+  },
+  {
+    "id": "safety-029",
+    "category": "Safety & Grievances",
+    "ministry": "Prime Minister's Office",
+    "department": "Prime Minister's Office",
+    "title": "PMO Public Grievance Portal",
+    "slug": "pmo-grievance",
+    "shortDescription": "Direct portal to write to the Prime Minister of India to highlight systemic administrative failures, major corruption, or severe distress.",
+    "officialLink": "https://pmindia.gov.in/",
+    "icon": "fa-solid fa-envelope-open-text",
+    "tags": ["Prime Minister", "Escalation", "Public Appeal"],
+    "eligibility": "Any Indian citizen seeking intervention at the highest executive level.",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free."
+    },
+    "requiredDocuments": [
+      "Summary of the issue",
+      "Previous complaint numbers (like CPGRAMS) showing failure of lower departments"
+    ],
+    "stepsToApply": [
+      "Visit the official PM India portal (pmindia.gov.in).",
+      "Scroll down and click on the 'Write to the Prime Minister' link.",
+      "You will be redirected to a specialized CPGRAMS-linked interface. Register or log in using your credentials.",
+      "Write a concise, factual, and polite representation highlighting the systemic issue or severe personal injustice you are facing.",
+      "Submit the application. The PMO evaluates the gravity of the grievance and issues direct directives to the Chief Secretary of the State or the Secretary of the Central Ministry concerned."
+    ]
+  },
+  {
+    "id": "safety-030",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Home Affairs",
+    "department": "National Crime Records Bureau (NCRB)",
+    "title": "E-FIR (CCTNS State Portals)",
+    "slug": "efir-cctns",
+    "shortDescription": "File a First Information Report (FIR) online for non-heinous crimes like vehicle theft, lost mobile phones, or missing documents without visiting a police station.",
+    "officialLink": "https://digitalpolice.gov.in/",
+    "icon": "fa-solid fa-file-shield",
+    "tags": ["Police", "E-FIR", "Lost Property"],
+    "eligibility": "Any citizen reporting the loss of property, documents, or vehicle theft (Note: Heinous crimes require physical presence at a station).",
+    "fees": {
+      "type": "Free",
+      "details": "Filing an E-FIR is free of charge."
+    },
+    "requiredDocuments": [
+      "Identity Proof (Aadhaar/Voter ID)",
+      "Vehicle RC/Chassis number (for vehicle theft)",
+      "IMEI number (for lost mobile)"
+    ],
+    "stepsToApply": [
+      "Identify and visit the specific 'Citizen Portal' of your State Police (e.g., Delhi Police, UP Police CCTNS, MahaPolice).",
+      "Register a citizen account using your mobile number, email, and identity proof.",
+      "Log in and select the 'E-FIR' or 'Lost Article Report' option from the dashboard.",
+      "Fill out the comprehensive form detailing the date, time, location of the loss, and specific identifying marks of the stolen/lost item.",
+      "Submit the form online. A digitally signed E-FIR or Non-Cognizable Report (NCR) is generated instantly, which can be printed and used for insurance claims or issuing duplicate documents."
+    ]
+  },
+{
+    "id": "safety-031",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Law and Justice",
+    "department": "National Legal Services Authority (NALSA)",
+    "title": "NALSA Free Legal Aid Services",
+    "slug": "nalsa-free-legal-aid",
+    "shortDescription": "Apply for free legal services, advice, and counsel for marginalized sections of society to ensure access to justice.",
+    "officialLink": "https://nalsa.gov.in/",
+    "icon": "fa-solid fa-scale-balanced",
+    "tags": ["Legal Aid", "Justice", "Lawyer"],
+    "eligibility": "Women, children, members of SC/ST, victims of trafficking/disasters, industrial workmen, and individuals with an annual income below ₹3 Lakhs.",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free of cost (includes lawyer fees, court fees, and drafting charges)."
+    },
+    "requiredDocuments": [
+      "Proof of Identity (Aadhaar, Voter ID)",
+      "Proof of Eligibility (Income Certificate, Caste Certificate, or BPL Card)",
+      "Brief description or documents related to the legal dispute"
+    ],
+    "stepsToApply": [
+      "Visit the NALSA official web portal and click on 'Apply for Legal Aid' located on the homepage.",
+      "Select 'Add Application' and fill in your personal details, category of eligibility, and contact information.",
+      "Provide a clear, brief summary of your legal problem or the case for which you require a lawyer.",
+      "Upload digital copies of your identity proof and eligibility proof (e.g., Income Certificate or Caste Certificate).",
+      "Submit the application. A system-generated diary number will be sent to your mobile, and the District Legal Services Authority (DLSA) will contact you to assign a panel lawyer."
+    ]
+  },
+  {
+    "id": "safety-032",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Law and Justice",
+    "department": "Department of Justice",
+    "title": "Tele-Law (Nyaya Bandhu)",
+    "slug": "tele-law-nyaya-bandhu",
+    "shortDescription": "Mainstream legal aid through video conferencing and telephone consultations connecting citizens with panel lawyers.",
+    "officialLink": "https://tele-law.in/",
+    "icon": "fa-solid fa-phone-volume",
+    "tags": ["Legal Consultation", "Tele-Law", "Advice"],
+    "eligibility": "Any citizen seeking legal advice; free for marginalized groups under Section 12 of the Legal Services Authorities Act.",
+    "fees": {
+      "type": "Variable",
+      "details": "Free for eligible marginalized categories; nominal fee of ₹30 for general citizens."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Proof of eligibility (if claiming free service)"
+    ],
+    "stepsToApply": [
+      "Download the 'Tele-Law' mobile application or visit your nearest Common Service Centre (CSC).",
+      "Register as a beneficiary by authenticating your mobile number via OTP.",
+      "Select the category of your legal issue (e.g., Property Dispute, Family Dispute, Labour issues).",
+      "Book an appointment for a video or telephonic consultation with an available Panel Lawyer.",
+      "Connect with the lawyer at the scheduled time to discuss your case and receive actionable pre-litigation advice."
+    ]
+  },
+  {
+    "id": "safety-033",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Law and Justice",
+    "department": "e-Committee, Supreme Court of India",
+    "title": "eCourts Services Portal",
+    "slug": "ecourts-services",
+    "shortDescription": "Digital gateway providing real-time case status, daily cause lists, and final court orders for all District and Taluka courts.",
+    "officialLink": "https://services.ecourts.gov.in/",
+    "icon": "fa-solid fa-gavel",
+    "tags": ["Court Status", "Judiciary", "Law"],
+    "eligibility": "Any citizen, litigant, or lawyer tracking a case in Indian subordinate courts.",
+    "fees": {
+      "type": "Free",
+      "details": "Checking case status and downloading judgments is free."
+    },
+    "requiredDocuments": [
+      "CNR Number (Case Number Record) OR",
+      "Party Name / FIR Number / Advocate Name"
+    ],
+    "stepsToApply": [
+      "Access the eCourts Services website or download the eCourts Services mobile app.",
+      "If you have the 16-digit alphanumeric CNR Number, enter it directly in the 'Search by CNR' box to instantly pull up your case.",
+      "If you do not know the CNR, select your State, District, and Court Complex.",
+      "Use the search filters (Party Name, Case Number, FIR Number, or Advocate Name) to locate your case.",
+      "Click on your case to view the complete history, next hearing date, and download digitally signed daily orders or final judgments."
+    ]
+  },
+  {
+    "id": "safety-034",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Department of Pension & Pensioners' Welfare",
+    "title": "CPENGRAMS (Pension Grievance)",
+    "slug": "cpengrams-pension",
+    "shortDescription": "Centralized Pension Grievance Redress and Monitoring System exclusively for resolving issues faced by Central Government Pensioners.",
+    "officialLink": "https://pgportal.gov.in/pension/",
+    "icon": "fa-solid fa-user-clock",
+    "tags": ["Pension", "Senior Citizens", "Grievance"],
+    "eligibility": "Central Government civil pensioners, family pensioners, and retired defense personnel.",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free of cost."
+    },
+    "requiredDocuments": [
+      "PPO (Pension Payment Order) Number",
+      "Bank Account details receiving the pension",
+      "Previous correspondence with the bank/department"
+    ],
+    "stepsToApply": [
+      "Navigate to the CPENGRAMS portal and click on 'Lodge Your Grievance'.",
+      "Select your relevant category (e.g., Central Civil, Defence, Railways, Telecom).",
+      "Fill in your personal details, explicitly mentioning your 12-digit PPO number and your pension disbursing bank.",
+      "Detail your grievance (e.g., Non-payment of arrears, delay in starting family pension, incorrect calculations).",
+      "Attach relevant documents as PDFs and submit. The grievance is routed directly to the specific ministry's pension nodal officer with a 30-day resolution mandate."
+    ]
+  },
+  {
+    "id": "safety-035",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Finance",
+    "department": "Reserve Bank of India (SLCC)",
+    "title": "RBI Sachet (Illegal Deposit Schemes)",
+    "slug": "rbi-sachet-scam-reporting",
+    "shortDescription": "Portal to report illegal collection of deposits, Ponzi schemes, and unauthorized chit funds by fraudulent entities.",
+    "officialLink": "https://sachet.rbi.org.in/",
+    "icon": "fa-solid fa-money-bill-trend-up",
+    "tags": ["Financial Fraud", "Ponzi Scheme", "RBI"],
+    "eligibility": "Any citizen who suspects or has been defrauded by an entity collecting public deposits illegally.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to report."
+    },
+    "requiredDocuments": [
+      "Pamphlets or advertisements of the fraudulent scheme",
+      "Receipts or bonds issued by the entity",
+      "Details of the company and its agents"
+    ],
+    "stepsToApply": [
+      "Visit the Sachet portal operated by the State Level Coordination Committee (SLCC).",
+      "Click on 'File a Complaint' on the homepage.",
+      "Select the category of the entity (e.g., Company, Co-operative Society, Unincorporated Body) or select 'Don't Know' if unsure.",
+      "Enter the detailed address and operational details of the fraudulent entity, along with the amount you deposited (if applicable).",
+      "Upload scanned copies of deposit receipts, brochures, or post-dated cheques, and submit. The SLCC (comprising RBI, SEBI, and State Police) initiates regulatory and legal action based on the tip."
+    ]
+  },
+  {
+    "id": "safety-036",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Communications",
+    "department": "Department of Telecommunications",
+    "title": "Chakshu - Report Fraud Communication",
+    "slug": "chakshu-fraud-reporting",
+    "shortDescription": "Sanchar Saathi's intelligence module to proactively report suspected fraudulent calls, SMS, or WhatsApp messages (e.g., fake KYC, sextortion).",
+    "officialLink": "https://sancharsaathi.gov.in/sfc/",
+    "icon": "fa-solid fa-comment-slash",
+    "tags": ["Cyber Fraud", "Telecom Safety", "Spam"],
+    "eligibility": "Any individual who has received a suspected fraudulent communication (Note: If you have already lost money, use 1930 instead).",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free."
+    },
+    "requiredDocuments": [
+      "Screenshot of the SMS or WhatsApp message",
+      "Phone number of the suspected fraudster",
+      "Exact date and time of the communication"
+    ],
+    "stepsToApply": [
+      "Access the Sanchar Saathi portal and click on 'Citizen Centric Services', then select the 'Chakshu' module.",
+      "Read the disclaimer ensuring this is for *preventative* reporting (no financial loss occurred yet) and click 'Continue'.",
+      "Select the medium of communication (Call, SMS, or WhatsApp) and the fraud category (e.g., Bank Account Block, Fake Electricity KYC, Sextortion).",
+      "Enter the scammer's phone number, the date/time received, and upload a screenshot of the message or call log.",
+      "Verify your own number via OTP to submit. DoT algorithms will analyze the pattern and globally block the fraudulent telecom resources to protect others."
+    ]
+  },
+  {
+    "id": "safety-037",
+    "category": "Safety & Grievances",
+    "ministry": "Election Commission of India",
+    "department": "Election Commission of India",
+    "title": "cVIGIL (Election Code Violations)",
+    "slug": "cvigil-election-code",
+    "shortDescription": "Citizen-led mobile application to record and report violations of the Model Code of Conduct during Indian elections.",
+    "officialLink": "https://cvigil.eci.gov.in/",
+    "icon": "fa-solid fa-check-to-slot",
+    "tags": ["Elections", "Democracy", "Vigilance"],
+    "eligibility": "Any citizen present in an election-bound constituency while the Model Code of Conduct is in effect.",
+    "fees": {
+      "type": "Free",
+      "details": "Free public application."
+    },
+    "requiredDocuments": [
+      "Live photographic or video evidence captured directly through the app"
+    ],
+    "stepsToApply": [
+      "Download the 'cVIGIL' app from the Google Play Store or Apple App Store.",
+      "Open the app (you can register with a mobile number to track the complaint, or choose to remain completely anonymous).",
+      "When you witness a violation (e.g., distributing cash/liquor, hate speech, unauthorized posters), open the app's camera.",
+      "Capture a live photo or a video up to 2 minutes long (Note: Pre-recorded media cannot be uploaded to ensure geographic authenticity).",
+      "Add a brief description and submit. The app uses GPS to route the complaint to the nearest Flying Squad, guaranteeing a response within 100 minutes."
+    ]
+  },
+  {
+    "id": "safety-038",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Education",
+    "department": "University Grants Commission (UGC)",
+    "title": "National Anti-Ragging Helpline",
+    "slug": "anti-ragging-helpline",
+    "shortDescription": "Lodge formal complaints against ragging in higher educational institutions and fill out the mandatory anti-ragging undertaking.",
+    "officialLink": "https://www.antiragging.in/",
+    "icon": "fa-solid fa-ban",
+    "tags": ["Student Safety", "Education", "Anti-Ragging"],
+    "eligibility": "Any student enrolled in a recognized university or college in India, or their parents.",
+    "fees": {
+      "type": "Free",
+      "details": "Free helpline and registration portal."
+    },
+    "requiredDocuments": [
+      "Details of the college/university and course",
+      "Specifics of the ragging incident and the perpetrators"
+    ],
+    "stepsToApply": [
+      "If in immediate physical danger, dial the 24x7 toll-free helpline 1800-180-5522.",
+      "To file an online complaint, visit the antiragging.in portal and click on 'Register Complaint'.",
+      "Fill out the incident form detailing the college name, address, and the exact nature of the physical or psychological ragging.",
+      "Submit the complaint to generate a unique Registration Number. The UGC immediately notifies the Head of the Institution, the local police, and the District Magistrate.",
+      "The college's Anti-Ragging Cell must intervene, investigate, and report the disciplinary action taken back to the UGC."
+    ]
+  },
+  {
+    "id": "safety-039",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Defence",
+    "department": "Controller General of Defence Accounts (CGDA)",
+    "title": "SPARSH Grievance (Defence Pensions)",
+    "slug": "sparsh-defence-pension",
+    "shortDescription": "System for Pension Administration (Raksha) portal for comprehensive pension management and grievance resolution for Defence Pensioners.",
+    "officialLink": "https://sparsh.defencepension.gov.in/",
+    "icon": "fa-solid fa-medal",
+    "tags": ["Armed Forces", "Pension", "Defence"],
+    "eligibility": "Retired personnel from the Army, Navy, Air Force, and Defence Civilians migrated to the SPARSH system.",
+    "fees": {
+      "type": "Free",
+      "details": "No processing fees."
+    },
+    "requiredDocuments": [
+      "SPARSH PPO Number or Regimental Number",
+      "Bank Account details",
+      "Identity Proof (Aadhaar / Service ID)"
+    ],
+    "stepsToApply": [
+      "Visit the SPARSH Defence Pension portal and click on 'Grievance' on the top navigation bar.",
+      "If you are a registered user, log in with your SPARSH ID. If not, click on 'Lodge Grievance' as an unregistered user.",
+      "Validate your identity using your Service Number, Bank Account Number, or existing PPO number.",
+      "Select the category of your issue (e.g., Non-receipt of pension, Corrigendum PPO issue, Life Certificate update failure).",
+      "Upload supporting documents as PDFs and submit. You will receive a tracking ID to monitor the resolution directly managed by the PCDA."
+    ]
+  },
+  {
+    "id": "safety-040",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Communications",
+    "department": "Department of Posts",
+    "title": "India Post Grievance Registration",
+    "slug": "india-post-grievance",
+    "shortDescription": "Register and track complaints regarding delayed mail, lost parcels, or postal banking services.",
+    "officialLink": "https://www.indiapost.gov.in/VAS/Pages/ComplaintRegistration.aspx",
+    "icon": "fa-solid fa-envelopes-bulk",
+    "tags": ["Postal Service", "Mail", "Customer Service"],
+    "eligibility": "Any individual using India Post services (Speed Post, Registered Post, Savings Bank).",
+    "fees": {
+      "type": "Free",
+      "details": "Free to lodge complaints."
+    },
+    "requiredDocuments": [
+      "Article Tracking Number (for mail/parcels)",
+      "Post Office Account Number (for financial services)",
+      "Booking Receipt"
+    ],
+    "stepsToApply": [
+      "Visit the official India Post website and navigate to the 'Register Your Complaint' section.",
+      "Select the category of complaint (e.g., Mail Services, Financial Services, Philately).",
+      "Enter the 13-digit Article Tracking Number (e.g., EM123456789IN) and the booking date for parcel complaints.",
+      "Fill in the sender and addressee details, and describe the specific issue (e.g., Delay in delivery, item lost, package damaged).",
+      "Submit the form to get a Complaint Number. The system routes it to the specific sorting hub or postmaster for internal inquiry and resolution."
+    ]
+  },
+  {
+    "id": "safety-041",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Corporate Affairs",
+    "department": "MCA",
+    "title": "MCA21 Investor Grievance",
+    "slug": "mca-investor-grievance",
+    "shortDescription": "Lodge complaints against registered companies for corporate fraud, non-receipt of dividends, or failure to transfer shares.",
+    "officialLink": "https://www.mca.gov.in/",
+    "icon": "fa-solid fa-building-user",
+    "tags": ["Investors", "Corporate Fraud", "MCA"],
+    "eligibility": "Shareholders, stakeholders, or investors dealing with companies registered under the Companies Act.",
+    "fees": {
+      "type": "Free",
+      "details": "Filing a grievance is free."
+    },
+    "requiredDocuments": [
+      "CIN (Corporate Identification Number) of the company",
+      "Share Certificates or Demat Statements",
+      "Correspondence with the company's compliance officer"
+    ],
+    "stepsToApply": [
+      "Go to the MCA21 V3 portal and click on 'MCA Services' -> 'Complaints' -> 'Create Service Related Complaint' or 'Investor Complaint'.",
+      "Register a user account on the MCA portal if you don't have one, and log in.",
+      "Enter the CIN of the company; the system will automatically fetch the company's name and registered address.",
+      "Select the nature of the complaint (e.g., Non-payment of dividend, Non-issue of shares, Corporate Governance violations).",
+      "Attach PDF proofs of your investments and prior communications, then submit. The Registrar of Companies (RoC) takes up the matter with the company directors."
+    ]
+  },
+  {
+    "id": "safety-042",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Finance",
+    "department": "Central Board of Indirect Taxes and Customs (CBIC)",
+    "title": "GST Grievance Redressal Portal",
+    "slug": "gst-grievance-portal",
+    "shortDescription": "Self-service portal to report issues related to GST portal tech glitches, tax evasion, or fake invoicing.",
+    "officialLink": "https://selfservice.gstsystem.in/",
+    "icon": "fa-solid fa-file-invoice",
+    "tags": ["GST", "Tax Evasion", "Business"],
+    "eligibility": "Registered GST taxpayers (for tech issues) or any citizen (to report tax evasion/fraud).",
+    "fees": {
+      "type": "Free",
+      "details": "Free to report."
+    },
+    "requiredDocuments": [
+      "GSTIN of the business (if applicable/known)",
+      "Screenshots of the error (for tech issues)",
+      "Invoices or bills showing tax discrepancies (for fraud)"
+    ],
+    "stepsToApply": [
+      "Access the GST Self Service Grievance Portal.",
+      "To report a tech issue, click on 'Report Issue/Complaint', enter the type of issue (e.g., Registration, Returns, E-way bill), and describe the exact error code.",
+      "To report tax evasion (e.g., vendor charging GST without a valid GSTIN), select the specific fraud category.",
+      "Enter your PAN/GSTIN (if you are a taxpayer) or proceed with basic details, and upload the evidence (screenshots/photos of fake bills).",
+      "Submit the ticket. You will receive a TRN (Ticket Reference Number) to track the resolution or enforcement action."
+    ]
+  },
+  {
+    "id": "safety-043",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+    "department": "Animal Welfare Board of India (AWBI)",
+    "title": "Animal Cruelty Complaint",
+    "slug": "awbi-animal-cruelty",
+    "shortDescription": "Report instances of cruelty against animals, illegal transport, or unauthorized slaughter to the Animal Welfare Board.",
+    "officialLink": "http://awbi.in/",
+    "icon": "fa-solid fa-paw",
+    "tags": ["Animal Welfare", "Cruelty", "Safety"],
+    "eligibility": "Any citizen or NGO witnessing cruelty against animals.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to report."
+    },
+    "requiredDocuments": [
+      "Photographs or videos of the cruelty incident",
+      "Exact location details",
+      "Copy of FIR (if filed locally)"
+    ],
+    "stepsToApply": [
+      "Visit the AWBI portal to locate the contact details of the State Animal Welfare Board or district SPCA (Society for the Prevention of Cruelty to Animals).",
+      "For urgent interventions, dial the local police (112) as animal cruelty is a cognizable offense under the PCA Act.",
+      "To lodge a formal complaint for board intervention, email the evidence (videos/photos) and exact location to animalwelfareboard@gmail.com or the specific state nodal officer.",
+      "Provide details of the offender (vehicle number if illegal transport, address if illegal breeding/slaughter).",
+      "The Board issues notices to the local District Magistrate and Superintendent of Police to rescue the animals and initiate prosecution."
+    ]
+  },
+  {
+    "id": "safety-044",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Finance",
+    "department": "Council for Insurance Ombudsmen",
+    "title": "Bima Lokpal (Insurance Ombudsman)",
+    "slug": "bima-lokpal-ombudsman",
+    "shortDescription": "Escalation forum for out-of-court settlement of grievances regarding rejected insurance claims or deficient service.",
+    "officialLink": "https://www.cioins.co.in/",
+    "icon": "fa-solid fa-scale-unbalanced",
+    "tags": ["Insurance", "Claims", "Ombudsman"],
+    "eligibility": "Policyholders who have rejected claims under ₹30 Lakhs, provided they have exhausted the insurer's internal grievance mechanism.",
+    "fees": {
+      "type": "Free",
+      "details": "No legal fees or charges are required to file a complaint."
+    },
+    "requiredDocuments": [
+      "Final rejection/closure letter from the insurance company",
+      "Policy Document",
+      "Claim form and related medical/garage bills",
+      "Annexure VI-A complaint format"
+    ],
+    "stepsToApply": [
+      "Ensure you have complained to the insurance company and either received a rejection or waited 30 days without a reply.",
+      "Visit the CIOINS portal and click on 'Register Complaint Online'.",
+      "Select your insurance company, policy type (Life, Health, Motor), and your state to determine the jurisdictional Ombudsman.",
+      "Fill in the digital complaint form detailing the claim amount, the reason for rejection, and why it is unjustified.",
+      "Upload the PDF copies of the policy, rejection letter, and bills. The Ombudsman will schedule a hearing and can pass binding awards for claim settlement."
+    ]
+  },
+  {
+    "id": "safety-045",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Central Information Commission (CIC)",
+    "title": "CIC Second Appeal (RTI Escalation)",
+    "slug": "cic-second-appeal",
+    "shortDescription": "File a Second Appeal or a Complaint if the First Appellate Authority under the RTI Act fails to provide satisfactory information.",
+    "officialLink": "https://cic.gov.in/",
+    "icon": "fa-solid fa-folder-open",
+    "tags": ["RTI", "Transparency", "Appeal"],
+    "eligibility": "Citizens who have filed an RTI request and completed the First Appeal process without a satisfactory resolution.",
+    "fees": {
+      "type": "Free",
+      "details": "Filing a Second Appeal/Complaint at the CIC is free of cost."
+    },
+    "requiredDocuments": [
+      "Copy of original RTI application",
+      "Copy of First Appeal",
+      "Replies received from CPIO and FAA (if any)",
+      "Identity Proof"
+    ],
+    "stepsToApply": [
+      "Wait for 45 days after filing your First Appeal. If there is no reply, or the reply is legally flawed, visit the CIC portal.",
+      "Click on 'Submit Appeal/Complaint Online'.",
+      "Select 'Second Appeal' (if you want the information) or 'Complaint' (if you want the officer penalized).",
+      "Fill in the dates of your original RTI and First Appeal, and the details of the CPIO/FAA.",
+      "Upload a single, indexed PDF document containing the RTI application, First Appeal, and all correspondence. The CIC will issue a notice and schedule a virtual hearing."
+    ]
+  },
+  {
+    "id": "safety-046",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Indian Cyber Crime Coordination Centre (I4C)",
+    "title": "1930 Cyber Fraud Financial Helpline",
+    "slug": "1930-cyber-fraud",
+    "shortDescription": "Emergency helpline to immediately freeze bank accounts and block transactions in cases of online financial fraud.",
+    "officialLink": "https://cybercrime.gov.in/",
+    "icon": "fa-solid fa-money-bill-transfer",
+    "tags": ["Financial Fraud", "Emergency", "Cybercrime"],
+    "eligibility": "Any citizen who has just been duped of money via UPI, Credit Card, Netbanking, or digital wallets.",
+    "fees": {
+      "type": "Free",
+      "details": "Toll-free emergency intervention."
+    },
+    "requiredDocuments": [
+      "Bank Account / UPI ID of the victim",
+      "Transaction ID and exact amount debited",
+      "Account number / UPI ID where the money was transferred (if known)"
+    ],
+    "stepsToApply": [
+      "Immediately after realizing you have been defrauded, dial the toll-free number 1930 from your mobile.",
+      "Provide the operator with your bank account details, the exact time of the transaction, the transaction ID, and the fraudster's details.",
+      "The operator creates a ticket on the Citizen Financial Cyber Fraud Reporting and Management System, pushing an alert to your bank and the recipient's bank/wallet.",
+      "If reported in the 'Golden Hour' (within 2-3 hours), the recipient bank freezes the funds in the scammer's account.",
+      "You will receive an SMS with an Acknowledgement Number. You must log onto cybercrime.gov.in within 24 hours to submit formal evidence to convert the ticket into an FIR."
+    ]
+  },
+  {
+    "id": "safety-047",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Tourism",
+    "department": "Incredible India",
+    "title": "1363 Tourist Infoline & Helpline",
+    "slug": "1363-tourist-helpline",
+    "shortDescription": "24x7 multi-lingual toll-free helpline providing safety assistance and information to domestic and international tourists.",
+    "officialLink": "https://www.incredibleindia.org/",
+    "icon": "fa-solid fa-map",
+    "tags": ["Tourism", "Helpline", "Travel Safety"],
+    "eligibility": "Any domestic or foreign tourist traveling within India facing an emergency, harassment, or seeking verified information.",
+    "fees": {
+      "type": "Free",
+      "details": "Toll-free helpline."
+    },
+    "requiredDocuments": [
+      "None required."
+    ],
+    "stepsToApply": [
+      "Dial 1363 (or 1800-11-1363) from any mobile or landline in India.",
+      "Select your preferred language from the 12 available options (including Arabic, French, German, Italian, Japanese, Russian, and Spanish).",
+      "Describe your situation to the executive (e.g., lost passport, harassment by touts, medical emergency, or route guidance).",
+      "In case of distress or crime, the helpline executive acts as an intermediary, linking you directly with the local Tourist Police or emergency services.",
+      "For general queries, receive verified information regarding authorized travel agents, transport, and monuments."
+    ]
+  },
+  {
+    "id": "safety-048",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Earth Sciences",
+    "department": "Indian Institute of Tropical Meteorology (IITM)",
+    "title": "Damini App (Lightning Alerts)",
+    "slug": "damini-lightning-alerts",
+    "shortDescription": "Mobile application providing real-time GPS-based lightning alerts and early warnings to prevent lightning-related casualties.",
+    "officialLink": "https://ndma.gov.in/",
+    "icon": "fa-solid fa-cloud-bolt",
+    "tags": ["Disaster Warning", "Weather", "Public Safety"],
+    "eligibility": "Any citizen, particularly farmers, outdoor workers, and rural populations.",
+    "fees": {
+      "type": "Free",
+      "details": "Free public safety application."
+    },
+    "requiredDocuments": [
+      "None (Requires active GPS on smartphone)"
+    ],
+    "stepsToApply": [
+      "Download the 'Damini Lightning Alert' application from the Google Play Store or Apple App Store.",
+      "Open the app and grant permission to access your device's GPS location.",
+      "The app will display a map of your location with a 20 km and 40 km radius circle.",
+      "Monitor the map for color-coded lightning strikes occurring in real-time or predicted within the next 45 minutes.",
+      "If the app sends a push notification warning of lightning in your immediate radius, suspend outdoor activities and seek shelter in a concrete building or hard-topped vehicle."
+    ]
+  },
+  {
+    "id": "safety-049",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "department": "Department of Social Justice and Empowerment",
+    "title": "Kiran (Mental Health & Rehab Helpline)",
+    "slug": "kiran-mental-health-18005990019",
+    "shortDescription": "24x7 toll-free helpline (1800-599-0019) offering psychological support, de-addiction counseling, and mental health crisis intervention.",
+    "officialLink": "https://socialjustice.gov.in/",
+    "icon": "fa-solid fa-brain",
+    "tags": ["Mental Health", "De-addiction", "Counseling"],
+    "eligibility": "Any citizen experiencing anxiety, depression, substance abuse issues, or mental health emergencies.",
+    "fees": {
+      "type": "Free",
+      "details": "Toll-free psychological counseling and referral service."
+    },
+    "requiredDocuments": [
+      "None."
+    ],
+    "stepsToApply": [
+      "Dial the toll-free number 1800-599-0019 from any phone.",
+      "Select your preferred language (available in 13 regional languages).",
+      "The call is routed to the nearest regional rehabilitation center or psychiatric institution based on your state.",
+      "Speak confidentially to a clinical psychologist, psychiatrist, or trained counselor about your distress or addiction issues.",
+      "Receive immediate first-aid psychological counseling. If severe, the counselor will refer you to local government de-addiction centers or psychiatric wards for in-person treatment."
+    ]
+  },
+  {
+    "id": "safety-050",
+    "category": "Safety & Grievances",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Vehicle Recall Portal",
+    "slug": "morth-vehicle-recall",
+    "shortDescription": "Portal for vehicle owners to register complaints regarding manufacturing defects affecting safety, prompting government-mandated vehicle recalls.",
+    "officialLink": "https://vahan.parivahan.gov.in/vehiclerecall/",
+    "icon": "fa-solid fa-car-burst",
+    "tags": ["Vehicle Defect", "Road Safety", "Consumer Grievance"],
+    "eligibility": "Owners of motor vehicles younger than 7 years facing recurrent safety-critical manufacturing defects.",
+    "fees": {
+      "type": "Free",
+      "details": "Filing a defect complaint is free."
+    },
+    "requiredDocuments": [
+      "Vehicle Registration Number",
+      "Chassis Number",
+      "Service center reports proving recurrent safety defects"
+    ],
+    "stepsToApply": [
+      "Visit the MoRTH Vehicle Recall Portal.",
+      "Click on 'Register Complaint' and log in using your Vahan portal credentials or register as a new user.",
+      "Enter your vehicle's registration number and chassis number to fetch the vehicle details.",
+      "Describe the defect in detail (e.g., faulty airbags, braking system failure, steering issues) and note how many times the service center failed to fix it.",
+      "Upload supporting service records and submit. If a significant percentage of identical vehicles report the same issue, MoRTH will mandate the manufacturer to initiate a nationwide safety recall."
+    ]
+  }
+]

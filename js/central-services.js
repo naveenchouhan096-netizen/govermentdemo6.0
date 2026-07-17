@@ -3,39 +3,41 @@ let allServices = [];
 let grid;
 let searchInput;
 
+// Array of all partitioned JSON data files
+const jsonFiles = [
+    '../data/central-services/identity-documents.json',
+    '../data/central-services/finance-tax.json',
+    '../data/central-services/health-wellness.json',
+    '../data/central-services/education-jobs.json',
+    '../data/central-services/travel-transport.json',
+    '../data/central-services/housing-utilities.json',
+    '../data/central-services/safety-grievances.json'
+];
+
 // Wait for the HTML to fully load before running the script
 document.addEventListener('DOMContentLoaded', () => {
     
     grid = document.getElementById('services-grid');
     searchInput = document.getElementById('service-search');
-
-    // Search Keyboard Shortcut
-    // Pressing '/' will automatically focus the search bar
-    document.addEventListener('keydown', (e) => {
-        // Check if the key pressed is '/' AND the user isn't already typing in an input field
-        if (e.key === '/' && document.activeElement !== searchInput) {
-            e.preventDefault(); // Stops the '/' character from actually being typed into the box
-            searchInput.focus();
-        }
-    });
     
-    // 1. FETCH THE DATA
-    fetch('../data/central-services.json')
-        .then(response => {
-            if (!response.ok) throw new Error('Network response was not ok');
+    // 1. FETCH ALL DATA FILES CONCURRENTLY
+    Promise.all(jsonFiles.map(file => 
+        fetch(file).then(response => {
+            if (!response.ok) throw new Error(`Network response was not ok for ${file}`);
             return response.json();
         })
-        .then(data => {
-            allServices = data; 
-            renderCards(allServices); 
-        })
-        .catch(error => {
-            console.error('Error loading services data:', error);
-            grid.innerHTML = '<p style="text-align:center; color:red;">Failed to load services. Please check your JSON file.</p>';
-        
-        });
+    ))
+    .then(dataArrays => {
+        // Flatten the array of arrays into a single master array
+        allServices = dataArrays.flat(); 
+        renderCards(allServices); 
+    })
+    .catch(error => {
+        console.error('Error loading services data:', error);
+        grid.innerHTML = '<p style="text-align:center; color:red; grid-column: 1 / -1;">Failed to load one or more service files. Please check your data folder.</p>';
+    });
 
-    // 3. SEARCH FILTERING
+    // 2. SEARCH FILTERING
     searchInput.addEventListener('input', (event) => {
         const searchTerm = event.target.value.toLowerCase();
         
@@ -48,6 +50,23 @@ document.addEventListener('DOMContentLoaded', () => {
         renderCards(filteredServices);
     });
 
+    // 3. KEYBOARD SHORTCUTS
+    // Press '/' to focus search
+    document.addEventListener('keydown', (e) => {
+        if (e.key === '/' && document.activeElement !== searchInput) {
+            e.preventDefault(); 
+            searchInput.focus();
+        }
+    });
+
+    // Press 'Escape' to close modal
+    document.addEventListener('keydown', (e) => {
+        const modal = document.getElementById('service-modal');
+        if (e.key === 'Escape' && modal.style.display === 'flex') {
+            closeModal();
+        }
+    });
+
     // Close modal if user clicks outside of the white box
     window.onclick = function(event) {
         const modal = document.getElementById('service-modal');
@@ -57,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-// 2. RENDER THE CARDS
+// 4. RENDER THE CARDS
 function renderCards(servicesToDisplay) {
     grid.innerHTML = '';
 
@@ -103,7 +122,7 @@ function renderCards(servicesToDisplay) {
     });
 }
 
-// 4. MODAL FUNCTIONS
+// 5. MODAL FUNCTIONS
 function openDetails(serviceId) {
     // Find the exact service the user clicked on
     const service = allServices.find(s => s.id === serviceId);
@@ -118,7 +137,7 @@ function openDetails(serviceId) {
         ? service.requiredDocuments.map(doc => `<li>${doc}</li>`).join('') 
         : '';
 
-    // Inject data using conditional rendering (Empty State Handling)
+    // Inject data using conditional rendering (Empty State Handling) & Visual Hierarchy
     document.getElementById('modal-body').innerHTML = `
         <h2 class="modal-title"><i class="${service.icon}" style="color:#1565ff; margin-right:10px;"></i> ${service.title}</h2>
         
@@ -128,10 +147,10 @@ function openDetails(serviceId) {
             <p>${service.eligibility}</p>
         </div>` : ''}
 
-       ${service.fees ? `
-       <div class="modal-section">
-    <h4><i class="fa-solid fa-money-bill-wave" style="color: #2a9d8f; margin-right: 8px;"></i> Fees</h4>
-    <p>${service.fees.details}</p>
+        ${(service.fees && service.fees.details) ? `
+        <div class="modal-section">
+            <h4><i class="fa-solid fa-money-bill-wave" style="color: #2a9d8f; margin-right: 8px;"></i> Fees</h4>
+            <p>${service.fees.details}</p>
         </div>` : ''}
 
         ${docsHTML ? `
@@ -146,7 +165,6 @@ function openDetails(serviceId) {
             <ol>${stepsHTML}</ol>
         </div>` : ''}
         
-
         <div style="text-align:center; margin-top: 30px; padding-top: 20px; border-top: 1px solid #eef2f7;">
             <p style="font-size: 13px; color: #2a9d8f; font-weight: 600; margin-bottom: 12px; display: flex; align-items: center; justify-content: center; gap: 6px;">
                 <i class="fa-solid fa-shield-halved"></i> Verified Government Portal
@@ -156,7 +174,6 @@ function openDetails(serviceId) {
             </a>
         </div>
     `;
-
 
     // Show the modal
     document.getElementById('service-modal').style.display = 'flex';

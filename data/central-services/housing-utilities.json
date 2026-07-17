@@ -1,0 +1,1440 @@
+[
+  {
+    "id": "house-001",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "department": "PMAY-U Division",
+    "title": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+    "slug": "pmay-urban-housing",
+    "shortDescription": "Housing for All initiative providing central assistance to Urban Local Bodies and credit-linked subsidies for home loans.",
+    "officialLink": "https://pmaymis.gov.in/",
+    "icon": "fa-solid fa-house-chimney",
+    "tags": ["Urban Housing", "Home Loan Subsidy", "PMAY"],
+    "eligibility": "Urban residents without a pucca house in their name anywhere in India, meeting specified income criteria (EWS/LIG/MIG).",
+    "fees": {
+      "type": "Free",
+      "details": "No application fee on the official portal."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Income Proof / ITR",
+      "Bank Account Details",
+      "Property Documents (if applying for construction/enhancement)"
+    ],
+    "stepsToApply": [
+      "Visit the official PMAY-U MIS portal and select 'Citizen Assessment' from the top menu.",
+      "Choose 'Apply Online' and select the appropriate component (e.g., Slum Dwellers, Beneficiary Led Construction, or Credit Linked Subsidy).",
+      "Enter your 12-digit Aadhaar number and your name exactly as it appears on the Aadhaar card to authenticate.",
+      "Fill out the comprehensive application form with your personal, income, residential, and bank account details.",
+      "Save the application, note down the generated assessment ID for future tracking, and download the printed form to submit to the nearest Common Service Centre (CSC) or bank."
+    ]
+  },
+  {
+    "id": "house-002",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Rural Development",
+    "department": "Rural Housing",
+    "title": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+    "slug": "pmay-gramin-housing",
+    "shortDescription": "Financial assistance program to provide pucca houses with basic amenities to all houseless rural families.",
+    "officialLink": "https://pmayg.nic.in/",
+    "icon": "fa-solid fa-house-tree",
+    "tags": ["Rural Housing", "Financial Aid", "PMAY"],
+    "eligibility": "Houseless rural families or those living in kutcha/dilapidated houses, identified via the SECC 2011 data or Awaas+ survey.",
+    "fees": {
+      "type": "Free",
+      "details": "Grant-based scheme; no application fee."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "MGNREGA Job Card Number",
+      "Bank Account Passbook",
+      "Swachh Bharat Mission (SBM) Number"
+    ],
+    "stepsToApply": [
+      "Beneficiaries are primarily selected based on SECC 2011/Awaas+ data. Visit the PMAY-G portal to check if your name is on the Permanent Wait List (PWL).",
+      "If listed, approach your local Gram Panchayat or Ward Member with your Aadhaar and bank details for physical verification.",
+      "The Gram Rozgar Sahayak will register your details on the AwaasSoft portal and geotag your proposed construction site.",
+      "Once sanctioned by the Block Development Office, the first installment is credited directly to your bank account via DBT.",
+      "Upload stage-wise construction photos using the AwaasApp to trigger subsequent financial installments."
+    ]
+  },
+  {
+    "id": "house-003",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of New and Renewable Energy",
+    "department": "National Rooftop Solar Portal",
+    "title": "PM Surya Ghar: Muft Bijli Yojana",
+    "slug": "pm-surya-ghar-solar",
+    "shortDescription": "National scheme providing up to ₹78,000 subsidy to households for installing rooftop solar plants to get free electricity.",
+    "officialLink": "https://pmsuryaghar.gov.in/",
+    "icon": "fa-solid fa-solar-panel",
+    "tags": ["Solar Panel", "Electricity", "Subsidy"],
+    "eligibility": "Any Indian household with a valid electricity connection and a roof suitable for solar panel installation.",
+    "fees": {
+      "type": "Variable",
+      "details": "Portal registration is free. Installation costs vary by vendor, offset by direct central subsidies."
+    },
+    "requiredDocuments": [
+      "Recent Electricity Bill",
+      "Aadhaar Card",
+      "Bank Account Details (for subsidy transfer)",
+      "Passport Size Photograph"
+    ],
+    "stepsToApply": [
+      "Visit the PM Surya Ghar portal or download the mobile app and click on 'Register'.",
+      "Select your State and Electricity Distribution Company (DISCOM), then enter your Electricity Consumer Number, mobile number, and email.",
+      "Log in with your Consumer Number and apply for rooftop solar by filling in your roof area and capacity requirements.",
+      "Wait for DISCOM feasibility approval. Once approved, select a registered vendor from the portal's directory to install the plant.",
+      "After installation, submit the plant details online, apply for net-metering, and upon successful DISCOM inspection, upload a canceled cheque to receive the subsidy via DBT."
+    ]
+  },
+  {
+    "id": "house-004",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Petroleum and Natural Gas",
+    "department": "LPG Subsidy Division",
+    "title": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "slug": "pm-ujjwala-yojana",
+    "shortDescription": "Provides free LPG (cooking gas) connections to women of Below Poverty Line (BPL) families to promote clean cooking fuel.",
+    "officialLink": "https://www.pmuy.gov.in/",
+    "icon": "fa-solid fa-fire-flame-simple",
+    "tags": ["LPG Connection", "Cooking Gas", "Women Empowerment"],
+    "eligibility": "Adult women belonging to BPL households, SC/ST, PMAY-G beneficiaries, or Antyodaya Anna Yojana (AAY) with no existing LPG connection.",
+    "fees": {
+      "type": "Free",
+      "details": "Security deposit for cylinder and pressure regulator is paid by the Government."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card (of applicant and adult family members)",
+      "Ration Card / BPL Certificate",
+      "Bank Account Details with IFSC",
+      "Passport Size Photograph"
+    ],
+    "stepsToApply": [
+      "Visit the PMUY official portal and click on 'Apply for New Ujjwala 2.0 Connection'.",
+      "Choose your preferred Oil Marketing Company (Indane, BharatGas, or HP Gas) and click on their respective portal link.",
+      "Select 'Ujjwala Beneficiary Connection', enter your location details to find your nearest distributor, and verify your Aadhaar via e-KYC.",
+      "Fill out the comprehensive online application detailing your family composition and upload the required Ration Card and address proofs.",
+      "Alternatively, download the offline form and submit it physically at the nearest LPG distributorship; once verified, you will be called to collect your stove and first free cylinder."
+    ]
+  },
+  {
+    "id": "house-005",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Finance",
+    "department": "National Payments Corporation of India (NPCI)",
+    "title": "Bharat Bill Payment System (BBPS)",
+    "slug": "bharat-billpay",
+    "shortDescription": "An integrated, interoperable bill payment system for seamless payment of electricity, water, gas, DTH, and telecom bills.",
+    "officialLink": "https://www.bharatbillpay.com/",
+    "icon": "fa-solid fa-file-invoice-dollar",
+    "tags": ["Utility Bills", "Payments", "Electricity"],
+    "eligibility": "Any citizen with a bank account, UPI app, or visiting a CSC/Retail outlet.",
+    "fees": {
+      "type": "Free",
+      "details": "Zero convenience fee for most utility bill payments via UPI/Netbanking."
+    },
+    "requiredDocuments": [
+      "Consumer Number / Account ID from the respective utility bill"
+    ],
+    "stepsToApply": [
+      "Open your preferred UPI application (BHIM, PhonePe, Google Pay), banking app, or visit the BBPS web portal.",
+      "Navigate to the 'Recharge & Pay Bills' section and select the category (e.g., Electricity, Water, Piped Gas).",
+      "Select your state and search for your specific service provider/DISCOM from the BBPS directory.",
+      "Enter your unique Consumer Number or Account ID to instantly fetch your live bill amount.",
+      "Verify the bill details and complete the payment using your UPI PIN or banking credentials to receive an instant, assured BBPS confirmation receipt."
+    ]
+  },
+  {
+    "id": "house-006",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Communications",
+    "department": "Department of Telecommunications (DoT)",
+    "title": "Sanchar Saathi - CEIR (Block Lost Phone)",
+    "slug": "ceir-block-lost-phone",
+    "shortDescription": "Central Equipment Identity Register portal to block lost or stolen mobile phones across all telecom networks in India.",
+    "officialLink": "https://www.sancharsaathi.gov.in/",
+    "icon": "fa-solid fa-mobile-screen-button",
+    "tags": ["Mobile Security", "Lost Phone", "Telecom"],
+    "eligibility": "Any individual whose mobile phone is lost or stolen in India.",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free service."
+    },
+    "requiredDocuments": [
+      "Police Complaint / FIR Copy",
+      "Mobile Purchase Invoice",
+      "Identity Proof (Aadhaar, Voter ID)"
+    ],
+    "stepsToApply": [
+      "File a report for your lost/stolen phone with the local police station or through the state's online FIR portal.",
+      "Get a duplicate SIM card for the lost mobile number from your telecom operator to receive OTPs.",
+      "Visit the Sanchar Saathi portal, navigate to the CEIR section, and click on 'Block Stolen/Lost Mobile'.",
+      "Fill out the request form with the device's IMEI number, brand, model, and upload the FIR copy and purchase invoice.",
+      "Provide your new/duplicate mobile number for OTP verification, submit the request, and save the Request ID. The phone will be blacklisted across all Indian networks within 24 hours."
+    ]
+  },
+  {
+    "id": "house-007",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Communications",
+    "department": "Department of Telecommunications (DoT)",
+    "title": "Sanchar Saathi - TAFCOP",
+    "slug": "tafcop-mobile-connections",
+    "shortDescription": "Portal to check the number of mobile connections active against your name and report unauthorized numbers.",
+    "officialLink": "https://www.sancharsaathi.gov.in/",
+    "icon": "fa-solid fa-sim-card",
+    "tags": ["Telecom", "Fraud Prevention", "SIM Check"],
+    "eligibility": "Any Indian mobile subscriber holding an Aadhaar card.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to check and report."
+    },
+    "requiredDocuments": [
+      "Active Mobile Number"
+    ],
+    "stepsToApply": [
+      "Visit the Sanchar Saathi portal and click on the 'Know Your Mobile Connections (TAFCOP)' module.",
+      "Enter your current active mobile number, fill in the captcha code, and request an OTP.",
+      "Enter the received OTP to log into your personalized TAFCOP dashboard.",
+      "Review the list of all mobile numbers currently registered under your name/ID proof.",
+      "If you spot unrecognized numbers, select them, choose the option 'Not my number', and click 'Report' to initiate disconnection by the telecom provider."
+    ]
+  },
+  {
+    "id": "house-008",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Jal Shakti",
+    "department": "Department of Drinking Water and Sanitation",
+    "title": "Swachh Bharat Mission (IHHL Toilet Construction)",
+    "slug": "sbm-ihhl-toilet",
+    "shortDescription": "Financial assistance of ₹12,000 to eligible rural and urban households for the construction of Individual Household Latrines (IHHL).",
+    "officialLink": "https://sbm.gov.in/",
+    "icon": "fa-solid fa-toilet",
+    "tags": ["Sanitation", "Subsidy", "Swachh Bharat"],
+    "eligibility": "BPL households, and specific APL households (SC/ST, physically handicapped, women-headed) without an existing toilet.",
+    "fees": {
+      "type": "Free",
+      "details": "No application fees. Approved beneficiaries receive ₹12,000 as a grant."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Account Passbook (scanned copy)",
+      "BPL / Category Certificate",
+      "Passport Size Photograph"
+    ],
+    "stepsToApply": [
+      "Visit the Swachh Bharat Mission (Gramin/Urban) portal and click on 'Application Form for IHHL'.",
+      "Register yourself by providing your mobile number, name, and address to generate a Login ID.",
+      "Log in and fill out the detailed application form, providing your Aadhaar details, exact geographic location, and bank account information.",
+      "Upload the scanned copy of your bank passbook and a clear passport-size photograph, then submit the form.",
+      "Your local nodal officer will conduct a physical inspection of your house. Upon approval, the funds will be released in two installments (pre and post-construction) via DBT."
+    ]
+  },
+  {
+    "id": "house-009",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Jal Shakti",
+    "department": "Department of Drinking Water and Sanitation",
+    "title": "Jal Jeevan Mission (Har Ghar Jal)",
+    "slug": "jal-jeevan-mission-connection",
+    "shortDescription": "Initiative to provide a functional household tap connection (FHTC) providing safe drinking water to every rural household.",
+    "officialLink": "https://jaljeevanmission.gov.in/",
+    "icon": "fa-solid fa-faucet-drip",
+    "tags": ["Water Connection", "Rural Utility", "Drinking Water"],
+    "eligibility": "All rural households in India currently without a piped drinking water connection.",
+    "fees": {
+      "type": "Variable",
+      "details": "Installation is highly subsidized by the government; nominal community contribution or monthly tariffs may apply based on Gram Panchayat rules."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Address Proof",
+      "Property Ownership Document or Tax Receipt"
+    ],
+    "stepsToApply": [
+      "The scheme is community-driven. Approach your local Village Water and Sanitation Committee (VWSC) or Gram Panchayat office.",
+      "Submit a formal application requesting a Functional Household Tap Connection (FHTC) along with your identity and address proofs.",
+      "The Gram Panchayat includes your household in the Village Action Plan (VAP).",
+      "Once the village water infrastructure is laid by the Public Health Engineering Department (PHED), contractors will extend the pipeline to your premises.",
+      "A water meter (in applicable states) and tap will be installed, and you may need to sign a community maintenance agreement."
+    ]
+  },
+  {
+    "id": "house-010",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Panchayati Raj",
+    "department": "SVAMITVA Division",
+    "title": "SVAMITVA Property Cards",
+    "slug": "svamitva-rural-property-card",
+    "shortDescription": "Drone-based mapping of rural inhabited lands to provide a 'Record of Rights' (Property Card) to village household owners.",
+    "officialLink": "https://svamitva.nic.in/",
+    "icon": "fa-solid fa-map-location-dot",
+    "tags": ["Land Records", "Rural Property", "Mapping"],
+    "eligibility": "Residents of rural 'Abadi' (inhabited) areas holding property but lacking formal documented ownership rights.",
+    "fees": {
+      "type": "Free",
+      "details": "Drone mapping and initial property card issuance are free."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Gram Panchayat Tax Receipts (if any)",
+      "Traditional/Ancestral proofs of occupation"
+    ],
+    "stepsToApply": [
+      "Pay attention to the notification issued by your District Magistrate regarding the scheduled date for drone flying in your village.",
+      "Prior to the drone survey, participate in the 'Chuna Lagana' (limestone marking) process with Patwari officials to accurately mark your property boundaries.",
+      "The Survey of India will conduct the drone mapping and generate a high-resolution map of the village.",
+      "A draft property map will be published at the Gram Panchayat. Check your property boundaries and file an objection within the stipulated 15-30 days if there is a discrepancy.",
+      "Once disputes are resolved, the final 'Property Card' (Sanad) is generated digitally and distributed by the Revenue Department, which can be downloaded via DigiLocker."
+    ]
+  },
+  {
+    "id": "house-011",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "department": "Land and Development Office (L&DO)",
+    "title": "e-Dharti Geo Portal",
+    "slug": "edharti-property-mutation",
+    "shortDescription": "Online portal for property mutation, conversion from leasehold to freehold, and substitution for L&DO administered properties.",
+    "officialLink": "https://ldo.gov.in/eDharti/",
+    "icon": "fa-solid fa-file-signature",
+    "tags": ["Property Mutation", "Land Records", "Freehold"],
+    "eligibility": "Allottees/owners of properties administered by the Land and Development Office (primarily in Delhi).",
+    "fees": {
+      "type": "Variable",
+      "details": "Conversion and mutation charges vary significantly based on property size, location, and prevailing circle rates."
+    },
+    "requiredDocuments": [
+      "Registered Sale Deed or Will",
+      "Relinquishment Deed (if applicable)",
+      "Indemnity Bond and Affidavit",
+      "Up-to-date Ground Rent receipt"
+    ],
+    "stepsToApply": [
+      "Visit the L&DO e-Dharti portal and register using your mobile number and property details to create an account.",
+      "Log into your dashboard and select the desired service (e.g., Conversion to Freehold, Mutation, or Substitution).",
+      "Fill in the exhaustive online form linking the previous owner's details with the applicant's details.",
+      "Scan and upload all mandatory legal documents, affidavits, and photographs as per the specified checklist.",
+      "Pay the calculated processing fees and conversion charges online via the Bharatkosh gateway, and track the status online until the digitally signed certificate is issued."
+    ]
+  },
+  {
+    "id": "house-012",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Rural Development",
+    "department": "Department of Land Resources",
+    "title": "National Generic Document Registration System (NGDRS)",
+    "slug": "ngdrs-property-registration",
+    "shortDescription": "A centralized digital portal for online property valuation, stamp duty calculation, and document registration.",
+    "officialLink": "https://ngdrs.gov.in/",
+    "icon": "fa-solid fa-stamp",
+    "tags": ["Property Registration", "Stamp Duty", "Real Estate"],
+    "eligibility": "Citizens buying, selling, or leasing property in states that have implemented the NGDRS system.",
+    "fees": {
+      "type": "Variable",
+      "details": "Stamp duty and registration fees are calculated dynamically based on state laws, property type, and circle rates."
+    },
+    "requiredDocuments": [
+      "Draft Sale/Lease Deed",
+      "Identity and Address Proofs of Buyer, Seller, and Witnesses",
+      "Property Tax Clearances",
+      "PAN Card"
+    ],
+    "stepsToApply": [
+      "Visit the NGDRS portal and select your respective State to access the state-specific login page.",
+      "Register as a Citizen User and log in to the system. Click on 'Property Valuation' to estimate your stamp duty.",
+      "Select 'Document Entry', fill in the details of the property, buyer, seller, and witnesses, and upload the draft deed.",
+      "Pay the calculated stamp duty and registration fee online through the integrated state payment gateway (e.g., SHCIL/GRAS).",
+      "Book an online appointment slot. Visit the Sub-Registrar's Office (SRO) on the scheduled date with all parties and original documents for biometric capture and final registration."
+    ]
+  },
+  {
+    "id": "house-013",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Power",
+    "department": "Energy Efficiency Services Limited (EESL)",
+    "title": "UJALA Scheme (Affordable LEDs)",
+    "slug": "ujala-led-bulbs",
+    "shortDescription": "Distribution of highly subsidized, energy-efficient LED bulbs, tube lights, and energy-efficient fans to domestic consumers.",
+    "officialLink": "http://www.ujala.gov.in/",
+    "icon": "fa-solid fa-lightbulb",
+    "tags": ["Energy Efficiency", "Electricity", "Subsidized Appliances"],
+    "eligibility": "Every domestic household having a metered electricity connection.",
+    "fees": {
+      "type": "Purchase Based",
+      "details": "Subsidized rates: ~₹70 for LED bulbs, ~₹220 for Tube lights, ~₹1110 for Energy efficient fans (prices may vary slightly)."
+    },
+    "requiredDocuments": [
+      "Latest Electricity Bill",
+      "Government Photo ID Proof (Aadhaar, Voter ID)"
+    ],
+    "stepsToApply": [
+      "Visit the official UJALA web portal and navigate to the 'UJALA Dashboard' to find the list of active distribution kiosks in your state/city.",
+      "Alternatively, check with your local DISCOM office or designated post offices/CSC centers.",
+      "Visit the designated UJALA kiosk physically carrying your latest electricity bill and a valid photo ID.",
+      "Present the documents to the kiosk operator, who will verify your consumer number.",
+      "Pay the subsidized cash amount and collect your energy-efficient appliances (usually capped at a certain number per household)."
+    ]
+  },
+  {
+    "id": "house-014",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Petroleum and Natural Gas",
+    "department": "DBTL (PAHAL)",
+    "title": "PAHAL (DBTL) LPG Subsidy Enrollment",
+    "slug": "pahal-lpg-subsidy",
+    "shortDescription": "Direct Benefit Transfer of LPG subsidy directly into the bank accounts of consumers to prevent leakage.",
+    "officialLink": "http://mylpg.in/",
+    "icon": "fa-solid fa-indian-rupee-sign",
+    "tags": ["LPG Subsidy", "DBT", "Gas Cylinder"],
+    "eligibility": "All domestic LPG consumers across the country (except those whose taxable income exceeds ₹10 Lakhs per annum).",
+    "fees": {
+      "type": "Free",
+      "details": "No enrollment fee."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Account Details",
+      "LPG Consumer Number / Blue Book"
+    ],
+    "stepsToApply": [
+      "Visit the MyLPG.in portal and select your respective gas company (Indane, HP, or BharatGas).",
+      "Check your current PAHAL (DBTL) status by entering your 17-digit LPG ID.",
+      "If not linked, choose the 'Link Aadhaar' option online. Enter your LPG ID, Aadhaar number, and verify via OTP.",
+      "If you prefer offline, download the 'Bank Account - Aadhaar Linkage Form' (Form 1 or Form 2).",
+      "Submit Form 1 to your bank to link Aadhaar to your bank account, and Form 2 to your LPG distributor to link Aadhaar to your LPG consumer number."
+    ]
+  },
+  {
+    "id": "house-015",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Communications",
+    "department": "BSNL",
+    "title": "BSNL Bharat Fibre (FTTH) New Connection",
+    "slug": "bsnl-bharat-fibre",
+    "shortDescription": "Apply online for high-speed fiber-to-the-home (FTTH) broadband and landline connection provided by BSNL.",
+    "officialLink": "https://bookmyfiber.bsnl.co.in/",
+    "icon": "fa-solid fa-wifi",
+    "tags": ["Broadband", "Internet", "Telecom"],
+    "eligibility": "Any citizen residing in an area where BSNL optical fiber infrastructure is available.",
+    "fees": {
+      "type": "Variable",
+      "details": "Security deposit (approx. ₹500), installation charges (approx. ₹250-₹500), plus chosen monthly plan tariff."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card (for e-KYC)",
+      "Address Proof (if different from Aadhaar)",
+      "Passport Size Photograph"
+    ],
+    "stepsToApply": [
+      "Visit the BSNL 'Book My Fiber' portal or download the BSNL mobile app.",
+      "Enter your geographic location using the map interface or PIN code to check FTTH feasibility in your neighborhood.",
+      "Select your preferred broadband tariff plan from the available list and fill in your name, mobile number, and installation address.",
+      "Submit the request. A lead ID is generated, and a local BSNL representative or franchisee will contact you within 24-48 hours.",
+      "The technician will visit your premises for wiring, complete the Aadhaar e-KYC on the spot, collect the installation fee, and activate the high-speed internet connection."
+    ]
+  },
+  {
+    "id": "house-016",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Electronics and Information Technology",
+    "department": "Unique Identification Authority of India (UIDAI)",
+    "title": "Aadhaar Address Update (Online)",
+    "slug": "aadhaar-address-update",
+    "shortDescription": "Update or change your residential address on your Aadhaar card online without visiting an enrollment center.",
+    "officialLink": "https://myaadhaar.uidai.gov.in/",
+    "icon": "fa-solid fa-address-card",
+    "tags": ["Aadhaar", "Address Change", "Identity"],
+    "eligibility": "Any Aadhaar holder whose current mobile number is linked to their Aadhaar card.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹50 processing fee per update request."
+    },
+    "requiredDocuments": [
+      "Valid Address Proof (Passport, Voter ID, Ration Card, Utility Bill within 3 months, Bank Passbook)"
+    ],
+    "stepsToApply": [
+      "Visit the 'myAadhaar' portal and log in using your 12-digit Aadhaar number and the OTP sent to your registered mobile number.",
+      "Click on the 'Address Update' tab and select 'Update Aadhaar Online'.",
+      "Proceed to update address, fill in your new residential address details exactly in English and your local language.",
+      "Upload a clear, scanned color copy of your valid Proof of Address document from the accepted list.",
+      "Review the demographic data, pay the ₹50 fee via UPI/Netbanking/Card, and download the Service Request Number (SRN) receipt to track your update status."
+    ]
+  },
+  {
+    "id": "house-017",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "department": "Real Estate Regulatory Authority (RERA)",
+    "title": "RERA Complaint Registration",
+    "slug": "rera-complaint",
+    "shortDescription": "File a formal complaint against real estate builders, promoters, or agents for project delays or rule violations.",
+    "officialLink": "https://mohua.gov.in/cms/rera.php",
+    "icon": "fa-solid fa-building-circle-exclamation",
+    "tags": ["Real Estate", "Grievance", "Homebuyer"],
+    "eligibility": "Any aggrieved homebuyer, allottee, or real estate agent dealing with a RERA-registered project.",
+    "fees": {
+      "type": "Variable",
+      "details": "Varies by state (Typically ₹1000 for filing a complaint before the Authority; ₹1000-₹5000 for Appellate Tribunal)."
+    },
+    "requiredDocuments": [
+      "Builder-Buyer Agreement / Allotment Letter",
+      "Payment Receipts",
+      "Correspondence with the Builder",
+      "Project RERA Registration Number"
+    ],
+    "stepsToApply": [
+      "Identify the specific RERA website for your state (e.g., MahaRERA, UP RERA) as operations are state-managed under a central act.",
+      "Create a user account as a 'Complainant/Allottee' and log in to the portal.",
+      "Click on 'Register Complaint' and fill in the details of the respondent (builder/agent), the registered project details, and the relief sought.",
+      "Upload all supporting documents as PDF files and outline the chronology of the dispute.",
+      "Pay the state-prescribed complaint filing fee online. A hearing date will be assigned, and you will be notified via SMS/email to attend virtually or physically."
+    ]
+  },
+  {
+    "id": "house-018",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "department": "Delhi Development Authority (DDA)",
+    "title": "PM-UDAY (Unauthorized Colonies Regularization)",
+    "slug": "pm-uday-regularization",
+    "shortDescription": "Conferment of ownership rights to residents of unauthorized colonies in Delhi, allowing them to register properties and take bank loans.",
+    "officialLink": "https://pmuday.ncog.gov.in/",
+    "icon": "fa-solid fa-house-circle-check",
+    "tags": ["Property Rights", "Delhi", "Regularization"],
+    "eligibility": "Residents holding General Power of Attorney (GPA), Will, Agreement to Sell, or Payment Receipts for properties in 1,731 designated unauthorized colonies in Delhi.",
+    "fees": {
+      "type": "Variable",
+      "details": "Nominal conveyance deed charges based on plot size and circle rate."
+    },
+    "requiredDocuments": [
+      "GPA / Agreement to Sell / Will",
+      "Electricity Bill",
+      "Aadhaar Card",
+      "Photographs of the property"
+    ],
+    "stepsToApply": [
+      "Visit the PM-UDAY portal and click on 'Registration' to create an account using your mobile number and email ID.",
+      "Log in and book an appointment with a DDA empanelled GIS agency to conduct a precise geographical survey and generate a geo-tagged map of your property.",
+      "Once the GIS agency uploads the polygon map, return to the PM-UDAY portal and fill out the detailed application form.",
+      "Upload all chains of property documents (GPA, Agreement to Sell) and electricity bills to establish ownership.",
+      "Pay the processing fee. DDA officials will scrutinize the file and conduct a physical inspection before issuing the Conveyance Deed/Authorization Slip for formal registration."
+    ]
+  },
+  {
+    "id": "house-019",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Communications",
+    "department": "Department of Telecommunications",
+    "title": "PM-WANI (Public Wi-Fi Access)",
+    "slug": "pm-wani-wifi",
+    "shortDescription": "Framework to elevate broadband penetration by allowing access to public Wi-Fi hotspots provided by Public Data Offices (PDOs).",
+    "officialLink": "https://pmwani.gov.in/",
+    "icon": "fa-solid fa-wifi",
+    "tags": ["Public Wi-Fi", "Internet", "Digital India"],
+    "eligibility": "Any citizen with a smartphone seeking internet access.",
+    "fees": {
+      "type": "Variable",
+      "details": "Prices are set by local PDOs, often ranging from ₹5 for 1GB to ₹50 for monthly unlimited access."
+    },
+    "requiredDocuments": [
+      "None (Only a valid mobile number for OTP)"
+    ],
+    "stepsToApply": [
+      "Visit the PM-WANI central portal to find a list of certified App Providers, or search for 'PM WANI' on your mobile app store.",
+      "Download a PM-WANI compliant mobile app (e.g., WANI, Wi-Fi Dabba) on your smartphone.",
+      "Open the app, register using your mobile number, and authenticate via OTP.",
+      "The app will display nearby PM-WANI Wi-Fi hotspots (PDOs). Walk into the range of a hotspot.",
+      "Select a data plan in the app, pay securely via UPI/wallet, and tap 'Connect' to instantly access high-speed internet without needing complex passwords."
+    ]
+  },
+  {
+    "id": "house-020",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of New and Renewable Energy",
+    "department": "PM-KUSUM",
+    "title": "PM-KUSUM (Solar Pumps for Farmers)",
+    "slug": "pm-kusum-solar-pumps",
+    "shortDescription": "Provides massive subsidies to farmers for installing standalone solar agriculture pumps or solarizing existing grid-connected pumps.",
+    "officialLink": "https://pmkusum.mnre.gov.in/",
+    "icon": "fa-solid fa-solar-panel",
+    "tags": ["Agriculture", "Solar Power", "Farmers"],
+    "eligibility": "Individual farmers, groups of farmers, FPOs, and Water User Associations.",
+    "fees": {
+      "type": "Variable",
+      "details": "Farmers pay only 10% to 40% of the pump cost; the rest is covered by Central and State subsidies and bank loans."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Land Ownership Documents (Khasra/Khatauni)",
+      "Bank Passbook",
+      "Passport Size Photograph"
+    ],
+    "stepsToApply": [
+      "The scheme is implemented via state nodal agencies (SNAs). Visit your respective state's renewable energy portal or the central PM-KUSUM portal for links.",
+      "Register online when the state opens its application window, providing your Aadhaar and land details.",
+      "Select the desired capacity of the solar pump (Component B) or grid-connected solarization (Component C) based on your water requirement and land size.",
+      "Upload the required land records and identity documents, and submit the initial application fee.",
+      "Once shortlisted via the state's selection process, deposit your beneficiary share (usually 10-40%) to the SNA, after which an empanelled vendor will install the solar pump on your farm."
+    ]
+  },
+  {
+    "id": "house-021",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Petroleum and Natural Gas",
+    "department": "City Gas Distribution (CGD)",
+    "title": "Piped Natural Gas (PNG) New Connection",
+    "slug": "png-domestic-connection",
+    "shortDescription": "Apply for a safe, uninterrupted domestic Piped Natural Gas (PNG) connection for cooking purposes.",
+    "officialLink": "https://mopng.gov.in/",
+    "icon": "fa-solid fa-fire",
+    "tags": ["Cooking Gas", "PNG", "Utility"],
+    "eligibility": "Residents living in cities covered under the City Gas Distribution (CGD) network.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Refundable security deposit (usually around ₹5,000 to ₹6,000 depending on the CGD entity)."
+    },
+    "requiredDocuments": [
+      "Identity Proof (Aadhaar, PAN)",
+      "Address Proof (Electricity Bill, Property Tax Receipt)",
+      "Ownership Proof or NOC from Landlord"
+    ],
+    "stepsToApply": [
+      "Identify the authorized City Gas Distribution entity operating in your city (e.g., IGL in Delhi, MGL in Mumbai, Adani Gas, GAIL).",
+      "Visit the official website of the local CGD provider and click on 'New Domestic PNG Connection'.",
+      "Fill in the online application form with your personal details, complete address, and property ownership status.",
+      "Upload scanned copies of your ID proof, address proof, and passport-size photograph.",
+      "Pay the refundable security deposit online. The company will conduct a feasibility survey, install the meter and pipelines, and convert your existing LPG stove to PNG compatibility."
+    ]
+  },
+  {
+    "id": "house-022",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Finance",
+    "department": "Stock Holding Corporation of India (SHCIL)",
+    "title": "e-Stamping for Rent Agreements",
+    "slug": "shcil-estamping",
+    "shortDescription": "Secure and legally valid online generation of stamp papers for executing rent agreements, affidavits, and leases.",
+    "officialLink": "https://www.shcilestamp.com/",
+    "icon": "fa-solid fa-file-contract",
+    "tags": ["Rent Agreement", "Stamp Paper", "Legal"],
+    "eligibility": "Any citizen executing a legal document requiring stamp duty in participating states.",
+    "fees": {
+      "type": "Variable",
+      "details": "Stamp duty amount based on document value/state laws + minor convenience fee."
+    },
+    "requiredDocuments": [
+      "Names and details of First Party (Landlord) and Second Party (Tenant)",
+      "Property Address details"
+    ],
+    "stepsToApply": [
+      "Visit the SHCIL e-Stamping portal and register as a new user.",
+      "Log in and select your state from the drop-down menu (note: not all states support online self-printing).",
+      "Enter the details of the First Party, Second Party, the article description (e.g., Rent Agreement), and the stamp duty amount required.",
+      "Pay the calculated stamp duty online via Net Banking, Debit Card, or UPI.",
+      "Download the generated e-Stamp certificate with a unique UIN. Print it on standard A4 paper and print/type your rent agreement text on the subsequent pages."
+    ]
+  },
+  {
+    "id": "house-023",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Power",
+    "department": "State DISCOMs / EESL",
+    "title": "Prepaid Smart Meter Recharge",
+    "slug": "smart-meter-recharge",
+    "shortDescription": "Track electricity consumption in real-time and recharge your prepaid smart electricity meter online.",
+    "officialLink": "https://powermin.gov.in/",
+    "icon": "fa-solid fa-bolt",
+    "tags": ["Electricity", "Smart Meter", "Recharge"],
+    "eligibility": "Electricity consumers where prepaid smart meters have been installed under the Smart Meter National Programme (SMNP).",
+    "fees": {
+      "type": "Variable",
+      "details": "Recharge amount as per consumer usage; no extra portal convenience fees."
+    },
+    "requiredDocuments": [
+      "Consumer Number / Account ID"
+    ],
+    "stepsToApply": [
+      "Download the specific Smart Meter mobile app provided by your state DISCOM (e.g., Bihar Bijli Smart NetApp, UP Smart Meter App).",
+      "Register using your Consumer Number and registered mobile number.",
+      "View your real-time electricity consumption, current balance, and estimated days of supply remaining.",
+      "Click on 'Recharge' and enter your desired amount.",
+      "Pay securely using UPI or Net Banking. The balance is updated automatically in the meter within 15-30 minutes, preventing power disconnection."
+    ]
+  },
+  {
+    "id": "house-024",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Jal Shakti",
+    "department": "Department of Drinking Water and Sanitation",
+    "title": "GOBARdhan Scheme Registration",
+    "slug": "gobardhan-biogas",
+    "shortDescription": "Initiative to convert biodegradable waste, especially cattle dung, into biogas (cooking fuel) and organic manure in rural areas.",
+    "officialLink": "https://sbm.gov.in/gbd/",
+    "icon": "fa-solid fa-leaf",
+    "tags": ["Biogas", "Rural Utilities", "Waste to Wealth"],
+    "eligibility": "Gram Panchayats, SHGs, FPOs, and rural entrepreneurs setting up biogas or CBG plants.",
+    "fees": {
+      "type": "Free",
+      "details": "Portal registration is free; provides access to technical support and convergence funding."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Land details for plant setup",
+      "Registration Certificate (if applying as FPO/SHG)"
+    ],
+    "stepsToApply": [
+      "Visit the Unified GOBARdhan portal.",
+      "Click on 'Registration' and choose your entity type (Individual, Gram Panchayat, SHG, or Corporate).",
+      "Fill out the registration form with your contact details, exact location for the proposed plant, and estimated waste generation capacity.",
+      "Submit the form to receive a unique registration number.",
+      "Use this registration to apply for financial assistance under Swachh Bharat Mission (Grameen) phase-II or from local nodal agencies to construct your biogas plant."
+    ]
+  },
+  {
+    "id": "house-025",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Power",
+    "department": "Power Finance Corporation",
+    "title": "Urja Mitra (Power Outage Tracking)",
+    "slug": "urja-mitra-outage",
+    "shortDescription": "A unified platform providing real-time information on scheduled and unscheduled power outages across India.",
+    "officialLink": "https://urjamitra.com/",
+    "icon": "fa-solid fa-plug-circle-xmark",
+    "tags": ["Electricity", "Outage Tracking", "Alerts"],
+    "eligibility": "Any electricity consumer in India.",
+    "fees": {
+      "type": "Free",
+      "details": "Free information portal and alert service."
+    },
+    "requiredDocuments": [
+      "Consumer Number (to subscribe to alerts)"
+    ],
+    "stepsToApply": [
+      "Visit the Urja Mitra web portal or download the Urja Mitra mobile app.",
+      "On the dashboard, you can view the live map of India highlighting current power outages by state and DISCOM.",
+      "To receive personalized SMS/email alerts, click on 'Consumer Login/Registration'.",
+      "Select your State and DISCOM, and enter your exact Consumer Number.",
+      "Verify your mobile number to subscribe. You will now receive automated SMS alerts from your DISCOM prior to scheduled maintenance cuts or during sudden breakdowns."
+    ]
+  },
+  {
+    "id": "house-026",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "department": "Department of Consumer Affairs",
+    "title": "National Consumer Helpline (NCH)",
+    "slug": "national-consumer-helpline",
+    "shortDescription": "Register grievances regarding faulty real estate projects, overcharging by utilities, or deficient broadband services.",
+    "officialLink": "https://consumerhelpline.gov.in/",
+    "icon": "fa-solid fa-scale-balanced",
+    "tags": ["Grievance", "Consumer Rights", "Complaints"],
+    "eligibility": "Any consumer facing exploitation or deficiency in services by a company or utility provider.",
+    "fees": {
+      "type": "Free",
+      "details": "Free grievance registration."
+    },
+    "requiredDocuments": [
+      "Bills / Invoices",
+      "Previous correspondence with the company",
+      "Proof of payment"
+    ],
+    "stepsToApply": [
+      "Visit the National Consumer Helpline (INGRAM) portal or download the NCH mobile app.",
+      "Click on 'Sign Up' to create a consumer profile using your name, mobile number, and email.",
+      "Log in and select 'Register Grievance'. Choose the relevant sector (e.g., Real Estate, Telecom, or Electricity).",
+      "Select the company name from the dropdown list, detail your grievance in the text box, and upload supporting documents like bills or agreements.",
+      "Submit the complaint. The NCH will assign a docket number and mediate with the company for resolution, usually within 15-45 days."
+    ]
+  },
+  {
+    "id": "house-027",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Panchayati Raj",
+    "department": "e-Gram Swaraj",
+    "title": "e-Gram Swaraj (Panchayat Tax & Services)",
+    "slug": "egram-swaraj-tax",
+    "shortDescription": "A simplified work-based accounting application enabling rural citizens to pay property/water taxes and view panchayat development plans.",
+    "officialLink": "https://egramswaraj.gov.in/",
+    "icon": "fa-solid fa-landmark",
+    "tags": ["Rural Local Body", "Property Tax", "Panchayat"],
+    "eligibility": "Residents of Gram Panchayats where online tax collection is active.",
+    "fees": {
+      "type": "Variable",
+      "details": "Property/Water tax amounts as assessed by the Gram Panchayat; portal usage is free."
+    },
+    "requiredDocuments": [
+      "House Number / Property Assessment ID"
+    ],
+    "stepsToApply": [
+      "Visit the e-Gram Swaraj portal or download the e-Gram Swaraj mobile application.",
+      "Select your State, Zilla Parishad, Block Panchayat, and Gram Panchayat from the dropdown lists.",
+      "Navigate to the 'Online Tax Payment' or 'Citizen Services' section (if enabled for your specific state).",
+      "Enter your house number or assessment ID to fetch your current property or water tax dues.",
+      "Pay the dues securely via the integrated UPI/Netbanking gateway and download the digital receipt for your records."
+    ]
+  },
+  {
+    "id": "house-028",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Petroleum and Natural Gas",
+    "department": "LPG Division",
+    "title": "LPG Cylinder Refill Booking (Unified)",
+    "slug": "lpg-refill-booking",
+    "shortDescription": "Book your LPG cylinder refill online via web, mobile app, SMS, or WhatsApp regardless of your gas agency.",
+    "officialLink": "http://mylpg.in/",
+    "icon": "fa-solid fa-truck-fast",
+    "tags": ["LPG Cylinder", "Cooking Gas", "Refill"],
+    "eligibility": "Any registered LPG consumer of Indane, BharatGas, or HP Gas.",
+    "fees": {
+      "type": "Purchase Based",
+      "details": "Standard cylinder refill cost as per the current market rate; subsidies are deposited back via DBT."
+    },
+    "requiredDocuments": [
+      "Registered Mobile Number",
+      "LPG Consumer ID (for first-time setup)"
+    ],
+    "stepsToApply": [
+      "Method 1 (WhatsApp): Save your gas company's official verified WhatsApp number. Send 'REFILL' to book instantly from your registered mobile number.",
+      "Method 2 (App): Download your provider's app (e.g., IndianOil ONE, Hello BPCL) or a UPI app like GPay/PhonePe.",
+      "In the UPI app, go to 'Book a Cylinder', select your provider, and enter your registered mobile number or LPG ID.",
+      "The app will fetch the live refill price. Pay the amount securely using UPI PIN.",
+      "You will receive a booking reference via SMS, and the filled cylinder will be delivered to your registered address within a few days."
+    ]
+  },
+  {
+    "id": "house-029",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Power",
+    "department": "State DISCOMs",
+    "title": "Name Change in Electricity Bill",
+    "slug": "electricity-name-change",
+    "shortDescription": "Official process to transfer the electricity connection name upon purchase of property or death of the original owner.",
+    "officialLink": "https://powermin.gov.in/",
+    "icon": "fa-solid fa-file-pen",
+    "tags": ["Electricity", "Ownership Transfer", "Utility"],
+    "eligibility": "New owners or legal heirs of a property with an existing electricity connection.",
+    "fees": {
+      "type": "Variable",
+      "details": "Varies by state DISCOM (typically ₹50 to ₹200 for processing + potential update of security deposit)."
+    },
+    "requiredDocuments": [
+      "Registered Sale Deed or Succession Certificate",
+      "NOC from the previous owner (if alive)",
+      "Aadhaar Card and Passport size photo",
+      "Last paid electricity bill"
+    ],
+    "stepsToApply": [
+      "Visit the official website of your specific state's Electricity Distribution Company (e.g., BESCOM, TNEB, UPPCL).",
+      "Register/Log in to the consumer portal and navigate to 'Connection Services' or 'Name Change/Transfer of Ownership'.",
+      "Enter the existing Consumer Number to fetch the current bill details and verify there are no pending arrears.",
+      "Fill out the online application form and upload scanned copies of the Sale Deed, Aadhaar, and NOC/Death Certificate of the previous owner.",
+      "Submit the application and pay the processing fee online. The DISCOM will verify the documents and update the name in the subsequent billing cycle."
+    ]
+  },
+  {
+    "id": "house-030",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "department": "Urban Local Bodies (ULB)",
+    "title": "Online Property Tax Payment",
+    "slug": "online-property-tax",
+    "shortDescription": "Pay municipal property taxes online to your respective Municipal Corporation or Urban Local Body seamlessly.",
+    "officialLink": "https://mohua.gov.in/",
+    "icon": "fa-solid fa-money-check",
+    "tags": ["Property Tax", "Municipal", "Urban Civic Services"],
+    "eligibility": "Property owners residing in urban areas managed by Municipal Corporations, Municipalities, or Nagar Panchayats.",
+    "fees": {
+      "type": "Variable",
+      "details": "Tax amount is based on the Annual Rental Value or Unit Area Value of the property. Rebates are often given for early online payment."
+    },
+    "requiredDocuments": [
+      "Property Tax Identification Number (PID) / Khata Number",
+      "Previous year's tax receipt (for reference)"
+    ],
+    "stepsToApply": [
+      "Identify the official website of your city's Municipal Corporation (e.g., MCGM for Mumbai, NDMC/MCD for Delhi, BBMP for Bengaluru).",
+      "Look for the 'Online Services' or 'Citizen Services' tab and click on 'Pay Property Tax'.",
+      "Enter your Property Assessment Number, PID, or Khata number to fetch your property records and current outstanding dues.",
+      "Verify the owner details, property dimensions, and calculated tax amount on the screen.",
+      "Proceed to checkout, make the payment using Net Banking, UPI, or Credit/Debit Card, and immediately download the digitally signed tax receipt for legal record keeping."
+    ]
+  },
+{
+    "id": "house-031",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "department": "Urban Local Bodies (ULB)",
+    "title": "New Water & Sewerage Connection",
+    "slug": "new-water-sewerage-connection",
+    "shortDescription": "Apply for a fresh domestic water supply and sewerage line connection from your local municipal authority.",
+    "officialLink": "https://mohua.gov.in/",
+    "icon": "fa-solid fa-droplet",
+    "tags": ["Water Connection", "Sewerage", "Municipal"],
+    "eligibility": "Property owners or authorized tenants within municipal limits where municipal pipelines are laid.",
+    "fees": {
+      "type": "Variable",
+      "details": "Application fee + road cutting charges + connection deposit based on pipe diameter and plot size."
+    },
+    "requiredDocuments": [
+      "Property Ownership Document (Sale Deed / Mutation Certificate)",
+      "Building Sanction Plan / Layout Map",
+      "Identity Proof (Aadhaar / Voter ID)",
+      "No Dues Certificate for Property Tax"
+    ],
+    "stepsToApply": [
+      "Visit the official citizen portal of your local Municipal Corporation or State Water Board.",
+      "Register a user profile and select 'Apply for New Water and Sewerage Connection' from the dashboard.",
+      "Fill out the physical parameter details of your house, required pipe size (e.g., 0.5 inch), and exact geographical location metrics.",
+      "Upload scanned copies of your property deed, approved building blueprint, and identity proof vectors.",
+      "Submit the application online, pay the initial processing fee, and track the file until a municipal engineer visits your site for technical verification and connection provisioning."
+    ]
+  },
+  {
+    "id": "house-032",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Power",
+    "department": "State DISCOMs",
+    "title": "New Electricity Connection Application",
+    "slug": "new-electricity-connection",
+    "shortDescription": "Apply for a fresh domestic low-tension electricity connection for newly built or occupied properties.",
+    "officialLink": "https://powermin.gov.in/",
+    "icon": "fa-solid fa-plug",
+    "tags": ["Electricity", "New Meter", "Utility"],
+    "eligibility": "Legal owners or lawful occupants of any property requiring electrical connectivity.",
+    "fees": {
+      "type": "Variable",
+      "details": "Fixed processing fee + security deposit + system infrastructure charges based on requested load capacity (kW)."
+    },
+    "requiredDocuments": [
+      "Proof of Ownership / Occupancy (Sale Deed, Rent Agreement, or Mutation Receipt)",
+      "Identity Proof (Aadhaar, PAN, or Passport)",
+      "No Objection Certificate (NOC) if applying in shared or multi-tenant buildings"
+    ],
+    "stepsToApply": [
+      "Go to the web portal of the Electricity Distribution Company (DISCOM) servicing your area.",
+      "Select 'New Connection (Consumer Corner)' and register using your mobile number and email ID.",
+      "Fill out Form A online, specifying the requested load (e.g., 2 kW for regular households) and connection type (Domestic).",
+      "Upload scanned copies of your property ownership paper, passport-sized photo, and active Aadhaar verification card.",
+      "Pay the calculated security deposit and installation fees online; a field assistant will visit to inspect the wiring and install the physical meter."
+    ]
+  },
+  {
+    "id": "house-033",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Power",
+    "department": "State DISCOMs",
+    "title": "Electricity Load Conversion (Enhancement/Reduction)",
+    "slug": "electricity-load-conversion",
+    "shortDescription": "Modify the sanctioned electrical load of your existing meter based on changes in your home appliances layout.",
+    "officialLink": "https://powermin.gov.in/",
+    "icon": "fa-solid fa-gauge-high",
+    "tags": ["Load Enhancement", "Electricity", "Utility Management"],
+    "eligibility": "Registered electricity consumers with up-to-date bill payments.",
+    "fees": {
+      "type": "Variable",
+      "details": "Processing fee + additional security deposit differential if enhancing the load capacity."
+    },
+    "requiredDocuments": [
+      "Latest paid electricity bill",
+      "Identity proof of the registered consumer",
+      "Test report from a licensed electrical contractor specifying load details"
+    ],
+    "stepsToApply": [
+      "Log into your consumer dashboard on your regional DISCOM's official web portal.",
+      "Navigate to the 'Load Management / Change of Category' section and select 'Load Conversion'.",
+      "Input your current sanctioned load, the newly desired load capability, and detail the heavy appliances causing the request.",
+      "Upload a certified digital test report issued by a registered electrical technician confirming safety layouts.",
+      "Pay the adjustment charges online; the DISCOM will update the systems and, if necessary, replace the existing service cable layout."
+    ]
+  },
+  {
+    "id": "house-034",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Power",
+    "department": "State DISCOMs",
+    "title": "Faulty Meter Replacement Request",
+    "slug": "faulty-meter-replacement",
+    "shortDescription": "File an official request to test, repair, or replace an electricity meter that is burnt, stopped, or recording inaccurate readings.",
+    "officialLink": "https://powermin.gov.in/",
+    "icon": "fa-solid fa-triangle-exclamation",
+    "tags": ["Meter Repair", "Electricity", "Consumer Grievance"],
+    "eligibility": "Registered consumers experiencing irregular consumption billing patterns or non-functional displays.",
+    "fees": {
+      "type": "Variable",
+      "details": "Free if the meter failed due to technical age; testing fee applies if the consumer challenges accuracy (~₹100-₹500)."
+    },
+    "requiredDocuments": [
+      "Consumer Account Number",
+      "Copy of the latest irregular electricity bill",
+      "Clear photograph showing the physical state of the meter faceplate"
+    ],
+    "stepsToApply": [
+      "Open your regional DISCOM website or dedicated consumer management mobile application.",
+      "Go to the 'Complaints & Requests' tab and choose 'Meter Related Grievances'.",
+      "Enter your consumer index details and explicitly choose the defect profile (e.g., Burnt, Defective, Glass Broken).",
+      "Upload a high-definition photograph displaying the current reading or the non-responsive screen interface.",
+      "Submit the digital form; a testing squad will visit your location to check calibration, and if found faulty, they will replace the unit immediately."
+    ]
+  },
+  {
+    "id": "house-035",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Communications",
+    "department": "Department of Posts",
+    "title": "Post Office National Savings Scheme (Savings Account)",
+    "slug": "post-office-savings-account",
+    "shortDescription": "Open a government-backed retail savings bank account at any Department of Posts branch for banking and utility allocations.",
+    "officialLink": "https://www.indiapost.gov.in/",
+    "icon": "fa-solid fa-envelope-open-text",
+    "tags": ["Savings Account", "Postal Banking", "Financial Inclusion"],
+    "eligibility": "Any individual Indian citizen (adults, minors under guardianship, or joint accounts).",
+    "fees": {
+      "type": "Fixed",
+      "details": "Minimum initial deposit of ₹500 required to open and sustain the account."
+    },
+    "requiredDocuments": [
+      "PAN Card",
+      "Aadhaar Card (linked to mobile number)",
+      "Recent passport-sized photographs",
+      "Form SB-3 (Application Form)"
+    ],
+    "stepsToApply": [
+      "Visit the official India Post website to download the Account Opening Form (SB-3) or collect it from a nearby Post Office.",
+      "Fill out the form completely, selecting the 'Savings Bank Account' option and entering nominee distribution data.",
+      "Attach self-attested copies of your Aadhaar card and PAN card to fulfill KYC specifications.",
+      "Submit the bundle physically to the Post Office clerk alongside your passport photos and the initial ₹500 minimum cash balance.",
+      "Complete basic identity verification checks on the spot to receive your new physical passbook and checkbook manual."
+    ]
+  },
+  {
+    "id": "house-036",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "department": "Urban Local Bodies (ULB)",
+    "title": "Online Birth Certificate Registration & Issuance",
+    "slug": "online-birth-certificate",
+    "shortDescription": "Apply for the legal registration and digital generation of a birth certificate from municipal records.",
+    "officialLink": "https://crsorgi.gov.in/",
+    "icon": "fa-solid fa-baby-carriage",
+    "tags": ["Birth Registry", "Municipal Records", "Identity Document"],
+    "eligibility": "Parents or legal relatives of a child born within the geographic boundaries of the municipal body.",
+    "fees": {
+      "type": "Free",
+      "details": "Free registration within 21 days of birth; nominal late fee applicable after the initial window."
+    },
+    "requiredDocuments": [
+      "Institutional Birth Certificate Slip issued by the hospital",
+      "Aadhaar Cards of both parents",
+      "Marriage Certificate / Informant Affidavit (if required)"
+    ],
+    "stepsToApply": [
+      "Visit the centralized Civil Registration System (CRS) web engine or your state's e-District municipal workflow hub.",
+      "Register a public account profile and select 'Birth Registration Request'.",
+      "Populate the digital form fields with the exact date, time, institutional address of birth, and complete parental name details.",
+      "Upload the digital copy of the hospital discharge slip tracking number confirming the birth event parameters.",
+      "Submit the request; once verified against hospital data records by the health registrar officer, download the digitally signed birth certificate."
+    ]
+  },
+  {
+    "id": "house-037",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "department": "Urban Local Bodies (ULB)",
+    "title": "Online Death Certificate Registration",
+    "slug": "online-death-certificate",
+    "shortDescription": "Register a death event online and obtain an officially validated death certificate for legal and estate settlement purposes.",
+    "officialLink": "https://crsorgi.gov.in/",
+    "icon": "fa-solid fa-monument",
+    "tags": ["Death Registry", "Civic Records", "Legal Certificate"],
+    "eligibility": "Immediate family members or authorized institutional representatives reporting a death event.",
+    "fees": {
+      "type": "Free",
+      "details": "Zero cost if logged within 21 days; subsequent late filings attract nominal penalty fee schedules."
+    },
+    "requiredDocuments": [
+      "Medical Cause of Death Certificate issued by the hospital or medical examiner",
+      "Cremation/Burial Ground receipt sheet",
+      "Identity Proof (Aadhaar / Voter card) of the deceased"
+    ],
+    "stepsToApply": [
+      "Access the official Civil Registration System portal page or your respective state's e-District civic platform.",
+      "Log into your system profile and choose 'Death Certificate Request'.",
+      "Input demographic parameters of the deceased person alongside exact date, time, and geographic coordinate context of death.",
+      "Attach digital copies of the medical death validation certificate and the official cremation center receipt ledger.",
+      "Submit the application module online to trigger verification loops by municipal tracking nodes before system generation."
+    ]
+  },
+  {
+    "id": "house-038",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Urban Development",
+    "department": "Municipal Administration",
+    "title": "Municipal Grievance Redressal (Public Utilities)",
+    "slug": "municipal-grievance-utility",
+    "shortDescription": "File complaints online regarding municipal issues such as open manholes, leaking water mains, or non-functional streetlights.",
+    "officialLink": "https://mohua.gov.in/",
+    "icon": "fa-solid fa-headset",
+    "tags": ["Public Grievance", "Municipal Care", "Civic Issues"],
+    "eligibility": "Any citizen residing within the operational territory of the municipal body.",
+    "fees": {
+      "type": "Free",
+      "details": "Public tracking and registration interfaces carry no usage charges."
+    },
+    "requiredDocuments": [
+      "Photographic evidence of the public utility defect",
+      "Exact landmark coordinate location addresses"
+    ],
+    "stepsToApply": [
+      "Open your designated municipal corporation website (e.g., MCD, BMC) or download their dedicated civic tracking mobile application.",
+      "Navigate to the 'Public Grievance Portal / Clean City Complaint' node module option.",
+      "Pin the exact geographic location map marker tracking where the breakdown is observed.",
+      "Provide a precise textual overview summary of the issue and link your photograph showing the asset defect state.",
+      "Submit the entry data card to instantly capture a live tracking token ID for monitoring engineering team responses."
+    ]
+  },
+  {
+    "id": "house-039",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Department of Administrative Reforms and Public Grievances",
+    "title": "CPGRAMS Unified Utility Complaints",
+    "slug": "cpgrams-utility-complaints",
+    "shortDescription": "National platform to escalate unresolved public utility complaints against central infrastructure bodies (like BSNL, GAIL, NHAI).",
+    "officialLink": "https://pgportal.gov.in/",
+    "icon": "fa-solid fa-shield-halved",
+    "tags": ["Central Grievance", "Escalation", "Public Services"],
+    "eligibility": "Any citizen whose complaints remain unaddressed by utility operators after standard processing timeframes.",
+    "fees": {
+      "type": "Free",
+      "details": "National public grievance processing features carry zero operational costs."
+    },
+    "requiredDocuments": [
+      "Previous complaint tokens history generated by the service provider",
+      "Detailed factual case logs summary context documentation"
+    ],
+    "stepsToApply": [
+      "Open the Centralized Public Grievance Redress and Monitoring System (CPGRAMS) dashboard portal layout.",
+      "Click on 'Register/Login' to authenticate your system profiling metrics using your active mobile number.",
+      "Select 'Lodging of Grievance' and match the target node to the specific Central Ministry managing the utility provider.",
+      "Enter the historical ticket numbers showing that local resolution pathways failed to address your issue.",
+      "Complete form details, upload case files scans, and submit the escalation module to route it directly to public ombudsmen."
+    ]
+  },
+  {
+    "id": "house-040",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Environment, Forest and Climate Change",
+    "department": "Central Pollution Control Board (CPCB)",
+    "title": "CPCB Sameer App (Air Quality Utility)",
+    "slug": "cpcb-sameer-aqi",
+    "shortDescription": "Access hourly National Air Quality Index updates and register localized public environmental health violation alerts.",
+    "officialLink": "https://cpcb.nic.in/",
+    "icon": "fa-solid fa-wind",
+    "tags": ["Air Quality", "Environmental Watch", "Public Health"],
+    "eligibility": "Open to all citizens tracking real-time local air pollution levels.",
+    "fees": {
+      "type": "Free",
+      "details": "Information accessibility features carry zero transaction bounds."
+    },
+    "requiredDocuments": [
+      "None required to check data metrics; GPS alignment provides local index charts."
+    ],
+    "stepsToApply": [
+      "Download the official CPCB 'Sameer' application utility tool via standard mobile system storefronts.",
+      "Open the layout map index to view real-time hourly color-coded maps showing national sensor grids.",
+      "To report open waste burning or industrial smoke hazards, click the 'Register Complaint' button link.",
+      "Capture the event parameters using your device camera module to embed live geo-tag metrics.",
+      "Submit the entry profile to dispatch the event directly to localized environmental protection agency teams."
+    ]
+  },
+  {
+    "id": "house-041",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Power",
+    "department": "Bureau of Energy Efficiency (BEE)",
+    "title": "BEE Star Label Verification",
+    "slug": "bee-star-label-verification",
+    "shortDescription": "Verify the energy efficiency credentials and authentic star-rating matrix parameters of home utility appliances.",
+    "officialLink": "https://beestarlabel.com/",
+    "icon": "fa-solid fa-star",
+    "tags": ["Energy Efficiency", "Appliance Check", "Consumer Protection"],
+    "eligibility": "Consumers planning or evaluating the purchase of appliances like ACs, refrigerators, or geysers.",
+    "fees": {
+      "type": "Free",
+      "details": "Verification and search functions carry zero platform utility costs."
+    },
+    "requiredDocuments": [
+      "Model number and brand identifier indices printed on the appliance energy label"
+    ],
+    "stepsToApply": [
+      "Visit the BEE Star Label mobile tool or target web portal architecture layouts.",
+      "Navigate to the 'Search Appliance Database' module engine menu.",
+      "Select the product category (e.g., Room Air Conditioner) and pick the active manufacturer brand descriptor name.",
+      "Type the alphanumeric model tracking numbers exactly as displayed on the label layout plate.",
+      "Click 'Search' to validate technical metrics against official system records to verify target electricity savings statistics."
+    ]
+  },
+  {
+    "id": "house-042",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Jal Shakti",
+    "department": "Central Ground Water Authority (CGWA)",
+    "title": "Groundwater Extraction NOC Application",
+    "slug": "groundwater-noc-extraction",
+    "shortDescription": "Mandatory regulatory application to acquire a No Objection Certificate for boring or extracting groundwater for infrastructure projects.",
+    "officialLink": "https://cgwa-noc.gov.in/",
+    "icon": "fa-solid fa-bore-hole",
+    "tags": ["Groundwater", "Boring NOC", "Environmental Safety"],
+    "eligibility": "Infrastructure projects, commercial establishments, or housing societies setting up deep tubewell layouts.",
+    "fees": {
+      "type": "Variable",
+      "details": "Application fee (~₹1000) + annual water abstraction charges determined by extraction volumes."
+    },
+    "requiredDocuments": [
+      "Detailed Hydrogeological Report metrics profiles",
+      "Rainwater Harvesting system design layout blueprints",
+      "Land ownership validation paperwork certifications",
+      "Water quality laboratory checking documentation"
+    ],
+    "stepsToApply": [
+      "Open the digital portal infrastructure interface managed by the CGWA.",
+      "Click on 'Online Application' and build an applicant master profile account system.",
+      "Select the correct category matching your setup intent (Industrial, Infrastructure, or Mining).",
+      "Populate data fields mapping core water demands alongside structure blueprints of artificial recharge systems.",
+      "Pay processing fee matrix schedules online to index the digital file for hydrogeological clearance board review loops."
+    ]
+  },
+  {
+    "id": "house-043",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Home Loan Interest Subsidy Status (CLSS)",
+    "slug": "clss-interest-subsidy-status",
+    "shortDescription": "Track the application progress, disbursement status, and subsidy allocation records under the Credit Linked Subsidy Scheme framework.",
+    "officialLink": "https://pmayuclap.gov.in/",
+    "icon": "fa-solid fa-magnifying-glass-dollar",
+    "tags": ["Home Loan", "CLSS Subsidy", "Finance Tracking"],
+    "eligibility": "Home loan applicants who applied for PMAY interest concessions via primary lending institutions.",
+    "fees": {
+      "type": "Free",
+      "details": "Status query and dashboard monitoring features carry no charge parameters."
+    },
+    "requiredDocuments": [
+      "CLSS Application ID details generated by your lending bank",
+      "Applicant Aadhaar ID parameters verification"
+    ],
+    "stepsToApply": [
+      "Visit the CLSS Awas Portal (CLAP) internet platform node engine.",
+      "Locate the dedicated 'PMAY(U) Subsidy Tracker' display window row.",
+      "Input your unique system-assigned CLSS application tracking alphanumeric strings.",
+      "Authenticate safety profiles by validating the system OTP sent to your Aadhaar-linked phone line numbers.",
+      "Monitor your five-stage advancement chart showing processing movement up to final institutional fund release points."
+    ]
+  },
+  {
+    "id": "house-044",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Communications",
+    "department": "Department of Telecommunications",
+    "title": "Tarang Sanchar (EMF Radiation Mapping)",
+    "slug": "tarang-sanchar-radiation",
+    "shortDescription": "Check the location profiles of nearby mobile towers and request electromagnetic field radiation testing for peace of mind.",
+    "officialLink": "https://tarangsanchar.gov.in/",
+    "icon": "fa-solid fa-tower-cell",
+    "tags": ["Mobile Tower", "Radiation Check", "Public Health"],
+    "eligibility": "Any citizen desiring to verify cell tower radiation safety standard parameters.",
+    "fees": {
+      "type": "Variable",
+      "details": "Browsing the public grid map layout is free; formal custom site validation calls attract a fixed ₹4000 fee."
+    },
+    "requiredDocuments": [
+      "Email account identifier metrics",
+      "Complete postal residential address details context"
+    ],
+    "stepsToApply": [
+      "Access the official Tarang Sanchar digital framework interface.",
+      "Utilize the system map viewer engine to view tower icons tracking within a specific radius of your layout coordinates.",
+      "To query specific certification values, choose the target tower profile indicator node on the display map.",
+      "To request localized physical site testing metrics, click 'Request EMF Measurement' and complete the forms.",
+      "Submit system transaction fee parameters (~₹4000) online to trigger automated field measurement test dispatches."
+    ]
+  },
+  {
+    "id": "house-045",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "department": "Bureau of Indian Standards (BIS)",
+    "title": "BIS Care Product Authentication",
+    "slug": "bis-care-hallmark-check",
+    "shortDescription": "Verify ISI markings, electronic product registration marks, and gold jewelry hallmark parameters for authenticity.",
+    "officialLink": "https://www.bis.gov.in/",
+    "icon": "fa-solid fa-shield",
+    "tags": ["Quality Assurance", "Hallmark Check", "Consumer Safety"],
+    "eligibility": "Any individual checking the regulatory quality metrics of household utilities or gold assets.",
+    "fees": {
+      "type": "Free",
+      "details": "Verification actions run inside zero cost architectures."
+    },
+    "requiredDocuments": [
+      "CM/L license numbers or HUID (Hallmark Unique ID) alphanumerics stamped on the product structure"
+    ],
+    "stepsToApply": [
+      "Download the 'BIS Care' mobile tracking application via major device operating system marketplaces.",
+      "To authenticate domestic utility items, tap 'Verify Licence Details' and enter the stamped CM/L numbers.",
+      "To verify precious assets like gold, click 'Verify HUID' tab option structures.",
+      "Type the unique 6-digit alphanumeric code present alongside the hallmark stamping scales.",
+      "Instantly view laboratory origin profiles, register dates, and corporate validation metrics details."
+    ]
+  },
+  {
+    "id": "house-046",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Environment, Forest and Climate Change",
+    "department": "Forest Conservation Division",
+    "title": "Forest Clearance Application (Housing Infrastructure)",
+    "slug": "forest-clearance-infrastructure",
+    "shortDescription": "Secure statutory environmental approval for the diversion of forest land sections for essential public utilities or developmental projects.",
+    "officialLink": "https://parivesh.nic.in/",
+    "icon": "fa-solid fa-tree",
+    "tags": ["Environmental Clearance", "Land Diversion", "PARIVESH"],
+    "eligibility": "Public institutions, local governing boards, or corporate developers handling permitted infrastructure works.",
+    "fees": {
+      "type": "Variable",
+      "details": "Calculated based on Net Present Value (NPV) metrics of target forest sectors alongside compensatory afforestation fee layers."
+    },
+    "requiredDocuments": [
+      "Geographical shapefiles mapping target perimeter tracking parameters",
+      "Detailed project justification layout files summary blueprints",
+      "Compensatory Afforestation management project outline metrics documents"
+    ],
+    "stepsToApply": [
+      "Open the central PARIVESH workflow tracking ecosystem web interface layout.",
+      "Create an institutional user account code profile parameters set and select 'Apply for Forest Clearance'.",
+      "Complete the exhaustive digital forms (Form A), outlining targeted geographical coordinates and flora impact values.",
+      "Upload verified digital shapefile maps showing exact project dimension bounds clearly.",
+      "Submit the application file pack to activate linear processing analysis lines via the multi-tiered state forest boards evaluation framework."
+    ]
+  },
+  {
+    "id": "house-047",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Civil Aviation",
+    "department": "Airports Authority of India (AAI)",
+    "title": "No Objection Certificate for Building Height (NOCAS)",
+    "slug": "nocas-building-height-clearance",
+    "shortDescription": "Mandatory clearance certificate evaluating building height parameters near airfield navigation vectors to ensure aviation safety.",
+    "officialLink": "https://nocas2.aai.aero/",
+    "icon": "fa-solid fa-building",
+    "tags": ["Building NOC", "Aviation Safety", "Height Clearance"],
+    "eligibility": "Property developers and landowners constructing multi-story buildings within a 56 km radius of active airports.",
+    "fees": {
+      "type": "Free",
+      "details": "AAI processing and assessment matrices on the NOCAS network carry zero processing fees."
+    },
+    "requiredDocuments": [
+      "Site elevation profile data verified by a registered surveyor",
+      "Geographic coordinates structure (WGS-84 system) details mapping corners",
+      "Ownership documentation index validation certificates"
+    ],
+    "stepsToApply": [
+      "Access the official NOCAS online software platform portal layout.",
+      "Complete initial registration to create a secure applicant verification profile.",
+      "Select 'New Application' and fill in exact geographic site dimensions using precise coordinates from your survey report.",
+      "Upload digital copies of your site plan, coordinate charts, and elevation certificates.",
+      "Submit the digital folder parameters to prompt system screening checks that calculate runway airspace layout interactions."
+    ]
+  },
+  {
+    "id": "house-048",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Parliamentary Affairs",
+    "department": "Public Works Division",
+    "title": "Government Accommodation Booking (e-Sampada)",
+    "slug": "esampada-government-housing",
+    "shortDescription": "Centralized system managing the allocation, booking, and license fee payment parameters for government residential quarters and holiday homes.",
+    "officialLink": "https://esampada.mohua.gov.in/",
+    "icon": "fa-solid fa-building-user",
+    "tags": ["Govt Quarters", "e-Sampada", "Official Utility"],
+    "eligibility": "Eligible Central Government employees, officials, and designated departments.",
+    "fees": {
+      "type": "Tiered",
+      "details": "Monthly license fee (HRA deduction matrix guidelines) adjusted by category allocation rank rules."
+    },
+    "requiredDocuments": [
+      "Official Employee Identity Data records summary parameters",
+      "Joining Report details stamped by administrative office hubs",
+      "Present deployment matrix context validations"
+    ],
+    "stepsToApply": [
+      "Open the e-Sampada digital operational platform layout engine portal.",
+      "Log into systems by entering your employee verification index credentials or credentials via secure single sign-on tools.",
+      "Navigate to the 'Residential Accommodation / General Pool Residential Accommodation' selection pane.",
+      "Fill out configuration options detailing priority waitlist indices matching your current grade pay scales.",
+      "Submit your selection files digitally to wait for automated system allocation runs executed during periodic cycle openings."
+    ]
+  },
+  {
+    "id": "house-049",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Culture",
+    "department": "National Monuments Authority (NMA)",
+    "title": "NMA Construction Clearance (Heritage Zones)",
+    "slug": "nma-heritage-construction-clearance",
+    "shortDescription": "Secure construction permissions or NOC configurations when building properties located within regulated zones surrounding protected national monuments.",
+    "officialLink": "http://nma.gov.in/",
+    "icon": "fa-solid fa-monument",
+    "tags": ["Heritage Clearance", "Building Permit", "NMA"],
+    "eligibility": "Landowners whose property falls inside the 100-300 meter regulated buffer zone around centrally protected monuments.",
+    "fees": {
+      "type": "Free",
+      "details": "Online application routing through the Smaran framework does not involve charge matrices."
+    },
+    "requiredDocuments": [
+      "Site Plan layout diagrams showing precise distance tracks from monument boundaries",
+      "Building elevation structural blueprints indicating absolute height parameters",
+      "Local Urban Local Body mapping reference validations"
+    ],
+    "stepsToApply": [
+      "Access the NMA Smaran online tracking gateway platform interface space.",
+      "Complete profile registration steps to establish secure applicant identifier records.",
+      "Fill out the comprehensive building proposal profile, entering structural metrics and height limits carefully.",
+      "Upload scanned copies of site distance measurements from the monument wall along with structural maps.",
+      "Submit your request digitally to trigger inspection visits by local archaeology department oversight teams."
+    ]
+  },
+  {
+    "id": "house-050",
+    "category": "Housing & Utilities",
+    "ministry": "Ministry of Urban Development",
+    "department": "Municipal Corporation Administration",
+    "title": "Property Mutation Application (Urban Local Bodies)",
+    "slug": "property-mutation-municipal",
+    "shortDescription": "Officially update transfer records in the municipal asset registration register to change tax obligation definitions.",
+    "officialLink": "https://mohua.gov.in/",
+    "icon": "fa-solid fa-file-invoice",
+    "tags": ["Property Mutation", "Tax Records", "Ownership Update"],
+    "eligibility": "New buyers, beneficiaries of inheritance, or legal gift recipients of properties within urban boundaries.",
+    "fees": {
+      "type": "Variable",
+      "details": "Calculated based on transfer valuation rates or minor baseline fixed administration fee matrix models per state rules."
+    },
+    "requiredDocuments": [
+      "Registered Sale Deed / Gift Deed copy index papers",
+      "Death Certificate alongside Succession Matrix paperwork (if handling inheritance chains)",
+      "Up-to-date cleared property tax clearance receipt copy documentation",
+      "Indemnity Bond executed on legal stamp paper parameters"
+    ],
+    "stepsToApply": [
+      "Log into the designated state e-District or specific Municipal Corporation civic management online dashboard.",
+      "Select 'Property Mutation Service Request' option grids from the primary application panel menu.",
+      "Input detailed buyer, seller, historical asset ledger reference indices, and execution date values.",
+      "Upload high-quality scanned copies of registered deed transfers, tax certificates, and signed indemnity statements.",
+      "Complete online payment tracking loops to route the digital file parameters to the regional revenue inspector box for validation field updates."
+    ]
+  }
+]
+

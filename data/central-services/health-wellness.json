@@ -1,0 +1,820 @@
+[
+  {
+    "id": "health-021",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Health Mission",
+    "title": "NHM Free Drugs Service Initiative",
+    "slug": "nhm-free-drugs-service",
+    "shortDescription": "Provision of essential medicines free of cost in public health facilities to reduce out-of-pocket expenses.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-capsules",
+    "tags": ["Free Medicines", "Healthcare", "Essential Drugs"],
+    "eligibility": "All patients visiting public healthcare facilities (PHCs, CHCs, District Hospitals).",
+    "fees": {
+      "type": "Free",
+      "details": "Essential medicines listed under the state formulary are provided at zero cost."
+    },
+    "requiredDocuments": [
+      "Prescription from a Government Medical Officer"
+    ],
+    "stepsToApply": [
+      "Consult a doctor at a government health facility.",
+      "Get the required medicines prescribed on the official hospital slip.",
+      "Present the prescription at the in-house hospital pharmacy counter.",
+      "Collect the prescribed essential medicines free of charge."
+    ]
+  },
+  {
+    "id": "health-022",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Health Mission",
+    "title": "NHM Free Diagnostics Service Initiative",
+    "slug": "nhm-free-diagnostics-service",
+    "shortDescription": "Provides free essential diagnostic services like pathology, radiology, and imaging tests in public hospitals.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-microscope",
+    "tags": ["Free Labs", "Diagnostics", "X-Ray"],
+    "eligibility": "All patients visiting government health facilities.",
+    "fees": {
+      "type": "Free",
+      "details": "Listed essential lab tests and imaging are free."
+    },
+    "requiredDocuments": [
+      "Diagnostic requisition form signed by a government doctor"
+    ],
+    "stepsToApply": [
+      "Visit a government hospital and undergo a medical checkup.",
+      "Receive a test recommendation from the attending physician.",
+      "Take the requisition slip to the hospital's internal laboratory or imaging unit.",
+      "Undergo the required test and collect the reports on the specified date."
+    ]
+  },
+  {
+    "id": "health-023",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Health Authority",
+    "title": "Ayushman Arogya Mandir (Health & Wellness Centres)",
+    "slug": "ayushman-arogya-mandir",
+    "shortDescription": "Decentralized primary healthcare centers providing comprehensive healthcare, yoga wellness, and diagnostic services closer to communities.",
+    "officialLink": "https://ab-hwc.nhp.gov.in/",
+    "icon": "fa-solid fa-house-medical",
+    "tags": ["Primary Healthcare", "Yoga", "Wellness Centre"],
+    "eligibility": "Open to all residents within the community catchment area.",
+    "fees": {
+      "type": "Free",
+      "details": "Primary consultations, wellness activities, and medicines are completely free."
+    },
+    "requiredDocuments": [
+      "ABHA Card or Aadhaar Card (recommended for history tracking)"
+    ],
+    "stepsToApply": [
+      "Locate the nearest Ayushman Arogya Mandir in your village or urban block.",
+      "Walk in during working hours for a consultation or screening.",
+      "Register using your ABHA ID or basic demographic info.",
+      "Avail of outpatient care, lifestyle/wellness counseling, or free diagnostics."
+    ]
+  },
+  {
+    "id": "health-024",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Maternal Health Division",
+    "title": "Surakshit Matritva Aashwasan (SUMAN)",
+    "slug": "suman-maternity-assurance",
+    "shortDescription": "Assures dignified, respectful, and quality healthcare at zero cost for every woman and newborn visiting public facilities.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-hand-holding-heart",
+    "tags": ["Maternity Care", "Zero Expense", "Newborn Health"],
+    "eligibility": "All pregnant women, mothers up to 6 months post-delivery, and sick newborns.",
+    "fees": {
+      "type": "Free",
+      "details": "Complete zero-expense guarantee for delivery and complications."
+    },
+    "requiredDocuments": [
+      "MCP Card",
+      "Identity Proof (Aadhaar or Voter ID)"
+    ],
+    "stepsToApply": [
+      "Visit any SUMAN-notified public health facility during pregnancy.",
+      "Register at the antenatal care counter.",
+      "Avail guaranteed services including at least 4 ANC checkups, free delivery, and referral transport.",
+      "Report any grievance or out-of-pocket demand to the dedicated SUMAN toll-free desk if required."
+    ]
+  },
+  {
+    "id": "health-025",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Policy for Rare Diseases",
+    "title": "Financial Support for Rare Diseases",
+    "slug": "rare-diseases-support",
+    "shortDescription": "One-time financial assistance for patients suffering from rare diseases for treatment at designated Centers of Excellence.",
+    "officialLink": "https://rarediseases.mohfw.gov.in/",
+    "icon": "fa-solid fa-hand-holding-dollar",
+    "tags": ["Rare Diseases", "Financial Grant", "Super Specialty"],
+    "eligibility": "Patients suffering from rare diseases categorized under the national policy, treated at Centers of Excellence.",
+    "fees": {
+      "type": "Free",
+      "details": "Financial assistance of up to ₹50 lakhs is provided directly to the hospital."
+    },
+    "requiredDocuments": [
+      "Medical Diagnostic Report from a Center of Excellence",
+      "Income Certificate (if applicable for priority groups)",
+      "Aadhaar Card"
+    ],
+    "stepsToApply": [
+      "Get evaluated at one of the government-designated Centers of Excellence (CoE) for rare diseases.",
+      "The institutional clinical committee confirms the condition and develops a treatment layout.",
+      "Apply online through the digital portal setup for rare diseases with the help of the CoE coordinator.",
+      "The application is processed by the Ministry, and funds are disbursed directly to the designated CoE."
+    ]
+  },
+  {
+    "id": "health-026",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Chemicals and Fertilizers",
+    "department": "Pharmaceuticals & Medical Devices Bureau",
+    "title": "AMRIT Pharmacy Scheme",
+    "slug": "amrit-pharmacy",
+    "shortDescription": "Outlets providing highly subsidized medicines, implants, and surgical consumables for cancer and cardiovascular diseases.",
+    "officialLink": "http://janaushadhi.gov.in/",
+    "icon": "fa-solid fa-heart-circle-bolt",
+    "tags": ["Cancer Drugs", "Implants", "Subsidized Pharmacy"],
+    "eligibility": "Open to all patients with valid specialist prescriptions.",
+    "fees": {
+      "type": "Purchase Based",
+      "details": "Discounts ranging from 60% to 90% on maximum retail prices."
+    },
+    "requiredDocuments": [
+      "Valid Medical Prescription from a Registered Medical Practitioner",
+      "Patient Identity Card (Optional)"
+    ],
+    "stepsToApply": [
+      "Locate an AMRIT pharmacy store, typically situated inside major government medical colleges and hospitals.",
+      "Present your prescription for specialized cancer, cardiac, or chronic disease drugs.",
+      "The pharmacist checks availability and calculates the heavily discounted rate.",
+      "Complete the payment and collect the medicines along with a detailed invoice."
+    ]
+  },
+  {
+    "id": "health-027",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Organ and Tissue Transplant Organisation",
+    "title": "NOTTO Organ Donor Registration",
+    "slug": "notto-organ-donor",
+    "shortDescription": "National registry for citizens to pledge their organs and tissues for transplantation after death.",
+    "officialLink": "https://www.notto.mohfw.gov.in/",
+    "icon": "fa-solid fa-child",
+    "tags": ["Organ Donation", "Pledge", "Life Saving"],
+    "eligibility": "Any Indian citizen aged 18 years or above (or minors with parental consent).",
+    "fees": {
+      "type": "Free",
+      "details": "Voluntary pledge registration is completely free."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Mobile Number linked to Aadhaar"
+    ],
+    "stepsToApply": [
+      "Visit the official NOTTO web portal.",
+      "Click on the 'Register as Organ/Tissue Donor' tab.",
+      "Fill out Form 7 online with your demographic data and organ preferences.",
+      "Verify your details using Aadhaar-linked OTP.",
+      "Download and print your official National Organ Donor Card."
+    ]
+  },
+  {
+    "id": "health-028",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National AIDS Control Organisation",
+    "title": "NACO HIV/AIDS Care & Support",
+    "slug": "naco-hiv-care",
+    "shortDescription": "Provides free counseling, testing, and lifelong Anti-Retroviral Therapy (ART) medicines through specialized centers.",
+    "officialLink": "https://naco.gov.in/",
+    "icon": "fa-solid fa-ribbon",
+    "tags": ["HIV Care", "ART Clinic", "Free Treatment"],
+    "eligibility": "Any person seeking HIV screening or living with HIV/AIDS in India.",
+    "fees": {
+      "type": "Free",
+      "details": "Testing, psychological counseling, and ART medicines are provided free of cost."
+    },
+    "requiredDocuments": [
+      "Consent Form (filled at the testing center)",
+      "Identity Proof (confidentiality strictly maintained)"
+    ],
+    "stepsToApply": [
+      "Visit a nearby Integrated Counseling and Testing Centre (ICTC) located within public hospitals.",
+      "Undergo pre-test counseling and give a blood sample.",
+      "Collect reports confidentially after post-test counseling.",
+      "If diagnosed positive, register at the designated Anti-Retroviral Therapy (ART) center.",
+      "Undergo clinical evaluation and receive regular free ART medication supplies."
+    ]
+  },
+  {
+    "id": "health-029",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Adolescent Health Division",
+    "title": "Rashtriya Kishor Swasthya Karyakram (RKSK)",
+    "slug": "rksk-adolescent-health",
+    "shortDescription": "Holistic healthcare program for adolescents targeting nutrition, mental health, menstrual hygiene, and substance abuse counseling.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-user-group",
+    "tags": ["Adolescent Health", "Counseling", "Menstrual Hygiene"],
+    "eligibility": "Adolescents between the ages of 10 and 19 years.",
+    "fees": {
+      "type": "Free",
+      "details": "All clinics, counseling, and sanitary pad distribution systems are free."
+    },
+    "requiredDocuments": [
+      "School ID card or age certificate (recommended for record registration)"
+    ],
+    "stepsToApply": [
+      "Visit the closest 'Adolescent Friendly Health Clinic' (AFHC) or Saathiya Centre.",
+      "Consult with a peer educator or an assigned institutional counselor.",
+      "Participate in weekly iron-folic acid supplementation or wellness tracking screenings.",
+      "Collect structural health resources, like sanitary napkins or informational booklets, directly from the kiosk."
+    ]
+  },
+  {
+    "id": "health-030",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Viral Hepatitis Control Program",
+    "title": "National Viral Hepatitis Control Program (NVHCP)",
+    "slug": "nvhcp-hepatitis-treatment",
+    "shortDescription": "National service providing free diagnostic evaluation and comprehensive treatment for Hepatitis B and C infections.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-virus-covid",
+    "tags": ["Hepatitis Care", "Liver Health", "Free Diagnostics"],
+    "eligibility": "Any person diagnosed with or suspected of having viral hepatitis infections.",
+    "fees": {
+      "type": "Free",
+      "details": "Screening tests, viral load assessment, and antiviral medicines are completely free."
+    },
+    "requiredDocuments": [
+      "Doctor's screening referral card",
+      "Aadhaar Card or relevant photo identity check"
+    ],
+    "stepsToApply": [
+      "Visit a designated NVHCP treatment center situated at public medical colleges or district hospitals.",
+      "Undergo rapid diagnostic screening for Hepatitis B & C.",
+      "If positive, proceed to confirmatory viral load quantification testing.",
+      "Get registered under the NVHCP patient registration register.",
+      "Collect your regular monthly dosage of prescribed direct-acting antiviral medications from the treatment desk."
+    ]
+  },
+  {
+    "id": "health-031",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Programme for Health Care of the Elderly",
+    "title": "NPHCE Elderly Care Services",
+    "slug": "nphce-elderly-care",
+    "shortDescription": "Dedicated healthcare framework offering promotional, preventive, curative, and rehabilitative services custom-tailored for senior citizens.",
+    "officialLink": "https://main.mohfw.gov.in/",
+    "icon": "fa-solid fa-cane",
+    "tags": ["Senior Citizens", "Geriatric Care", "Physiotherapy"],
+    "eligibility": "Indian citizens aged 60 years and above.",
+    "fees": {
+      "type": "Free",
+      "details": "Specialized geriatric OPD services and medical aids are provided free."
+    },
+    "requiredDocuments": [
+      "Age proof document (Aadhaar Card, Voter ID, or Birth Certificate)"
+    ],
+    "stepsToApply": [
+      "Visit a district hospital containing a dedicated NPHCE Geriatric Clinic.",
+      "Register your details at the senior citizens special counter.",
+      "Consult with a geriatric medical specialist.",
+      "Access dedicated laboratory investigations, physical rehabilitation, or specialized weekly clinics without general queues."
+    ]
+  },
+  {
+    "id": "health-032",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Programme for Control of Blindness",
+    "title": "NPCBVI Cataract Surgery Services",
+    "slug": "npcbvi-cataract-surgery",
+    "shortDescription": "National program focusing on reducing visual impairments by providing free cataract identification screening and operational surgeries.",
+    "officialLink": "https://npcbvi.mohfw.gov.in/",
+    "icon": "fa-solid fa-eye",
+    "tags": ["Eye Care", "Free Surgery", "Cataract"],
+    "eligibility": "Individuals suffering from visually blinding cataracts, with priority to marginalized and rural communities.",
+    "fees": {
+      "type": "Free",
+      "details": "Screening, surgical operation, intraocular lens installation, and spectacles are free."
+    },
+    "requiredDocuments": [
+      "Identity Proof (Aadhaar or Voter card)",
+      "Income status verification (if applying via specific camp systems)"
+    ],
+    "stepsToApply": [
+      "Attend an official NPCBVI mobile eye screening camp or go directly to the district hospital ophthalmology unit.",
+      "Undergo professional visual acuity checks and ophthalmic validation mapping.",
+      "If diagnosed with operable cataracts, schedule a surgical date.",
+      "Get admitted to the operative block for lens replacement processing.",
+      "Collect post-operative tracking medicines and free corrective glasses upon medical release."
+    ]
+  },
+  {
+    "id": "health-033",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "department": "Department of Empowerment of Persons with Disabilities",
+    "title": "Unique Disability ID (UDID) Health Benefits",
+    "slug": "udid-disability-card",
+    "shortDescription": "A unified nationwide identity card for persons with disabilities to streamline healthcare allocations and medical benefits.",
+    "officialLink": "https://www.swavlambancard.gov.in/",
+    "icon": "fa-solid fa-wheelchair-move",
+    "tags": ["Disability ID", "Medical Benefits", "Divyangjan"],
+    "eligibility": "Any individual possessing a certified medical disability condition.",
+    "fees": {
+      "type": "Free",
+      "details": "Card processing and assessment validation carry no cost elements."
+    },
+    "requiredDocuments": [
+      "Disability Certificate issued by a competent Medical Board",
+      "Recent passport-sized identity photograph",
+      "Address Proof and Aadhaar Card"
+    ],
+    "stepsToApply": [
+      "Visit the digital Swavlamban online platform portal.",
+      "Click on 'Apply for Disability Certificate & UDID Card'.",
+      "Complete the structured application form detailing demographic data and personal medical impairments.",
+      "Upload digital copies of required identity proofs and active medical certificates.",
+      "Attend the assigned date validation at the local government hospital for medical board review, post which the physical card is dispatched."
+    ]
+  },
+  {
+    "id": "health-034",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Tobacco Control Division",
+    "title": "National Tobacco Cessation Quitline",
+    "slug": "tobacco-cessation-quitline",
+    "shortDescription": "A toll-free telephone-based counseling service to help citizens overcome addiction to smoking and smokeless tobacco products.",
+    "officialLink": "https://ntcp.mohfw.gov.in/",
+    "icon": "fa-solid fa-ban-smoking",
+    "tags": ["De-addiction", "Counseling", "Mental Wellness"],
+    "eligibility": "Any citizen seeking help to quit tobacco usage.",
+    "fees": {
+      "type": "Free",
+      "details": "Toll-free tele-counseling service."
+    },
+    "requiredDocuments": [
+      "None"
+    ],
+    "stepsToApply": [
+      "Dial the national toll-free quitline number 1800-11-2356.",
+      "Choose your preferred language for interaction.",
+      "Register your details anonymously with the intake counselor.",
+      "Receive personalized behavior cessation therapy and planning schedules.",
+      "Engage in proactively managed follow-up tracking calls over the next few weeks."
+    ]
+  },
+  {
+    "id": "health-035",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Women and Child Development",
+    "department": "POSHAN Abhiyaan",
+    "title": "POSHAN Tracker Subsidized Nutrition",
+    "slug": "poshan-tracker-nutrition",
+    "shortDescription": "Real-time monitoring system providing nutritional tracking and supplementary food delivery for children and mothers.",
+    "officialLink": "https://poshantracker.in/",
+    "icon": "fa-solid fa-apple-whole",
+    "tags": ["Nutrition", "Anganwadi", "Child Development"],
+    "eligibility": "Children under 6 years, pregnant women, and lactating mothers.",
+    "fees": {
+      "type": "Free",
+      "details": "Take-Home Rations (THR) and Hot Cooked Meals are provided free."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card of Parent/Mother",
+      "Child's Birth Registration details"
+    ],
+    "stepsToApply": [
+      "Visit the local area Anganwadi Centre.",
+      "Provide identity details to register the beneficiary on the Poshan Tracker system.",
+      "Undergo monthly height and weight checks by the Anganwadi worker.",
+      "Collect designated Take-Home Ration packages every month.",
+      "Ensure real-time attendance registration for children to get Hot Cooked Meals."
+    ]
+  },
+  {
+    "id": "health-036",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Non-Communicable Diseases Division",
+    "title": "NPCDCS Chronic Disease Screening",
+    "slug": "npcdcs-chronic-screening",
+    "shortDescription": "National program managing mass screening and primary treatment facilities for cancer, diabetes, and cardiovascular diseases.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-heart-pulse",
+    "tags": ["Diabetes", "Cancer Screening", "NCD"],
+    "eligibility": "All citizens, with special focus on individuals over 30 years old.",
+    "fees": {
+      "type": "Free",
+      "details": "Basic blood sugar checks, blood pressure monitoring, and screening tests are free."
+    },
+    "requiredDocuments": [
+      "Basic Demographic Identity Proof (Aadhaar or Voter card)"
+    ],
+    "stepsToApply": [
+      "Visit the NCD cell or clinic at the nearest primary health center or district hospital.",
+      "Request a generic non-communicable disease screening checklist validation.",
+      "Undergo physiological evaluations including random blood sugar tracking and blood pressure measurement.",
+      "Participate in physical cancer screening examinations if recommended by the officer.",
+      "Receive basic counseling and long-term diagnostic tracking books if risk factors emerge."
+    ]
+  },
+  {
+    "id": "health-037",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Consumers Affairs, Food and Public Distribution",
+    "department": "Food Safety and Standards Authority of India",
+    "title": "FSSAI Food Safety Training (FoSTaC)",
+    "slug": "fssai-fostac-training",
+    "shortDescription": "Mandatory and voluntary health training certification courses covering clean food handling for food businesses.",
+    "officialLink": "https://fostac.fssai.gov.in/",
+    "icon": "fa-solid fa-utensils",
+    "tags": ["Food Safety", "Public Health", "Certification"],
+    "eligibility": "Food business operators, catering managers, students, and home bakers.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Varies by training partner, typically ranges between ₹500 and ₹2000."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card or PAN Card",
+      "Active email ID and digital passport photo"
+    ],
+    "stepsToApply": [
+      "Open the web portal interface for FoSTaC.",
+      "Click on 'Register as Trainee' and build your user account profiles.",
+      "Select an active course category matching your needs (Basic, Advanced, or Special).",
+      "Choose a convenient slot provided by verified training partners and make the payment.",
+      "Attend the classroom sessions, pass the baseline exam, and download your Food Safety Supervisor Certificate."
+    ]
+  },
+  {
+    "id": "health-038",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Maternal Health Division",
+    "title": "LaQshya Labour Room Certification",
+    "slug": "laqshya-quality-maternity",
+    "shortDescription": "Quality improvement program optimizing public hospital labor rooms to ensure safe and complication-free childbirth environments.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-baby-carriage",
+    "tags": ["Safe Delivery", "Quality Standards", "Maternity"],
+    "eligibility": "All pregnant women delivering inside public health structures.",
+    "fees": {
+      "type": "Free",
+      "details": "Integrated structural services under the quality standard umbrella cost nothing."
+    },
+    "requiredDocuments": [
+      "MCP Card tracking details"
+    ],
+    "stepsToApply": [
+      "Identify nearby government medical colleges or district hospitals carrying a 'LaQshya' quality badge.",
+      "Get admitted to the high-dependency delivery unit during early labor stages.",
+      "Avail standard protocol-driven intrapartum monitoring checks overseen by trained labor nurses.",
+      "Benefit from private labor pods, professional triage processing, and zero illegal out-of-pocket charges."
+    ]
+  },
+  {
+    "id": "health-039",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Leprosy Eradication Programme",
+    "title": "NLEP Leprosy Medical & Welfare Benefits",
+    "slug": "nlep-leprosy-welfare",
+    "shortDescription": "Provides early diagnosis screening, free Multi-Drug Therapy (MDT) medication, and reconstructive surgery allowances.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-hand-dots",
+    "tags": ["Leprosy Treatment", "Free Surgery", "Financial Assistance"],
+    "eligibility": "Any individual diagnosed with leprosy skin patch variations or physical nerve thickening.",
+    "fees": {
+      "type": "Free",
+      "details": "MDT drug course is free; patients receive a cash allowance for reconstructive procedures."
+    },
+    "requiredDocuments": [
+      "Medical Diagnostic Report from a Leprosy Officer",
+      "Aadhaar Card",
+      "Bank Account passbook details for structural allowance transfer"
+    ],
+    "stepsToApply": [
+      "Report visible anesthetic skin lesions to the medical officer at any public healthcare clinic.",
+      "Undergo skin smear laboratory diagnostics to map structural bacterial presence.",
+      "Receive initial categorization and log into the NLEP patient master tracking books.",
+      "Collect free monthly MDT blister packs regularly.",
+      "Apply for structural disability deformity surgeries if needed to secure financial welfare support."
+    ]
+  },
+  {
+    "id": "health-040",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Emergency Medical Services",
+    "title": "National Ambulance Service (102 / 108 Helpline)",
+    "slug": "national-ambulance-service",
+    "shortDescription": "Emergency healthcare transportation network providing free transit to critical patients and mothers.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-truck-ramp-box",
+    "tags": ["Emergency Transit", "Ambulance", "Trauma Support"],
+    "eligibility": "Any citizen facing acute trauma emergencies, labor onset, or childhood illnesses.",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free transit provisioning when using centralized helpline links."
+    },
+    "requiredDocuments": [
+      "None required during emergency transport processing."
+    ],
+    "stepsToApply": [
+      "Dial the emergency phone digits 108 (for medical/accident emergencies) or 102 (for maternity cases).",
+      "Relay precise geographic tracking details and user condition metrics to the helpline agent.",
+      "Keep lines clear while the nearest GPS-mapped emergency vehicle shifts towards you.",
+      "Board the vehicle to receive basic pre-hospital stabilizer treatments during transit to the nearest hospital."
+    ]
+  },
+  {
+    "id": "health-041",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Mental Health Programme",
+    "title": "NMHP Community Mental Health Services",
+    "slug": "nmhp-mental-health",
+    "shortDescription": "District-level mental health services offering institutional psychiatric counseling and free psychiatric drugs.",
+    "officialLink": "https://main.mohfw.gov.in/",
+    "icon": "fa-solid fa-head-side-virus",
+    "tags": ["Psychiatry", "Mental Health", "Free Counseling"],
+    "eligibility": "Any citizen experiencing psychological stress or mental illness conditions.",
+    "fees": {
+      "type": "Free",
+      "details": "Outpatient consultation and baseline psychotropic medication courses carry zero fee markers."
+    },
+    "requiredDocuments": [
+      "Identity Document (Optional for basic counseling sessions)"
+    ],
+    "stepsToApply": [
+      "Visit the dedicated District Mental Health Programme (DMHP) clinic block inside your district hospital.",
+      "Complete an initial psychological profiling questionnaire via the clinic desk.",
+      "Consult with an active clinical psychologist or consulting psychiatrist.",
+      "Attend follow-up therapeutic sessions and collect tracking medication slips for collection at the internal pharmacy kiosk."
+    ]
+  },
+  {
+    "id": "health-042",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Vector Borne Disease Control Programme",
+    "title": "NVBDCP Vector Borne Disease Treatment",
+    "slug": "nvbdcp-malaria-care",
+    "shortDescription": "Integrated platform providing diagnostic tools and medicines for malaria, dengue, kala-azar, and filariasis.",
+    "officialLink": "https://ncvbdc.mohfw.gov.in/",
+    "icon": "fa-solid fa-mosquito",
+    "tags": ["Malaria Treatment", "Dengue Check", "Free Diagnostics"],
+    "eligibility": "Any person showing typical symptoms like periodic fever, body aches, or chills.",
+    "fees": {
+      "type": "Free",
+      "details": "Rapid diagnostic test kits and complete drug regimens are completely free."
+    },
+    "requiredDocuments": [
+      "None (Symptomatic assessment gets rapid treatment validation)"
+    ],
+    "stepsToApply": [
+      "Approach a local ASHA worker or public health post upon experiencing unexplained high fever conditions.",
+      "Undergo a finger-prick blood test using a Rapid Diagnostic Kit (RDK) or prepare a blood slide.",
+      "Receive instantaneous diagnostic confirmation within 15 minutes.",
+      "Collect immediate age-appropriate blister pack courses of Artesunate or Chloroquine based on guidelines.",
+      "Coordinate vector management checking if localized cluster outbreaks occur."
+    ]
+  },
+  {
+    "id": "health-043",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Integrated Disease Surveillance Programme",
+    "title": "IHIP Infectious Disease Reporting",
+    "slug": "ihip-disease-reporting",
+    "shortDescription": "Digital interface allowing community members and health units to instantly report localized infectious disease outbreaks.",
+    "officialLink": "https://idsp.mohfw.gov.in/",
+    "icon": "fa-solid fa-circle-exclamation",
+    "tags": ["Epidemic Watch", "Public Health", "Digital Portal"],
+    "eligibility": "Healthcare workers, institutional private practitioners, and community members tracking outbreak signatures.",
+    "fees": {
+      "type": "Free",
+      "details": "Reporting platform operations carry zero charges."
+    },
+    "requiredDocuments": [
+      "Lab confirmation report detailing the pathogen signature (if available)"
+    ],
+    "stepsToApply": [
+      "Open the Integrated Health Information Platform portal interface.",
+      "Navigate to the community outbreak report window.",
+      "Input localized details regarding specific symptom clusters observed (e.g., sudden waterborne illness, fever spike).",
+      "Submit the digital form to prompt automated tracking responses from the district epidemiological investigation team."
+    ]
+  },
+  {
+    "id": "health-044",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Department of Pension & Pensioners' Welfare",
+    "title": "Sanjeevani Teleconsultation for Pensioners",
+    "slug": "sanjeevani-pensioner-health",
+    "shortDescription": "Tailored online medical consultation modules linked to CGHS panels customized to provide swift digital care for retired personnel.",
+    "officialLink": "https://esanjeevani.mohfw.gov.in/",
+    "icon": "fa-solid fa-user-shield",
+    "tags": ["Pensioners", "Telehealth", "Senior Care"],
+    "eligibility": "Retired government employees carrying active pension card tracking.",
+    "fees": {
+      "type": "Free",
+      "details": "Specialized virtual queues are free to use."
+    },
+    "requiredDocuments": [
+      "Pension Payment Order (PPO) number confirmation",
+      "CGHS plastic identification card digits"
+    ],
+    "stepsToApply": [
+      "Log into the digital eSanjeevani online hub using your primary mobile numbers.",
+      "Select the dedicated 'Pensioner Care Consultation Room' node option.",
+      "Provide validation details linked to your PPO register indices.",
+      "Connect with a specialty physician via high-definition video call systems.",
+      "Download certified system e-prescriptions valid across global retail drug outlets."
+    ]
+  },
+  {
+    "id": "health-045",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Health Mission",
+    "title": "National Iron Plus Initiative (NIPI)",
+    "slug": "iron-plus-anemia",
+    "shortDescription": "Comprehensive strategy providing Iron and Folic Acid (IFA) supplementation to completely prevent and manage anemia across age groups.",
+    "officialLink": "https://nhm.gov.in/",
+    "icon": "fa-solid fa-droplet-slash",
+    "tags": ["Anemia Control", "Supplements", "Maternal Health"],
+    "eligibility": "Infants, adolescents, women of reproductive age, and pregnant/lactating individuals.",
+    "fees": {
+      "type": "Free",
+      "details": "All preventative syrup distributions and therapeutic tablets are free."
+    },
+    "requiredDocuments": [
+      "MCP Card (for pregnant women) or School Enrollment Ledger profile"
+    ],
+    "stepsToApply": [
+      "Visit your neighborhood Anganwadi center or public primary school layout.",
+      "Participate in designated weekly or bi-weekly health checkups.",
+      "Collect age-appropriate Iron-Folic Acid packages (pink, blue, or red tablets depending on target group criteria).",
+      "Undergo hemoglobin screening if continuous physical fatigue signs persist."
+    ]
+  },
+  {
+    "id": "health-046",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Food Safety and Standards Authority of India",
+    "title": "FSSAI Food Product Licensing (FOSCOS)",
+    "slug": "fssai-foscos-license",
+    "shortDescription": "Cloud-based framework for food business operators to acquire mandatory food safety operational licenses and hygiene registration cards.",
+    "officialLink": "https://foscos.fssai.gov.in/",
+    "icon": "fa-solid fa-file-shield",
+    "tags": ["Food Quality", "Licensing", "Business Safety"],
+    "eligibility": "All individuals or corporate groups producing, selling, storing, or transferring food products.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Standard registration starts at ₹100/year; State/Central licenses vary from ₹2000 to ₹7500/year."
+    },
+    "requiredDocuments": [
+      "Identity Proof and Address Verification documents",
+      "Layout blueprint of manufacturing plant blueprints",
+      "Water analysis safety validation report certificates"
+    ],
+    "stepsToApply": [
+      "Access the digital FOSCOS online framework application hub.",
+      "Enter your setup operational parameters to check baseline license tier eligibility rules.",
+      "Fill out the comprehensive application profile details (Form A or Form B).",
+      "Upload verified document scans alongside factory setup proof matrices.",
+      "Submit the state processing fees online and await structural verification checks by the local Food Safety Officer."
+    ]
+  },
+  {
+    "id": "health-047",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of AYUSH",
+    "department": "National Medicinal Plants Board",
+    "title": "e-Charak (Medicinal Plants Portal)",
+    "slug": "e-charak-medicinal-plants",
+    "shortDescription": "Digital marketplace showcase helping farmers and herbal experts exchange authentic medicinal herbs and wellness items safely.",
+    "officialLink": "https://www.e-charak.in/",
+    "icon": "fa-solid fa-seedling",
+    "tags": ["Herbal Wellness", "AYUSH Trade", "Medicinal Herbs"],
+    "eligibility": "Farmers growing medicinal plants, traditional wellness practitioners, and alternative pharmaceutical buyers.",
+    "fees": {
+      "type": "Free",
+      "details": "Registration and market showcase listings are free."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card copy",
+      "Land Ownership papers or Trade License registers"
+    ],
+    "stepsToApply": [
+      "Open the online e-Charak web portal space.",
+      "Create a user account profile categorizing yourself as a 'Seller' or 'Buyer'.",
+      "Log detailed item listings including verified images and botanical names.",
+      "Connect securely with potential buyers or contract farming units.",
+      "Execute safe commercial exchanges without deep middleman market margins."
+    ]
+  },
+  {
+    "id": "health-048",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Blood Cell Division",
+    "title": "Voluntary Blood Donation Voluntary Portal",
+    "slug": "voluntary-blood-donation",
+    "shortDescription": "Centralized interface linking willing blood donors with certified public blood banks during emergencies.",
+    "officialLink": "https://www.eraktkosh.in/",
+    "icon": "fa-solid fa-heart-circle-check",
+    "tags": ["Blood Donation", "Voluntary Care", "Emergency Network"],
+    "eligibility": "Healthy individuals aged 18 to 65 years weighing at least 45 kg.",
+    "fees": {
+      "type": "Free",
+      "details": "Voluntary donation platforms carry zero fees; donors receive health validation certificates."
+    },
+    "requiredDocuments": [
+      "Valid Government Photo ID Card (Aadhaar, Driving License, etc.)"
+    ],
+    "stepsToApply": [
+      "Access the eRaktKosh online platform interface.",
+      "Click on 'Register as a Voluntary Donor' tab link.",
+      "Fill out your health profiling metrics alongside blood type markers.",
+      "Select a convenient neighborhood donation camp or specific government blood storage branch.",
+      "Complete basic hemoglobin evaluations at the center prior to donating blood securely."
+    ]
+  },
+  {
+    "id": "health-049",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Center for Disease Control",
+    "title": "NCDC Diagnostic Lab Services",
+    "slug": "ncdc-lab-services",
+    "shortDescription": "Specialized laboratory diagnostics for complex zoonotic, bacterial, and viral pathogens under national surveillance protocols.",
+    "officialLink": "https://ncdc.mohfw.gov.in/",
+    "icon": "fa-solid fa-vial-virus",
+    "tags": ["Reference Lab", "Specialized Testing", "Pathogen Watch"],
+    "eligibility": "Patients carrying specific clinical reference notes from institutional medical boards or state departments.",
+    "fees": {
+      "type": "Subsidized",
+      "details": "Highly subsidized baseline pricing or free if handled under national epidemiological tracking drives."
+    },
+    "requiredDocuments": [
+      "Official reference sheet stamped by a government medical college hospital board",
+      "Patient dynamic case clinical files summary history documentation"
+    ],
+    "stepsToApply": [
+      "Secure a specialized diagnostic screening referral note from a tertiary healthcare center doctor.",
+      "Visit the designated sample handling reception point at an NCDC regional reference lab branch.",
+      "Submit sample extractions under exact cold-chain tracking frameworks.",
+      "Monitor status check codes via the digital notification trackers provided.",
+      "Collect final molecular sequencing results or specialized culture testing matrices."
+    ]
+  },
+  {
+    "id": "health-050",
+    "category": "Health & Wellness",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "Central Drugs Standard Control Organisation",
+    "title": "CDSCO Sugam Drug Portal Registration",
+    "slug": "cdsco-sugam-registration",
+    "shortDescription": "Official portal managing authorization reviews, clinical study updates, and manufacturing clearances for critical healthcare products.",
+    "officialLink": "https://cdscoonline.gov.in/",
+    "icon": "fa-solid fa-passport",
+    "tags": ["Drug Safety", "Pharma Licensing", "Clinical Oversight"],
+    "eligibility": "Pharmaceutical researchers, corporate developers, clinical research organizations, and import firms.",
+    "fees": {
+      "type": "Variable",
+      "details": "Pricing matches specific statutory clearance schedules defined by the drug rules."
+    },
+    "requiredDocuments": [
+      "Corporate registration profiles or Manufacturing Site operational permits",
+      "Chemical dossier validation files and analytical stability test data logs",
+      "Detailed clinical trail monitoring reports summary parameters"
+    ],
+    "stepsToApply": [
+      "Open the primary CDSCO Sugam online operational application portal.",
+      "Create a secure enterprise profile using verified organization certificates.",
+      "Select the relevant application node (e.g., import permit, clinical trial submission).",
+      "Fill out technical specification data cards and link digital testing data folders.",
+      "Complete statutory system payments online to initiate review panels by central drug inspectors."
+    ]
+  }
+]

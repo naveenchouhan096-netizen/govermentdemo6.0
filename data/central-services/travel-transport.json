@@ -1,0 +1,1433 @@
+[
+  {
+    "id": "travel-001",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of External Affairs",
+    "department": "Consular, Passport & Visa (CPV) Division",
+    "title": "Passport Seva (New Passport Application)",
+    "slug": "passport-seva-new",
+    "shortDescription": "Official portal to apply for a new Indian passport for international travel and identification.",
+    "officialLink": "https://www.passportindia.gov.in/",
+    "icon": "fa-solid fa-passport",
+    "tags": ["International Travel", "Identity", "Passport"],
+    "eligibility": "Any Indian citizen by birth, descent, or naturalization.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹1500 for a standard 36-page passport; ₹2000 for a 60-page passport; Tatkaal incurs additional ₹2000."
+    },
+    "requiredDocuments": [
+      "Proof of Present Address (Aadhaar, Voter ID, Utility Bill)",
+      "Proof of Date of Birth (Birth Certificate, Class 10 Marksheet, PAN)",
+      "Non-ECR proof (Class 10 mark sheet, if applicable)"
+    ],
+    "stepsToApply": [
+      "Visit the Passport Seva portal and click on 'New User Registration' to create an account using your email ID.",
+      "Log in with your registered ID, click on 'Apply for Fresh Passport/Re-issue of Passport', and select the online form submission option.",
+      "Fill in the applicant details, family details, present residential address, and emergency contact information, then save and submit.",
+      "Navigate to 'View Saved/Submitted Applications', click on 'Pay and Schedule Appointment', pay the requisite fee online, and select an available slot at your nearest PSK/POPSK.",
+      "Print the application receipt containing the Application Reference Number (ARN) and visit the Passport Seva Kendra on the scheduled date with all original documents for biometrics and verification."
+    ]
+  },
+  {
+    "id": "travel-002",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Sarathi Parivahan - Learner's License",
+    "slug": "sarathi-learner-license",
+    "shortDescription": "Apply for a preliminary Learner's License to legally practice driving on Indian roads.",
+    "officialLink": "https://sarathi.parivahan.gov.in/",
+    "icon": "fa-solid fa-id-card",
+    "tags": ["Driving", "License", "RTO"],
+    "eligibility": "Indian citizens aged 16+ for gearless 2-wheelers, 18+ for geared 2-wheelers and Light Motor Vehicles.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹150 per class of vehicle + ₹50 for the Learner's License test."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card (for e-KYC and faceless test)",
+      "Address Proof",
+      "Age Proof",
+      "Passport Size Photograph and Signature"
+    ],
+    "stepsToApply": [
+      "Visit the Sarathi Parivahan portal, select your State, and click on 'Apply for Learner License'.",
+      "Choose 'Applicant does not hold Driving/Learner License' and authenticate your application using your Aadhaar number for contactless processing.",
+      "Fill in the online application form with physical attributes, vehicle class (e.g., MCWG, LMV), and permanent address details.",
+      "Upload your scanned signature (and photo if not pulled from Aadhaar), and pay the requisite application fee via the integrated payment gateway.",
+      "Watch the mandatory road safety video tutorial, then appear for the online LL test from your home; upon passing, the digital Learner's License is generated instantly."
+    ]
+  },
+  {
+    "id": "travel-003",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Sarathi Parivahan - Permanent Driving License",
+    "slug": "sarathi-permanent-driving-license",
+    "shortDescription": "Upgrade from a Learner's License to a Permanent Driving License after the mandatory practice period.",
+    "officialLink": "https://sarathi.parivahan.gov.in/",
+    "icon": "fa-solid fa-car",
+    "tags": ["Driving", "License", "RTO"],
+    "eligibility": "Holders of a valid Learner's License for at least 30 days but not more than 6 months.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹200 per class of vehicle + ₹300 for the driving test + ₹200 for smart card issuance."
+    },
+    "requiredDocuments": [
+      "Valid Learner's License",
+      "Recent Passport Size Photographs",
+      "Address Proof (if changed from LL)",
+      "Form 1 (Self-declaration of physical fitness)"
+    ],
+    "stepsToApply": [
+      "Open the Sarathi Parivahan portal, select your state, and click on 'Apply for Driving License'.",
+      "Enter your Learner's License number and Date of Birth to fetch your existing application details.",
+      "Select the class of vehicles you wish to get the permanent license for (must match your LL) and submit the form.",
+      "Pay the driving test and smart card fees online, then proceed to book a driving test slot (DL Test Appointment) at your local RTO or automated testing track.",
+      "Visit the RTO with your vehicle on the scheduled date, pass the practical driving test, and the smart card DL will be dispatched to your registered address."
+    ]
+  },
+  {
+    "id": "travel-004",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Railways",
+    "department": "IRCTC",
+    "title": "IRCTC E-Ticketing Booking",
+    "slug": "irctc-train-booking",
+    "shortDescription": "Official national portal to check train schedules, seat availability, and book railway tickets online.",
+    "officialLink": "https://www.irctc.co.in/",
+    "icon": "fa-solid fa-train",
+    "tags": ["Railways", "Train Ticket", "Travel"],
+    "eligibility": "Any individual with a registered IRCTC account.",
+    "fees": {
+      "type": "Variable",
+      "details": "Ticket fare plus convenience fee (₹15 for non-AC, ₹30 for AC classes via UPI/Netbanking)."
+    },
+    "requiredDocuments": [
+      "Valid Government ID (required during the actual journey, not for booking)"
+    ],
+    "stepsToApply": [
+      "Visit the IRCTC Next Generation e-Ticketing website or mobile app and log in using your User ID and Password.",
+      "Enter your source station, destination station, date of journey, and preferred travel class in the 'Book Ticket' search box.",
+      "Browse the list of available trains, check seat availability for your desired train and quota (General/Tatkaal), and click 'Book Now'.",
+      "Enter passenger details including name, age, gender, and berth preference, and review the final itinerary.",
+      "Proceed to the payment gateway, pay using UPI, Credit Card, or Net Banking, and receive your electronic reservation slip (ERS) via SMS and email."
+    ]
+  },
+  {
+    "id": "travel-005",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "National Highways Authority of India (NHAI)",
+    "title": "FASTag Registration and Recharge",
+    "slug": "fastag-registration",
+    "shortDescription": "Electronic toll collection system utilizing RFID technology for making toll payments directly from a linked prepaid account.",
+    "officialLink": "https://ihmcl.co.in/",
+    "icon": "fa-solid fa-road-barrier",
+    "tags": ["Toll", "Highway", "Vehicle"],
+    "eligibility": "Owners of any four-wheeler or commercial vehicle operating on Indian highways.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Tag issuance fee of ₹100 + refundable security deposit depending on vehicle type + minimum recharge amount."
+    },
+    "requiredDocuments": [
+      "Registration Certificate (RC) of the vehicle",
+      "Passport-size photograph of the vehicle owner",
+      "KYC Document (Aadhaar, PAN, Voter ID, or Passport)"
+    ],
+    "stepsToApply": [
+      "Visit any official issuer bank's FASTag portal (e.g., SBI, HDFC, ICICI) or use apps like Paytm, PhonePe, or NHAI's My FASTag app.",
+      "Select 'Apply for New FASTag', enter your personal details, and input the vehicle registration number.",
+      "Upload scanned copies of the vehicle's Registration Certificate (RC) and your KYC documents.",
+      "Make the online payment which includes the tag fee, security deposit, and initial wallet balance.",
+      "Once approved, the physical FASTag sticker will be delivered to your address; affix it to your vehicle's windshield behind the rearview mirror."
+    ]
+  },
+  {
+    "id": "travel-006",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Vahan Parivahan",
+    "title": "High Security Registration Plate (HSRP) Booking",
+    "slug": "hsrp-booking",
+    "shortDescription": "Mandatory tamper-proof registration plates for vehicles to enhance security and prevent vehicle theft.",
+    "officialLink": "https://www.bookmyhsrp.com/",
+    "icon": "fa-solid fa-car-side",
+    "tags": ["Vehicle Safety", "RTO", "Mandatory"],
+    "eligibility": "All motor vehicles sold before April 2019 (post-2019 vehicles come with HSRP from the dealer).",
+    "fees": {
+      "type": "Variable",
+      "details": "Approx. ₹300-400 for two-wheelers and ₹600-1000 for four-wheelers depending on state."
+    },
+    "requiredDocuments": [
+      "Vehicle Registration Certificate (RC)",
+      "Chassis Number and Engine Number"
+    ],
+    "stepsToApply": [
+      "Visit the authorized BookMyHSRP portal or your specific state's designated HSRP vendor website.",
+      "Enter your vehicle details including State, Registration Number, Chassis Number, and Engine Number, and click 'Click Here'.",
+      "Select your fitment location preference: either 'Home Delivery' (if available in your PIN code) or 'Dealer Fitment'.",
+      "Choose a convenient date and time slot from the calendar for the installation of the number plates.",
+      "Complete the online payment and present the receipt to the technician or dealer at the time of plate affixation."
+    ]
+  },
+  {
+    "id": "travel-007",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Railways",
+    "department": "Centre for Railway Information Systems (CRIS)",
+    "title": "UTS Mobile App (Unreserved Ticketing System)",
+    "slug": "uts-unreserved-tickets",
+    "shortDescription": "Mobile application to book unreserved suburban, non-suburban, and platform railway tickets without standing in queues.",
+    "officialLink": "https://utsonmobile.indianrail.gov.in/",
+    "icon": "fa-solid fa-train-tram",
+    "tags": ["Local Train", "Unreserved", "Daily Commute"],
+    "eligibility": "Any individual with a smartphone wanting to travel on unreserved train coaches.",
+    "fees": {
+      "type": "Variable",
+      "details": "Standard unreserved ticket fare with zero convenience fee. Recharge R-Wallet for a 3% bonus."
+    },
+    "requiredDocuments": [
+      "Valid Mobile Number for registration"
+    ],
+    "stepsToApply": [
+      "Download the 'UTS on Mobile' application from the Google Play Store or Apple App Store.",
+      "Register an account using your mobile number, name, ID card details, and set a 4-digit password.",
+      "Log in and recharge your 'R-Wallet' using UPI/Netbanking, or link a standard payment gateway for direct ticket booking.",
+      "To book, ensure you are within a 5 km radius of the source station but outside the station premises (using GPS).",
+      "Select 'Paperless Ticket', enter source and destination stations, choose passenger count, and complete the booking. Show the digital ticket in the app to the TTE upon request."
+    ]
+  },
+  {
+    "id": "travel-008",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Civil Aviation",
+    "department": "DigiYatra Foundation",
+    "title": "DigiYatra Enrollment",
+    "slug": "digiyatra-airport-entry",
+    "shortDescription": "Biometric boarding system using facial recognition technology to provide a seamless and paperless experience at Indian airports.",
+    "officialLink": "https://www.newdelhiairport.in/digiyatra",
+    "icon": "fa-solid fa-plane",
+    "tags": ["Aviation", "Facial Recognition", "Airport"],
+    "eligibility": "Any domestic air traveler flying from a DigiYatra-enabled airport.",
+    "fees": {
+      "type": "Free",
+      "details": "App and service usage is completely free."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card (for offline XML/DigiLocker verification)",
+      "Boarding Pass for current flight"
+    ],
+    "stepsToApply": [
+      "Download the official DigiYatra application on your smartphone.",
+      "Register using your mobile number and link it with your Aadhaar credentials via DigiLocker to establish identity.",
+      "Take a clear selfie using the app to capture your facial biometrics, which are stored locally and securely on your device.",
+      "Add your upcoming flight details by scanning your boarding pass barcode or uploading the PDF ticket.",
+      "Share the flight and biometric data with the departure airport via the app a few hours before the flight, and use the dedicated DigiYatra e-gates at the airport by simply looking at the camera."
+    ]
+  },
+  {
+    "id": "travel-009",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of External Affairs",
+    "department": "Consular, Passport & Visa (CPV) Division",
+    "title": "International Driving Permit (IDP)",
+    "slug": "international-driving-permit",
+    "shortDescription": "Official document translating your Indian driving license into multiple languages, allowing you to drive legally in foreign countries.",
+    "officialLink": "https://sarathi.parivahan.gov.in/",
+    "icon": "fa-solid fa-earth-americas",
+    "tags": ["International Travel", "Driving", "RTO"],
+    "eligibility": "Citizens holding a valid permanent Indian Driving License and a valid Passport.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹1000 processing fee."
+    },
+    "requiredDocuments": [
+      "Valid Indian Driving License",
+      "Valid Indian Passport and Visa (if applicable)",
+      "Air Ticket for international travel",
+      "Form 4A (Medical Certificate)"
+    ],
+    "stepsToApply": [
+      "Visit the Sarathi Parivahan portal, select your state, and click on the 'Apply for International Driving Permit (IDP)' service.",
+      "Enter your existing Driving License number and Date of Birth to pull up your records, and select 'Issue of IDP' from the services list.",
+      "Fill out the application form specifying your destination country and upload scanned copies of your passport, visa, and air tickets.",
+      "Pay the ₹1000 fee through the online payment gateway.",
+      "Visit your local RTO for physical verification of original documents; the IDP booklet will be printed and handed over or dispatched."
+    ]
+  },
+  {
+    "id": "travel-010",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Transfer of Vehicle Ownership",
+    "slug": "transfer-vehicle-ownership",
+    "shortDescription": "Official process to transfer the Registration Certificate (RC) of a vehicle from one person to another upon sale or purchase.",
+    "officialLink": "https://vahan.parivahan.gov.in/",
+    "icon": "fa-solid fa-file-signature",
+    "tags": ["RC Transfer", "Vehicle Sale", "RTO"],
+    "eligibility": "The registered owner and the buyer of the vehicle.",
+    "fees": {
+      "type": "Variable",
+      "details": "Transfer fee ranges from ₹150 to ₹500 depending on vehicle class + smart card charges + state taxes if moving inter-state."
+    },
+    "requiredDocuments": [
+      "Original RC",
+      "Form 29 (Notice of transfer) and Form 30 (Application for transfer)",
+      "Valid Insurance, PUC, and Address proof of the buyer"
+    ],
+    "stepsToApply": [
+      "Log into the Vahan Citizen Services portal using the vehicle registration number.",
+      "Authenticate using the registered owner's mobile number via OTP, and select 'Transfer of Ownership' from the services list.",
+      "Enter the buyer's demographic and address details as requested in the digital form.",
+      "Pay the transfer of ownership fee online and print the dynamically generated Forms 29 and 30.",
+      "The buyer and seller must sign the printed forms and submit them, along with original RC, insurance, and PUC, to the local RTO for final endorsement."
+    ]
+  },
+  {
+    "id": "travel-011",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "e-Challan Payment Portal",
+    "slug": "echallan-payment",
+    "shortDescription": "Centralized portal to view, verify, and pay traffic violation fines issued by traffic police or RTOs nationwide.",
+    "officialLink": "https://echallan.parivahan.gov.in/",
+    "icon": "fa-solid fa-file-invoice-dollar",
+    "tags": ["Traffic Fine", "Challan", "Vehicle"],
+    "eligibility": "Any citizen who has been issued a traffic challan in India.",
+    "fees": {
+      "type": "Variable",
+      "details": "Fine amount varies strictly based on the nature of the traffic violation under the Motor Vehicles Act."
+    },
+    "requiredDocuments": [
+      "Challan Number, Vehicle Registration Number, or Driving License Number"
+    ],
+    "stepsToApply": [
+      "Visit the e-Challan Parivahan portal and click on 'Pay Online'.",
+      "Enter your Challan Number, or your Vehicle Registration Number (along with the last 5 digits of the chassis/engine number), or your DL number.",
+      "Fill in the captcha and click 'Get Detail' to view all pending and paid challans against your vehicle/license.",
+      "Select the pending challan you wish to clear and click the 'Pay Now' button.",
+      "Complete the transaction using the state-specific payment gateway (Net banking, Credit/Debit Card, or UPI) and download the payment receipt."
+    ]
+  },
+  {
+    "id": "travel-012",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Home Affairs",
+    "department": "Bureau of Immigration",
+    "title": "Indian e-Visa Service",
+    "slug": "indian-evisa",
+    "shortDescription": "Electronic visa facility for foreign nationals traveling to India for tourism, business, medical, or conference purposes.",
+    "officialLink": "https://indianvisaonline.gov.in/evisa/",
+    "icon": "fa-solid fa-plane-arrival",
+    "tags": ["Visa", "Tourism", "Immigration"],
+    "eligibility": "Foreign nationals from eligible countries holding passports with at least six months validity.",
+    "fees": {
+      "type": "Variable",
+      "details": "Ranges from $10 to $80 depending on the country, visa type, and season (Free for a few specific nations)."
+    },
+    "requiredDocuments": [
+      "Scanned Bio Page of the Passport",
+      "Recent digital passport-size photograph",
+      "Additional documents based on visa type (e.g., Hospital letter for medical visa)"
+    ],
+    "stepsToApply": [
+      "Access the official Indian e-Visa portal and click on 'Apply here for e-visa'.",
+      "Fill out the secure online application form carefully with passport details, travel dates, and intended port of arrival.",
+      "Upload the digital photograph and the scanned copy of the passport's bio page in the required PDF/JPEG dimensions.",
+      "Pay the e-Visa fee securely using a credit/debit card or PayPal at least 4 days before the date of travel.",
+      "Receive the Electronic Travel Authorization (ETA) via email, print it, and present it at the immigration checkpoint upon arrival in India."
+    ]
+  },
+  {
+    "id": "travel-013",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Railways",
+    "department": "Centre for Railway Information Systems (CRIS)",
+    "title": "NTES (National Train Enquiry System)",
+    "slug": "ntes-train-status",
+    "shortDescription": "Real-time train tracking system providing live running status, expected arrival/departure, and platform information.",
+    "officialLink": "https://enquiry.indianrail.gov.in/",
+    "icon": "fa-solid fa-location-dot",
+    "tags": ["Live Status", "Train Tracking", "Railways"],
+    "eligibility": "Open to all passengers and citizens.",
+    "fees": {
+      "type": "Free",
+      "details": "Information portal is completely free to use."
+    },
+    "requiredDocuments": [
+      "None. Only Train Number or Station Name required."
+    ],
+    "stepsToApply": [
+      "Visit the NTES website or download the official NTES mobile application.",
+      "On the homepage, select 'Spot Your Train' to check live running status.",
+      "Enter the 5-digit train number and select the journey date and your boarding station from the dropdown list.",
+      "Click 'Find' to view the real-time location of the train, delay status, and the expected platform number.",
+      "You can also use tabs like 'Trains between Stations' or 'Cancelled/Rescheduled Trains' for journey planning."
+    ]
+  },
+  {
+    "id": "travel-014",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "department": "National Payments Corporation of India (NPCI)",
+    "title": "National Common Mobility Card (NCMC)",
+    "slug": "ncmc-mobility-card",
+    "shortDescription": "An inter-operable transport card ('One Nation One Card') for seamless travel across metros, buses, and toll payments pan-India.",
+    "officialLink": "https://www.npci.org.in/what-we-do/rupay/ncmc",
+    "icon": "fa-solid fa-credit-card",
+    "tags": ["Public Transport", "Metro", "Smart Card"],
+    "eligibility": "Any Indian citizen.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Issuance fee varies by bank/operator (usually ₹100-₹200)."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card or valid KYC documents (if applying through a bank)",
+      "Passport Size Photograph"
+    ],
+    "stepsToApply": [
+      "Visit any partner bank branch (e.g., SBI, Paytm Bank, PNB) or the customer care kiosk at NCMC-enabled Metro stations.",
+      "Request the application form for the NCMC RuPay card.",
+      "Submit the filled application form along with minimal KYC documents like Aadhaar.",
+      "Pay the issuance fee and the initial wallet load amount.",
+      "Receive your physical NCMC card, which can be tapped at metro AFC gates, bus validators, or used for retail purchases."
+    ]
+  },
+  {
+    "id": "travel-015",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Railways",
+    "department": "IRCTC",
+    "title": "IRCTC Retiring Room Booking",
+    "slug": "irctc-retiring-room",
+    "shortDescription": "Online booking of transit accommodation (Retiring Rooms and Dormitories) at major railway stations for passengers.",
+    "officialLink": "https://www.rr.irctctourism.com/",
+    "icon": "fa-solid fa-bed",
+    "tags": ["Accommodation", "Station Stay", "Railways"],
+    "eligibility": "Passengers holding a valid confirmed or RAC train ticket.",
+    "fees": {
+      "type": "Variable",
+      "details": "Room tariff varies by station, room type (AC/Non-AC), and duration (12, 24, or 48 hours) + service charge."
+    },
+    "requiredDocuments": [
+      "Valid PNR Number",
+      "Photo ID proof of the passengers"
+    ],
+    "stepsToApply": [
+      "Visit the IRCTC Retiring Room booking website and log in using your IRCTC credentials.",
+      "Enter your valid PNR number and click on 'Search'.",
+      "Select your source or destination station where you wish to book the retiring room.",
+      "Choose the room type (Single, Double, Dormitory), check availability, and select the check-in and check-out dates and times.",
+      "Complete the payment online; carry the printed booking slip and your original ID proof to the Station Manager/Matron on the day of travel."
+    ]
+  },
+  {
+    "id": "travel-016",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Fancy/VIP Vehicle Number Booking",
+    "slug": "fancy-number-booking",
+    "shortDescription": "Online auction platform for citizens to bid on and purchase choice or VIP registration numbers for their vehicles.",
+    "officialLink": "https://vahan.parivahan.gov.in/fancy/",
+    "icon": "fa-solid fa-money-check-dollar",
+    "tags": ["VIP Number", "Vehicle Registration", "RTO"],
+    "eligibility": "Individuals who have recently purchased a new vehicle or applied for a registration number change.",
+    "fees": {
+      "type": "Variable",
+      "details": "Non-refundable registration fee + Reserve Price (ranges from ₹5,000 to ₹5,00,000+) + bidding amount."
+    },
+    "requiredDocuments": [
+      "Vehicle Sale Certificate / Invoice",
+      "Address Proof (Aadhaar)"
+    ],
+    "stepsToApply": [
+      "Register on the Ministry's Fancy Number Booking portal and log in.",
+      "Select your State and RTO, and browse the available list of choice/VIP numbers under various categories.",
+      "Register for the specific number by paying the non-refundable registration fee and the base reserve price of the number via online payment.",
+      "Participate in the online e-auction window that opens for specific days; place your bids higher than competitors.",
+      "If you win, pay the balance bid amount within the stipulated time, and an allotment letter will be generated to submit to your dealer/RTO."
+    ]
+  },
+  {
+    "id": "travel-017",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Railways",
+    "department": "IRCTC",
+    "title": "Vikalp Scheme (Alternate Train Accommodation)",
+    "slug": "vikalp-scheme",
+    "shortDescription": "Opt-in scheme providing waitlisted passengers alternate accommodation in other trains on the same route without extra charges.",
+    "officialLink": "https://www.irctc.co.in/",
+    "icon": "fa-solid fa-code-branch",
+    "tags": ["Waitlist", "Ticket Upgrade", "Railways"],
+    "eligibility": "Passengers holding waitlisted e-tickets across all quotas and classes.",
+    "fees": {
+      "type": "Free",
+      "details": "No extra charges are levied, nor is any refund provided for fare differences between trains."
+    },
+    "requiredDocuments": [
+      "None"
+    ],
+    "stepsToApply": [
+      "During the regular ticket booking process on IRCTC, if your ticket status is 'Waitlisted', check the 'Opt for Vikalp' box before payment.",
+      "Alternatively, for an already booked waitlisted ticket, log into your IRCTC booking history.",
+      "Select the specific ticket and click on the 'Opt Vikalp' button available up to a few hours before the chart preparation.",
+      "A list of alternate trains running on the same route within a 12 to 72-hour window will be displayed; select up to 7 preferred alternate trains.",
+      "Submit the request. If your original ticket remains unconfirmed at chart preparation, the system will automatically attempt to allot you a confirmed berth in one of your chosen alternate trains."
+    ]
+  },
+  {
+    "id": "travel-018",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Civil Aviation",
+    "department": "AirSewa",
+    "title": "AirSewa Grievance Redressal",
+    "slug": "airsewa-grievance",
+    "shortDescription": "Centralized digital platform for air travelers to register and track grievances related to flights, airports, and baggage.",
+    "officialLink": "https://airsewa.gov.in/",
+    "icon": "fa-solid fa-headset",
+    "tags": ["Aviation", "Complaints", "Air Travel"],
+    "eligibility": "Any passenger facing issues with Indian airlines or at Indian airports.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to register complaints."
+    },
+    "requiredDocuments": [
+      "Flight PNR Number / Ticket PDF",
+      "Baggage Tag (if applicable)"
+    ],
+    "stepsToApply": [
+      "Visit the AirSewa portal or download the AirSewa mobile app.",
+      "Create an account using your email ID, name, and mobile number.",
+      "Navigate to 'Register Grievance' and select the category of your complaint (e.g., Flight Delay, Baggage, Refund, Airport Facilities).",
+      "Provide detailed information including Airline/Airport name, PNR number, Date of travel, and describe the issue comprehensively.",
+      "Attach supporting files like tickets or photos, submit the grievance to receive a unique reference number, and track the resolution status via the dashboard."
+    ]
+  },
+  {
+    "id": "travel-019",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Pollution Under Control (PUC) Certificate Status",
+    "slug": "puc-certificate-status",
+    "shortDescription": "Check the validity and print the digital copy of a vehicle's PUC certificate from the centralized Vahan database.",
+    "officialLink": "https://puc.parivahan.gov.in/",
+    "icon": "fa-solid fa-smog",
+    "tags": ["Emissions", "Vehicle Compliance", "RTO"],
+    "eligibility": "All motor vehicle owners in India.",
+    "fees": {
+      "type": "Free",
+      "details": "Online checking and downloading the digital copy is free. Physical testing at centers involves a small fee."
+    },
+    "requiredDocuments": [
+      "Vehicle Registration Number",
+      "Last 5 characters of the Chassis Number"
+    ],
+    "stepsToApply": [
+      "Take your vehicle to an authorized emission testing center (often at petrol pumps) to undergo physical exhaust testing.",
+      "Once tested and approved by the center, visit the official PUC Parivahan portal.",
+      "Click on the 'PUC Certificate' tab on the homepage.",
+      "Enter your vehicle's registration number and the last five characters of its chassis number, along with the captcha code.",
+      "Click 'PUC Details' to view your vehicle's emission metrics, valid-upto date, and print the official certificate for your records."
+    ]
+  },
+  {
+    "id": "travel-020",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Railways",
+    "department": "Divyangjan Cell",
+    "title": "Railway Concession Certificate for Divyangjan",
+    "slug": "divyangjan-railway-concession",
+    "shortDescription": "Process to obtain a Railway Photo Identity Card that allows persons with disabilities to book concessional train tickets online.",
+    "officialLink": "https://divyangjanid.indianrail.gov.in/",
+    "icon": "fa-solid fa-wheelchair",
+    "tags": ["Divyangjan", "Discount", "Railways"],
+    "eligibility": "Orthopedically handicapped, visually impaired, mentally retarded, or deaf & dumb persons meeting specific medical criteria.",
+    "fees": {
+      "type": "Free",
+      "details": "Issuance of the ID card is free."
+    },
+    "requiredDocuments": [
+      "Concession Certificate issued by Government Doctor",
+      "Photo ID Proof (Aadhaar)",
+      "Address Proof",
+      "Two Passport-size Photographs"
+    ],
+    "stepsToApply": [
+      "Obtain the standard Railway Concession Medical Certificate signed by a designated doctor from a government hospital.",
+      "Visit the dedicated Railway Divyangjan ID card portal or go physically to the nearest Divisional Railway Manager (DRM) office.",
+      "Submit the registration form along with the medical certificate, Aadhaar, address proof, and photographs.",
+      "The railway commercial department verifies the medical certificate with the issuing hospital (this process can take a few weeks).",
+      "Once verified, a unique 11-digit e-ticketing Photo ID card is issued, which can be used to apply the handicap quota and concession discounts directly on IRCTC."
+    ]
+  },
+  {
+    "id": "travel-021",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "All India Tourist Permit (AITP)",
+    "slug": "all-india-tourist-permit",
+    "shortDescription": "Online application to acquire an All India Tourist Permit for commercial passenger vehicles to operate seamlessly across states.",
+    "officialLink": "https://vahan.parivahan.gov.in/",
+    "icon": "fa-solid fa-bus",
+    "tags": ["Commercial Vehicle", "Tourism", "Transport"],
+    "eligibility": "Operators of commercial passenger vehicles (tourist buses, taxis, cabs) registered under the Motor Vehicles Act.",
+    "fees": {
+      "type": "Variable",
+      "details": "Annual authorization fees vary widely based on vehicle seating capacity (e.g., ₹25,000 to ₹3,00,000/year)."
+    },
+    "requiredDocuments": [
+      "Vehicle Registration Certificate",
+      "Valid Fitness Certificate",
+      "Valid Insurance Policy",
+      "Proof of payment of state taxes"
+    ],
+    "stepsToApply": [
+      "Access the Vahan Citizen Services portal and enter the commercial vehicle registration number.",
+      "Authenticate via OTP sent to the registered mobile number, and select the 'Apply for AITP' service.",
+      "Fill out the application form specifying the desired tenure of the permit (usually in multiples of 3 months, up to 1 year).",
+      "Upload required supporting documents like fitness and insurance certificates.",
+      "Pay the consolidated All India Tourist Permit fee via the online payment gateway; upon successful transaction, download and print the digital permit."
+    ]
+  },
+  {
+    "id": "travel-022",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Finance",
+    "department": "Central Board of Indirect Taxes and Customs (CBIC)",
+    "title": "ATITHI App (Indian Customs Declaration)",
+    "slug": "atithi-customs",
+    "shortDescription": "Mobile app allowing international travelers arriving in India to file digital customs declarations and duty payments in advance.",
+    "officialLink": "https://www.cbic.gov.in/",
+    "icon": "fa-solid fa-suitcase",
+    "tags": ["Customs", "International Travel", "Duty"],
+    "eligibility": "All international passengers arriving at Indian airports.",
+    "fees": {
+      "type": "Free",
+      "details": "App usage is free; customs duty is payable only if carrying dutiable goods exceeding allowance."
+    },
+    "requiredDocuments": [
+      "Passport details",
+      "Flight details",
+      "Invoice/Value of dutiable goods (if applicable)"
+    ],
+    "stepsToApply": [
+      "Download the 'ATITHI@Indian Customs' app from the Google Play Store or Apple App Store before boarding your flight to India.",
+      "Register on the app using your passport number, name, and nationality.",
+      "Create a new declaration by entering your arrival airport, flight number, and date of arrival.",
+      "Declare the items you are carrying (currency, electronics, dutiable goods) by selecting the appropriate categories and values.",
+      "Submit the declaration to generate a barcode/QR code and pay any calculated customs duty online. Scan this barcode at the airport customs counter for swift clearance."
+    ]
+  },
+  {
+    "id": "travel-023",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Railways",
+    "department": "IRCTC Tourism",
+    "title": "IRCTC Tourism Packages (Bharat Darshan / Tejas)",
+    "slug": "irctc-tourism-packages",
+    "shortDescription": "Book all-inclusive domestic and international tour packages, special tourist trains, and heritage circuits.",
+    "officialLink": "https://www.irctctourism.com/",
+    "icon": "fa-solid fa-map-location-dot",
+    "tags": ["Tourism", "Holiday", "Package"],
+    "eligibility": "Any individual wishing to travel for leisure or pilgrimage.",
+    "fees": {
+      "type": "Variable",
+      "details": "Package costs vary based on destination, duration, and class of travel."
+    },
+    "requiredDocuments": [
+      "Valid ID proof (Aadhaar/Voter ID)",
+      "Passport (for international packages)"
+    ],
+    "stepsToApply": [
+      "Visit the IRCTC Tourism website.",
+      "Browse through categories like 'Rail Tour Packages', 'Holiday Packages', 'Bharat Gaurav Tourist Train', or 'Pilgrimage'.",
+      "Select a package to view detailed itineraries, departure dates, inclusions (meals, hotels, transfers), and pricing.",
+      "Click 'Book Now', log in with your IRCTC ID, and enter passenger details for all travelers.",
+      "Make the full or advance payment online. Receive your tour confirmation, reporting time, and coordinator details via email."
+    ]
+  },
+  {
+    "id": "travel-024",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Ports, Shipping and Waterways",
+    "department": "Inland Waterways Authority of India",
+    "title": "Ro-Ro / Ro-Pax Ferry Ticket Booking",
+    "slug": "roro-ferry-booking",
+    "shortDescription": "Book passenger and vehicle tickets for Roll-on/Roll-off ferry services on coastal and inland waterways to save travel time.",
+    "officialLink": "https://shipmin.gov.in/",
+    "icon": "fa-solid fa-ship",
+    "tags": ["Waterways", "Ferry", "Vehicle Transport"],
+    "eligibility": "Any citizen travelling on operational routes (e.g., Hazira-Ghogha, Mumbai-Alibaug).",
+    "fees": {
+      "type": "Variable",
+      "details": "Depends on passenger class (economy/executive) and vehicle type (bike/car/bus)."
+    },
+    "requiredDocuments": [
+      "Valid ID Proof",
+      "Vehicle RC (if transporting a vehicle)"
+    ],
+    "stepsToApply": [
+      "Visit the specific regional ferry operator's official website (e.g., DG Sea Connect for Gujarat, M2M Ferries for Maharashtra).",
+      "Select 'Book Tickets', choose the source port, destination port, and date of travel.",
+      "Specify the number of passengers and add a vehicle if you are driving your car or bike onto the ferry.",
+      "Enter passenger names, contact information, and vehicle registration numbers.",
+      "Complete the payment online and present the digital ticket and ID proof at the ferry terminal at least 45 minutes before departure."
+    ]
+  },
+  {
+    "id": "travel-025",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "mParivahan App (Digital RC & DL)",
+    "slug": "mparivahan-digital-docs",
+    "shortDescription": "Official app providing a digital repository for vehicle Registration Certificates and Driving Licenses, valid during traffic checks.",
+    "officialLink": "https://parivahan.gov.in/",
+    "icon": "fa-solid fa-mobile-screen-button",
+    "tags": ["Digital Document", "RC", "License"],
+    "eligibility": "Vehicle owners and driving license holders in India.",
+    "fees": {
+      "type": "Free",
+      "details": "The app is completely free to use."
+    },
+    "requiredDocuments": [
+      "Original DL Number",
+      "Original Vehicle RC Number",
+      "Last 5 digits of Engine and Chassis number"
+    ],
+    "stepsToApply": [
+      "Download the 'NextGen mParivahan' app from the Google Play Store or Apple App Store.",
+      "Sign up or log in using your active mobile number and verify via OTP.",
+      "To create a virtual DL: Navigate to the 'My DL' dashboard, enter your exact Driving License number and Date of Birth, and click fetch.",
+      "To create a virtual RC: Navigate to 'My RC', enter your vehicle registration number, followed by the last 5 digits of the engine and chassis numbers.",
+      "The app will securely download and store your virtual RC and DL, complete with QR codes, which are legally recognized under the IT Act during traffic inspections."
+    ]
+  },
+  {
+    "id": "travel-026",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Duplicate Driving License Application",
+    "slug": "duplicate-driving-license",
+    "shortDescription": "Apply for a duplicate driving license online in case of loss, theft, mutilation, or destruction of the original smart card.",
+    "officialLink": "https://sarathi.parivahan.gov.in/",
+    "icon": "fa-solid fa-copy",
+    "tags": ["License", "Lost Document", "RTO"],
+    "eligibility": "Holders of a valid Driving License that has been lost or damaged.",
+    "fees": {
+      "type": "Variable",
+      "details": "Duplicate DL fee (approx. ₹200) + Smart card fee (₹200) depending on state rules."
+    },
+    "requiredDocuments": [
+      "FIR / Police Complaint Report (if lost/stolen)",
+      "Mutilated/Damaged License (if applicable)",
+      "Form 2 (Application for duplicate DL)"
+    ],
+    "stepsToApply": [
+      "Visit the Sarathi Parivahan portal, select your state, and click on 'Services on DL (Renewal/Duplicate/Aedl/Others)'.",
+      "Read the instructions, click 'Continue', enter your DL number and Date of Birth to fetch your data, and confirm your details.",
+      "Select the 'Issue of Duplicate DL' option from the list of services.",
+      "State the reason for applying (Lost/Torn/Stolen) and upload the required documents, such as the digital copy of the police FIR.",
+      "Pay the requisite fees online and print the receipt. Depending on your state's faceless service status, the card will be mailed directly, or you may need to visit the RTO for biometric verification."
+    ]
+  },
+  {
+    "id": "travel-027",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Vehicle Fitness Certificate Application",
+    "slug": "vehicle-fitness-certificate",
+    "shortDescription": "Mandatory periodic technical inspection and certification of commercial/transport vehicles to ensure roadworthiness.",
+    "officialLink": "https://vahan.parivahan.gov.in/",
+    "icon": "fa-solid fa-screwdriver-wrench",
+    "tags": ["Vehicle Safety", "Commercial", "RTO"],
+    "eligibility": "Owners of commercial transport vehicles (and private vehicles older than 15 years for re-registration).",
+    "fees": {
+      "type": "Variable",
+      "details": "Varies by vehicle type (e.g., LMV, HMV) ranging from ₹400 to ₹1000 + automated testing station fees."
+    },
+    "requiredDocuments": [
+      "Original RC",
+      "Valid Insurance Policy",
+      "PUC Certificate",
+      "Tax Clearance Proof"
+    ],
+    "stepsToApply": [
+      "Log onto the Vahan Citizen Services portal and enter your vehicle's registration number.",
+      "Authenticate via OTP and select the 'Apply for Fitness Certificate' service.",
+      "Fill in the application form, ensuring your vehicle tax, insurance, and PUC are updated in the Vahan database.",
+      "Pay the prescribed fitness inspection fee online and book an appointment at an Automated Testing Station (ATS) or the local RTO.",
+      "Take your vehicle to the testing station on the booked date; upon passing the physical and mechanical tests, the Fitness Certificate will be approved and uploaded to your Vahan profile."
+    ]
+  },
+  {
+    "id": "travel-028",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Railways",
+    "department": "IRCTC",
+    "title": "IRCTC PNR Status & Enquiry",
+    "slug": "irctc-pnr-status",
+    "shortDescription": "Check the current confirmation status, coach, and berth details of waitlisted or RAC railway tickets.",
+    "officialLink": "https://www.indianrail.gov.in/enquiry/PNR/PnrEnquiry.html",
+    "icon": "fa-solid fa-ticket-simple",
+    "tags": ["Train Status", "Ticket Check", "Railways"],
+    "eligibility": "Any passenger possessing a 10-digit PNR number.",
+    "fees": {
+      "type": "Free",
+      "details": "Inquiry service is free."
+    },
+    "requiredDocuments": [
+      "10-digit PNR Number"
+    ],
+    "stepsToApply": [
+      "Visit the Indian Railways Passenger Reservation Enquiry website or the IRCTC mobile app.",
+      "Locate the 'PNR Enquiry' input box prominently displayed on the screen.",
+      "Enter your 10-digit PNR number found on the top-left corner of your ticket.",
+      "Solve the basic math captcha (e.g., 23 + 45 = ?) to verify you are a human user.",
+      "Click 'Submit' to view a detailed chart showing passenger-wise booking status, current status, coach number, and berth position."
+    ]
+  },
+  {
+    "id": "travel-029",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Civil Aviation",
+    "department": "Pawan Hans Limited",
+    "title": "Helicopter Booking (Pilgrimage & Remote Areas)",
+    "slug": "helicopter-booking-pilgrimage",
+    "shortDescription": "Online booking of helicopter services for remote tourism, emergencies, and major pilgrimage sites like Kedarnath or Vaishno Devi.",
+    "officialLink": "https://www.pawanhans.co.in/",
+    "icon": "fa-solid fa-helicopter",
+    "tags": ["Aviation", "Pilgrimage", "Helicopter"],
+    "eligibility": "Any individual traveler; specific health criteria apply for high-altitude pilgrimages.",
+    "fees": {
+      "type": "Variable",
+      "details": "Fares depend on the route (e.g., Kedarnath shuttle is usually ₹5,000-₹8,000 round trip)."
+    },
+    "requiredDocuments": [
+      "Valid ID proof (Aadhaar, Voter ID)",
+      "Medical fitness certificate (for specific pilgrimage routes)"
+    ],
+    "stepsToApply": [
+      "Visit the official portal of Pawan Hans or the state-designated nodal website (e.g., IRCTC/Heliyatra for Kedarnath).",
+      "Register an account and fill in passenger details, including age and body weight (mandatory for helicopter weight balancing).",
+      "Select your source helipad, destination, and the desired travel date and time slot.",
+      "Upload mandatory documents, such as ID proofs or medical certificates if required by the Shrine Board.",
+      "Complete the online payment. Report to the helipad at least one hour before departure with original documents and strictly limited baggage."
+    ]
+  },
+  {
+    "id": "travel-030",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Civil Aviation",
+    "department": "Airports Authority of India (AAI)",
+    "title": "UDAN (Ude Desh ka Aam Naagrik) Information",
+    "slug": "udan-regional-flights",
+    "shortDescription": "Regional connectivity scheme providing subsidized, affordable air travel to unserved and underserved regional airports across India.",
+    "officialLink": "https://www.aai.aero/",
+    "icon": "fa-solid fa-plane-departure",
+    "tags": ["Aviation", "Regional Travel", "Affordable Flights"],
+    "eligibility": "Any citizen booking tickets on designated UDAN routes.",
+    "fees": {
+      "type": "Variable",
+      "details": "Subsidized fares capped at approx. ₹2,500 for a one-hour flight on 50% of the seats."
+    },
+    "requiredDocuments": [
+      "Valid Photo ID for airport entry"
+    ],
+    "stepsToApply": [
+      "Identify the UDAN regional route you wish to travel on (e.g., Shimla to Delhi, Hubli to Hindon) via AAI announcements.",
+      "Visit the official website of the airline operating that specific route (e.g., Alliance Air, Star Air, IndiaOne Air).",
+      "Enter your origin, destination, and travel dates in the booking engine.",
+      "Look for the subsidized 'RCS' (Regional Connectivity Scheme) fares, which are clearly marked and cheaper than regular commercial fares.",
+      "Select the RCS fare, fill in passenger details, complete the payment online, and download your e-ticket."
+    ]
+  },
+{
+    "id": "travel-031",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "NOC for Vehicle Transfer (Other State)",
+    "slug": "vehicle-noc-transfer",
+    "shortDescription": "Apply for a No Objection Certificate (NOC) to re-register your motor vehicle in a different state.",
+    "officialLink": "https://vahan.parivahan.gov.in/",
+    "icon": "fa-solid fa-file-export",
+    "tags": ["Vehicle Transfer", "NOC", "RTO"],
+    "eligibility": "Vehicle owners relocating to another state for more than 12 months.",
+    "fees": {
+      "type": "Variable",
+      "details": "Varies by state (typically ranges from ₹100 to ₹300)."
+    },
+    "requiredDocuments": [
+      "Original RC",
+      "Valid Insurance and PUC",
+      "Up-to-date Road Tax receipt",
+      "Form 28 (Application for NOC)"
+    ],
+    "stepsToApply": [
+      "Log into the Vahan Citizen Services portal using your vehicle registration number.",
+      "Authenticate via OTP sent to the registered mobile number and select 'Application for No Objection Certificate'.",
+      "Verify vehicle details, insurance, and tax validity in the digital form.",
+      "Enter the destination state and RTO code where the vehicle is being transferred, and pay the nominal processing fee online.",
+      "Print the generated Form 28 and submit it along with original documents to the current RTO, or if faceless, download the digitally signed NOC once approved."
+    ]
+  },
+  {
+    "id": "travel-032",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Change of Address in Vehicle RC",
+    "slug": "rc-address-change",
+    "shortDescription": "Update your residential address on the Vehicle Registration Certificate after shifting homes within the same state.",
+    "officialLink": "https://vahan.parivahan.gov.in/",
+    "icon": "fa-solid fa-house-user",
+    "tags": ["Address Update", "RC", "RTO"],
+    "eligibility": "Vehicle owners who have changed their residential address.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Approx. ₹300 for address change + ₹200 for smart card issuance (varies slightly by state)."
+    },
+    "requiredDocuments": [
+      "Original Registration Certificate (RC)",
+      "New Address Proof (Aadhaar, Voter ID, Utility Bill)",
+      "Form 33 (Notice of change of address)"
+    ],
+    "stepsToApply": [
+      "Visit the Vahan Citizen portal, enter your vehicle registration number, and select the 'Change of Address' service.",
+      "Authenticate the session using OTP validation on your linked mobile number.",
+      "Fill in the new address details exactly as they appear on your new address proof document.",
+      "Pay the address change and smart card fees online and print the dynamically generated Form 33.",
+      "Upload the new address proof (if faceless service is active) or submit the physical application and original RC to your local RTO to receive the updated smart card."
+    ]
+  },
+  {
+    "id": "travel-033",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Addition of Hypothecation (Auto Loan)",
+    "slug": "hypothecation-addition",
+    "shortDescription": "Endorse a car or bike loan (hypothecation) on your vehicle's RC, registering the financier's interest.",
+    "officialLink": "https://vahan.parivahan.gov.in/",
+    "icon": "fa-solid fa-building-columns",
+    "tags": ["Auto Loan", "RC Endorsement", "Finance"],
+    "eligibility": "Owners purchasing a vehicle through bank financing or taking a loan against an existing vehicle.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹500 for two-wheelers, ₹1500 for LMV/Cars for hypothecation addition."
+    },
+    "requiredDocuments": [
+      "Original RC",
+      "Form 34 (Application for adding hypothecation)",
+      "Financier's Agreement / Loan Sanction Letter"
+    ],
+    "stepsToApply": [
+      "Access the Vahan portal, log in with your vehicle credentials, and select 'Addition of Hypothecation'.",
+      "Authenticate via OTP and enter the details of the financing bank/institution (name, address, loan agreement date).",
+      "Pay the hypothecation addition fee securely via the online payment gateway.",
+      "Print the generated Form 34, and have it signed by both the registered owner and the financier (Bank).",
+      "Submit the signed Form 34, loan agreement, and original RC to the RTO to get the hypothecation recorded on a newly issued RC."
+    ]
+  },
+  {
+    "id": "travel-034",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Termination of Hypothecation",
+    "slug": "hypothecation-termination",
+    "shortDescription": "Remove the financier's name from your vehicle's RC after fully repaying your auto loan.",
+    "officialLink": "https://vahan.parivahan.gov.in/",
+    "icon": "fa-solid fa-file-circle-check",
+    "tags": ["Loan Closure", "RC Update", "RTO"],
+    "eligibility": "Vehicle owners who have successfully completed their loan tenure and received an NOC from the bank.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Approx. ₹200 for smart card re-issuance (termination fee is often zero, but card fee applies)."
+    },
+    "requiredDocuments": [
+      "Original RC",
+      "Form 35 (Notice of termination of agreement)",
+      "NOC issued by the Financier/Bank"
+    ],
+    "stepsToApply": [
+      "Obtain the physical No Objection Certificate (NOC) and signed Form 35 from your bank after clearing the loan.",
+      "Log into Vahan Citizen Services, select 'Termination of Hypothecation', and authenticate via OTP.",
+      "Enter the NOC issuance date and bank details as prompted in the online application.",
+      "Pay the fee for the new smart card issuance online.",
+      "Submit the original RC, Bank NOC, and signed Form 35 to your RTO (or process it completely via Aadhaar e-KYC in faceless states) to receive the clean RC."
+    ]
+  },
+  {
+    "id": "travel-035",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Renewal of Driving License",
+    "slug": "driving-license-renewal",
+    "shortDescription": "Apply for the renewal of an expired permanent driving license to continue driving legally.",
+    "officialLink": "https://sarathi.parivahan.gov.in/",
+    "icon": "fa-solid fa-id-badge",
+    "tags": ["DL Renewal", "License", "RTO"],
+    "eligibility": "Drivers whose permanent driving license is within 1 year of expiry or has already expired.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹200 for renewal + ₹200 smart card fee. Additional ₹300 penalty per year if renewed after the grace period."
+    },
+    "requiredDocuments": [
+      "Original Expired Driving License",
+      "Form 1A (Medical Certificate) if applicant is above 40 years of age",
+      "Passport Size Photograph"
+    ],
+    "stepsToApply": [
+      "Visit the Sarathi Parivahan portal, select your state, and click on 'Apply for DL Renewal'.",
+      "Enter your expired/expiring DL number and Date of Birth, and confirm your existing details.",
+      "Select 'Renewal of DL' from the services menu and update any required information (like address, if changed).",
+      "Upload the scanned medical certificate (Form 1A) if you are over 40 years old, and pay the renewal fee online.",
+      "If utilizing Aadhaar-based faceless service, the renewed DL will be dispatched by post; otherwise, visit the RTO for quick biometrics verification."
+    ]
+  },
+  {
+    "id": "travel-036",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Addition of Class of Vehicle to DL",
+    "slug": "add-vehicle-class-dl",
+    "shortDescription": "Upgrade your existing driving license by adding a new vehicle category (e.g., adding Car to a Bike-only license).",
+    "officialLink": "https://sarathi.parivahan.gov.in/",
+    "icon": "fa-solid fa-car-side",
+    "tags": ["License Upgrade", "DL Addition", "RTO"],
+    "eligibility": "Individuals holding a valid permanent DL who have obtained a learner's license for the new category.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹500 per new class (including test fee) + ₹200 smart card fee."
+    },
+    "requiredDocuments": [
+      "Valid Permanent DL",
+      "Valid Learner's License for the new class",
+      "Form 1 (Self-declaration of physical fitness)"
+    ],
+    "stepsToApply": [
+      "First, apply for and obtain a Learner's License for the new vehicle class using your existing DL details.",
+      "After 30 days of holding the new LL, log into the Sarathi portal and select 'Services on DL'.",
+      "Enter your permanent DL number, select the 'Addition of Class of Vehicle' service, and link your new LL number.",
+      "Pay the driving test fee and smart card issuance fee, and book a test slot at the RTO.",
+      "Bring the new vehicle class to the RTO, pass the practical driving test, and receive an updated DL smart card combining all authorized vehicle classes."
+    ]
+  },
+  {
+    "id": "travel-037",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Driving License (DL) Extract",
+    "slug": "dl-extract",
+    "shortDescription": "Obtain an official extract of your driving history and license validity, often required for international visas or foreign license exchanges.",
+    "officialLink": "https://sarathi.parivahan.gov.in/",
+    "icon": "fa-solid fa-file-lines",
+    "tags": ["DL Extract", "International", "Visa"],
+    "eligibility": "Any holder of a valid Indian permanent driving license.",
+    "fees": {
+      "type": "Variable",
+      "details": "Varies by state, typically between ₹100 to ₹300."
+    },
+    "requiredDocuments": [
+      "Valid Driving License",
+      "Reason for extract (Visa application, foreign authority requirement)"
+    ],
+    "stepsToApply": [
+      "Open the Sarathi Parivahan portal, choose your state, and click on 'Services on DL'.",
+      "Enter your Driving License number and Date of Birth to access your license dashboard.",
+      "Select the 'DL Extract' service from the available options.",
+      "Specify the reason for requiring the extract and submit the request.",
+      "Pay the nominal fee online, and instantly download the digitally signed DL Extract PDF, or collect a stamped physical copy from your RTO."
+    ]
+  },
+  {
+    "id": "travel-038",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Conductor License Application",
+    "slug": "conductor-license",
+    "shortDescription": "Apply for a commercial Conductor License required to operate and manage passengers on public and private stage carriage buses.",
+    "officialLink": "https://sarathi.parivahan.gov.in/",
+    "icon": "fa-solid fa-ticket",
+    "tags": ["Commercial", "Conductor", "Bus Transport"],
+    "eligibility": "Minimum 18 years of age, passed Class 10, holding a valid First Aid certificate.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Approx. ₹200 to ₹500 depending on the state fee structure."
+    },
+    "requiredDocuments": [
+      "Valid First Aid Certificate (from St. John Ambulance or authorized medical body)",
+      "Medical Certificate (Form 1A)",
+      "Educational Certificate (10th Pass)",
+      "Address and Age Proof"
+    ],
+    "stepsToApply": [
+      "Visit the Sarathi Parivahan portal, select your state, and click on 'Apply for Conductor License'.",
+      "Fill out the comprehensive application form, providing your demographic details and educational qualifications.",
+      "Upload the scanned copies of your valid First Aid Certificate, Medical Certificate, and identity proofs.",
+      "Pay the application processing fee online.",
+      "Visit the RTO with original documents for verification and brief oral assessment to receive the Conductor License card."
+    ]
+  },
+  {
+    "id": "travel-039",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Railways",
+    "department": "IRCTC",
+    "title": "IRCTC e-Catering (Food on Track)",
+    "slug": "irctc-ecatering",
+    "shortDescription": "Order fresh, hygienic food from top restaurant brands to be delivered directly to your train berth during your journey.",
+    "officialLink": "https://www.ecatering.irctc.co.in/",
+    "icon": "fa-solid fa-utensils",
+    "tags": ["Food", "Train Journey", "IRCTC"],
+    "eligibility": "Any passenger with a valid confirmed or RAC PNR number.",
+    "fees": {
+      "type": "Purchase Based",
+      "details": "No extra delivery fee from IRCTC; you pay for the food items chosen based on the restaurant's menu."
+    },
+    "requiredDocuments": [
+      "Valid PNR Number"
+    ],
+    "stepsToApply": [
+      "Visit the IRCTC e-Catering website or download the 'Food on Track' mobile app.",
+      "Enter your 10-digit PNR number in the search box to fetch your train route and upcoming stations.",
+      "Select a station where you want the food delivered and browse through the list of partnered restaurants (e.g., Domino's, Haldiram's).",
+      "Add items to your cart, and choose to 'Pay Online' via UPI/Cards or 'Cash on Delivery'.",
+      "You will receive an OTP via SMS; share this OTP with the delivery executive when the food is delivered to your berth at the selected station."
+    ]
+  },
+  {
+    "id": "travel-040",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Railways",
+    "department": "Centre for Railway Information Systems (CRIS)",
+    "title": "Railway Parcel Management System (RPMS)",
+    "slug": "railway-parcel-booking",
+    "shortDescription": "Online tracking and booking facilitation for transporting commercial goods, bikes, and parcels via Indian Railways.",
+    "officialLink": "https://parcel.indianrail.gov.in/",
+    "icon": "fa-solid fa-box",
+    "tags": ["Freight", "Parcel", "Logistics"],
+    "eligibility": "Any citizen or business seeking to transport goods via train.",
+    "fees": {
+      "type": "Variable",
+      "details": "Freight charges depend on weight, distance, and train scale type (Rajdhani/Shatabdi vs. Ordinary)."
+    },
+    "requiredDocuments": [
+      "Government Photo ID Proof",
+      "Forwarding Note (filled at parcel office)",
+      "Vehicle RC and Insurance (if booking a motorcycle)"
+    ],
+    "stepsToApply": [
+      "Use the RPMS portal's 'Freight Calculator' to estimate the cost of transporting your parcel between source and destination stations.",
+      "Pack your parcel securely (if shipping a bike, empty the fuel tank completely and wrap it in gunny bags).",
+      "Visit the Parcel Office at the railway station with the parcel and a valid original ID proof.",
+      "Fill out the Forwarding Note detailing the contents, value, and destination.",
+      "Pay the freight charges, collect the Railway Receipt (RR/PRR), and use the 10-digit PRR number on the RPMS portal to track the shipment's status."
+    ]
+  },
+  {
+    "id": "travel-041",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Railways",
+    "department": "IRCTC",
+    "title": "File TDR (Ticket Deposit Receipt) for Refund",
+    "slug": "irctc-tdr-filing",
+    "shortDescription": "File an online TDR to claim refunds for unused train tickets due to train cancellation, delays, or failure of AC.",
+    "officialLink": "https://www.irctc.co.in/",
+    "icon": "fa-solid fa-money-bill-transfer",
+    "tags": ["Refund", "Train Ticket", "Grievance"],
+    "eligibility": "Passengers who booked e-tickets but did not travel due to specific railway-related contingencies.",
+    "fees": {
+      "type": "Free",
+      "details": "No fee to file TDR; clerical cancellation charges may be deducted from the refund based on rules."
+    },
+    "requiredDocuments": [
+      "Valid e-Ticket (PNR Number)",
+      "Reason for not travelling"
+    ],
+    "stepsToApply": [
+      "Log into your IRCTC account, navigate to 'My Account', and select 'My Transactions'.",
+      "Click on 'File TDR' and select the specific PNR/ticket for which you want to claim the refund.",
+      "Select the passenger(s) who did not travel and choose the exact reason from the drop-down menu (e.g., Train late by more than 3 hours, AC not working).",
+      "Submit the TDR request. A confirmation SMS with the TDR Reference Number will be sent.",
+      "The refund is processed by the respective Zonal Railway after manual verification (may take 30-60 days); the amount is credited back to the original payment source."
+    ]
+  },
+  {
+    "id": "travel-042",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Railways",
+    "department": "IRCTC",
+    "title": "Wheelchair / Battery Operated Car Booking",
+    "slug": "railway-wheelchair-booking",
+    "shortDescription": "Pre-book wheelchairs, battery-operated cars (BOC), and porter services at major railway stations for senior citizens and Divyangjan.",
+    "officialLink": "https://www.irctc.co.in/",
+    "icon": "fa-solid fa-wheelchair-move",
+    "tags": ["Accessibility", "Senior Citizens", "Divyangjan"],
+    "eligibility": "Senior citizens (aged 60+), persons with disabilities, or medically unfit passengers.",
+    "fees": {
+      "type": "Free",
+      "details": "Booking is generally free; however, standard porter charges (sahayak) apply if booked together."
+    },
+    "requiredDocuments": [
+      "Valid PNR Number",
+      "ID Proof indicating age or disability"
+    ],
+    "stepsToApply": [
+      "Visit the IRCTC e-ticketing website and log in to your account.",
+      "Navigate to the 'Service At Stations' tab and click on 'Battery Operated Car' or 'Wheelchair'.",
+      "Enter your valid PNR number to fetch your journey details and select the station where assistance is required.",
+      "Fill in the passenger details, specific requirements, and contact number.",
+      "Submit the booking. You will receive an SMS with the booking reference and the contact details of the attendant/BOC operator assigned to you."
+    ]
+  },
+  {
+    "id": "travel-043",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Civil Aviation",
+    "department": "Directorate General of Civil Aviation (DGCA)",
+    "title": "Digital Sky Platform - Drone UIN Registration",
+    "slug": "digital-sky-drone-uin",
+    "shortDescription": "Mandatory national registry for civilian drones to obtain a Unique Identification Number (UIN) for legal flight operations.",
+    "officialLink": "https://digitalsky.dgca.gov.in/",
+    "icon": "fa-solid fa-plane-up",
+    "tags": ["Aviation", "Drones", "Registration"],
+    "eligibility": "Indian citizens or companies owning a civilian drone weighing more than 250 grams (Micro and above).",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹100 processing fee per drone application."
+    },
+    "requiredDocuments": [
+      "Drone Serial Number and Manufacturer Certificate",
+      "Aadhaar Card or Company PAN",
+      "Purchase Invoice"
+    ],
+    "stepsToApply": [
+      "Visit the DGCA Digital Sky Platform and register as a new 'Operator' or 'Manufacturer'.",
+      "Log into your dashboard, click on 'Add an Unmanned Aircraft System (UAS)' and input the manufacturer and serial number.",
+      "Navigate to the 'Apply for UIN' section, select your registered drone, and fill in technical details like weight, dimensions, and payload capacity.",
+      "Upload the required documents, including the purchase invoice, and submit the form.",
+      "Pay the ₹100 fee via the Bharatkosh gateway; upon approval, a digital UIN certificate is issued which must be affixed to the drone body."
+    ]
+  },
+  {
+    "id": "travel-044",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Civil Aviation",
+    "department": "Directorate General of Civil Aviation (DGCA)",
+    "title": "Remote Pilot Certificate (Drone License)",
+    "slug": "remote-pilot-certificate",
+    "shortDescription": "Apply for a commercial Remote Pilot Certificate via the Digital Sky platform after completing training at a DGCA-approved school.",
+    "officialLink": "https://digitalsky.dgca.gov.in/",
+    "icon": "fa-solid fa-id-card-clip",
+    "tags": ["Aviation", "Drones", "Pilot License"],
+    "eligibility": "Individuals aged 18 to 65 years who have passed Class 10 and completed training from an authorized Remote Pilot Training Organisation (RPTO).",
+    "fees": {
+      "type": "Variable",
+      "details": "Training fees vary by institute (approx. ₹30,000 to ₹60,000). RPC issuance fee on Digital Sky is ₹100."
+    },
+    "requiredDocuments": [
+      "Class 10th Marksheet",
+      "Aadhaar Card",
+      "Training Completion Certificate from RPTO"
+    ],
+    "stepsToApply": [
+      "Enroll in and complete a 5-to-7 day drone piloting course at a DGCA-approved RPTO.",
+      "Upon passing the practical flight test, the RPTO will upload your training records directly to the Digital Sky portal.",
+      "Log onto the Digital Sky platform using your Aadhaar-verified profile.",
+      "Navigate to the 'Licenses' section, find your linked RPTO application, and review the details.",
+      "Pay the ₹100 application fee; the DGCA will issue the digital Remote Pilot Certificate valid for 10 years."
+    ]
+  },
+  {
+    "id": "travel-045",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of External Affairs",
+    "department": "Protector General of Emigrants",
+    "title": "e-Migrate Clearance (ECR Passports)",
+    "slug": "emigrate-clearance",
+    "shortDescription": "Mandatory emigration clearance system for citizens holding Emigration Check Required (ECR) passports travelling to select countries for employment.",
+    "officialLink": "https://emigrate.gov.in/",
+    "icon": "fa-solid fa-plane-departure",
+    "tags": ["Overseas Employment", "Immigration", "Passport"],
+    "eligibility": "Indian citizens holding ECR status passports migrating to any of the 18 specified ECR countries for work.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹200 Emigration Clearance fee + ₹275 Pravasi Bharatiya Bima Yojana (PBBY) premium."
+    },
+    "requiredDocuments": [
+      "Valid ECR Passport",
+      "Employment Contract (attested by Indian Mission if required)",
+      "Valid Visa",
+      "PBBY Insurance Policy"
+    ],
+    "stepsToApply": [
+      "Obtain your employment visa and sign the employment contract with the foreign employer.",
+      "Purchase the mandatory Pravasi Bharatiya Bima Yojana (PBBY) insurance policy from a recognized provider.",
+      "Register on the e-Migrate portal, select 'Apply for Emigration Clearance', and input your passport and employer details.",
+      "Upload scanned copies of your visa, employment contract, and insurance policy.",
+      "Pay the clearance fee online; once verified by the Protector of Emigrants (PoE), the digital clearance is integrated with the airport immigration system."
+    ]
+  },
+  {
+    "id": "travel-046",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "National Permit for Goods Carriage",
+    "slug": "national-permit-goods",
+    "shortDescription": "Apply for a unified National Permit allowing commercial goods vehicles (trucks/lorries) to operate throughout the country.",
+    "officialLink": "https://vahan.parivahan.gov.in/npermit/",
+    "icon": "fa-solid fa-truck",
+    "tags": ["Commercial Transport", "Logistics", "RTO"],
+    "eligibility": "Owners of commercial goods carriage vehicles complying with age and fitness guidelines.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Consolidated fee of ₹16,500 per annum per vehicle."
+    },
+    "requiredDocuments": [
+      "Valid Registration Certificate (RC)",
+      "Valid Fitness Certificate",
+      "Valid Insurance Policy",
+      "Proof of clearing state road tax"
+    ],
+    "stepsToApply": [
+      "Access the Vahan National Permit Portal and select 'Online Payment for National Permit'.",
+      "Enter your vehicle registration number and chassis number to fetch current vehicle credentials.",
+      "Verify that your local state tax, fitness, and insurance data are up to date on the portal.",
+      "Proceed to the payment gateway and pay the consolidated annual fee of ₹16,500.",
+      "Once payment is successful, download and print the digital National Permit (Form 48), which carries a QR code for enforcement checks."
+    ]
+  },
+  {
+    "id": "travel-047",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Endorsement of CNG/LPG Kit in RC",
+    "slug": "cng-lpg-endorsement",
+    "shortDescription": "Officially endorse the retro-fitment of an approved CNG or LPG kit onto your vehicle's Registration Certificate.",
+    "officialLink": "https://vahan.parivahan.gov.in/",
+    "icon": "fa-solid fa-gas-pump",
+    "tags": ["Vehicle Alteration", "CNG", "RC"],
+    "eligibility": "Vehicle owners who have installed an authorized CNG/LPG kit from a government-approved retro-fitment center.",
+    "fees": {
+      "type": "Variable",
+      "details": "Alteration fee (approx. ₹1000) + Smart card fee (₹200)."
+    },
+    "requiredDocuments": [
+      "Original RC",
+      "Retro-fitment Certificate from Authorized Installer",
+      "Compliance Certificate (ARAI/ICAT approved)",
+      "Updated Insurance showing kit endorsement"
+    ],
+    "stepsToApply": [
+      "Install the CNG/LPG kit from a registered center and collect the physical retro-fitment and compliance certificates.",
+      "Ensure the retro-fitment center uploads the fitment data to the Vahan portal.",
+      "Log into Vahan Citizen Services, enter your registration number, and select the 'Alteration of Vehicle' service.",
+      "Select 'Retro Fitting of CNG/LPG Kit', verify the details uploaded by the installer, and upload your updated insurance copy.",
+      "Pay the alteration fees online, then visit the RTO with the vehicle for a physical inspection by the Motor Vehicle Inspector (MVI) to receive the updated RC."
+    ]
+  },
+  {
+    "id": "travel-048",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Road Transport and Highways",
+    "department": "Parivahan Sewa",
+    "title": "Trade Certificate for Dealers",
+    "slug": "trade-certificate",
+    "shortDescription": "Apply for a Trade Certificate allowing vehicle dealers and manufacturers to legally drive unregistered vehicles on public roads for test drives and transit.",
+    "officialLink": "https://vahan.parivahan.gov.in/",
+    "icon": "fa-solid fa-certificate",
+    "tags": ["Auto Dealer", "Commercial", "RTO"],
+    "eligibility": "Authorized vehicle manufacturers, dealers, and automobile testing agencies.",
+    "fees": {
+      "type": "Variable",
+      "details": "Varies by vehicle class (e.g., ₹500 for two-wheelers, ₹1000 for LMV per certificate)."
+    },
+    "requiredDocuments": [
+      "Dealership Authorization Letter from Manufacturer",
+      "GST Registration Certificate",
+      "Shop and Establishment Certificate",
+      "Aadhaar and PAN of the Dealer/Proprietor"
+    ],
+    "stepsToApply": [
+      "Access the Vahan portal and navigate to the 'Trade Certificate' login module for dealers.",
+      "Click on 'New Applicant Registration', fill in the dealership entity details, and upload the required business and authorization documents.",
+      "Select the classes of vehicles you intend to sell and specify the number of trade certificates required.",
+      "Calculate and pay the required trade certificate fees online.",
+      "Following document verification by RTO officials, the digital Trade Certificates (TC numbers) will be generated and can be printed to affix on test-drive vehicles."
+    ]
+  },
+  {
+    "id": "travel-049",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Railways",
+    "department": "Centre for Railway Information Systems (CRIS)",
+    "title": "UTS Season Ticket (Monthly Pass)",
+    "slug": "uts-season-ticket",
+    "shortDescription": "Purchase or renew daily commuter season tickets (Monthly, Quarterly, Yearly passes) for suburban and non-suburban railway networks digitally.",
+    "officialLink": "https://utsonmobile.indianrail.gov.in/",
+    "icon": "fa-solid fa-ticket",
+    "tags": ["Commute", "Local Train", "Pass"],
+    "eligibility": "Daily commuters travelling on fixed unreserved train routes.",
+    "fees": {
+      "type": "Variable",
+      "details": "Pass cost depends strictly on the distance between the source and destination stations."
+    },
+    "requiredDocuments": [
+      "Valid Photo ID proof (required to be carried during travel)",
+      "Digital Photo (uploaded in app)"
+    ],
+    "stepsToApply": [
+      "Open the 'UTS on Mobile' application and ensure you are logged into your registered account.",
+      "Tap on the 'Season Ticket' option from the main menu, then select 'Issue Ticket' (for new) or 'Renew Ticket'.",
+      "Select 'Paperless', enter the source and destination stations, and choose the ticket duration (Monthly, Quarterly, Half-Yearly, Yearly).",
+      "Enter your personal details, verify the fare calculation, and upload a digital passport photo if prompted.",
+      "Pay using R-Wallet or an external payment gateway. The Season Pass is saved offline in the app under 'Show Ticket' for inspection by TTEs."
+    ]
+  },
+  {
+    "id": "travel-050",
+    "category": "Travel & Transport",
+    "ministry": "Ministry of Railways",
+    "department": "IRCTC",
+    "title": "IRCTC Cloak Room Booking",
+    "slug": "irctc-cloak-room",
+    "shortDescription": "Pre-book secure cloakrooms and locker facilities at major railway stations to safely store luggage during layovers.",
+    "officialLink": "https://www.rr.irctctourism.com/",
+    "icon": "fa-solid fa-suitcase-rolling",
+    "tags": ["Luggage Storage", "Station Facility", "Railways"],
+    "eligibility": "Any railway passenger holding a valid train ticket.",
+    "fees": {
+      "type": "Variable",
+      "details": "Varies by station and duration (usually ranges from ₹30 to ₹50 per bag for 24 hours)."
+    },
+    "requiredDocuments": [
+      "Valid Train Ticket (PNR Number)",
+      "Government Photo ID Proof"
+    ],
+    "stepsToApply": [
+      "Log onto the IRCTC Tourism portal and navigate to the 'Cloak Room' booking section.",
+      "Enter your PNR number to validate your journey details and access the booking facility.",
+      "Select the station where you wish to deposit your luggage and specify the estimated check-in and check-out dates/times.",
+      "Input the number of baggage items you intend to store.",
+      "Make the online payment and carry the digital receipt along with your physical ID and locked baggage to the station's Cloak Room counter."
+    ]
+  }
+]

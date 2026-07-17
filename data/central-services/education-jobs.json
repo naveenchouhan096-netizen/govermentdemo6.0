@@ -1,0 +1,2353 @@
+[
+  {
+    "id": "edu-001",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "National Informatics Centre",
+    "title": "National Scholarship Portal (NSP)",
+    "slug": "national-scholarship-portal",
+    "shortDescription": "A one-stop digital platform for various government scholarships ranging from pre-matric to post-graduate levels.",
+    "officialLink": "https://scholarships.gov.in/",
+    "icon": "fa-solid fa-graduation-cap",
+    "tags": ["Scholarship", "Financial Aid", "Students"],
+    "eligibility": "Students from minority, SC/ST, and OBC communities, as well as general category students meeting specific income criteria.",
+    "fees": {
+      "type": "Free",
+      "details": "No application fees are charged for submitting scholarship forms."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Income Certificate",
+      "Previous Year Marksheet",
+      "Caste/Category Certificate (if applicable)"
+    ],
+    "stepsToApply": [
+      "Visit the official National Scholarship Portal and click on the 'New Registration' tab located in the Applicant Corner.",
+      "Read the detailed undertaking guidelines carefully, check the mandatory agreement boxes, and click on 'Continue'.",
+      "Fill in the initial registration form with your State of Domicile, Scholarship Category (Pre/Post Matric), Name, DOB, and Aadhaar number.",
+      "Verify your registered mobile number using the One-Time Password (OTP) received to generate your unique Application ID and password.",
+      "Log in using the newly generated credentials, complete the detailed academic and domiciliary application form, upload all required scanned documents, and submit the form for institutional verification."
+    ]
+  },
+  {
+    "id": "edu-002",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Labour & Employment",
+    "department": "Directorate General of Employment",
+    "title": "National Career Service (NCS)",
+    "slug": "national-career-service",
+    "shortDescription": "A national portal connecting job seekers with employers, providing career counseling, and vocational training resources.",
+    "officialLink": "https://www.ncs.gov.in/",
+    "icon": "fa-solid fa-briefcase",
+    "tags": ["Job Search", "Career Counseling", "Employment"],
+    "eligibility": "Any Indian citizen seeking employment, skill development, or career guidance.",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free registration and usage for job seekers."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card, PAN Card, or Voter ID",
+      "Educational Certificates",
+      "Updated Resume/CV"
+    ],
+    "stepsToApply": [
+      "Navigate to the NCS official portal homepage and click on the 'Jobseeker' tab under the 'Register' section.",
+      "Select your Unique Identification Type (Aadhaar, UAN, eShram, or PAN) and enter the corresponding unique identification number.",
+      "Fill out the comprehensive profile form including your educational qualifications, specialized skill sets, work experience, and preferred job locations.",
+      "Verify your mobile number and email address through OTP to activate your official NCS ID.",
+      "Log in to your personalized dashboard to search for active job postings, apply directly to employers, or book free career counseling sessions."
+    ]
+  },
+  {
+    "id": "edu-003",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "department": "National Skill Development Corporation",
+    "title": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+    "slug": "pmkvy-skill-training",
+    "shortDescription": "Flagship scheme providing industry-relevant skill training to Indian youth to help them secure better livelihoods.",
+    "officialLink": "https://www.pmkvyofficial.org/",
+    "icon": "fa-solid fa-screwdriver-wrench",
+    "tags": ["Skill Development", "Vocational Training", "Youth"],
+    "eligibility": "School/college dropouts or unemployed youth of Indian nationality holding an Aadhaar card and a bank account.",
+    "fees": {
+      "type": "Free",
+      "details": "Training and assessment fees are entirely paid by the Government."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Bank Account Details",
+      "Passport Size Photographs"
+    ],
+    "stepsToApply": [
+      "Visit the Skill India Digital portal or the PMKVY official website and click on 'Find a Training Centre'.",
+      "Use the search filters to locate an authorized PMKVY training center near your location based on your preferred sector and job role.",
+      "Visit the selected training center physically with your Aadhaar card, bank passbook, and photographs.",
+      "Complete the counseling session with the center coordinator to determine the best-fit course based on your aptitude.",
+      "Fill out the enrollment form provided by the center, complete your biometric registration, and commence your daily training classes."
+    ]
+  },
+  {
+    "id": "edu-004",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "Department of Higher Education",
+    "title": "SWAYAM - Free Online Courses",
+    "slug": "swayam-online-courses",
+    "shortDescription": "National MOOCs portal providing free, high-quality online certification courses taught by top Indian university professors.",
+    "officialLink": "https://swayam.gov.in/",
+    "icon": "fa-solid fa-laptop-code",
+    "tags": ["Online Learning", "MOOCs", "Certification"],
+    "eligibility": "Open to anyone worldwide, regardless of age, qualification, or geographical location.",
+    "fees": {
+      "type": "Variable",
+      "details": "Learning is entirely free. An optional fee (approx. ₹1000) applies only if an official proctored exam certificate is desired."
+    },
+    "requiredDocuments": [
+      "No documents required for learning. Aadhaar/Photo ID needed only if registering for the proctored exam."
+    ],
+    "stepsToApply": [
+      "Access the SWAYAM portal and click the 'Sign In / Register' button at the top right corner.",
+      "Create an account using your Microsoft, Google, or Facebook credentials, or sign up with a dedicated email address.",
+      "Browse the extensive course catalog by filtering through categories such as Engineering, Humanities, or Management.",
+      "Select your desired course, check the enrollment timeline, and click the 'Join' button to add it to your dashboard.",
+      "To obtain a verified certificate, navigate to the course announcements near the end of the term, click the 'Register for Exam' link, pay the examination fee, and select a test center."
+    ]
+  },
+  {
+    "id": "edu-005",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Finance",
+    "department": "Department of Financial Services",
+    "title": "Vidya Lakshmi Education Loan Portal",
+    "slug": "vidya-lakshmi-portal",
+    "shortDescription": "A single-window platform for students to apply for educational loans and government subsidies across multiple banks.",
+    "officialLink": "https://www.vidyalakshmi.co.in/",
+    "icon": "fa-solid fa-building-columns",
+    "tags": ["Education Loan", "Finance", "Higher Education"],
+    "eligibility": "Indian students seeking to pursue higher education in recognized institutions in India or abroad.",
+    "fees": {
+      "type": "Free",
+      "details": "Portal usage is free. Standard bank loan processing fees may apply upon loan sanction."
+    },
+    "requiredDocuments": [
+      "Admission Letter from Institution",
+      "Fee Structure Document",
+      "KYC Documents of Student and Co-applicant",
+      "Income Proof of Co-applicant"
+    ],
+    "stepsToApply": [
+      "Visit the Vidya Lakshmi portal and click on 'Register' to create a new user profile using your basic details and email address.",
+      "Log in to your account and click on 'Loan Application Form' (CELAF - Common Educational Loan Application Form).",
+      "Fill out the multi-tab CELAF form meticulously, detailing your personal information, academic background, course details, and precise financial requirements.",
+      "Navigate to the 'Search for Loan Scheme' section, filter schemes based on your course and loan amount, and select up to three different banks/schemes.",
+      "Submit the application digitally, check your dashboard regularly for status updates from the banks, and upload any additional query documents the bank manager requests."
+    ]
+  },
+  {
+    "id": "edu-006",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Union Public Service Commission (UPSC)",
+    "title": "UPSC One Time Registration (OTR)",
+    "slug": "upsc-otr-registration",
+    "shortDescription": "Mandatory centralized registration profile for candidates applying to civil services and other UPSC examinations.",
+    "officialLink": "https://upsconline.nic.in/",
+    "icon": "fa-solid fa-landmark",
+    "tags": ["Government Jobs", "Civil Services", "UPSC"],
+    "eligibility": "Indian citizens planning to appear for UPSC examinations (must meet specific age and qualification criteria per exam).",
+    "fees": {
+      "type": "Free",
+      "details": "Creating the OTR profile is free. Examination specific fees apply later during application."
+    },
+    "requiredDocuments": [
+      "Valid Mobile Number and Email ID",
+      "Class 10th Board Roll Number and Marksheet",
+      "Scanned Photograph and Signature",
+      "Valid Photo ID (Aadhaar, Voter ID, PAN)"
+    ],
+    "stepsToApply": [
+      "Visit the UPSC Online portal and click on the prominent 'One Time Registration (OTR) for Examinations' button.",
+      "Click on 'New Registration' and fill in your fundamental details exactly as they appear on your Class 10th certificate (Name, Father's Name, DOB).",
+      "Submit the form to receive OTPs on both your registered mobile number and email ID for dual verification.",
+      "Log in using the newly created OTR ID and set a strong, secure password for future portal access.",
+      "Whenever a new UPSC notification is released, log in using this OTR profile to apply instantly, as your demographic data will be pre-filled automatically."
+    ]
+  },
+  {
+    "id": "edu-007",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Staff Selection Commission (SSC)",
+    "title": "SSC Online Registration Portal",
+    "slug": "ssc-online-registration",
+    "shortDescription": "Official platform to register and apply for various Group B and C government posts like CGL, CHSL, and MTS.",
+    "officialLink": "https://ssc.gov.in/",
+    "icon": "fa-solid fa-users-gear",
+    "tags": ["Government Jobs", "SSC", "Recruitment"],
+    "eligibility": "Varies by exam (10th pass for MTS, 12th pass for CHSL, Graduates for CGL); generally ages 18-32.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Registration is free. Exam fee is ₹100 (Exempt for Women/SC/ST/PwD/Ex-Servicemen)."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card or alternative ID",
+      "Educational Qualification Certificates",
+      "Scanned Photograph (without spectacles/cap) and Signature"
+    ],
+    "stepsToApply": [
+      "Open the new SSC official portal (ssc.gov.in) and click on the 'Login or Register' button, then select 'Register Now'.",
+      "Complete the basic details section by providing your Aadhaar number, name, DOB, and matriculation board details for initial verification.",
+      "Verify your contact details using OTP and save the generated Registration Number and system-assigned password.",
+      "Log in again, change your password as prompted, and proceed to fill in additional details like category, nationality, and permanent address.",
+      "Read the final declaration, click 'I Agree', submit the OTR, and then navigate to the 'Latest Notifications' tab to apply for active exam cycles."
+    ]
+  },
+  {
+    "id": "edu-008",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "University Grants Commission",
+    "title": "Academic Bank of Credits (ABC)",
+    "slug": "academic-bank-of-credits",
+    "shortDescription": "A digital repository that holds academic credits earned by students, facilitating credit transfer and multiple entry/exit options.",
+    "officialLink": "https://www.abc.gov.in/",
+    "icon": "fa-solid fa-piggy-bank",
+    "tags": ["Higher Education", "DigiLocker", "NEP 2020"],
+    "eligibility": "Students enrolled in recognized higher education institutions in India.",
+    "fees": {
+      "type": "Free",
+      "details": "Account creation and credit storage are completely free."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card (linked to a mobile number)",
+      "DigiLocker Account"
+    ],
+    "stepsToApply": [
+      "Visit the Academic Bank of Credits (ABC) website and click on 'My Account' followed by 'Student'.",
+      "You will be redirected to the DigiLocker MeriPehchaan portal; sign in using your existing DigiLocker mobile number and PIN.",
+      "If you do not have a DigiLocker account, click 'Sign Up', verify your Aadhaar via OTP, and create a security PIN.",
+      "Once logged in, provide consent for ABC to access your DigiLocker profile data.",
+      "Your unique 12-digit ABC ID will be generated instantly. Note this ID and share it with your college/university to ensure your academic credits are securely deposited into your digital account."
+    ]
+  },
+  {
+    "id": "edu-009",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "Board of Apprenticeship Training",
+    "title": "National Apprenticeship Training Scheme (NATS)",
+    "slug": "nats-apprenticeship",
+    "shortDescription": "Skill training scheme equipping fresh engineering/diploma graduates with practical workplace knowledge and a monthly stipend.",
+    "officialLink": "https://nats.education.gov.in/",
+    "icon": "fa-solid fa-helmet-safety",
+    "tags": ["Apprenticeship", "Engineering", "Stipend"],
+    "eligibility": "Indian nationals who have passed a Degree/Diploma in Engineering or general streams within the last 3 to 5 years.",
+    "fees": {
+      "type": "Free",
+      "details": "Zero registration fee for students."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Valid Degree/Diploma Certificate",
+      "Passport Size Photograph",
+      "Bank Account Details"
+    ],
+    "stepsToApply": [
+      "Visit the NATS 2.0 portal and click on the 'Student Registration' button prominently displayed on the homepage.",
+      "Complete the eligibility check questionnaire by answering questions about your graduation year, mode of study, and previous training experience.",
+      "Fill in the detailed enrollment form by providing your personal, educational, and bank account information required for direct benefit transfers.",
+      "Upload clear scanned copies of your qualifying degree/provisional certificate, photograph, and signature in the prescribed file size formats.",
+      "Submit the application to receive a 16-digit student enrollment number; once verified by the board, you can log in and apply directly to establishment vacancies."
+    ]
+  },
+  {
+    "id": "edu-010",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "department": "Directorate General of Training",
+    "title": "National Apprenticeship Promotion Scheme (NAPS)",
+    "slug": "naps-apprenticeship",
+    "shortDescription": "Promotes apprenticeship training across various trades by providing financial support to establishments employing apprentices.",
+    "officialLink": "https://www.apprenticeshipindia.gov.in/",
+    "icon": "fa-solid fa-gears",
+    "tags": ["ITI", "Skill Training", "Jobs"],
+    "eligibility": "Minimum 14 years of age; educational qualification varies from 5th class pass to graduation depending on the designated trade.",
+    "fees": {
+      "type": "Free",
+      "details": "No application charges for candidates."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Educational Marksheets (10th/12th/ITI)",
+      "Bank Account linked with Aadhaar"
+    ],
+    "stepsToApply": [
+      "Access the Apprenticeship India portal and click on the 'Login/Register' dropdown, then select 'Candidate'.",
+      "Choose 'Register as a Candidate', input your mobile number and email ID, and verify them using the system-generated OTPs.",
+      "Log in to your new account and click on 'Complete Your Profile' to enter basic details, disability status, and educational qualifications.",
+      "Navigate to the 'e-KYC' section to authenticate your profile using your Aadhaar number and biometrics/OTP.",
+      "Update your bank account details for stipend processing, then use the 'Apprenticeship Opportunities' tab to search and apply for openings using your verified profile."
+    ]
+  },
+  {
+    "id": "edu-011",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "Central Board of Secondary Education (CBSE)",
+    "title": "Central Teacher Eligibility Test (CTET)",
+    "slug": "ctet-registration",
+    "shortDescription": "National level mandatory qualifying examination for candidates aspiring to be teachers for classes I to VIII in central government schools.",
+    "officialLink": "https://ctet.nic.in/",
+    "icon": "fa-solid fa-chalkboard-user",
+    "tags": ["Teaching", "Government Exam", "CBSE"],
+    "eligibility": "Candidates with Senior Secondary plus D.El.Ed (for Paper I) or Graduation plus B.Ed (for Paper II).",
+    "fees": {
+      "type": "Variable",
+      "details": "₹1000 for one paper / ₹1200 for both (General/OBC); ₹500/₹600 for SC/ST/PwD."
+    },
+    "requiredDocuments": [
+      "Class 10 and 12 Certificates",
+      "Degree/Diploma Certificate in Education",
+      "Scanned Photo and Signature",
+      "Category Certificate (if applicable)"
+    ],
+    "stepsToApply": [
+      "Visit the official CTET website during the active notification window and click on the 'Apply for CTET' link.",
+      "Click on 'New Registration', read the comprehensive information bulletin, check the declaration box, and proceed.",
+      "Fill in the online application form with personal details, choose your examination centers, and select the language and paper (Paper I, II, or both) you wish to appear for.",
+      "Upload the scanned images of your latest photograph and signature strictly adhering to the specified dimension and size limits.",
+      "Proceed to the payment gateway, remit the examination fee using a Debit/Credit Card or Net Banking, and print the final confirmation page for future reference."
+    ]
+  },
+  {
+    "id": "edu-012",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "National Testing Agency (NTA)",
+    "title": "JEE Main Examination Registration",
+    "slug": "jee-main-registration",
+    "shortDescription": "Standardized computer-based test for admission to various undergraduate engineering and architecture programs (NITs, IIITs, etc.).",
+    "officialLink": "https://jeemain.nta.ac.in/",
+    "icon": "fa-solid fa-calculator",
+    "tags": ["Engineering", "Entrance Exam", "Undergraduate"],
+    "eligibility": "Candidates who have passed Class 12 (or equivalent) with PCM in the last two years or are appearing in the current year.",
+    "fees": {
+      "type": "Variable",
+      "details": "Approx. ₹1000 for Male General/OBC, ₹800 for Female/SC/ST/PwD per session."
+    },
+    "requiredDocuments": [
+      "Class 10 and 12 Marksheets/Certificates",
+      "Scanned Photograph, Signature, and Left-hand Thumb Impression",
+      "Category/PwD Certificate (if applicable)"
+    ],
+    "stepsToApply": [
+      "Access the JEE Main NTA portal and select the 'JEE (Main) Session Registration' active link.",
+      "Create an account via DigiLocker, ABC ID, or Aadhaar authentication to generate your Application Number and Password.",
+      "Log in and complete the application form, entering personal details, choice of paper (B.E./B.Tech, B.Arch), and your four preferred examination cities.",
+      "Upload the required scanned documents ensuring they meet the exact NTA size and format guidelines (usually JPEG/JPG).",
+      "Pay the examination fee via the integrated payment gateway, verify the transaction status, and safely download the digitally generated confirmation page."
+    ]
+  },
+  {
+    "id": "edu-013",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "National Testing Agency (NTA)",
+    "title": "NEET (UG) Registration",
+    "slug": "neet-ug-registration",
+    "shortDescription": "Single national level entrance examination for admission to MBBS, BDS, and AYUSH medical courses in India.",
+    "officialLink": "https://neet.nta.nic.in/",
+    "icon": "fa-solid fa-user-doctor",
+    "tags": ["Medical", "Entrance Exam", "Undergraduate"],
+    "eligibility": "Candidates aged 17 or above having passed Class 12 with Physics, Chemistry, Biology/Biotechnology, and English.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹1700 (General), ₹1600 (General-EWS/OBC-NCL), ₹1000 (SC/ST/PwD/Third Gender)."
+    },
+    "requiredDocuments": [
+      "Passport and Postcard size photographs",
+      "Signature and Left & Right hand fingers/thumb impressions",
+      "Class 10 Pass Certificate",
+      "Category/Citizenship Certificate (if applicable)"
+    ],
+    "stepsToApply": [
+      "Visit the official NTA NEET UG portal and click on 'New Candidate Registration' during the application window.",
+      "Read the instructions, accept the declaration, and register using Aadhaar, DigiLocker, or Passport details to obtain an Application Number.",
+      "Fill out the comprehensive application detailing your academic records, medium of question paper, and preferred exam city centers.",
+      "Upload all required media, specifically paying attention to the strict formatting rules for the postcard-size photograph and the 10-finger impressions.",
+      "Complete the final fee payment online, verify the 'Success' status, and download the full application PDF to present during counseling."
+    ]
+  },
+  {
+    "id": "edu-014",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "National Testing Agency (NTA)",
+    "title": "UGC NET Examination",
+    "slug": "ugc-net-registration",
+    "shortDescription": "Test to determine the eligibility of Indian nationals for 'Assistant Professor' and 'Junior Research Fellowship' in Indian universities.",
+    "officialLink": "https://ugcnet.nta.nic.in/",
+    "icon": "fa-solid fa-book-open-reader",
+    "tags": ["Postgraduate", "Fellowship", "Teaching"],
+    "eligibility": "Candidates who have secured at least 55% marks (without rounding off) in their Master's Degree or equivalent.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹1150 (General), ₹600 (OBC-NCL/EWS), ₹325 (SC/ST/PwD/Third Gender)."
+    },
+    "requiredDocuments": [
+      "Master's Degree Marksheet",
+      "Scanned Photograph and Signature",
+      "Valid Photo Identity Proof"
+    ],
+    "stepsToApply": [
+      "Navigate to the NTA UGC NET website and click the portal link for online registration.",
+      "Register using your basic identity details to generate an application number, which will be sent via SMS and email.",
+      "Log in and fill out the detailed form, carefully selecting the subject you wish to appear for (must relate to your PG degree) and the exam center preferences.",
+      "Upload your scanned recent passport-size photograph and your signature in JPG/JPEG format.",
+      "Pay the requisite application fee securely through SBI/HDFC/Syndicate/ICICI/Paytm payment gateways and retain the printed confirmation slip."
+    ]
+  },
+  {
+    "id": "edu-015",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "All India Council for Technical Education (AICTE)",
+    "title": "AICTE Pragati Scholarship for Girls",
+    "slug": "aicte-pragati-scholarship",
+    "shortDescription": "A scheme aimed at providing assistance to girl students pursuing technical education (Degree/Diploma) from AICTE approved institutions.",
+    "officialLink": "https://www.aicte-india.org/schemes/students-development-schemes/Pragati",
+    "icon": "fa-solid fa-person-dress",
+    "tags": ["Women Empowerment", "Technical Education", "Scholarship"],
+    "eligibility": "Girl students admitted to 1st year of Degree/Diploma or 2nd year (lateral entry) in AICTE approved institutions; family income < ₹8 Lakhs.",
+    "fees": {
+      "type": "Free",
+      "details": "No application fees."
+    },
+    "requiredDocuments": [
+      "Income Certificate",
+      "Admission Letter from AICTE Institute",
+      "Previous Academic Marksheets",
+      "Bank Passbook seeded with Aadhaar"
+    ],
+    "stepsToApply": [
+      "Go to the National Scholarship Portal (NSP) website, as AICTE routes its scholarship applications through this centralized platform.",
+      "Register as a new user or log in with your existing NSP credentials.",
+      "Search for the 'AICTE Pragati Scholarship Scheme for Girl Students' under the technical or central schemes section.",
+      "Fill in the application data accurately, ensuring the institution name and course details match the AICTE approved database.",
+      "Upload the required family income certificates and admission proofs, then submit the application to your college nodal officer for phase-one verification."
+    ]
+  },
+  {
+    "id": "edu-016",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "Department of School Education & Literacy",
+    "title": "DIKSHA (PM e-VIDYA)",
+    "slug": "diksha-digital-education",
+    "shortDescription": "National digital infrastructure for teachers and students offering digitized textbooks, interactive learning materials, and video lessons.",
+    "officialLink": "https://diksha.gov.in/",
+    "icon": "fa-solid fa-tablet-screen-button",
+    "tags": ["School Education", "e-Learning", "Digital Books"],
+    "eligibility": "Open to all students, teachers, and parents across India.",
+    "fees": {
+      "type": "Free",
+      "details": "Accessing digital content and textbooks is completely free."
+    },
+    "requiredDocuments": [
+      "No documents required for basic access. School ID required if enrolling in specific state training modules."
+    ],
+    "stepsToApply": [
+      "Visit the DIKSHA portal website or download the DIKSHA mobile application from the Google Play Store or Apple App Store.",
+      "Upon opening the app, select your primary role (Teacher, Student, or Parent) to customize the user interface.",
+      "Select your relevant State Board, medium of instruction (Language), and specific Class grades to filter the content library.",
+      "Scan the QR codes printed on physical NCERT or state board textbooks using the app's inbuilt scanner to instantly load interactive digital supplements.",
+      "Optionally, create a free user profile to track your learning progress, save downloaded courses, and earn completion certificates."
+    ]
+  },
+  {
+    "id": "edu-017",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "department": "National Skill Development Corporation",
+    "title": "Skill India Digital (SID)",
+    "slug": "skill-india-digital",
+    "shortDescription": "State-of-the-art digital platform bringing all skill development initiatives, jobs, and entrepreneurial support under one unified portal.",
+    "officialLink": "https://www.skillindiadigital.gov.in/",
+    "icon": "fa-solid fa-network-wired",
+    "tags": ["Skill India", "Job Portal", "Digital Credentials"],
+    "eligibility": "Any Indian citizen looking to upgrade their skills or seek employment.",
+    "fees": {
+      "type": "Free",
+      "details": "Platform registration is free. Specific advanced premium courses may carry fees."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card (for e-KYC)",
+      "Mobile Number"
+    ],
+    "stepsToApply": [
+      "Open the Skill India Digital website or application and click on 'Register'.",
+      "Enter your active 10-digit mobile number and authenticate it using the OTP sent to your device.",
+      "Set a secure 4-digit security PIN for quick future logins.",
+      "Complete your e-KYC by entering your Aadhaar number; this verifies your identity and instantly generates a Skill India Digital ID and QR code.",
+      "Navigate to the 'Skill Courses' or 'Job Exchange' sections, update your digital CV, and start enrolling in bite-sized online courses or applying for jobs."
+    ]
+  },
+  {
+    "id": "edu-018",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "National Council of Educational Research and Training (NCERT)",
+    "title": "National Talent Search Examination (NTSE)",
+    "slug": "ntse-scholarship",
+    "shortDescription": "National level scholarship program to identify and nurture talented students studying in Class X, providing financial assistance up to Ph.D.",
+    "officialLink": "https://ncert.nic.in/national-talent-examination.php",
+    "icon": "fa-solid fa-medal",
+    "tags": ["Talent Search", "School Scholarship", "NCERT"],
+    "eligibility": "Students currently studying in Class X in recognized schools across India.",
+    "fees": {
+      "type": "Variable",
+      "details": "State level fees vary by state (often free or nominal). NCERT does not charge for the Stage II exam."
+    },
+    "requiredDocuments": [
+      "Class IX Marksheet",
+      "Passport Size Photographs",
+      "Caste/Disability Certificate (if applying under reserved quotas)",
+      "Domicile Certificate"
+    ],
+    "stepsToApply": [
+      "Check the specific notification released by your respective State/UT education board (SCERT) for Stage I of the NTSE.",
+      "Download the application form from the state board website or collect a physical copy from your school's principal/nodal teacher.",
+      "Fill out the form completely, attach two recent passport photographs, and submit it to your school authorities along with the requisite state fee.",
+      "The school principal will verify the credentials and forward the bulk applications to the State Liaison Officer before the deadline.",
+      "If you clear the Stage I state-level examination, your details will be automatically forwarded to NCERT, and you will be issued a roll number to appear for the national level Stage II exam."
+    ]
+  },
+  {
+    "id": "edu-019",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "Department of School Education & Literacy",
+    "title": "Vidyanjali (School Volunteer Programme)",
+    "slug": "vidyanjali-volunteer",
+    "shortDescription": "Initiative connecting volunteers, professionals, and organizations with government schools to enhance the quality of education.",
+    "officialLink": "https://vidyanjali.education.gov.in/",
+    "icon": "fa-solid fa-handshake-angle",
+    "tags": ["Volunteering", "Social Impact", "School Education"],
+    "eligibility": "Any individual professional, retired personnel, NGO, or corporate entity willing to volunteer time or assets.",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free voluntary service platform."
+    },
+    "requiredDocuments": [
+      "Identity Proof (Aadhaar, PAN, Passport)",
+      "Professional Profile/Resume (optional but recommended)"
+    ],
+    "stepsToApply": [
+      "Go to the Vidyanjali web portal and click on 'Login / Register' on the top menu bar.",
+      "Select 'Volunteer Registration' and choose whether you are registering as an Individual, NRI, NGO, or Organization.",
+      "Fill in your personal and contact details, and verify your mobile number and email using OTPs.",
+      "Once logged in, browse through the 'Service/Activity Requests' or 'Asset/Material Requests' posted by various government schools nationwide.",
+      "Select a request that matches your expertise or capability, click 'Participate', and wait for the school administration to review and approve your connection."
+    ]
+  },
+  {
+    "id": "edu-020",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Labour & Employment",
+    "department": "Directorate General of Labour Welfare",
+    "title": "e-Shram Portal",
+    "slug": "eshram-unorganized-workers",
+    "shortDescription": "National database for unorganized workers providing them with a Unique Universal Account Number (UAN) for social security and job-matching.",
+    "officialLink": "https://eshram.gov.in/",
+    "icon": "fa-solid fa-id-card-clip",
+    "tags": ["Unorganized Sector", "Social Security", "Worker ID"],
+    "eligibility": "Any unorganized sector worker (construction, gig worker, street vendor, domestic helper) aged between 16 and 59, not an EPFO/ESIC member.",
+    "fees": {
+      "type": "Free",
+      "details": "Self-registration is free. Registration through CSCs is also free (CSCs are paid by the government)."
+    },
+    "requiredDocuments": [
+      "Aadhaar Number",
+      "Mobile number linked to Aadhaar",
+      "Savings Bank Account Number with IFSC"
+    ],
+    "stepsToApply": [
+      "Visit the official e-Shram portal and click on 'Register on e-Shram' located on the homepage.",
+      "Enter your Aadhaar-linked mobile number and the visual captcha code, declare that you are not a member of EPFO/ESIC, and click 'Send OTP'.",
+      "Input the OTP received and proceed to enter your 12-digit Aadhaar number for biometric or OTP-based authentication.",
+      "Carefully fill in the subsequent digital forms detailing your personal information, address, educational qualification, primary occupation (using the provided NCO codes), and bank account details.",
+      "Preview the finalized form, submit it, and immediately download your generated digital e-Shram card featuring your 12-digit UAN."
+    ]
+  },
+
+{
+    "id": "edu-021",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Science and Technology",
+    "department": "Department of Science and Technology (DST)",
+    "title": "INSPIRE Scholarship for Higher Education",
+    "slug": "inspire-scholarship",
+    "shortDescription": "Scholarship program to attract talented youth to study basic and natural sciences at the undergraduate and postgraduate levels.",
+    "officialLink": "https://online-inspire.gov.in/",
+    "icon": "fa-solid fa-flask",
+    "tags": ["Science", "Scholarship", "Undergraduate"],
+    "eligibility": "Students who happen to be among the top 1% in 12th standard at their respective Board Examinations and are pursuing courses in Natural and Basic Sciences.",
+    "fees": {
+      "type": "Free",
+      "details": "No application fees."
+    },
+    "requiredDocuments": [
+      "Class 12th Marksheet",
+      "Endorsement Certificate from College Principal",
+      "Aadhaar Card",
+      "SBI Bank Account Details"
+    ],
+    "stepsToApply": [
+      "Visit the online INSPIRE web portal and click on 'Register Here' to create a new user account.",
+      "Log in with your newly created credentials and navigate to the 'Scholarship' section.",
+      "Fill in the detailed application form, providing your educational background, board rank, and college enrollment details.",
+      "Upload scanned copies of your Class 12 marksheet, the official Endorsement Certificate signed by your college principal, and your bank details.",
+      "Submit the application digitally and wait for the DST to release the list of conditionally accepted candidates based on the board cut-offs."
+    ]
+  },
+  {
+    "id": "edu-022",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "Department of School Education & Literacy",
+    "title": "National Means-cum-Merit Scholarship (NMMS)",
+    "slug": "nmms-scholarship",
+    "shortDescription": "Financial assistance awarded to meritorious students of economically weaker sections to arrest their drop-out at class VIII.",
+    "officialLink": "https://scholarships.gov.in/",
+    "icon": "fa-solid fa-indian-rupee-sign",
+    "tags": ["School Education", "Financial Aid", "Merit Based"],
+    "eligibility": "Students studying in Class VIII in government/aided schools with family income less than ₹3,50,000 per annum.",
+    "fees": {
+      "type": "Variable",
+      "details": "State-level exam fees may range from ₹0 to ₹100 depending on the state."
+    },
+    "requiredDocuments": [
+      "Income Certificate",
+      "Class VII Marksheet",
+      "Caste Certificate (if applicable)",
+      "Disability Certificate (if applicable)"
+    ],
+    "stepsToApply": [
+      "Contact your school principal to confirm the state-level NMMS selection test notification dates.",
+      "Fill out the state-level examination form (online or offline as per state rules) and appear for the MAT and SAT tests.",
+      "Upon clearing the exam and being selected in the state merit list, go to the National Scholarship Portal (NSP).",
+      "Register as a new user, select the NMMS scheme, and fill out the detailed digital application form.",
+      "Submit the form for institutional verification by your school nodal officer to initiate direct bank transfers."
+    ]
+  },
+  {
+    "id": "edu-023",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "NPTEL (Coordinated by IIT Madras)",
+    "title": "NPTEL Online Certification",
+    "slug": "nptel-certification",
+    "shortDescription": "Provides high-quality recorded engineering, science, and humanities courses taught by IIT and IISc professors.",
+    "officialLink": "https://nptel.ac.in/",
+    "icon": "fa-solid fa-laptop-code",
+    "tags": ["Engineering", "Online Courses", "IIT"],
+    "eligibility": "Open to all students, professionals, and lifelong learners regardless of educational background.",
+    "fees": {
+      "type": "Variable",
+      "details": "Learning is free. ₹1000 per course is charged only for the optional proctored certification exam."
+    },
+    "requiredDocuments": [
+      "Recent Photograph and Signature (for exam registration)",
+      "College ID or Aadhaar (for exam day verification)"
+    ],
+    "stepsToApply": [
+      "Visit the Swayam NPTEL portal and log in using your Google or Microsoft account.",
+      "Browse the current semester's course catalog and click 'Join' on the courses you wish to study.",
+      "Watch the weekly video lectures and complete the mandatory weekly assignments before the deadline.",
+      "When the exam registration window opens, fill out the exam form, choose your preferred test city, and pay the ₹1000 fee.",
+      "Download your hall ticket, appear for the in-person proctored exam, and receive an e-certificate featuring IIT logos upon passing."
+    ]
+  },
+  {
+    "id": "edu-024",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "IITs & IISc",
+    "title": "GATE (Graduate Aptitude Test in Engineering)",
+    "slug": "gate-examination",
+    "shortDescription": "National examination testing the comprehensive understanding of undergraduate engineering and science subjects for PG admissions and PSU jobs.",
+    "officialLink": "https://gate.iitk.ac.in/",
+    "icon": "fa-solid fa-microchip",
+    "tags": ["Engineering", "PSU Jobs", "Postgraduate"],
+    "eligibility": "Candidates currently in the 3rd or higher years of any undergraduate degree program, or who have already completed any government-approved degree.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹900 for Female/SC/ST/PwD; ₹1800 for all other candidates per paper."
+    },
+    "requiredDocuments": [
+      "Degree Certificate or Provisional Certificate",
+      "Scanned Photograph and Signature",
+      "Category/PwD Certificate (if applicable)",
+      "Valid Photo ID (Aadhaar, Passport, PAN)"
+    ],
+    "stepsToApply": [
+      "Access the GATE Online Application Processing System (GOAPS) portal during the active registration window.",
+      "Register as a new user by providing your name, email ID, mobile number, and a secure password.",
+      "Log in and complete the application by entering your personal details, academic qualifications, and selecting up to two test papers.",
+      "Upload high-quality scanned images of your photograph, signature, and category certificates strictly matching the required dimensions.",
+      "Pay the application fee online, review the final submitted form, and print the confirmation page."
+    ]
+  },
+  {
+    "id": "edu-025",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "National Testing Agency (NTA)",
+    "title": "CUET (UG) Registration",
+    "slug": "cuet-ug-registration",
+    "shortDescription": "Common University Entrance Test providing a single-window opportunity to students to seek admission in participating Central Universities.",
+    "officialLink": "https://cuet.samarth.ac.in/",
+    "icon": "fa-solid fa-building-columns",
+    "tags": ["Undergraduate", "Entrance Exam", "University"],
+    "eligibility": "Candidates who have passed the Class 12 / equivalent examination or are appearing in the current year.",
+    "fees": {
+      "type": "Variable",
+      "details": "Varies based on the number of subjects chosen and candidate category (approx. ₹750 to ₹1750)."
+    },
+    "requiredDocuments": [
+      "Class 10 and 12 Marksheets",
+      "Scanned Photograph and Signature",
+      "Category Certificate (if applicable)",
+      "Active Email ID and Mobile Number"
+    ],
+    "stepsToApply": [
+      "Visit the official CUET UG Samarth portal and click on 'Register'.",
+      "Download and read the Information Bulletin carefully before accepting the declaration to proceed.",
+      "Fill in the online registration form using personal details to generate an Application Number and create a password.",
+      "Log in to complete the application form, carefully selecting the universities and corresponding subject domains you wish to test for.",
+      "Upload the required document scans, pay the calculated examination fee via the online gateway, and save the confirmation page."
+    ]
+  },
+  {
+    "id": "edu-026",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Rural Development",
+    "department": "National Rural Livelihoods Mission (NRLM)",
+    "title": "Deen Dayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+    "slug": "ddu-gky-skill-training",
+    "shortDescription": "Placement-linked skill training program specifically targeted at rural poor youth to provide them with regular minimum wage jobs.",
+    "officialLink": "http://ddugky.gov.in/",
+    "icon": "fa-solid fa-people-group",
+    "tags": ["Rural Youth", "Skill Training", "Jobs"],
+    "eligibility": "Rural youth from poor families in the age group of 15 to 35 years (upper age limit extended to 45 for women/SC/ST/PwD).",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free of cost, including training, accommodation, and food."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "BPL Card or Antyodaya Anna Yojana Card",
+      "Panchayat Certification of Rural Poor Status",
+      "Educational Certificates"
+    ],
+    "stepsToApply": [
+      "Visit the official Kaushal Panjee website (kaushalpanjee.nic.in) or download the Kaushal Panjee app.",
+      "Register yourself as a candidate by entering your mobile number and Aadhaar details.",
+      "Fill in your socio-economic details, educational background, and preferred employment sector.",
+      "Attend the local mobilization camp organized by the Gram Panchayat or Project Implementing Agencies (PIAs) in your district.",
+      "Undergo counseling and an aptitude test at the center, enroll in the designated batch, and commence your free residential training."
+    ]
+  },
+  {
+    "id": "edu-027",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "department": "PM-DAKSH",
+    "title": "PM-DAKSH Yojana Skill Training",
+    "slug": "pm-daksh-yojana",
+    "shortDescription": "National action plan for skilling marginalized persons covering SCs, OBCs, EBCs, De-notified tribes, and sanitation workers.",
+    "officialLink": "https://pmdaksh.dosje.gov.in/",
+    "icon": "fa-solid fa-hands-holding-circle",
+    "tags": ["Skill Development", "Marginalized Communities", "Empowerment"],
+    "eligibility": "Target groups (SC/OBC/EBC/Safai Karamcharis) aged 18-45 years with specific income limits for OBC/EBCs.",
+    "fees": {
+      "type": "Free",
+      "details": "Free training with stipends (₹1000 to ₹1500 per month) during the course duration."
+    },
+    "requiredDocuments": [
+      "Caste/Category Certificate",
+      "Income Certificate (for OBC/EBC)",
+      "Aadhaar Card",
+      "Bank Account Details"
+    ],
+    "stepsToApply": [
+      "Visit the PM-DAKSH portal or download the PM-DAKSH mobile application.",
+      "Click on 'Candidate Registration' and authenticate using your Aadhaar-linked mobile number via OTP.",
+      "Fill out the registration form with personal details, category verification, and educational qualifications.",
+      "Search for active training centers near you using the portal's geographic filter and apply for a specific job role.",
+      "Visit the selected training center with original documents for physical verification to finalize your batch enrollment."
+    ]
+  },
+  {
+    "id": "edu-028",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "Indira Gandhi National Open University (IGNOU)",
+    "title": "IGNOU Online Admission (Samarth Portal)",
+    "slug": "ignou-online-admission",
+    "shortDescription": "Centralized admission portal for enrolling in distance and online degree, diploma, and certificate programs offered by IGNOU.",
+    "officialLink": "https://ignouadmission.samarth.edu.in/",
+    "icon": "fa-solid fa-university",
+    "tags": ["Distance Education", "Open University", "Degrees"],
+    "eligibility": "Varies extensively by program (10+2 for UG, Graduation for PG, 10th pass for basic certificates).",
+    "fees": {
+      "type": "Variable",
+      "details": "Course fees range from ₹2000 to ₹25000+ per year depending on the program. Registration fee is ₹300."
+    },
+    "requiredDocuments": [
+      "Scanned Photograph and Signature",
+      "Age Proof (10th Certificate)",
+      "Educational Qualification Certificates",
+      "Category Certificate (for fee exemption if applicable)"
+    ],
+    "stepsToApply": [
+      "Access the IGNOU Samarth Admission Portal and click on the 'Click Here for New Registration' button.",
+      "Create a user account by providing your name, email, mobile number, and setting a password.",
+      "Log in and fill out the detailed profile, selecting your desired program type (ODL or Online) and specific course.",
+      "Select your preferred Regional Center and Study Center for administrative support and examinations.",
+      "Upload all required scanned academic documents, pay the program fee securely via the payment gateway, and download the admission form."
+    ]
+  },
+  {
+    "id": "edu-029",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Defence",
+    "department": "Indian Army",
+    "title": "Join Indian Army (Agnipath & Regular)",
+    "slug": "join-indian-army",
+    "shortDescription": "Official portal for recruitment of Officers and Agniveers (Other Ranks) into the Indian Army.",
+    "officialLink": "https://joinindianarmy.nic.in/",
+    "icon": "fa-solid fa-person-military-rifle",
+    "tags": ["Defence Jobs", "Agniveer", "Army"],
+    "eligibility": "Agniveer: Ages 17.5 to 21 years (10th/12th pass). Officers: Ages 16.5 to 27+ depending on entry scheme (NDA/CDS/Tech).",
+    "fees": {
+      "type": "Variable",
+      "details": "₹250 examination fee for Agniveer CE E. Officer entry fees vary (usually ₹200 for UPSC entries)."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Matriculation Certificate",
+      "Higher Education Certificates",
+      "Domicile/Nativity Certificate"
+    ],
+    "stepsToApply": [
+      "Visit the Join Indian Army website and solve the captcha to enter the main portal.",
+      "Click on 'JCO/OR Apply/Login' for Agniveer entries or 'Officer Entry Apply/Login' for commissioned roles.",
+      "Create a new profile or log in. Ensure your profile is authenticated using your Aadhaar or Class 10th certificate.",
+      "Check the 'Eligibility' tab based on your profile details to see active recruitment rallies or exams you qualify for.",
+      "Fill out the online application form for the selected rally/exam, pay the CEE fee (if applicable), and download your admit card when notified."
+    ]
+  },
+  {
+    "id": "edu-030",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Defence",
+    "department": "Indian Navy",
+    "title": "Join Indian Navy Portal",
+    "slug": "join-indian-navy",
+    "shortDescription": "Centralized recruitment platform for joining the Indian Navy as an Agniveer (SSR/MR) or a Commissioned Officer.",
+    "officialLink": "https://www.joinindiannavy.gov.in/",
+    "icon": "fa-solid fa-anchor",
+    "tags": ["Defence Jobs", "Navy", "Agniveer"],
+    "eligibility": "Agniveer: 17.5 to 21 years with 10th (MR) or 12th with PCM (SSR). Officers: Graduate/B.Tech depending on the branch.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹550 + GST for Agniveer computer-based examination."
+    },
+    "requiredDocuments": [
+      "Class 10th and 12th Marksheets",
+      "Aadhaar Card",
+      "Domicile Certificate",
+      "NCC Certificate (if applicable)"
+    ],
+    "stepsToApply": [
+      "Visit the official Join Indian Navy portal and click on 'Register' located at the top right corner.",
+      "Register via Aadhaar Virtual ID or without Aadhaar by uploading your 10th passing certificate.",
+      "Log in to your dashboard using your registered email and password to complete your user profile and educational records.",
+      "Navigate to 'Current Opportunities' and select the 'Apply' button next to the active Agniveer or Officer entry scheme.",
+      "Fill in the application, upload documents, pay the examination fee online, and submit the form."
+    ]
+  },
+  {
+    "id": "edu-031",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Defence",
+    "department": "Indian Air Force (CASB)",
+    "title": "Indian Air Force Agniveervayu Recruitment",
+    "slug": "iaf-agniveervayu",
+    "shortDescription": "Registration portal for recruitment of unmarried male and female candidates as Agniveervayu under the Agnipath scheme.",
+    "officialLink": "https://agnipathvayu.cdac.in/",
+    "icon": "fa-solid fa-plane-departure",
+    "tags": ["Defence Jobs", "Air Force", "Agniveer"],
+    "eligibility": "Unmarried candidates aged 17.5 to 21 years; 10+2 with Math/Physics/English or 3-year Diploma.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Examination fee of ₹250 to be paid online."
+    },
+    "requiredDocuments": [
+      "Class 10th Passing Certificate",
+      "Class 12th Marksheet / Diploma Certificate",
+      "Passport size recent color photograph (holding a slate with name and date)",
+      "Left Hand Thumb Impression Image"
+    ],
+    "stepsToApply": [
+      "Access the official IAF Agnipath portal managed by CDAC during the active notification cycle.",
+      "Click on 'New User Register' and fill in your basic details, valid email, and mobile number to receive system-generated credentials.",
+      "Log in and proceed to fill the detailed application form, entering exact marks obtained in the qualifying examinations.",
+      "Upload the specific passport photograph (candidate holding a black slate with name and date of photo taken) along with signature and thumb impression.",
+      "Complete the online payment of ₹250, verify the application status, and print the finalized registration document."
+    ]
+  },
+  {
+    "id": "edu-032",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Railways",
+    "department": "Railway Recruitment Board (RRB)",
+    "title": "RRB Centralized Employment Notice (CEN)",
+    "slug": "rrb-recruitment-portal",
+    "shortDescription": "Unified platform to apply for massive government recruitment drives for NTPC, Group D, ALP, and Technical positions in Indian Railways.",
+    "officialLink": "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,4,1244",
+    "icon": "fa-solid fa-train",
+    "tags": ["Government Jobs", "Railways", "Group D"],
+    "eligibility": "Ranges from 10th Pass / ITI for Group D/ALP to Graduate for Station Master/NTPC roles. Ages generally 18-33 (relaxable).",
+    "fees": {
+      "type": "Variable",
+      "details": "₹500 (General/OBC), ₹250 (SC/ST/Ex-SM/Female/Minorities) — partially refunded after appearing in CBT."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Matriculation/Degree Certificates",
+      "Scanned Photograph (white background)",
+      "Caste Certificate (for fee concession)"
+    ],
+    "stepsToApply": [
+      "Check the centralized notification (CEN) and navigate to the specific regional RRB portal (e.g., RRB Mumbai, RRB Allahabad).",
+      "Click on 'New Registration' and provide basic details like Aadhaar, Name, DOB, and mobile number to generate a Registration ID.",
+      "Log in and complete Part 1 of the application by filling in educational qualifications, community details, and priority list of posts.",
+      "Complete the payment of the application fee online or via bank challan.",
+      "Complete Part 2 by uploading your photograph, signature, and category certificates, then submit the final form."
+    ]
+  },
+  {
+    "id": "edu-033",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Finance",
+    "department": "Institute of Banking Personnel Selection (IBPS)",
+    "title": "IBPS Bank Exams Registration",
+    "slug": "ibps-bank-exams",
+    "shortDescription": "Centralized examination portal for recruitment of Clerks, Probationary Officers (PO), and Specialist Officers across public sector banks.",
+    "officialLink": "https://www.ibps.in/",
+    "icon": "fa-solid fa-building-columns",
+    "tags": ["Banking Jobs", "PO/Clerk", "Recruitment"],
+    "eligibility": "Graduation in any discipline from a recognized university. Age limits vary (usually 20-30 years for PO, 20-28 for Clerks).",
+    "fees": {
+      "type": "Variable",
+      "details": "₹850 for General/OBC/EWS; ₹175 for SC/ST/PwBD candidates."
+    },
+    "requiredDocuments": [
+      "Scanned Photograph and Signature",
+      "Scanned Left Thumb Impression",
+      "Handwritten Declaration (as per IBPS format)",
+      "Degree Marksheets/Certificates"
+    ],
+    "stepsToApply": [
+      "Visit the official IBPS website and click on the sliding link for the respective recruitment (CRP PO/MT, Clerks, or RRBs).",
+      "Click on 'Click here for New Registration', fill in basic contact details, and save your provisional registration number and password.",
+      "Upload your scanned photograph and signature strictly as per the specified dimensions and file sizes.",
+      "Fill in the detailed application form, entering academic scores, category details, and bank preferences.",
+      "Upload the handwritten declaration and left thumb impression, preview the entire form, process the online fee payment, and print the e-receipt."
+    ]
+  },
+  {
+    "id": "edu-034",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "department": "National Skill Development Corporation",
+    "title": "Aatmanirbhar Skilled Employee Employer Mapping (ASEEM)",
+    "slug": "aseem-job-portal",
+    "shortDescription": "An AI-based portal that maps skilled workers with available local jobs, acting as a directory of skilled workforce.",
+    "officialLink": "https://smis.nsdcindia.org/",
+    "icon": "fa-solid fa-briefcase",
+    "tags": ["Job Search", "Skilled Workers", "NSDC"],
+    "eligibility": "Certified skilled candidates, migrants, and professionals seeking employment.",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free registration for job seekers."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "NSDC Skill Certificate / UAN",
+      "Updated Resume"
+    ],
+    "stepsToApply": [
+      "Download the 'ASEEM Candidate' mobile app or visit the ASEEM web portal.",
+      "Register using your mobile number and authenticate via OTP.",
+      "Create your digital profile by adding your educational background, NSDC/PMKVY certificate ID, and work experience.",
+      "Set your location preferences and specific job roles you are seeking.",
+      "Browse suggested jobs matched by the AI engine or wait for employers to contact you directly through the platform."
+    ]
+  },
+  {
+    "id": "edu-035",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "All India Council for Technical Education (AICTE)",
+    "title": "AICTE Saksham Scholarship Scheme",
+    "slug": "aicte-saksham-scholarship",
+    "shortDescription": "A scholarship scheme designed to provide encouragement and financial support to specially-abled students pursuing technical education.",
+    "officialLink": "https://www.aicte-india.org/schemes/students-development-schemes/Saksham",
+    "icon": "fa-solid fa-wheelchair",
+    "tags": ["Disability Support", "Technical Education", "Scholarship"],
+    "eligibility": "Specially-abled students (disability >= 40%) admitted to 1st year of Degree/Diploma in AICTE approved institutions with family income < ₹8 Lakhs.",
+    "fees": {
+      "type": "Free",
+      "details": "No application fees."
+    },
+    "requiredDocuments": [
+      "Disability Certificate issued by competent authority",
+      "Income Certificate",
+      "Admission Letter from Institution",
+      "Aadhaar seeded Bank Account Passbook"
+    ],
+    "stepsToApply": [
+      "Go to the National Scholarship Portal (NSP) and select the 'New Registration' or 'Login' option.",
+      "Under the 'UGC/AICTE Schemes' tab, locate the AICTE Saksham Scholarship scheme.",
+      "Fill in the demographic, academic, and bank account details accurately in the online form.",
+      "Upload digital copies of your disability certificate, income proof, and tuition fee receipts.",
+      "Submit the application form online for it to be routed to your institute's nodal officer for first-level verification."
+    ]
+  },
+  {
+    "id": "edu-036",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "All India Council for Technical Education (AICTE)",
+    "title": "AICTE PG (GATE/GPAT) Scholarship",
+    "slug": "aicte-pg-scholarship",
+    "shortDescription": "Post Graduate scholarship scheme providing a monthly stipend to GATE/GPAT qualified students admitted to AICTE approved institutes.",
+    "officialLink": "https://pgscholarship.aicte-india.org/",
+    "icon": "fa-solid fa-graduation-cap",
+    "tags": ["Postgraduate", "Stipend", "GATE/GPAT"],
+    "eligibility": "Students with valid GATE/GPAT score admitted as full-time scholars in AICTE approved Master of Engineering, Technology, or Pharmacy programs.",
+    "fees": {
+      "type": "Free",
+      "details": "No application fees."
+    },
+    "requiredDocuments": [
+      "Valid GATE/GPAT Scorecard",
+      "Aadhaar Card",
+      "Bank Account details linked with Aadhaar",
+      "Admission / Joining Report"
+    ],
+    "stepsToApply": [
+      "Contact your institute's nodal officer to ensure your student ID is generated on the AICTE portal.",
+      "Once the student ID is generated, visit the AICTE PG Scholarship portal and log in.",
+      "Validate your GATE/GPAT details, Aadhaar number, and bank account parameters on the dashboard.",
+      "Upload a scanned copy of your original scorecard and the Aadhaar seeded bank passbook.",
+      "Submit the application online. The institute will verify the attendance monthly to release the ₹12,400 stipend via Direct Benefit Transfer."
+    ]
+  },
+  {
+    "id": "edu-037",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "University Grants Commission (UGC)",
+    "title": "PG Indira Gandhi Scholarship for Single Girl Child",
+    "slug": "pg-scholarship-single-girl-child",
+    "shortDescription": "Financial assistance to single girl children pursuing a regular, full-time first-year master's degree program.",
+    "officialLink": "https://scholarships.gov.in/",
+    "icon": "fa-solid fa-child-reaching",
+    "tags": ["Women Empowerment", "Postgraduate", "UGC"],
+    "eligibility": "Girls who are the only child in their family and have taken admission in regular, full-time PG programs in recognized universities. Age limit: 30 years.",
+    "fees": {
+      "type": "Free",
+      "details": "No application fee."
+    },
+    "requiredDocuments": [
+      "Affidavit regarding Single Girl Child status (₹50 Stamp Paper)",
+      "Joining Report from the University",
+      "Aadhaar Card",
+      "UG Marksheet"
+    ],
+    "stepsToApply": [
+      "Visit the National Scholarship Portal (NSP) during the active application window.",
+      "Register or log in, and navigate to the UGC schemes section to select the 'PG Indira Gandhi Scholarship'.",
+      "Complete the application form with personal, academic, and banking details.",
+      "Upload the mandatory notarized affidavit declaring single girl child status alongside admission proofs.",
+      "Submit the digital form and ensure your university's nodal officer verifies it online before the designated deadline."
+    ]
+  },
+  {
+    "id": "edu-038",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Minority Affairs",
+    "department": "Maulana Azad Education Foundation",
+    "title": "Begum Hazrat Mahal National Scholarship",
+    "slug": "begum-hazrat-mahal-scholarship",
+    "shortDescription": "Scholarship for meritorious girl students belonging to minority communities (Muslim, Christian, Sikh, Buddhist, Jain, Parsi) studying in classes 9 to 12.",
+    "officialLink": "https://scholarships.gov.in/",
+    "icon": "fa-solid fa-book-open-reader",
+    "tags": ["Minority", "Girls Scholarship", "School Education"],
+    "eligibility": "Minority girl students studying in Classes 9th to 12th who have secured at least 50% marks in previous class; family income < ₹2.00 Lakh.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to apply."
+    },
+    "requiredDocuments": [
+      "Income Certificate",
+      "Self-certified community certificate",
+      "Previous Class Marksheet",
+      "Bank Account details"
+    ],
+    "stepsToApply": [
+      "Open the National Scholarship Portal (NSP) website.",
+      "Click 'New Registration' and fill out the basic student profile.",
+      "Log into the dashboard and select the 'Begum Hazrat Mahal National Scholarship' under the Ministry of Minority Affairs tab.",
+      "Fill in the academic details, select your minority community, and upload the income and community certificates.",
+      "Submit the application for school-level verification and keep tracking the status on your NSP dashboard."
+    ]
+  },
+  {
+    "id": "edu-039",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "Higher Education Division",
+    "title": "Prime Minister's Research Fellows (PMRF)",
+    "slug": "pmrf-fellowship",
+    "shortDescription": "Highly prestigious fellowship scheme aimed at attracting the best talent into research (Ph.D.) programs in IISc, IISERs, IITs, and select central universities.",
+    "officialLink": "https://www.pmrf.in/",
+    "icon": "fa-solid fa-microscope",
+    "tags": ["Ph.D.", "Research Fellowship", "Higher Education"],
+    "eligibility": "Students who have completed or are in final year of B.Tech/M.Tech/M.Sc from recognized institutes with high CGPA/GATE scores, admitted to a PMRF granting institute.",
+    "fees": {
+      "type": "Free",
+      "details": "No direct application fee (institutes nominate students)."
+    },
+    "requiredDocuments": [
+      "Research Proposal",
+      "Academic Transcripts",
+      "GATE/NET Scorecards",
+      "Letters of Recommendation"
+    ],
+    "stepsToApply": [
+      "Secure admission into a Ph.D. program at a PMRF granting institution (IIT, IISc, IISER, NIT, or select central universities).",
+      "Apply through the 'Direct Entry Channel' during admission or 'Lateral Entry Channel' after 12-24 months of joining.",
+      "Submit a strong, innovative research proposal and your academic credentials to your institute's PMRF coordinator.",
+      "The host institute internally reviews and nominates the top candidates to the National Coordinating Institute.",
+      "Undergo the final national-level review panel interview to secure the fellowship."
+    ]
+  },
+  {
+    "id": "edu-040",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "IIT Kharagpur",
+    "title": "National Digital Library of India (NDLI)",
+    "slug": "national-digital-library",
+    "shortDescription": "A virtual repository of learning resources with a single-window search facility offering millions of free educational materials.",
+    "officialLink": "https://ndl.iitkgp.ac.in/",
+    "icon": "fa-solid fa-book-bookmark",
+    "tags": ["Digital Library", "Free Resources", "e-Learning"],
+    "eligibility": "Open to all—students, researchers, lifelong learners, globally.",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free access to most resources."
+    },
+    "requiredDocuments": [
+      "None"
+    ],
+    "stepsToApply": [
+      "Visit the NDLI website or download the NDLI mobile app.",
+      "Click on 'Register' and enter your name, email address, educational role, and preferred language.",
+      "Check your email and click the verification link sent by NDLI to activate your account.",
+      "Log in to the portal to bypass access restrictions on specialized publisher materials.",
+      "Use the search bar or browse by subject, education level, or resource type to read or download PDFs, videos, and articles."
+    ]
+  },
+  {
+    "id": "edu-041",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "INFLIBNET Centre",
+    "title": "Shodhganga (Reservoir of Indian Theses)",
+    "slug": "shodhganga-theses",
+    "shortDescription": "A digital repository of full-text doctoral theses submitted to universities in India, ensuring open access to Indian research.",
+    "officialLink": "https://shodhganga.inflibnet.ac.in/",
+    "icon": "fa-solid fa-file-pdf",
+    "tags": ["Research", "Ph.D. Theses", "Open Access"],
+    "eligibility": "Open to anyone for reading. Ph.D. scholars from participating universities must upload their theses.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to read, download, and upload."
+    },
+    "requiredDocuments": [
+      "For uploading: Approved Ph.D. Thesis in PDF format",
+      "Authentication Certificate from the University Guide"
+    ],
+    "stepsToApply": [
+      "To read: Visit the Shodhganga website and use the search bar to find theses by keyword, university, or researcher without needing an account.",
+      "To submit (for Ph.D. scholars): Ensure your university has signed an MoU with INFLIBNET.",
+      "Format your thesis strictly according to the Shodhganga chapter-wise PDF guidelines.",
+      "Contact your university's University Coordinator (UC) for Shodhganga.",
+      "The UC or library staff will authenticate your credentials and upload your thesis to the national repository."
+    ]
+  },
+  {
+    "id": "edu-042",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Science and Technology",
+    "department": "National Testing Agency (NTA)",
+    "title": "CSIR-UGC NET Examination",
+    "slug": "csir-ugc-net",
+    "shortDescription": "National level exam to determine eligibility for Junior Research Fellowship (JRF) and Lectureship in Science subjects.",
+    "officialLink": "https://csirnet.nta.ac.in/",
+    "icon": "fa-solid fa-atom",
+    "tags": ["Science Research", "Fellowship", "Teaching Exam"],
+    "eligibility": "Candidates possessing M.Sc. or equivalent degree/ Integrated BS-MS/BS-4 years/B.E./B.Tech/B.Pharma/MBBS with at least 55% marks.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹1150 (General), ₹600 (General-EWS/OBC), ₹325 (SC/ST/Third gender)."
+    },
+    "requiredDocuments": [
+      "Degree Certificate or Result Awaiting Certificate",
+      "Scanned Photograph and Signature",
+      "Category Certificate (if applicable)"
+    ],
+    "stepsToApply": [
+      "Visit the official NTA CSIR-NET portal and click on 'Online Registration'.",
+      "Generate an Application Number by providing basic demographic and contact details.",
+      "Log in and fill the application form, choosing between JRF or Assistant Professor, and selecting the subject (e.g., Life Sciences, Chemical Sciences).",
+      "Upload scanned images of your photograph, signature, and category certificate in the prescribed JPG/PDF format.",
+      "Pay the requisite fee using the integrated payment gateway and print the confirmation page for admit card generation."
+    ]
+  },
+  {
+    "id": "edu-043",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "Department of Higher Education",
+    "title": "SHREYAS (Scheme for Higher Education Youth in Apprenticeship and Skills)",
+    "slug": "shreyas-apprenticeship",
+    "shortDescription": "Initiative to provide industry apprenticeship opportunities to general graduates exiting in April in non-technical programs.",
+    "officialLink": "https://www.education.gov.in/shreyas",
+    "icon": "fa-solid fa-handshake",
+    "tags": ["Apprenticeship", "General Graduates", "Skill Enhancement"],
+    "eligibility": "Final year students pursuing general degree courses (B.A., B.Sc., B.Com) in eligible institutions.",
+    "fees": {
+      "type": "Free",
+      "details": "No enrollment fee for students."
+    },
+    "requiredDocuments": [
+      "College Identity Card",
+      "Aadhaar Card",
+      "Bank Account Details"
+    ],
+    "stepsToApply": [
+      "Ensure your college or higher education institution is registered with the Sector Skill Councils under the SHREYAS mandate.",
+      "Register your interest with your college placement or skill development cell during your final year.",
+      "The college integrates skill-based add-on curricula corresponding to specific industry sectors (e.g., IT, Retail, Banking) alongside your degree.",
+      "Upon clearing the degree and the embedded skill assessment, your profile is uploaded to the NATS apprenticeship portal.",
+      "Attend the job fairs or matching sessions organized by the Sector Skill Councils to secure a stipendiary apprenticeship contract."
+    ]
+  },
+  {
+    "id": "edu-044",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Information and Broadcasting",
+    "department": "Publications Division",
+    "title": "Employment News (Rojgar Samachar) Portal",
+    "slug": "employment-news",
+    "shortDescription": "Official weekly journal providing information on employment opportunities in Central/State Government, PSUs, and armed forces.",
+    "officialLink": "http://employmentnews.gov.in/",
+    "icon": "fa-solid fa-newspaper",
+    "tags": ["Govt Job Updates", "Weekly Journal", "Employment"],
+    "eligibility": "Anyone looking for verified government job notifications.",
+    "fees": {
+      "type": "Fixed",
+      "details": "Annual e-version subscription costs ₹400; print version subscription costs ₹530."
+    },
+    "requiredDocuments": [
+      "None required to browse free alerts. Email ID required for e-subscription."
+    ],
+    "stepsToApply": [
+      "Visit the official Employment News website.",
+      "To subscribe to the e-version, click on the 'e-Version' link and create a user account.",
+      "Fill in your billing details and select the 1-year, 2-year, or 3-year subscription plan.",
+      "Make the online payment through Bharatkosh or the integrated payment gateway.",
+      "Log in every Saturday to download and read the authenticated digital PDF of upcoming government vacancies and results."
+    ]
+  },
+  {
+    "id": "edu-045",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "department": "Department of Social Justice and Empowerment",
+    "title": "National Fellowship for SC Students (NFSC)",
+    "slug": "nfsc-fellowship",
+    "shortDescription": "Fellowship scheme to provide financial assistance to Scheduled Caste students pursuing M.Phil and Ph.D. degrees in Sciences, Humanities, and Social Sciences.",
+    "officialLink": "https://socialjustice.gov.in/schemes/",
+    "icon": "fa-solid fa-award",
+    "tags": ["Ph.D.", "SC Students", "Fellowship"],
+    "eligibility": "SC candidates who have qualified UGC-NET or CSIR-NET and are admitted to M.Phil/Ph.D. programs.",
+    "fees": {
+      "type": "Free",
+      "details": "Selection based on NET scores; no separate application fee."
+    },
+    "requiredDocuments": [
+      "UGC-NET / CSIR-NET Scorecard",
+      "SC Caste Certificate",
+      "Admission Proof for Ph.D./M.Phil",
+      "Joining Report"
+    ],
+    "stepsToApply": [
+      "Appear for and clear the UGC-NET or CSIR-NET examination conducted by NTA.",
+      "When registering for NET, ensure you correctly mark your category as 'SC' and opt for the fellowship consideration.",
+      "NTA and the Ministry generate a merit list of eligible SC candidates based on NET scores independently.",
+      "If selected, download your official NFSC award letter from the designated UGC/Ministry portal.",
+      "Submit the award letter along with the joining report to your university's research cell to link your bank account to the Canara Bank scholar portal for DBT."
+    ]
+  },
+  {
+    "id": "edu-046",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Skill Development and Entrepreneurship",
+    "department": "Jan Shikshan Sansthan (JSS)",
+    "title": "Jan Shikshan Sansthan Vocational Training",
+    "slug": "jss-vocational-training",
+    "shortDescription": "Vocational skill training programs targeting non-literates, neo-literates, and school dropouts at their doorsteps in rural and urban slums.",
+    "officialLink": "https://jss.gov.in/",
+    "icon": "fa-solid fa-chalkboard-user",
+    "tags": ["Vocational Skills", "School Dropouts", "Rural Training"],
+    "eligibility": "Non-literates, neo-literates, persons with rudimentary education up to 8th standard, and school dropouts up to 12th standard in age group 15-45.",
+    "fees": {
+      "type": "Variable",
+      "details": "Nominal course fee (often exempted for SC/ST, women, and BPL candidates)."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "Passport size photographs",
+      "BPL Card or Category Certificate (for fee exemption)"
+    ],
+    "stepsToApply": [
+      "Locate the nearest Jan Shikshan Sansthan (JSS) NGO partner office in your district using the JSS portal directory.",
+      "Visit the center and consult the program officer regarding upcoming short-term courses (e.g., tailoring, plumbing, beauty wellness).",
+      "Fill out the physical enrollment form provided at the center and submit your identity documents.",
+      "Attend the practical training sessions conducted in your local village or slum community center.",
+      "Take the final assessment conducted by the National Institute of Open Schooling (NIOS) or SSCs to receive your recognized certificate."
+    ]
+  },
+  {
+    "id": "edu-047",
+    "category": "Education & Jobs",
+    "ministry": "NITI Aayog",
+    "department": "Atal Innovation Mission (AIM)",
+    "title": "Atal Innovation Mission Programs",
+    "slug": "atal-innovation-mission",
+    "shortDescription": "Flagship initiative to promote a culture of innovation and entrepreneurship across schools, universities, and industries.",
+    "officialLink": "https://aim.gov.in/",
+    "icon": "fa-solid fa-lightbulb",
+    "tags": ["Innovation", "Startups", "Tinkering Labs"],
+    "eligibility": "Schools (for Atal Tinkering Labs), Universities/Institutions (for Atal Incubation Centres), and Student Innovators.",
+    "fees": {
+      "type": "Free",
+      "details": "Grant-based programs. No fee to apply for grants or participation."
+    },
+    "requiredDocuments": [
+      "Institution Registration Documents (for ATL/AIC)",
+      "Student ID (for participating in challenges)",
+      "Project Proposal (for innovators)"
+    ],
+    "stepsToApply": [
+      "To set up an ATL in a school, the principal must apply via the AIM portal during the application window by submitting the school's infrastructure details.",
+      "For students wanting to participate in innovation challenges, watch out for the ATL Marathon or Tinkerpreneur announcements on the AIM website.",
+      "Form a team, develop a prototype or business idea, and submit a video pitch/document on the designated challenge portal.",
+      "If selected, receive mentoring from 'Mentors of Change' and potential funding/incubation support to scale the idea."
+    ]
+  },
+  {
+    "id": "edu-048",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "Department of Higher Education",
+    "title": "Swayam Prabha DTH Channels",
+    "slug": "swayam-prabha",
+    "shortDescription": "A group of DTH channels devoted to telecasting high-quality educational programs on a 24x7 basis across the country.",
+    "officialLink": "https://swayamprabha.gov.in/",
+    "icon": "fa-solid fa-satellite-dish",
+    "tags": ["Distance Learning", "DTH Education", "School & College"],
+    "eligibility": "Anyone with a television and a DD Free Dish or DishTV setup.",
+    "fees": {
+      "type": "Free",
+      "details": "Free to air on DD Free Dish."
+    },
+    "requiredDocuments": [
+      "None"
+    ],
+    "stepsToApply": [
+      "Install a DD Free Dish Set-Top Box and antenna at your home.",
+      "Scan the satellite channels on your television.",
+      "Locate the Swayam Prabha channels (channels vary by educational level: higher ed, school ed, IIT-PAL).",
+      "Visit the Swayam Prabha website to download the weekly broadcast schedule for your specific class or subject.",
+      "Tune in at the scheduled time to watch the lectures, which are repeated several times a day for convenience."
+    ]
+  },
+  {
+    "id": "edu-049",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "University Grants Commission (UGC)",
+    "title": "e-PG Pathshala",
+    "slug": "e-pg-pathshala",
+    "shortDescription": "An initiative providing high-quality, curriculum-based, interactive e-content in various postgraduate subjects.",
+    "officialLink": "https://epgp.inflibnet.ac.in/",
+    "icon": "fa-solid fa-computer",
+    "tags": ["Postgraduate", "e-Learning", "UGC"],
+    "eligibility": "Postgraduate students, teachers, and researchers.",
+    "fees": {
+      "type": "Free",
+      "details": "Completely free open educational resource."
+    },
+    "requiredDocuments": [
+      "None"
+    ],
+    "stepsToApply": [
+      "Open the e-PG Pathshala portal on any web browser.",
+      "Select your broad subject category from the homepage (e.g., Social Sciences, Arts/Humanities, Basic Sciences).",
+      "Choose the specific paper/module you wish to study from the dropdown list.",
+      "Access the learning material, which is divided into four quadrants: e-Text, Self-Learning Video, Learn More (web resources), and Self-Assessment.",
+      "Read, watch, or download the modules without the need for registration or logins."
+    ]
+  },
+  {
+    "id": "edu-050",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Union Public Service Commission (UPSC)",
+    "title": "UPSC Online Recruitment Application (ORA)",
+    "slug": "upsc-ora",
+    "shortDescription": "Portal for applying to various direct recruitment selection posts (Specialists, Medical Officers, Assistant Directors) across central ministries.",
+    "officialLink": "https://upsconline.nic.in/ora/VacancyNoticePub.php",
+    "icon": "fa-solid fa-file-signature",
+    "tags": ["Government Jobs", "Direct Recruitment", "UPSC"],
+    "eligibility": "Highly dependent on the specific post (often requires specialized Master's degrees, Ph.Ds, or specific work experience).",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹25 (Exempted for SC/ST/PwBD/Women)."
+    },
+    "requiredDocuments": [
+      "Experience Certificates",
+      "Degree Certificates and Marksheets",
+      "Age Proof",
+      "Category Certificate"
+    ],
+    "stepsToApply": [
+      "Monitor the UPSC website for specific Direct Recruitment Notifications (ORA).",
+      "Go to the UPSC ORA portal and read the specific advertisement details for the post you are targeting.",
+      "Click on 'Apply Now', log in using your UPSC OTR (One Time Registration) credentials.",
+      "Fill in the exhaustive post-specific module, paying special attention to entering your exact dates of work experience, as this determines shortlisting.",
+      "Upload all supporting experience and educational certificates in PDF format, pay the ₹25 fee online, and submit."
+    ]
+  },
+  
+  {
+    "id": "edu-051",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "University Grants Commission (UGC)",
+    "title": "UGC Ishan Uday Scholarship",
+    "slug": "ugc-ishan-uday-scholarship",
+    "shortDescription": "Special scholarship scheme for students of the North Eastern Region (NER) to promote higher education.",
+    "officialLink": "https://scholarships.gov.in/",
+    "icon": "fa-solid fa-graduation-cap",
+    "tags": ["Scholarship", "North East", "Higher Education"],
+    "eligibility": "Students domiciled in NER who have passed Class XII and secured admission in a general degree/technical/professional course. Family income must not exceed ₹4.5 Lakhs per annum.",
+    "fees": {
+      "type": "Free",
+      "details": "No application fees."
+    },
+    "requiredDocuments": [
+      "Domicile Certificate of NER State",
+      "Income Certificate",
+      "Aadhaar Card",
+      "Class XII Marksheet"
+    ],
+    "stepsToApply": [
+      "Visit the National Scholarship Portal (NSP) and click on 'New Registration' or 'Login' if already registered.",
+      "Navigate to the 'UGC/AICTE Schemes' tab and select 'Ishan Uday Special Scholarship Scheme for NER'.",
+      "Fill in your personal, academic, and bank account details accurately.",
+      "Upload scanned copies of your domicile certificate, family income certificate, and Aadhaar card.",
+      "Submit the application online. Ensure you track the application status until it is verified by your college/university nodal officer."
+    ]
+  },
+  {
+    "id": "edu-052",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "Department of Higher Education",
+    "title": "Central Sector Scholarship Scheme",
+    "slug": "central-sector-scholarship-scheme",
+    "shortDescription": "Financial assistance for meritorious college and university students from low-income families to meet day-to-day expenses.",
+    "officialLink": "https://scholarships.gov.in/",
+    "icon": "fa-solid fa-book-open",
+    "tags": ["Scholarship", "Merit Based", "Undergraduate"],
+    "eligibility": "Students above the 80th percentile of successful candidates in the relevant stream in Class XII, with a family income of less than ₹4.5 Lakhs per annum.",
+    "fees": {
+      "type": "Free",
+      "details": "No application fee."
+    },
+    "requiredDocuments": [
+      "Class XII Marksheet",
+      "Income Certificate",
+      "Aadhaar Card",
+      "Bank Passbook seeded with Aadhaar"
+    ],
+    "stepsToApply": [
+      "Log into the National Scholarship Portal (NSP) using your credentials.",
+      "Select 'Central Sector Scheme of Scholarships for College and University Students' under the Department of Higher Education section.",
+      "Enter your academic scores, board details, and institutional admission details.",
+      "Upload the mandatory income certificate and other identity proofs in the specified digital format.",
+      "Submit the form for institutional verification. The scholarship amount (₹12,000 to ₹20,000 per annum) will be credited via Direct Benefit Transfer (DBT)."
+    ]
+  },
+  {
+    "id": "edu-053",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "All India Council for Technical Education (AICTE)",
+    "title": "AICTE Swanath Scholarship",
+    "slug": "aicte-swanath-scholarship",
+    "shortDescription": "Financial support of ₹50,000 per annum for orphans, wards of martyred armed forces, or COVID-19 impacted students pursuing technical education.",
+    "officialLink": "https://scholarships.gov.in/",
+    "icon": "fa-solid fa-hand-holding-heart",
+    "tags": ["Technical Education", "Financial Aid", "AICTE"],
+    "eligibility": "Orphans, wards of parents who died due to COVID-19, or wards of Armed Forces/Paramilitary personnel martyred in action. Must be studying in an AICTE approved institution.",
+    "fees": {
+      "type": "Free",
+      "details": "Zero application cost."
+    },
+    "requiredDocuments": [
+      "Death Certificate of Parent(s)",
+      "Orphan Certificate (if applicable)",
+      "Martyrdom Certificate (if applicable)",
+      "Admission letter from AICTE approved institute"
+    ],
+    "stepsToApply": [
+      "Access the National Scholarship Portal (NSP) and navigate to the UGC/AICTE Schemes section.",
+      "Select the 'AICTE Swanath Scholarship Scheme' option.",
+      "Complete the application form, ensuring you correctly select your qualifying category (Orphan/COVID-19/Martyr).",
+      "Upload the respective supporting documents issued by competent authorities (e.g., SDM/Tehsildar/Armed Forces HQ).",
+      "Submit the application to your institute for the first level of digital verification on the NSP portal."
+    ]
+  },
+  {
+    "id": "edu-054",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Minority Affairs",
+    "department": "Scholarship Division",
+    "title": "Pre-Matric Scholarship for Minorities",
+    "slug": "pre-matric-minority-scholarship",
+    "shortDescription": "Scholarship for minority community students (Muslim, Christian, Sikh, Buddhist, Jain, Parsi) studying in classes 1 to 10.",
+    "officialLink": "https://scholarships.gov.in/",
+    "icon": "fa-solid fa-child",
+    "tags": ["Minority", "School Education", "Scholarship"],
+    "eligibility": "Minority students studying in classes 1 to 10 securing at least 50% marks in the previous final examination. Family income must not exceed ₹1 Lakh per annum.",
+    "fees": {
+      "type": "Free",
+      "details": "Free application process."
+    },
+    "requiredDocuments": [
+      "Student Photo",
+      "Income Certificate",
+      "Self-certified Community Certificate",
+      "Bank Account details"
+    ],
+    "stepsToApply": [
+      "Visit the National Scholarship Portal (NSP) and click 'New Registration'.",
+      "Select the 'Pre-Matric Scholarship Schemes Minorities' option under the Ministry of Minority Affairs.",
+      "Enter the student's demographic details, religion, and previous year's academic scores.",
+      "Upload the self-certified community certificate and parent's income proof.",
+      "Submit the application. School nodal officers will verify the credentials on their portal to process the application further."
+    ]
+  },
+  {
+    "id": "edu-055",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "department": "Department of Social Justice and Empowerment",
+    "title": "Top Class Education Scheme for SC Students",
+    "slug": "top-class-education-sc",
+    "shortDescription": "Full financial support for SC students to pursue degree/post-degree courses in notified institutes of excellence like IITs, IIMs, and NITs.",
+    "officialLink": "https://scholarships.gov.in/",
+    "icon": "fa-solid fa-building-columns",
+    "tags": ["SC Students", "Higher Education", "Top Institutes"],
+    "eligibility": "SC students who secure admission in notified institutions. Total family income must not exceed ₹8 Lakhs per annum.",
+    "fees": {
+      "type": "Free",
+      "details": "No application fees."
+    },
+    "requiredDocuments": [
+      "SC Caste Certificate",
+      "Income Certificate",
+      "Admission proof from the notified institute",
+      "Fee receipt"
+    ],
+    "stepsToApply": [
+      "Confirm that your admitted institution is on the Ministry's notified list of 'Top Class' institutes.",
+      "Log into the National Scholarship Portal (NSP) and locate the 'Top Class Education Scheme for SC Students'.",
+      "Fill in the digital application with your JEE/CAT/NEET rank and admission details.",
+      "Upload your caste certificate, income proof, and the institutional fee structure document.",
+      "Submit the application online. The scholarship covers full tuition fees, living expenses, and books, disbursed directly via DBT."
+    ]
+  },
+  {
+    "id": "edu-056",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Social Justice and Empowerment",
+    "department": "Department of Social Justice and Empowerment",
+    "title": "National Overseas Scholarship for SC",
+    "slug": "national-overseas-scholarship-sc",
+    "shortDescription": "Financial assistance to selected SC, Denotified Nomadic Tribes, and Landless Agricultural Labourer students for pursuing Masters or Ph.D. courses abroad.",
+    "officialLink": "https://nosmsje.gov.in/",
+    "icon": "fa-solid fa-plane-departure",
+    "tags": ["Study Abroad", "SC Students", "Fellowship"],
+    "eligibility": "Students belonging to specified categories who have secured an unconditional offer of admission from a top 500 QS-ranked foreign university. Family income must be below ₹8 Lakhs.",
+    "fees": {
+      "type": "Free",
+      "details": "Zero application processing fee."
+    },
+    "requiredDocuments": [
+      "Unconditional Admission Offer Letter",
+      "Caste Certificate",
+      "Income Certificate",
+      "Valid Passport"
+    ],
+    "stepsToApply": [
+      "Obtain an unconditional admission offer from a recognized foreign university (Top 500 QS ranking).",
+      "Visit the dedicated NOS-MSJE portal and register a new user profile.",
+      "Fill out the comprehensive application detailing the foreign university, course duration, and expected tuition fees.",
+      "Upload all statutory documents, including visa (if obtained), passport, caste certificate, and academic transcripts.",
+      "Submit the application during the active phase. Selected candidates will be issued an Award Letter to facilitate visa processing and fee disbursement."
+    ]
+  },
+  {
+    "id": "edu-057",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Communications",
+    "department": "Department of Posts",
+    "title": "India Post GDS Recruitment",
+    "slug": "india-post-gds-recruitment",
+    "shortDescription": "Direct recruitment portal for Gramin Dak Sevaks (GDS), Branch Postmasters (BPM), and Assistant Branch Postmasters (ABPM) based on 10th-grade marks.",
+    "officialLink": "https://indiapostgdsonline.gov.in/",
+    "icon": "fa-solid fa-envelopes-bulk",
+    "tags": ["Government Jobs", "Postal Service", "Merit Based"],
+    "eligibility": "Candidates aged 18 to 40 years who have passed the 10th standard with passing marks in Mathematics and English.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹100 for UR/OBC/EWS male candidates. Free for all female, SC, ST, and PwD candidates."
+    },
+    "requiredDocuments": [
+      "Class 10th Marksheet",
+      "Scanned Photograph and Signature",
+      "Community/Caste Certificate (if applicable)"
+    ],
+    "stepsToApply": [
+      "Visit the India Post GDS Online Engagement portal and click on 'Stage 1: Registration'.",
+      "Validate your mobile number and email via OTP, then fill in your basic details and Class 10 passing year/board.",
+      "Proceed to 'Stage 2: Apply Online', log in with your Registration Number, and fill in your address and exact marks obtained in each 10th-grade subject.",
+      "Choose your preferences (Division and Post Office branches) where you wish to apply.",
+      "Pay the ₹100 fee online (if applicable) and submit the final form. Selection is automated purely based on merit (10th marks)."
+    ]
+  },
+  {
+    "id": "edu-058",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Staff Selection Commission (SSC)",
+    "title": "SSC GD Constable Recruitment",
+    "slug": "ssc-gd-constable",
+    "shortDescription": "Massive annual recruitment drive for General Duty Constables in CAPFs (BSF, CISF, CRPF, ITBP, SSB, Assam Rifles, SSF).",
+    "officialLink": "https://ssc.gov.in/",
+    "icon": "fa-solid fa-person-rifle",
+    "tags": ["Defence Jobs", "Paramilitary", "SSC"],
+    "eligibility": "Candidates aged 18 to 23 years who have passed Matriculation (10th Class) from a recognized board.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹100 application fee. Exempt for Women, SC, ST, and Ex-Servicemen."
+    },
+    "requiredDocuments": [
+      "Aadhaar Card",
+      "10th Class Marksheet",
+      "Recent Scanned Photograph",
+      "Scanned Signature"
+    ],
+    "stepsToApply": [
+      "Log into the new SSC portal (ssc.gov.in) using your One-Time Registration (OTR) credentials.",
+      "Navigate to the 'Latest Notifications' section and click 'Apply' under the Constable (GD) examination card.",
+      "Verify your pre-filled OTR data, select your examination center preferences, and indicate your state/district of domicile.",
+      "Provide your preference order for the various CAPF forces (e.g., A for BSF, B for CISF).",
+      "Upload your photo and signature, accept the declaration, pay the ₹100 fee online, and download the application receipt."
+    ]
+  },
+  {
+    "id": "edu-059",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Staff Selection Commission (SSC)",
+    "title": "SSC Junior Engineer (JE) Recruitment",
+    "slug": "ssc-junior-engineer",
+    "shortDescription": "Recruitment examination for Junior Engineers (Civil, Mechanical, Electrical) in various central government organizations like CPWD and MES.",
+    "officialLink": "https://ssc.gov.in/",
+    "icon": "fa-solid fa-helmet-safety",
+    "tags": ["Engineering", "Government Jobs", "SSC"],
+    "eligibility": "Degree or Diploma in Civil/Electrical/Mechanical Engineering. Age limit typically up to 30 or 32 years depending on the department.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹100 application fee. Exempt for Women, SC, ST, PwD, and Ex-Servicemen."
+    },
+    "requiredDocuments": [
+      "Engineering Degree/Diploma Certificate",
+      "Aadhaar Card",
+      "Scanned Photograph and Signature"
+    ],
+    "stepsToApply": [
+      "Access the SSC portal and log in via your OTR (One Time Registration) ID.",
+      "Click on 'Apply' under the Junior Engineer (Civil, Mechanical & Electrical) Examination notification.",
+      "Fill out the supplementary details, select your specific engineering stream, and choose three examination centers in your preferred region.",
+      "Upload the required standard dimensions of your photograph and signature.",
+      "Complete the online payment gateway process, submit the application, and retain a printout for future document verification phases."
+    ]
+  },
+  {
+    "id": "edu-060",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Union Public Service Commission (UPSC)",
+    "title": "UPSC NDA & NA Examination",
+    "slug": "upsc-nda-exam",
+    "shortDescription": "Biannual entrance examination for admission to the Army, Navy, and Air Force wings of the National Defence Academy.",
+    "officialLink": "https://upsconline.nic.in/",
+    "icon": "fa-solid fa-jet-fighter",
+    "tags": ["Defence", "UPSC", "12th Pass Jobs"],
+    "eligibility": "Unmarried male and female candidates aged 16.5 to 19.5 years. 12th pass for Army; 12th pass with PCM for Navy/Air Force.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹100. Female, SC, and ST candidates are exempted from payment."
+    },
+    "requiredDocuments": [
+      "Class 10th and 12th Marksheets",
+      "Valid Photo ID (Aadhaar/Voter ID)",
+      "Scanned Photograph and Signature"
+    ],
+    "stepsToApply": [
+      "Visit the UPSC Online portal and log in using your OTR (One Time Registration) credentials.",
+      "Click on 'Latest Notifications' and select 'Apply' for the National Defence Academy and Naval Academy Examination.",
+      "Complete Part I of the application: Update educational qualifications, select your branch preferences (Army/Navy/Air Force), and choose your exam center.",
+      "Complete Part II: Pay the ₹100 examination fee (if applicable) and upload your photograph, signature, and a PDF of your Photo ID.",
+      "Review the declaration, click 'I Agree', and download the finalized application form."
+    ]
+  },
+  {
+    "id": "edu-061",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Union Public Service Commission (UPSC)",
+    "title": "UPSC Combined Defence Services (CDS)",
+    "slug": "upsc-cds-exam",
+    "shortDescription": "Examination for recruitment into the Indian Military Academy, Naval Academy, Air Force Academy, and Officers Training Academy.",
+    "officialLink": "https://upsconline.nic.in/",
+    "icon": "fa-solid fa-star",
+    "tags": ["Defence", "Officers", "UPSC"],
+    "eligibility": "Unmarried graduates (age 19-24 for IMA/INA, 20-24 for AFA, 19-25 for OTA). Engineering degree required for INA/AFA.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹200. Female, SC, and ST candidates are exempted from payment."
+    },
+    "requiredDocuments": [
+      "Degree Certificate / Final Year Marksheet",
+      "Valid Photo ID Proof",
+      "Scanned Photograph and Signature"
+    ],
+    "stepsToApply": [
+      "Log into the UPSC OTR portal and navigate to the CDS Examination notification.",
+      "Proceed to Part I registration, verify your basic details, and select your specific academy preferences based on your degree qualification.",
+      "Move to Part II registration to remit the ₹200 fee securely via SBI net banking, UPI, or card.",
+      "Upload standard compliant images of your photograph and signature, along with your Photo ID document.",
+      "Select your examination center, agree to the final terms, and submit the application."
+    ]
+  },
+  {
+    "id": "edu-062",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Union Public Service Commission (UPSC)",
+    "title": "UPSC Central Armed Police Forces (CAPF) AC",
+    "slug": "upsc-capf-ac",
+    "shortDescription": "Direct recruitment examination for the post of Assistant Commandants (Officers) in CAPFs (BSF, CRPF, CISF, ITBP, SSB).",
+    "officialLink": "https://upsconline.nic.in/",
+    "icon": "fa-solid fa-shield-halved",
+    "tags": ["Paramilitary", "Officers", "UPSC"],
+    "eligibility": "Male and female Indian citizens aged 20 to 25 years holding a Bachelor's degree from a recognized university.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹200. Female, SC, and ST candidates are exempted from payment."
+    },
+    "requiredDocuments": [
+      "Graduation Degree Certificate",
+      "NCC 'B' or 'C' Certificate (optional but preferred)",
+      "Valid Photo ID",
+      "Scanned Photograph and Signature"
+    ],
+    "stepsToApply": [
+      "Access the UPSC OTR dashboard and locate the Central Armed Police Forces (ACs) Examination link.",
+      "Fill out the Part I form, detailing your educational background, NCC certification status, and community category.",
+      "In Part II, pay the ₹200 application fee through the online payment gateway.",
+      "Upload your scanned photograph, signature, and valid identity card PDF.",
+      "Select your preferred examination city, submit the form, and prepare for the physical and medical efficiency tests following the written exam."
+    ]
+  },
+  {
+    "id": "edu-063",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Union Public Service Commission (UPSC)",
+    "title": "UPSC Engineering Services Examination (ESE)",
+    "slug": "upsc-ese",
+    "shortDescription": "National level exam to recruit engineers for Class-1 officer posts in various technical departments of the Government of India.",
+    "officialLink": "https://upsconline.nic.in/",
+    "icon": "fa-solid fa-bridge-water",
+    "tags": ["Engineering", "Group A", "UPSC"],
+    "eligibility": "Degree in Engineering (Civil/Mechanical/Electrical/Electronics & Telecom). Age limit: 21 to 30 years.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹200. Female, SC, ST, and PwBD candidates are exempted."
+    },
+    "requiredDocuments": [
+      "Engineering Degree / Provisional Certificate",
+      "Valid Photo ID",
+      "Scanned Photograph and Signature"
+    ],
+    "stepsToApply": [
+      "Log into your UPSC OTR account and click to apply for the Engineering Services Examination.",
+      "During Part I registration, verify your demographic data, select your specific engineering discipline, and choose the Preliminary exam center.",
+      "Proceed to Part II, pay the application fee of ₹200 via online banking or cards.",
+      "Upload your scanned images and the PDF of your government-issued Photo ID.",
+      "Confirm the final submission. If you clear the Prelims, you will be required to fill out a Detailed Application Form (DAF) for the Mains."
+    ]
+  },
+  {
+    "id": "edu-064",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Defence",
+    "department": "Indian Coast Guard",
+    "title": "Indian Coast Guard Navik/Yantrik Recruitment",
+    "slug": "icg-navik-yantrik",
+    "shortDescription": "Join the Indian Coast Guard as Navik (General Duty), Navik (Domestic Branch), or Yantrik through the centralized CGEPT portal.",
+    "officialLink": "https://joinindiancoastguard.cdac.in/",
+    "icon": "fa-solid fa-ship",
+    "tags": ["Defence Jobs", "Coast Guard", "Recruitment"],
+    "eligibility": "Male Indian citizens aged 18-22. 10th pass for DB; 12th pass with Math/Physics for GD; Diploma in Electrical/Mechanical for Yantrik.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹300. SC/ST candidates are exempted from payment."
+    },
+    "requiredDocuments": [
+      "10th/12th/Diploma Marksheets",
+      "Aadhaar Card",
+      "Scanned Photograph (holding a slate with name & date)",
+      "Left Hand Thumb Impression"
+    ],
+    "stepsToApply": [
+      "Visit the ICG CGEPT portal and click on 'Create Account' using your email ID and mobile number.",
+      "Log in with the system-generated password, change it, and fill out your personal and educational profile.",
+      "Select the specific post (Navik GD, Navik DB, or Yantrik) based on your educational eligibility.",
+      "Upload your specialized photograph (holding a black slate with your name and photo date written in chalk), signature, and thumb impression.",
+      "Pay the ₹300 exam fee online, select your city preferences for Stage I testing, and print the final application."
+    ]
+  },
+  {
+    "id": "edu-065",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Finance",
+    "department": "State Bank of India (SBI)",
+    "title": "SBI Probationary Officer (PO) Recruitment",
+    "slug": "sbi-po-recruitment",
+    "shortDescription": "Highly competitive annual recruitment examination to hire Probationary Officers in State Bank of India branches nationwide.",
+    "officialLink": "https://sbi.co.in/web/careers",
+    "icon": "fa-solid fa-building-columns",
+    "tags": ["Banking Jobs", "Officer", "SBI"],
+    "eligibility": "Graduates in any discipline from a recognized university. Age limit: 21 to 30 years.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹750 for General/EWS/OBC candidates. Nil for SC/ST/PwBD candidates."
+    },
+    "requiredDocuments": [
+      "Graduation Marksheet/Degree",
+      "Scanned Photograph and Signature",
+      "Left Thumb Impression",
+      "Handwritten Declaration"
+    ],
+    "stepsToApply": [
+      "Visit the SBI Careers page, click on 'Current Openings', and select the SBI PO advertisement.",
+      "Click 'Apply Online' which redirects to the IBPS portal. Click 'New Registration' to get your registration number.",
+      "Fill in your basic details, upload your scanned photograph and signature, and enter your academic qualifications.",
+      "Upload the specific handwritten declaration (in English) and your left thumb impression.",
+      "Preview your application, proceed to the payment gateway to pay the ₹750 fee, and download the final e-receipt."
+    ]
+  },
+  {
+    "id": "edu-066",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Finance",
+    "department": "Reserve Bank of India (RBI)",
+    "title": "RBI Grade B Officer Recruitment",
+    "slug": "rbi-grade-b",
+    "shortDescription": "Direct recruitment for Officers in Grade 'B' (General, DEPR, DSIM) in the Reserve Bank of India.",
+    "officialLink": "https://opportunities.rbi.org.in/",
+    "icon": "fa-solid fa-chart-line",
+    "tags": ["Banking", "RBI", "Grade B Officer"],
+    "eligibility": "Graduates with 60% marks (50% for SC/ST/PwBD) or Postgraduates with 55% marks. Age limit: 21 to 30 years.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹850 for General/OBC/EWS; ₹100 (Intimation charges only) for SC/ST/PwBD."
+    },
+    "requiredDocuments": [
+      "Degree Marksheets",
+      "Scanned Photograph and Signature",
+      "Left Thumb Impression",
+      "Handwritten Declaration"
+    ],
+    "stepsToApply": [
+      "Access the RBI Opportunities portal, navigate to 'Current Vacancies' -> 'Vacancies', and click on the Grade B notification.",
+      "Click on the 'Online Application' link, register to generate a provisional ID, and log in.",
+      "Enter your detailed academic credentials, ensuring you meet the strict percentage criteria.",
+      "Upload your photo, signature, thumb impression, and the prescribed handwritten declaration text.",
+      "Pay the ₹850 application fee securely online and retain the confirmation page for the Phase-I examination."
+    ]
+  },
+  {
+    "id": "edu-067",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Finance",
+    "department": "Life Insurance Corporation of India (LIC)",
+    "title": "LIC Assistant Administrative Officer (AAO)",
+    "slug": "lic-aao-recruitment",
+    "shortDescription": "National level exam to recruit Assistant Administrative Officers (Generalist/IT/CA/Actuarial) in LIC.",
+    "officialLink": "https://licindia.in/Bottom-Links/careers",
+    "icon": "fa-solid fa-umbrella",
+    "tags": ["Insurance Jobs", "Officer", "LIC"],
+    "eligibility": "Bachelor’s Degree in any discipline (for Generalist) or specific professional degrees (for IT/CA). Age limit: 21 to 30 years.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹700 + GST for General/OBC/EWS; ₹85 + GST for SC/ST/PwBD."
+    },
+    "requiredDocuments": [
+      "Graduation Degree Certificate",
+      "Scanned Photograph and Signature",
+      "Handwritten Declaration",
+      "Left Thumb Impression"
+    ],
+    "stepsToApply": [
+      "Visit the LIC India Careers page and click on the specific 'Recruitment of AAO' link.",
+      "Click 'Apply Online' and complete the new registration process.",
+      "Fill in your personal, educational, and experience details in the respective tabs.",
+      "Upload the required documents, ensuring the signature is not in capital letters and the handwritten declaration matches the exact text in the notification.",
+      "Pay the ₹700 fee (+ transaction charges) online, submit the form, and download the printout."
+    ]
+  },
+  {
+    "id": "edu-068",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Consumer Affairs, Food and Public Distribution",
+    "department": "Food Corporation of India (FCI)",
+    "title": "FCI Category III Recruitment",
+    "slug": "fci-category-iii",
+    "shortDescription": "Recruitment drive for Assistant Grade III (General, Accounts, Technical, Depot), Junior Engineer, and Steno roles in FCI.",
+    "officialLink": "https://fci.gov.in/personnel.php",
+    "icon": "fa-solid fa-wheat-awn",
+    "tags": ["Government Jobs", "FCI", "Recruitment"],
+    "eligibility": "Graduate Degree with computer proficiency (for AG-III); Engineering Degree/Diploma for JE. Age limits typically 27 or 28 years.",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹500 for UR/OBC/EWS. Exempt for SC/ST/PwBD and Women candidates."
+    },
+    "requiredDocuments": [
+      "Degree Certificates",
+      "Scanned Photograph and Signature",
+      "Thumb Impression",
+      "Handwritten Declaration"
+    ],
+    "stepsToApply": [
+      "Visit the FCI official website, navigate to 'Current Recruitment', and select the Category III advertisement.",
+      "Choose the Zone (North, South, East, West, North-East) you wish to apply for. Note: You can apply for only one zone.",
+      "Register on the application portal, fill out your demographic and educational details, and select the specific post (e.g., AG-III Depot).",
+      "Upload the scanned images (photo, signature, thumb impression, declaration).",
+      "Pay the ₹500 examination fee via the online payment gateway and print the final application form."
+    ]
+  },
+  {
+    "id": "edu-069",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "department": "National Testing Agency (NTA)",
+    "title": "ICAR AIEEA (UG/PG) Examination",
+    "slug": "icar-aieea",
+    "shortDescription": "All India Entrance Examination for Admission to Bachelor and Master degree programs in Agriculture and Allied Sciences.",
+    "officialLink": "https://icar.nta.nic.in/",
+    "icon": "fa-solid fa-seedling",
+    "tags": ["Agriculture", "Entrance Exam", "Undergraduate"],
+    "eligibility": "For UG: 10+2 with PCB/PCM/PCA. For PG: Bachelor's degree in respective agriculture disciplines.",
+    "fees": {
+      "type": "Variable",
+      "details": "Approx. ₹800 (UG General); ₹1160 (PG General). Reduced fees for SC/ST/PwD."
+    },
+    "requiredDocuments": [
+      "Class 10 and 12 Marksheets",
+      "Scanned Photograph and Signature",
+      "Thumb Impression",
+      "Category Certificate (if applicable)"
+    ],
+    "stepsToApply": [
+      "Visit the official NTA ICAR portal during the active application period.",
+      "Click on the registration link for either AIEEA (UG) or AIEEA (PG) and create an application number.",
+      "Fill out the detailed application form, selecting your preferred subject group and examination cities.",
+      "Upload standard scanned images of your photograph, signature, and thumb impression.",
+      "Process the examination fee payment online using SBI/Canara/HDFC payment gateways and save the confirmation page."
+    ]
+  },
+  {
+    "id": "edu-070",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "National Testing Agency (NTA)",
+    "title": "CMAT (Common Management Admission Test)",
+    "slug": "cmat-registration",
+    "shortDescription": "National level entrance examination for admission to management programs (MBA/PGDM) in AICTE-approved institutions.",
+    "officialLink": "https://cmat.nta.nic.in/",
+    "icon": "fa-solid fa-user-tie",
+    "tags": ["MBA", "Management Exam", "Postgraduate"],
+    "eligibility": "Graduates in any discipline. Final year students of graduate courses (10+2+3) are also eligible to apply.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹2000 for Male (General/OBC); ₹1000 for Female/SC/ST/PwD/Third Gender."
+    },
+    "requiredDocuments": [
+      "Graduation Marksheet (if passed)",
+      "Scanned Photograph and Signature",
+      "PwD Certificate (if claiming scribe/extra time)"
+    ],
+    "stepsToApply": [
+      "Visit the NTA CMAT official website and click on 'Online Registration'.",
+      "Register using an email ID and mobile number to generate your unique Application Number.",
+      "Log in and fill out the detailed application, providing academic qualifications and choosing up to four exam city preferences.",
+      "Upload a clear, recent passport-size photograph (with 80% face coverage) and your signature in JPG/JPEG format.",
+      "Pay the examination fee online. Upon successful transaction, download and securely save the Confirmation Page."
+    ]
+  },
+  {
+    "id": "edu-071",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Health and Family Welfare",
+    "department": "National Board of Examinations in Medical Sciences",
+    "title": "NEET-PG Registration",
+    "slug": "neet-pg-registration",
+    "shortDescription": "Single eligibility cum entrance examination for admission to MD/MS and PG Diploma Courses.",
+    "officialLink": "https://nbe.edu.in/",
+    "icon": "fa-solid fa-stethoscope",
+    "tags": ["Medical", "Postgraduate", "Entrance Exam"],
+    "eligibility": "Candidates possessing an MBBS degree/Provisional Pass Certificate and having completed one year of internship.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹3500 for General/OBC/EWS; ₹2500 for SC/ST/PwD candidates."
+    },
+    "requiredDocuments": [
+      "MBBS Degree Certificate",
+      "SMC/MCI Registration Certificate",
+      "Internship Completion Certificate",
+      "Scanned Photograph, Signature, and Thumb Impression"
+    ],
+    "stepsToApply": [
+      "Go to the NBEMS official portal and click on the 'NEET-PG' examination link.",
+      "Complete the initial registration to receive a User ID and Password on your registered email and mobile.",
+      "Fill out the comprehensive application form, detailing your MBBS college, internship dates, and medical council registration number.",
+      "Upload strictly formatted images of your photograph, signature, and thumb impression (failing strict NBE image guidelines leads to rejection).",
+      "Select your test city, pay the examination fee online, and print the application summary."
+    ]
+  },
+  {
+    "id": "edu-072",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "National Testing Agency (NTA)",
+    "title": "CUET (PG) Registration",
+    "slug": "cuet-pg-registration",
+    "shortDescription": "Common University Entrance Test providing a single-window opportunity for postgraduate admissions across Central and State Universities.",
+    "officialLink": "https://pgcuet.samarth.ac.in/",
+    "icon": "fa-solid fa-graduation-cap",
+    "tags": ["Postgraduate", "University", "Entrance Exam"],
+    "eligibility": "Candidates who have passed a Bachelor's degree or equivalent, or are appearing in the final year of graduation.",
+    "fees": {
+      "type": "Variable",
+      "details": "Base fee (up to 2 test papers): ₹1200 (General), ₹1000 (OBC/EWS), ₹900 (SC/ST). Additional fees per extra paper."
+    },
+    "requiredDocuments": [
+      "Graduation Marksheets",
+      "Scanned Photograph and Signature",
+      "Category Certificate (if applicable)"
+    ],
+    "stepsToApply": [
+      "Visit the CUET PG Samarth portal and click on 'Register' to create a new application profile.",
+      "Fill in your personal details and generate a secure password.",
+      "Log in and carefully select the Universities and specific PG courses/test paper codes you wish to apply for.",
+      "Upload the mandatory scanned images in the prescribed format.",
+      "Pay the cumulative examination fee based on the number of test papers selected, verify the payment status, and download the confirmation page."
+    ]
+  },
+  {
+    "id": "edu-073",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Tourism",
+    "department": "National Council for Hotel Management & Catering Technology",
+    "title": "NCHM JEE Registration",
+    "slug": "nchm-jee",
+    "shortDescription": "National level entrance exam conducted by NTA for admission to the B.Sc. (Hospitality & Hotel Administration) program.",
+    "officialLink": "https://nchmjee.nta.nic.in/",
+    "icon": "fa-solid fa-bell-concierge",
+    "tags": ["Hotel Management", "Entrance Exam", "Undergraduate"],
+    "eligibility": "Candidates who have passed 10+2 system of Senior Secondary examination or its equivalent with English as one of the subjects.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹1000 (General/OBC); ₹450 (SC/ST/PwD/Transgender)."
+    },
+    "requiredDocuments": [
+      "Class 10 and 12 Marksheets",
+      "Scanned Photograph and Signature",
+      "Category Certificate (if applicable)"
+    ],
+    "stepsToApply": [
+      "Access the NCHM JEE NTA portal and select 'New Registration'.",
+      "Read the information bulletin and submit your basic details to generate an Application Number.",
+      "Complete the application form by entering your academic details and selecting examination cities.",
+      "Upload your scanned photograph and signature in JPG format.",
+      "Pay the required application fee online via integrated gateways and download the confirmation page for your records."
+    ]
+  },
+  {
+    "id": "edu-074",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Textiles",
+    "department": "National Institute of Fashion Technology",
+    "title": "NIFT Entrance Examination",
+    "slug": "nift-entrance-exam",
+    "shortDescription": "National level entrance exam (conducted by NTA) for admission to Bachelor’s and Master’s programs in Design and Fashion Technology.",
+    "officialLink": "https://nift.ac.in/admission",
+    "icon": "fa-solid fa-scissors",
+    "tags": ["Fashion Design", "Entrance Exam", "NIFT"],
+    "eligibility": "For B.Des/B.F.Tech: 10+2 passed/appearing. Max age 24 years. For Masters: Valid undergraduate degree. No age limit.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹3000 for General/OBC/EWS; ₹1500 for SC/ST/PwD candidates."
+    },
+    "requiredDocuments": [
+      "Class 10 and 12 Certificates",
+      "Degree Certificate (for PG programs)",
+      "Scanned Photograph and Signature",
+      "Category Certificate"
+    ],
+    "stepsToApply": [
+      "Visit the NIFT admission portal (now managed by NTA) during the registration window.",
+      "Create an account to obtain an application ID and password.",
+      "Fill out the detailed application form, selecting the specific program (B.Des, B.F.Tech, M.Des, etc.) and preferred test cities.",
+      "Upload scanned copies of your signature, photograph, and caste certificate (if applicable).",
+      "Pay the examination fee online and print the submitted application form."
+    ]
+  },
+  {
+    "id": "edu-075",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Commerce and Industry",
+    "department": "National Institute of Design",
+    "title": "NID Design Aptitude Test (DAT)",
+    "slug": "nid-dat",
+    "shortDescription": "Entrance examination for admission to B.Des and M.Des programs at National Institutes of Design across India.",
+    "officialLink": "https://admissions.nid.edu/",
+    "icon": "fa-solid fa-pen-nib",
+    "tags": ["Design", "Entrance Exam", "NID"],
+    "eligibility": "B.Des: Passed/appearing in 10+2. Age limit up to 20 years. M.Des: Bachelor's degree of 3/4 years. Age limit up to 30 years.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹3000 for General/OBC/EWS; ₹1500 for SC/ST/PwD (per discipline for M.Des)."
+    },
+    "requiredDocuments": [
+      "Valid Photo ID Document",
+      "Class 10 and 12 Marksheets",
+      "Scanned Photograph and Signature",
+      "Category Certificate"
+    ],
+    "stepsToApply": [
+      "Sign up on the official NID admissions portal by providing a valid email address and mobile number.",
+      "Log in to your account and fill in your personal, educational, and test center preference details.",
+      "Upload your scanned photograph and signature strictly as per the specified formats.",
+      "If applying for M.Des, select your specific disciplines (up to two).",
+      "Pay the application fee online. Keep a copy of the payment receipt and the submitted application form."
+    ]
+  },
+  {
+    "id": "edu-076",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "Consortium of National Law Universities",
+    "title": "CLAT (Common Law Admission Test)",
+    "slug": "clat-registration",
+    "shortDescription": "National level entrance exam for admissions to undergraduate (UG) and postgraduate (PG) law programs offered by 24 NLUs.",
+    "officialLink": "https://consortiumofnlus.ac.in/",
+    "icon": "fa-solid fa-scale-balanced",
+    "tags": ["Law", "Entrance Exam", "Undergraduate"],
+    "eligibility": "UG: 10+2 with 45% marks (40% for SC/ST). PG: LLB degree with 50% marks. No upper age limit.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹4000 for General/OBC/PWD/NRI; ₹3500 for SC/ST/BPL candidates."
+    },
+    "requiredDocuments": [
+      "Recent passport size photograph",
+      "Signature of the candidate",
+      "Category/BPL certificate (if applicable)",
+      "Class 10/12/LLB Marksheets (for reference)"
+    ],
+    "stepsToApply": [
+      "Visit the Consortium of NLUs website and click on 'Register' to create an account using your mobile number and email ID.",
+      "Log in, select the program (UG or PG), and fill out the extensive application form.",
+      "Indicate your preference order for all 24 participating National Law Universities.",
+      "Upload the required documents, including your photograph, signature, and state domicile certificate if claiming regional quotas.",
+      "Pay the application fee online, submit the form, and download the acknowledgement."
+    ]
+  },
+  {
+    "id": "edu-077",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "Indian Institutes of Management (IIMs)",
+    "title": "CAT (Common Admission Test)",
+    "slug": "cat-registration",
+    "shortDescription": "Premier national-level management aptitude test for admission to MBA/PGP programs at IIMs and other top B-schools.",
+    "officialLink": "https://iimcat.ac.in/",
+    "icon": "fa-solid fa-briefcase",
+    "tags": ["MBA", "Management", "IIM"],
+    "eligibility": "Bachelor's degree with at least 50% marks or equivalent CGPA (45% for SC, ST, and PwD candidates).",
+    "fees": {
+      "type": "Variable",
+      "details": "₹2400 for General/EWS/NC-OBC; ₹1200 for SC/ST/PwD candidates."
+    },
+    "requiredDocuments": [
+      "Degree Certificate and Marksheets",
+      "Passport size Photograph (white background) and Signature",
+      "NC-OBC/SC/ST/PwD Certificate (if applicable)"
+    ],
+    "stepsToApply": [
+      "Access the official CAT website and click on 'Register' to generate a User ID and Password.",
+      "Log in with the credentials received on your email/SMS and fill out the detailed application form.",
+      "Upload the mandatory documents, ensuring the photograph is recent and has a clear white background.",
+      "Select your preferred IIM programs and the corresponding interview cities.",
+      "Select your test city preferences, pay the non-refundable registration fee online, and print the application summary."
+    ]
+  },
+  {
+    "id": "edu-078",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "IITs & IISc",
+    "title": "IIT JAM Examination",
+    "slug": "iit-jam-registration",
+    "shortDescription": "Joint Admission test for Masters for admission to M.Sc., Joint M.Sc.-Ph.D., and other PG programs at IITs, IISc, and NITs.",
+    "officialLink": "https://jam.iitm.ac.in/",
+    "icon": "fa-solid fa-atom",
+    "tags": ["Science", "Postgraduate", "IIT"],
+    "eligibility": "Candidates who have completed an undergraduate degree or are currently studying in their final year. Foreign nationals are also eligible.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹900 for Female/SC/ST/PwD and ₹1800 for All Others (for 1 test paper)."
+    },
+    "requiredDocuments": [
+      "Degree Certificate / Provisional Degree",
+      "Class 10 Certificate (for Date of Birth)",
+      "Scanned Photograph and Signature",
+      "Category Certificate"
+    ],
+    "stepsToApply": [
+      "Access the JOAPS (JAM Online Application Processing System) portal.",
+      "Register using your name, valid email ID, and mobile number to receive an Enrollment ID.",
+      "Log in, fill out the personal and academic details, and select up to two test papers (e.g., Physics, Biotechnology).",
+      "Upload your photograph, signature, and Category/PwD certificates ensuring strict adherence to the specified file sizes.",
+      "Pay the application fee online, verify the application status, and download the submitted form."
+    ]
+  },
+  {
+    "id": "edu-079",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Education",
+    "department": "IIT Bombay",
+    "title": "UCEED & CEED Registration",
+    "slug": "uceed-ceed-design",
+    "shortDescription": "Undergraduate and Common Entrance Exams for Design for admission to B.Des and M.Des programs at IITs and IISc.",
+    "officialLink": "https://www.uceed.iitb.ac.in/",
+    "icon": "fa-solid fa-compass-drafting",
+    "tags": ["Design", "IIT", "Entrance Exam"],
+    "eligibility": "UCEED: 10+2 passed/appearing. Max age limit applies. CEED: Bachelor's degree/diploma in Design/Architecture/Fine Arts/Engineering.",
+    "fees": {
+      "type": "Variable",
+      "details": "₹1900 for Female/SC/ST/PwD candidates; ₹3800 for all other candidates."
+    },
+    "requiredDocuments": [
+      "Recent Color Photograph and Signature",
+      "Qualifying Exam Certificate / Certificate from College Principal",
+      "Category Certificate (if applicable)"
+    ],
+    "stepsToApply": [
+      "Visit the official UCEED or CEED registration portal depending on your targeted degree level.",
+      "Register using a valid email ID and complete the email verification process.",
+      "Fill in your personal, educational, and contact details, and choose your preferred examination cities.",
+      "Upload the required documents, ensuring the 'Certificate from Principal' is attached if you are in your final year.",
+      "Pay the registration fee online via billdesk, verify the successful transaction, and download the registration receipt."
+    ]
+  },
+  {
+    "id": "edu-080",
+    "category": "Education & Jobs",
+    "ministry": "Ministry of Personnel, Public Grievances and Pensions",
+    "department": "Staff Selection Commission (SSC)",
+    "title": "SSC CGL (Combined Graduate Level)",
+    "slug": "ssc-cgl-recruitment",
+    "shortDescription": "Premier national recruitment exam for various Group B and Group C officer posts in ministries and departments of the Govt. of India.",
+    "officialLink": "https://ssc.gov.in/",
+    "icon": "fa-solid fa-briefcase",
+    "tags": ["Government Jobs", "Graduates", "SSC"],
+    "eligibility": "Bachelor’s Degree from a recognized University. Age limits vary by post (usually 18-27, 20-30, or 18-32 years).",
+    "fees": {
+      "type": "Fixed",
+      "details": "₹100 application fee. Completely exempt for Women, SC, ST, PwBD, and Ex-Servicemen."
+    },
+    "requiredDocuments": [
+      "Graduation Degree Certificate / Final Marksheet",
+      "Valid Photo ID",
+      "Recent Photograph and Signature"
+    ],
+    "stepsToApply": [
+      "Log into the main SSC portal using your OTR (One Time Registration) ID and password.",
+      "Under 'Latest Notifications', locate the Combined Graduate Level Examination and click 'Apply'.",
+      "Review your auto-filled demographic details, select your preferred examination centers, and indicate if you are applying for specialized posts (like Junior Statistical Officer).",
+      "Upload your live or scanned photograph (as per the latest SSC notification rules) and your signature.",
+      "Pay the ₹100 fee online, submit the form before the server deadline, and print the confirmation for your records."
+    ]
+  }
+]
