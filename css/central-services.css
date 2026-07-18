@@ -56,6 +56,7 @@
     margin: 0 auto 30px auto;
     display: flex;
     align-items: center;
+    width: 90%;
 }
 
 #service-search {
@@ -359,14 +360,17 @@
     justify-content: center;
     width: 100%;
     align-items: center;
-
-    display: inline-block;
+    /* This forces the container to respect the same boundary as the search bar */
+    max-width: 600px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .gov-logo {
-    max-width: 580px; /* Increased size from 120px */
+    max-width: 250px; 
     height: auto;
-    margin-bottom: 0px;
+    width: 100%;
+    margin-bottom: -20px;
 
    /* This creates a soft fade-out on all four sides */
     mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent),
@@ -397,4 +401,5 @@ html {
     padding: 0 5%;
     min-height: 60vh;
     box-sizing: border-box; /* Crucial: ensures padding doesn't add to the width */
+    width: 100%;
 }
