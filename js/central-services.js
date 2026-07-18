@@ -2,7 +2,7 @@
    GLOBAL VARIABLES & CONFIGURATION
    These variables hold data that needs to be accessed by multiple functions.
    ========================================================================== */
-
+let activeCategories = []; // Tracks which checkboxes are ticked
 let allServices = []; // Master array holding all the fetched service data
 let grid;             // The HTML container where cards will be drawn
 let searchInput;      // The search bar input element
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(dataArrays => {
         // 'dataArrays' is an array of arrays. .flat() merges them into one single master list.
         allServices = dataArrays.flat(); 
-        
+        generateFilterCheckboxes();
         // Initial render: draws the first batch of cards
         renderCards(allServices); 
     })
@@ -52,36 +52,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // 3. SEARCH FILTERING LOGIC
-    // Listens for every keystroke in the search bar
-    searchInput.addEventListener('input', (event) => {
-        const searchTerm = event.target.value.toLowerCase();
-        
-        // Filter the master list based on title, description, or tags
-        const filteredServices = allServices.filter(service => 
-            service.title.toLowerCase().includes(searchTerm) || 
-            service.shortDescription.toLowerCase().includes(searchTerm) ||
-            (service.tags && service.tags.some(tag => tag.toLowerCase().includes(searchTerm)))
-        );
-        
-        // Re-render the cards with only the filtered results
-        // Note: We don't pass 'true' here, so it resets the grid and starts at 12 items again.
-        renderCards(filteredServices);
-    });
+    // 3. SEARCH FILTERING LOGIC
+    // Calls the master combined filter whenever the user types
+    searchInput.addEventListener('input', filterAndSearchServices);
 
     // 4. CLEAR SEARCH LOGIC (The 'X' Icon)
     const clearBtn = document.getElementById('clear-search');
 
-    // Show or hide the 'X' icon based on whether there is text in the box
     searchInput.addEventListener('input', () => {
         clearBtn.style.display = searchInput.value.length > 0 ? 'block' : 'none';
     });
 
-    // When 'X' is clicked, empty the box, hide the 'X', and re-trigger the search filter
     clearBtn.addEventListener('click', () => {
         searchInput.value = '';
         clearBtn.style.display = 'none';
-        searchInput.dispatchEvent(new Event('input')); // Forces the filter to run on the empty string
-        searchInput.focus(); // Puts the cursor back in the box
+        filterAndSearchServices(); // <--- Calls the new combined function
+        searchInput.focus();
     });
 
     // 5. KEYBOARD SHORTCUTS
@@ -103,11 +89,47 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Close modal if the user clicks anywhere in the dark background area
     window.onclick = function(event) {
-        const modal = document.getElementById('service-modal');
-        if (event.target == modal) {
+        const serviceModal = document.getElementById('service-modal');
+        const filterModal = document.getElementById('filter-modal');
+        
+        if (event.target == serviceModal) {
             closeModal();
         }
+        if (event.target == filterModal) {
+            filterModal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
     }
+
+    // 5. ADD THE NEW FILTER MODAL BUTTON LOGIC HERE (Right before the scroll-to-top logic):
+    const filterModal = document.getElementById('filter-modal');
+    
+    document.getElementById('open-filter-btn').addEventListener('click', () => {
+        filterModal.style.display = 'flex';
+        document.body.style.overflow = 'hidden'; 
+    });
+
+    document.getElementById('close-filter-btn').addEventListener('click', () => {
+        filterModal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    });
+
+    document.getElementById('apply-filters-btn').addEventListener('click', () => {
+        const checkboxes = document.querySelectorAll('.category-checkbox');
+        activeCategories = Array.from(checkboxes).filter(cb => cb.checked).map(cb => cb.value);
+        filterAndSearchServices(); 
+        filterModal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    });
+
+    document.getElementById('clear-filters-btn').addEventListener('click', () => {
+        const checkboxes = document.querySelectorAll('.category-checkbox');
+        checkboxes.forEach(cb => cb.checked = false); 
+        activeCategories = []; 
+        filterAndSearchServices(); 
+        filterModal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    });
 
     // 6. SCROLL TO TOP LOGIC
     const topBtn = document.getElementById("scrollToTop");
@@ -305,3 +327,35 @@ function closeModal() {
     document.body.style.overflow = 'auto'; 
 }
 
+// Auto-generates checkboxes based on unique categories in the JSON
+function generateFilterCheckboxes() {
+    const container = document.getElementById('filter-options-container');
+    // Using Set to get only unique categories, then sorting them alphabetically
+    const uniqueCategories = [...new Set(allServices.map(s => s.category))].sort();
+    
+    container.innerHTML = uniqueCategories.map(category => `
+        <label class="filter-label">
+            <input type="checkbox" value="${category}" class="category-checkbox">
+            ${category}
+        </label>
+    `).join('');
+}
+
+function filterAndSearchServices() {
+    const searchTerm = searchInput.value.toLowerCase();
+    
+    const filteredServices = allServices.filter(service => {
+        // 1. Check if it matches the Search Bar text
+        const matchesSearch = service.title.toLowerCase().includes(searchTerm) || 
+                              service.shortDescription.toLowerCase().includes(searchTerm) ||
+                              (service.tags && service.tags.some(tag => tag.toLowerCase().includes(searchTerm)));
+        
+        // 2. Check if it matches the Checked Categories (If empty, show all)
+        const matchesCategory = activeCategories.length === 0 || activeCategories.includes(service.category);
+        
+        // Only render the card if it passes BOTH tests
+        return matchesSearch && matchesCategory;
+    });
+    
+    renderCards(filteredServices);
+}

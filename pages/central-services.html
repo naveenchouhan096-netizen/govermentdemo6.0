@@ -55,19 +55,43 @@
             <h1>Central Government Services</h1>
             <p>Browse and apply for nationwide official services.</p>
             
-            <!-- Search bar specific to this page -->
+            <!-- Search & Filter Wrapper -->
+        <div class="search-filter-wrapper">
             <div class="search-container">
-    <i class="fa-solid fa-magnifying-glass search-icon"></i>
-    <input type="text" id="service-search" placeholder="Search Central Services...">
-    <i class="fa-solid fa-xmark clear-icon" id="clear-search" style="display: none;"></i>
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="service-search" placeholder="Search Central Services...">
+                <i class="fa-solid fa-xmark clear-icon" id="clear-search" style="display: none;"></i>
             </div>
-    <div id="results-counter" class="results-counter"></div>
+            
+            <!-- New Filter Button -->
+            <button id="open-filter-btn" class="filter-btn" title="Filter by Category">
+                <i class="fa-solid fa-sliders"></i>
+            </button>
         </div>
+
+        <!-- Results counter stays here -->
+        <div id="results-counter" class="results-counter"></div>
 
         <!-- THIS IS THE MAGIC CONTAINER -->
         <!-- Our JavaScript will loop through your JSON and put the cards in here -->
         <div class="services-grid" id="services-grid">
             <!-- Data will load here automatically -->
+        </div>
+        <!-- The Filter Pop-up Modal -->
+        <div id="filter-modal" class="modal">
+            <div class="modal-content filter-modal-content">
+                <span class="close-btn" id="close-filter-btn">&times;</span>
+                <h2 class="modal-title"><i class="fa-solid fa-filter" style="color:#1565ff; margin-right:10px;"></i> Filter Categories</h2>
+                
+                <div class="filter-options" id="filter-options-container">
+                    <!-- JavaScript will auto-generate checkboxes here -->
+                </div>
+                
+                <div class="filter-actions">
+                    <button id="clear-filters-btn" class="btn-details">Clear All</button>
+                    <button id="apply-filters-btn" class="btn-official">Apply Filters</button>
+                </div>
+            </div>
         </div>
         <!-- The Pop-up Modal (Hidden by default) -->
         <div id="service-modal" class="modal">
