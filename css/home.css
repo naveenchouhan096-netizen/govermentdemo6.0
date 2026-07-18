@@ -55,9 +55,31 @@ body {
   gap: 10px;
 }
 
-.logo i {
-  color: #e63946;
+/* logo ka code yaha se suru hua hai */
+
+/* Logo Container Layout */
+.logo {
+    display: flex;
+    align-items: center;
 }
+
+/* SVG Icon Styling */
+.logo svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Text Styling (Navy Blue for professional look) */
+.logo span {
+    color: #002147; 
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* logo code end */
 
 .nav-links {
   display: flex;

@@ -1010,3 +1010,309 @@
     }
 
 }
+
+
+/* ===========================================
+        HERO 1 RESPONSIVE
+=========================================== */
+
+/* ---------- Laptop ---------- */
+@media (max-width:1200px){
+
+    .hero .container{
+        grid-template-columns:1fr 1fr;
+        gap:40px;
+        padding:80px 20px;
+    }
+
+    .hero-left h1{
+        font-size:52px;
+    }
+
+    .building-image{
+        width:460px;
+    }
+
+    .floating-card{
+        width:180px;
+    }
+
+    .hero-dashboard{
+        max-width:620px;
+    }
+
+}
+
+
+/* ---------- Tablet ---------- */
+@media (max-width:992px){
+
+    .hero{
+        padding:70px 0;
+    }
+
+    .hero .container{
+
+        grid-template-columns:1fr;
+        text-align:center;
+        gap:60px;
+
+    }
+
+    .hero-left{
+
+        align-items:center;
+
+    }
+
+    .hero-description{
+
+        max-width:650px;
+        margin:0 auto 30px;
+
+    }
+
+    .hero-buttons,
+    .search-tags{
+
+        justify-content:center;
+
+    }
+
+    .hero-right{
+
+        min-height:620px;
+
+    }
+
+    .building-image{
+
+        width:380px;
+
+    }
+
+    .floating-card{
+
+        width:170px;
+
+    }
+
+    .hero-dashboard{
+
+        position:relative;
+        left:auto;
+        bottom:auto;
+        transform:none;
+
+        width:100%;
+        max-width:650px;
+
+        margin:30px auto 0;
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+/* ---------- Mobile ---------- */
+@media (max-width:768px){
+
+    .hero{
+
+        min-height:auto;
+        padding:50px 0;
+
+    }
+
+    .hero .container{
+
+        padding:20px;
+
+    }
+
+    .hero-left h1{
+
+        font-size:38px;
+        line-height:1.3;
+
+    }
+
+    .hero-description{
+
+        font-size:16px;
+
+    }
+
+    .search-box{
+
+        flex-direction:column;
+        border-radius:20px;
+        padding:15px;
+        gap:12px;
+
+    }
+
+    .search-box input{
+
+        width:100%;
+        padding:15px;
+
+    }
+
+    .search-box button{
+
+        width:100%;
+        height:52px;
+        border-radius:12px;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+    .hero-right{
+
+        min-height:500px;
+
+    }
+
+    .building-image{
+
+        width:280px;
+
+    }
+
+    .floating-card{
+
+        width:140px;
+        padding:10px;
+
+    }
+
+    .floating-card h4{
+
+        font-size:13px;
+
+    }
+
+    .floating-card p{
+
+        display:none;
+
+    }
+
+    .floating-card i{
+
+        width:40px;
+        height:40px;
+        font-size:16px;
+
+    }
+
+    .card-1{
+
+        top:10px;
+        left:5px;
+
+    }
+
+    .card-2{
+
+        top:60px;
+        right:5px;
+
+    }
+
+    .card-3{
+
+        bottom:110px;
+        left:5px;
+
+    }
+
+    .card-4{
+
+        bottom:50px;
+        right:5px;
+
+    }
+
+    .hero-dashboard{
+
+        grid-template-columns:1fr;
+        gap:15px;
+
+    }
+
+}
+
+
+/* ---------- Small Mobile ---------- */
+@media (max-width:480px){
+
+    .hero-left h1{
+
+        font-size:30px;
+
+    }
+
+    .hero-tag{
+
+        width:100%;
+        justify-content:center;
+
+    }
+
+    .building-image{
+
+        width:230px;
+
+    }
+
+    .floating-card{
+
+        display:none;
+
+    }
+
+    .hero-dashboard{
+
+        padding:15px;
+
+    }
+
+    .stat-card{
+
+        flex-direction:column;
+        text-align:center;
+
+    }
+
+    .stat-card h3{
+
+        font-size:20px;
+
+    }
+
+    .stat-card p{
+
+        font-size:13px;
+
+    }
+
+    .glass-circle,
+    .hero-ring,
+    .hero-bg-glow,
+    .hero-bg-glow-2,
+    .dot{
+
+        display:none;
+
+    }
+
+}

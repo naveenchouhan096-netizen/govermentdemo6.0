@@ -56,6 +56,7 @@
     margin: 0 auto 30px auto;
     display: flex;
     align-items: center;
+    width: 90%;
 }
 
 #service-search {
@@ -351,4 +352,54 @@
 #scrollToTop:hover {
     background-color: #0e4fcd;
     transform: scale(1.1);
+}
+
+.gov-logo-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    /* This forces the container to respect the same boundary as the search bar */
+    max-width: 600px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gov-logo {
+    max-width: 250px; 
+    height: auto;
+    width: 100%;
+    margin-bottom: -20px;
+
+   /* This creates a soft fade-out on all four sides */
+    mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent),
+                linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
+    
+    -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent),
+                        linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
+    
+    /* Ensures the two masks work together to create the intersection effect */
+    mask-composite: intersect;
+    -webkit-mask-composite: source-in;
+    
+    /* Adds a subtle depth behind the image */
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
+}
+
+/* Fixes the layout shift when scrollbars appear/disappear */
+html {
+    scrollbar-gutter: stable;
+    /* Prevents horizontal overflow across the whole app */
+    overflow-x: hidden; 
+}
+
+/* Ensure your main container handles its own width correctly */
+.page-content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 5%;
+    min-height: 60vh;
+    box-sizing: border-box; /* Crucial: ensures padding doesn't add to the width */
+    width: 100%;
 }

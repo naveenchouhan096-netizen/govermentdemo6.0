@@ -1,256 +1,3614 @@
 {
   "localServicesDatabase": [
     {
-      "state": "andhra_pradesh",
-      "category": "administration",
-      "title": "Andhra Pradesh State Portal",
-      "desc": "Official Citizen Portal, AP Seva & Public Grievances",
-      "link": "https://www.ap.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "arunachal_pradesh",
-      "category": "administration",
-      "title": "Arunachal Pradesh Portal",
-      "desc": "Official e-Services & Citizen Welfare Schemes",
-      "link": "https://arunachalpradesh.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "assam",
-      "category": "administration",
-      "title": "e-District Assam Portal",
-      "desc": "Sewa Setu, Public Certificates & Citizen Services",
+      "state": "Assam",
+      "category": "as_sewasetu",
+      "title": "Sewa Setu Portal",
+      "badge": "CITIZEN SERVICES",
+      "desc": "Currently, there are 800 plus services under Sewa Setu with timebound and transparent delivery.",
       "link": "https://sewasetu.assam.gov.in/",
-      "icon": "fa-building-columns",
+      "icon": "fa-hands-holding-child",
+      "color": "#16a085"
+    },
+    {
+      "state": "Assam",
+      "category": "as_eodb",
+      "title": "EODB Assam",
+      "badge": "BUSINESS & TRADE",
+      "desc": "EODB looks at domestic small & medium-size companies, measures the regulations applying to them through their life cycle.",
+      "link": "https://eodb.assam.gov.in/",
+      "icon": "fa-industry",
+      "color": "#2c3e50"
+    },
+    {
+      "state": "Assam",
+      "category": "as_sadbhavana",
+      "title": "Sadbhavana Portal",
+      "badge": "GOVERNANCE",
+      "desc": "An initiative of the Government of Assam to expedite disposal of files covering all DC offices, Directorates and Commissionerates.",
+      "link": "https://sadbhavana.assam.gov.in/",
+      "icon": "fa-folder-open",
+      "color": "#0056b3"
+    },
+    {
+      "state": "Assam",
+      "category": "as_basundhara",
+      "title": "Mission Basundhara",
+      "badge": "LAND RECORDS",
+      "desc": "Mission mode accelerated disposal of citizen services related to land revenue, mutations, and records.",
+      "link": "https://basundhara.assam.gov.in/",
+      "icon": "fa-map-location-dot",
+      "color": "#d35400"
+    },
+    {
+      "state": "Assam",
+      "category": "as_kritagyata",
+      "title": "Kritagyata Portal",
+      "badge": "PENSION CORNER",
+      "desc": "Online Pension Sanction & Payment Tracking System for online tracking of pension sanction and payment process.",
+      "link": "https://pension.assam.gov.in/",
+      "icon": "fa-wallet",
+      "color": "#8e44ad"
+    },
+    {
+      "state": "Assam",
+      "category": "as_tenders",
+      "title": "Assam Tenders",
+      "badge": "PROCUREMENT",
+      "desc": "Tenders Assam enables Tenderers to download the Tender Schedule free of cost and then submit the bids online.",
+      "link": "https://assamtenders.gov.in/",
+      "icon": "fa-gavel",
+      "color": "#27ae60"
+    },
+    {
+      "state": "Assam",
+      "category": "as_dharitree",
+      "title": "Dharitree - ILRMS",
+      "badge": "LAND RECORDS",
+      "desc": "Integrated Land Records Management System to check Jamabandi, land valuation, and maps online.",
+      "link": "https://revenueassam.nic.in/",
+      "icon": "fa-earth-asia",
+      "color": "#2980b9"
+    },
+    {
+    "state": "Andhra Pradesh",
+    "category": "ap_eoffice_training",
+    "title": "e-Office 7.X Training Portal",
+    "badge": "E-OFFICE",
+    "desc": "Official training portal and modules for Andhra Pradesh e-Office 7.X implementation.",
+    "link": "https://eoffice.ap.gov.in/",
+    "icon": "fa-chalkboard-user",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "category": "ap_eoffice_manual",
+    "title": "eOffice User Manual",
+    "badge": "DOCUMENTATION",
+    "desc": "Step-by-step user guide and manual for navigating state e-Office operations.",
+    "link": "https://eoffice.ap.gov.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "category": "ap_eoffice_prereq",
+    "title": "e-Office Pre-Requisites",
+    "badge": "SYSTEM REQ",
+    "desc": "System requirements, browser setup, and software tools needed for AP e-Office access.",
+    "link": "https://eoffice.ap.gov.in/",
+    "icon": "fa-laptop-code",
+    "color": "#34495e"
+  },
+  {
+    "state": "Andhra_Pradesh",
+    "category": "ap_eoffice_dsc",
+    "title": "eOffice DSC Services 7.0.2",
+    "badge": "DIGITAL SIGN",
+    "desc": "Digital Signature Certificate (DSC) drivers, setup, and troubleshooting utility for AP eOffice.",
+    "link": "https://eoffice.ap.gov.in/",
+    "icon": "fa-key",
+    "color": "#16a085"
+  },
+  {
+    "state": "Andhra_Pradesh",
+    "category": "ap_pgrs",
+    "title": "Public Grievance Redressal System (PGRS)",
+    "badge": "GRIEVANCES",
+    "desc": "Spandana / Public Grievance portal to register and track complaints online directly with AP Govt.",
+    "link": "https://www.spandana.ap.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "category": "ap_forms_public",
+    "title": "State Services - Forms For Public",
+    "badge": "CITIZEN FORMS",
+    "desc": "Downloadable official application forms for various Andhra Pradesh state departments.",
+    "link": "https://www.ap.gov.in/",
+    "icon": "fa-file-pdf",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "category": "ap_gsws",
+    "title": "State Services - GSWS Portal",
+    "badge": "VILLAGE SECRETARIAT",
+    "desc": "Grama Sachivalayam & Ward Sachivalayam citizen service portal for hyper-local delivery.",
+    "link": "https://gramawardsachivalayam.ap.gov.in/",
+    "icon": "fa-building-user",
+    "color": "#d35400"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "category": "ap_change_name",
+    "title": "Change of Name Service",
+    "badge": "GAZETTE SERVICE",
+    "desc": "Official gazette notification application service for legal name change in Andhra Pradesh.",
+    "link": "https://www.ap.gov.in/",
+    "icon": "fa-signature",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "category": "ap_meeseva",
+    "title": "MeeSeva Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Online citizen services portal for applying certificates like Caste, Income, and Residence.",
+    "link": "https://onlineap.meeseva.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "category": "ap_meebhoomi",
+    "title": "MeeBhoomi (Land Records)",
+    "badge": "LAND RECORDS",
+    "desc": "Official land records portal to view Adangal, 1-B, and village maps of Andhra Pradesh.",
+    "link": "http://meebhoomi.ap.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "category": "ap_transport",
+    "title": "AP Transport Department",
+    "badge": "RTA SERVICES",
+    "desc": "Online portal for Driving License, Vehicle Registration, and booking slots for RTA services.",
+    "link": "https://aptransport.org/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "category": "ap_rtgs",
+    "title": "Real-Time Governance Society",
+    "badge": "RTGS",
+    "desc": "Apex body for real-time governance, data analytics, and monitoring state-wide services.",
+    "link": "https://www.rtgs.ap.gov.in/",
+    "icon": "fa-chart-line",
+    "color": "#2c3e50"
+  },
+
+    {
+      "state": "Arunachal Pradesh",
+      "category": "eprocurement",
+      "title": "eProcurement System Portal",
+      "badge": "STATE SERVICE",
+      "desc": "Official portal for government tenders, digital bidding process, contracts & departmental procurement.",
+      "link": "https://arunachaltenders.gov.in/",
+      "icon": "fa-gavel",
       "color": "#0b2545"
     },
     {
-      "state": "bihar",
-      "category": "certificates",
-      "title": "RTPS Bihar (e-District)",
-      "desc": "Apply Income, Caste, Residence & Land Possession Certificates",
-      "link": "https://serviceonline.bihar.gov.in/",
+      "state": "Arunachal Pradesh",
+      "category": "apsts",
+      "title": "APSTS Bus Services",
+      "badge": "TRANSPORT",
+      "desc": "Official Arunachal Pradesh State Transport booking, inter-state routes & bus schedule tracking.",
+      "link": "https://apsts.arunachal.gov.in/",
+      "icon": "fa-bus",
+      "color": "#d35400"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "category": "e-service",
+      "title": "Arunachal e-Service Portal",
+      "badge": "CITIZEN SERVICES",
+      "desc": "Single-window portal for applying Scheduled Tribe (ST), Permanent Residence (PRC) & Income certificates.",
+      "link": "https://eservice.arunachal.gov.in/",
       "icon": "fa-file-contract",
       "color": "#16a085"
     },
     {
-      "state": "chhattisgarh",
-      "category": "administration",
-      "title": "e-District Chhattisgarh",
-      "desc": "e-District Portal, Revenue & Public Services",
-      "link": "https://edistrict.cgstate.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
+      "state": "Arunachal Pradesh",
+      "category": "e-ilp",
+      "title": "e-ILP System Portal",
+      "badge": "PERMITS",
+      "desc": "Apply online for Inner Line Permits (ILP) required for domestic tourists and working professionals.",
+      "link": "https://eilp.arunachal.gov.in/",
+      "icon": "fa-id-card",
+      "color": "#27ae60"
     },
     {
-      "state": "goa",
-      "category": "administration",
-      "title": "Goa Online Services Portal",
-      "desc": "Single Window Portal for Citizen Services & Permits",
-      "link": "https://goaonline.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
+      "state": "Arunachal Pradesh",
+      "category": "electricity",
+      "title": "Electricity Bill Payment",
+      "badge": "UTILITIES",
+      "desc": "Department of Power online bill generation, consumer account ledger & digital payment gateway.",
+      "link": "https://www.arunachalpower.org/",
+      "icon": "fa-bolt",
+      "color": "#f1c40f"
     },
     {
-      "state": "gujarat",
-      "category": "administration",
-      "title": "Digital Gujarat Portal",
-      "desc": "Scholarships, Revenue & e-Services Portal",
-      "link": "https://www.digitalgujarat.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
+      "state": "Arunachal Pradesh",
+      "category": "egpf",
+      "title": "EGPF Portal (Provident Fund)",
+      "badge": "EMPLOYEE CORNER",
+      "desc": "State Government Employees Provident Fund balance check, statement download & claim tracking.",
+      "link": "https://egpf.arunachal.gov.in/",
+      "icon": "fa-wallet",
+      "color": "#2c3e50"
     },
     {
-      "state": "haryana",
-      "category": "administration",
-      "title": "Antyodaya SARAL Haryana",
-      "desc": "Single Platform for All Haryana Schemes & Certificates",
-      "link": "https://saralharyana.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
+      "state": "Arunachal Pradesh",
+      "category": "apssb",
+      "title": "APSSB Recruitment Board",
+      "badge": "RECRUITMENT",
+      "desc": "Arunachal Pradesh Staff Selection Board official site for Group C vacancies, admit cards & results.",
+      "link": "https://apssb.nic.in/",
+      "icon": "fa-user-graduate",
+      "color": "#2980b9"
     },
     {
-      "state": "himachal_pradesh",
-      "category": "administration",
-      "title": "e-District Himachal Pradesh",
-      "desc": "Online Certificates & Citizen Revenue Services",
-      "link": "https://edistrict.hp.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
+      "state": "Arunachal Pradesh",
+      "category": "apcs",
+      "title": "APCS Public Commission",
+      "badge": "RECRUITMENT",
+      "desc": "State Civil Services examinations, Combined Competitive Exams, syllabus and official notifications.",
+      "link": "https://appsc.gov.in/",
+      "icon": "fa-landmark",
+      "color": "#8e44ad"
     },
     {
-      "state": "jharkhand",
-      "category": "certificates",
-      "title": "JharSewa Jharkhand",
-      "desc": "Online Certificates, Caste/Income & Land Records",
-      "link": "https://jharsewa.jharkhand.gov.in/",
-      "icon": "fa-file-contract",
+      "state": "Arunachal Pradesh",
+      "category": "cmaay",
+      "title": "CMAAY Health Insurance",
+      "badge": "HEALTHCARE",
+      "desc": "Chief Minister Arogya Arunachal Yojana for cashless hospital treatment up to ₹5 Lakhs per family.",
+      "link": "https://www.cmaay.com/",
+      "icon": "fa-heart-pulse",
+      "color": "#c0392b"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "category": "gem",
+      "title": "GeM & Commerce Portal",
+      "badge": "TRADE & COMMERCE",
+      "desc": "Government e-Marketplace vendor onboarding, trade registration and commerce department circulars.",
+      "link": "https://gem.gov.in/",
+      "icon": "fa-shop",
+      "color": "#1abc9c"
+    },
+    {
+      "state": "Arunachal Pradesh",
+      "category": "jansunwai",
+      "title": "CM Jansunwai Portal",
+      "badge": "GRIEVANCES",
+      "desc": "Direct Public Grievance Redressal Portal to submit issues directly to the Chief Minister's Office.",
+      "link": "https://jansunwai.arunachal.gov.in/",
+      "icon": "fa-bullhorn",
       "color": "#d35400"
     },
     {
-      "state": "karnataka",
-      "category": "administration",
-      "title": "Seva Sindhu Karnataka",
-      "desc": "Integrated Citizen Services Portal & Guarantees",
-      "link": "https://sevasindhuservices.karnataka.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
+      "state": "Arunachal Pradesh",
+      "category": "cpgrams",
+      "title": "CPGRAMS National Portal",
+      "badge": "GRIEVANCES",
+      "desc": "Centralized Public Grievance Redress and Monitoring System for State and Central schemes.",
+      "link": "https://pgportal.gov.in/",
+      "icon": "fa-shield-halved",
+      "color": "#2c3e50"
     },
     {
-      "state": "kerala",
-      "category": "administration",
-      "title": "e-District Kerala Portal",
-      "desc": "Akshaya e-Services & Citizen Certificates",
-      "link": "https://edistrict.kerala.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
+      "state": "Bihar",
+      "category": "bh_caste",
+      "title": "Caste Certificate (जाति प्रमाण पत्र)",
+      "badge": "RTPS BIHAR",
+      "desc": "Official service on ServicePlus / RTPS Bihar portal to apply, track, and download SC, ST, and OBC certificates online.",
+      "link": "https://serviceonline.bihar.gov.in/",
+      "icon": "fa-id-card",
+      "color": "#16a085"
     },
-    {
-      "state": "madhya_pradesh",
-      "category": "administration",
-      "title": "MP Lok Seva Guarantee Portal",
-      "desc": "e-District MP, Khasra/Khatoni & Certificates",
-      "link": "https://mpedistrict.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "maharashtra",
-      "category": "administration",
-      "title": "Aaple Sarkar Maharashtra",
-      "desc": "Right to Services Portal & Public Services",
-      "link": "https://aaplesarkar.mahaonline.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "manipur",
-      "category": "administration",
-      "title": "Manipur e-District Portal",
-      "desc": "Citizen Online Certificates & Welfare Schemes",
-      "link": "https://edistrict.mn.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "meghalaya",
-      "category": "administration",
-      "title": "Meghalaya e-District",
-      "desc": "Government to Citizen Online Services Portal",
-      "link": "https://edistrict.meghalaya.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "mizoram",
-      "category": "administration",
-      "title": "Mizoram State Portal",
-      "desc": "e-Services & State Government Circulars",
-      "link": "https://mizoram.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "nagaland",
-      "category": "administration",
-      "title": "Nagaland State Portal",
-      "desc": "e-Services & Citizen Facilitation Portal",
-      "link": "https://nagaland.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "odisha",
-      "category": "administration",
-      "title": "e-District Odisha Portal",
-      "desc": "Odisha Revenue Services, Certificates & Revenue",
-      "link": "https://edistrict.odisha.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "punjab",
-      "category": "administration",
-      "title": "e-Sewa Punjab Portal",
-      "desc": "Sewa Kendra Services, Certificates & Revenue",
-      "link": "https://eservices.punjab.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "rajasthan",
-      "category": "administration",
-      "title": "e-Mitra Rajasthan Portal",
-      "desc": "Unified Citizen Services & Online Applications",
-      "link": "https://emitra.rajasthan.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "sikkim",
-      "category": "administration",
-      "title": "Sikkim State Portal",
-      "desc": "Citizen Services & Government Notifications",
-      "link": "https://sikkim.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "tamil_nadu",
-      "category": "administration",
-      "title": "TNeGA Tamil Nadu e-Sevai",
-      "desc": "e-Sevai Citizen Services & Revenue Certificates",
-      "link": "https://www.tnesevai.tn.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "telangana",
-      "category": "administration",
-      "title": "MeeSeva Telangana",
-      "desc": "MeeSeva Citizen Portal & Digital Services",
-      "link": "https://meeseva.telangana.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "tripura",
-      "category": "administration",
-      "title": "e-District Tripura",
-      "desc": "Online Public Services & Certificates Portal",
-      "link": "https://edistrict.tripura.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "up",
-      "category": "administration",
-      "title": "UP e-District Portal",
-      "desc": "Official Citizen Services, Revenue & District Services",
-      "link": "https://edistrict.up.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "uttarakhand",
-      "category": "administration",
-      "title": "e-District Uttarakhand (eServices)",
-      "desc": "Citizen Revenue Certificates & Public Services",
-      "link": "https://edistrict.uk.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    },
-    {
-      "state": "west_bengal",
-      "category": "administration",
-      "title": "e-District West Bengal",
-      "desc": "Banglarbhumi, e-Services & Public Grievance Portal",
-      "link": "https://edistrict.wb.gov.in/",
-      "icon": "fa-building-columns",
-      "color": "#0b2545"
-    }
+  
+  {
+    "state": "Bihar",
+    "category": "bh_income",
+    "title": "Income Certificate (आय प्रमाण पत्र)",
+    "badge": "RTPS BIHAR",
+    "desc": "Apply online for the official annual family income certificate required for student scholarships, fee waivers, and state welfare benefits.",
+    "link": "https://serviceonline.bihar.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Bihar",
+    "category": "bh_residential",
+    "title": "Residential/Domicile Certificate (निवास प्रमाण पत्र)",
+    "badge": "RTPS BIHAR",
+    "desc": "Apply for permanent or temporary state residence proof required for educational institutional admissions and Bihar government recruitment programs.",
+    "link": "https://serviceonline.bihar.gov.in/",
+    "icon": "fa-house-user",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Bihar",
+    "category": "bh_caste",
+    "title": "Caste Certificate (जाति प्रमाण पत्र)",
+    "badge": "RTPS BIHAR",
+    "desc": "Apply online for official Scheduled Caste, Scheduled Tribe, or OBC certificates for reservation benefits in education and state government jobs.",
+    "link": "https://serviceonline.bihar.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#16a085"
+  },
+  {
+    "state": "Bihar",
+    "category": "bh_ncl",
+    "title": "Non-Creamy Layer (NCL) Certificate",
+    "badge": "RTPS BIHAR",
+    "desc": "Official online portal application for securing central or state format NCL certification for reservation benefits in government jobs and educational fields.",
+    "link": "https://serviceonline.bihar.gov.in/",
+    "icon": "fa-file-shield",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Bihar",
+    "category": "bh_bhumi",
+    "title": "Bhumi Jankari - Land Records",
+    "badge": "LAND REVENUE",
+    "desc": "Check online Bihar land registration details, view certified sale deeds, explore Jamabandi registers, and internal mutation records dashboard.",
+    "link": "http://biharibhumi.bihar.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Bihar",
+    "category": "bh_lpc",
+    "title": "Land Possession Certificate (LPC)",
+    "badge": "LAND REVENUE",
+    "desc": "Apply online for Land Possession Certificate (LPC) via Bihar Bhumi portal, mandatory for agricultural bank loans and crop insurance verification.",
+    "link": "http://biharibhumi.bihar.gov.in/",
+    "icon": "fa-file-contract",
+    "color": "#34495e"
+  },
+  {
+    "state": "Bihar",
+    "category": "bh_tenders",
+    "title": "Bihar eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Official central management tracking portal for commercial state tenders, dynamic corporate bidding cycles, and multi-department vendor listings.",
+    "link": "https://eproc2.bihar.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Bihar",
+    "category": "bh_student_credit",
+    "title": "MNSSBY Student Credit Card",
+    "badge": "SCHOLARSHIP & LOAN",
+    "desc": "Official Mukhyamantri Nischay Swayam Sahayata Bhatta Yojana portal for student credit cards, education loans, and self-help allowances.",
+    "link": "https://www.7nishchay-yuvaupmission.bihar.gov.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Bihar",
+    "category": "bh_elabharthi",
+    "title": "e-Labharthi Portal",
+    "badge": "WELFARE",
+    "desc": "Track and monitor direct benefit transfers (DBT), old-age pensions, disability benefits, and verification status for social security schemes.",
+    "link": "https://elabharthi.bih.nic.in/",
+    "icon": "fa-users-holding",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Bihar",
+    "category": "bh_bseb",
+    "title": "Bihar School Examination Board",
+    "badge": "EDUCATION",
+    "desc": "Official portal for BSEB Matric (10th) and Intermediate (12th) board registrations, admit cards, exam schedules, and online results.",
+    "link": "http://biharboardonline.bihar.gov.in/",
+    "icon": "fa-book-open",
+    "color": "#7f8c8d"
+  },
+
+   
+  {
+    "state": "Chhattisgarh",
+    "category": "cg_jandarshan",
+    "title": "Jan Darshan (जनदर्शन)",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Chief Minister's online public grievance system to directly submit applications, complaints, and check redressal status.",
+    "link": "https://jandarshan.cg.nic.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Chhattisgarh",
+    "category": "cg_ekosh",
+    "title": "e-Kosh Online  (ई-कोष ऑनलाइन)",
+    "badge": "FINANCE & TREASURY",
+    "desc": "Official Directorate of Accounts and Treasuries portal for vendor bill tracking, employee payslips, and pension distribution queries.",
+    "link": "https://ekoshonline.cg.nic.in/",
+    "icon": "fa-wallet",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Chhattisgarh",
+    "category": "cg_gad",
+    "title": "General Administration Dept (सामान्य प्रशासन विभाग)",
+    "badge": "GOVERNMENT ORDERS",
+    "desc": "Access official Chhattisgarh GAD circulars, state policies, gazette notifications, and executive government orders.",
+    "link": "https://gad.cg.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Chhattisgarh",
+    "category": "cg_bhuiyan",
+    "title": "Bhuiyan - Land Records (भुइँयाँ : छत्तीसगढ़ भू-अभिलेख)",
+    "badge": "LAND REVENUE",
+    "desc": "Official digital land records management portal to check Khasra (B-I) details, P-II records, online mutation status, and land maps.",
+    "link": "https://bhuiyan.cg.nic.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Chhattisgarh",
+    "category": "cg_edistrict",
+    "title": "e-District 2.0 / Seva Setu (ई - डिस्ट्रिक्ट 2.0)",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Unified single-window portal for online application and tracking of Caste, Income, Domicile, and Birth/Death certificates.",
+    "link": "https://edistrict.cgstate.gov.in/",
+    "icon": "fa-file-contract",
+    "color": "#16a085"
+  },
+  {
+    "state": "Chhattisgarh",
+    "category": "cg_vyapam",
+    "title": "CG Vyapam Recruitment",
+    "badge": "RECRUITMENT",
+    "desc": "Chhattisgarh Professional Examination Board (CGPEB) portal for competitive exams, admissions, eligibility tests, and scorecards.",
+    "link": "https://vyapam.cgstate.gov.in/",
+    "icon": "fa-user-graduate",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Chhattisgarh",
+    "category": "cg_tenders",
+    "title": "Chhattisgarh eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Centralized platform for downloading government tender notices, free schedules, commercial contractor management, and digital bidding.",
+    "link": "https://eproc.cgstate.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Chhattisgarh",
+    "category": "cg_psc",
+    "title": "CGPSC Recruitment Portal",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Chhattisgarh Public Service Commission portal for State Service Examinations, administrative recruitment notifications, and results.",
+    "link": "https://psc.cg.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Chhattisgarh",
+    "category": "cg_khadyabeej",
+    "title": "Khadya & PDS Portal (खाद्य विभाग)",
+    "badge": "PDS & KISAN",
+    "desc": "Official Food and Civil Supplies portal for Ration Card allocation, online paddy procurement tracking, and beneficiary data monitoring.",
+    "link": "https://khadya.cg.nic.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#34495e"
+  },
+  {
+    "state": "Chhattisgarh",
+    "category": "cg_cgbse",
+    "title": "CGBSE Board Portal",
+    "badge": "EDUCATION",
+    "desc": "Official website of Chhattisgarh Board of Secondary Education for 10th and 12th class timelines, roll number allocations, and public results.",
+    "link": "https://cgbse.nic.in/",
+    "icon": "fa-book-open",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Chhattisgarh",
+    "category": "cg_labour",
+    "title": "CG Shramik Seva Portal (श्रम विभाग)",
+    "badge": "LABOUR WELFARE",
+    "desc": "Online registration services for unorganized workers, building construction labourers, and tracking state welfare financial schemes.",
+    "link": "https://cglabour.nic.in/",
+    "icon": "fa-users-gear",
+    "color": "#d35400"
+  },
+
+   {
+    "state": "Jharkhand",
+    "category": "certificates",
+    "title": "JharSewa Jharkhand",
+    "badge": "CERTIFICATES",
+    "desc": "Online Certificates, Caste/Income, Local Resident & Land Records.",
+    "link": "https://jharsewa.jharkhand.gov.in/",
+    "icon": "fa-file-contract",
+    "color": "#d35400"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "administration",
+    "title": "Dhanbad District Administration - Police",
+    "desc": "Local law enforcement, emergency helplines, and police station details for Dhanbad citizens.",
+    "badge": "DISTRICT",
+    "icon": "fa-shield-halved",
+    "color": "#e74c3c",
+    "link": "https://dhanbad.nic.in"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "certificates",
+    "title": "JharSewa Portal (आय/जाति/निवास)",
+    "desc": "Apply online for income, caste, and residency certificates through the official Jharkhand server.",
+    "badge": "CITIZEN",
+    "icon": "fa-file-invoice",
+    "color": "#2ecc71",
+    "link": "https://jharsewa.jharkhand.gov.in"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "land_records",
+    "title": "Jharbhoomi (झारभूमि)",
+    "badge": "LAND REVENUE",
+    "desc": "Official land records portal of Jharkhand to check Apna Khata, Register-II, Khatian details, and online mutation status.",
+    "link": "https://jharbhoomi.jharkhand.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "scholarship",
+    "title": "e-Kalyan Scholarship Portal",
+    "badge": "SCHOLARSHIP",
+    "desc": "Official Jharkhand welfare department portal for Post-Matric scholarships, verification, and direct benefit transfer (DBT) for students.",
+    "link": "https://ekalyan.cgg.gov.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "education",
+    "title": "Jharkhand Academic Council (JAC)",
+    "badge": "EDUCATION",
+    "desc": "Official portal for JAC Matric (10th) and Intermediate (12th) board registrations, admit cards, schedules, and academic results.",
+    "link": "https://jac.jharkhand.gov.in/",
+    "icon": "fa-book-open",
+    "color": "#16a085"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "recruitment",
+    "title": "JSSC Recruitment Portal",
+    "badge": "RECRUITMENT",
+    "desc": "Jharkhand Staff Selection Commission portal for competitive state government examinations, online applications, and result sheets.",
+    "link": "https://jssc.nic.in/",
+    "icon": "fa-user-tie",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "pds_ration",
+    "title": "Aahar Jharkhand (खाद्य सार्वजनिक वितरण)",
+    "badge": "RATION CARD",
+    "desc": "Official Food and Consumer Affairs portal to apply for new Ration Cards, download PDS monthly data, and track dealer allocations.",
+    "link": "https://aahar.jharkhand.gov.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#27ae60"
+   },
+   {
+    "state": "Jharkhand",
+    "category": "certificates",
+    "title": "JharSewa Jharkhand",
+    "badge": "CERTIFICATES",
+    "desc": "Online Certificates, Caste/Income, Local Resident & Land Records.",
+    "link": "https://jharsewa.jharkhand.gov.in/",
+    "icon": "fa-file-contract",
+    "color": "#d35400"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "administration",
+    "title": "Dhanbad District Administration - Police",
+    "desc": "Local law enforcement, emergency helplines, and police station details for Dhanbad citizens.",
+    "badge": "DISTRICT",
+    "icon": "fa-shield-halved",
+    "color": "#e74c3c",
+    "link": "https://dhanbad.nic.in"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "certificates",
+    "title": "JharSewa Portal (आय/जाति/निवास)",
+    "desc": "Apply online for income, caste, and residency certificates through the official Jharkhand server.",
+    "badge": "CITIZEN",
+    "icon": "fa-file-invoice",
+    "color": "#2ecc71",
+    "link": "https://jharsewa.jharkhand.gov.in"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "land_records",
+    "title": "Jharbhoomi (झारभूमि)",
+    "badge": "LAND REVENUE",
+    "desc": "Official land records portal of Jharkhand to check Apna Khata, Register-II, Khatian details, and online mutation status.",
+    "link": "https://jharbhoomi.jharkhand.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "scholarship",
+    "title": "e-Kalyan Scholarship Portal",
+    "badge": "SCHOLARSHIP",
+    "desc": "Official Jharkhand welfare department portal for Post-Matric scholarships, verification, and direct benefit transfer (DBT) for students.",
+    "link": "https://ekalyan.cgg.gov.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "education",
+    "title": "Jharkhand Academic Council (JAC)",
+    "badge": "EDUCATION",
+    "desc": "Official portal for JAC Matric (10th) and Intermediate (12th) board registrations, admit cards, schedules, and academic results.",
+    "link": "https://jac.jharkhand.gov.in/",
+    "icon": "fa-book-open",
+    "color": "#16a085"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "recruitment",
+    "title": "JSSC Recruitment Portal",
+    "badge": "RECRUITMENT",
+    "desc": "Jharkhand Staff Selection Commission portal for competitive state government examinations, online applications, and result sheets.",
+    "link": "https://jssc.nic.in/",
+    "icon": "fa-user-tie",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "pds_ration",
+    "title": "Aahar Jharkhand (खाद्य सार्वजनिक वितरण)",
+    "badge": "RATION CARD",
+    "desc": "Official Food and Consumer Affairs portal to apply for new Ration Cards, download PDS monthly data, and track dealer allocations.",
+    "link": "https://aahar.jharkhand.gov.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "recruitment",
+    "title": "JPSC Recruitment Portal",
+    "badge": "CIVIL SERVICES",
+    "desc": "Official Jharkhand Public Service Commission portal for State Civil Services exams, engineering services, and gazetted post recruitments.",
+    "link": "https://jpsc.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "land_records",
+    "title": "Jharbhoomi Land Tax (राजस्व भुगतान)",
+    "badge": "LAND TAX",
+    "desc": "Pay online land rent (Lagan), view previous payment histories, clear outstanding dues, and download official e-receipts.",
+    "link": "https://jharbhoomi.jharkhand.gov.in/",
+    "icon": "fa-credit-card",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "welfare",
+    "title": "Sarkar Aapke Dwar / RTPS Monitoring",
+    "badge": "STATE SCHEMES",
+    "desc": "Track applications for chief minister's welfare initiatives, pension schemes, housing benefits, and decentralized camp operations.",
+    "link": "https://jharkhand.gov.in/",
+    "icon": "fa-users-line",
+    "color": "#34495e"
+  },
+  {
+    "state": "Jharkhand",
+    "category": "tenders",
+    "title": "Jharkhand eProcurement",
+    "badge": "PROCUREMENT",
+    "desc": "Centralized portal for Jharkhand state department tenders, vendor registration, dynamic commercial bidding, and project contracts.",
+    "link": "https://jharkhandtenders.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#c0392b"
+  },
+  
+  {
+    "state": "Goa",
+    "category": "citizen_services",
+    "title": "Goa Online Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window portal for online citizen services, allowing applications for Residence, Income, Caste, and various department certificates.",
+    "link": "https://goaonline.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Goa",
+    "category": "land_records",
+    "title": "Directorate of Settlement & Land Records (DSLR)",
+    "badge": "LAND RECORDS",
+    "desc": "Official portal to view and download Form I & XIV, rural/urban land maps, partition records, and track land mutation status in Goa.",
+    "link": "https://dslr.goa.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Goa",
+    "category": "recruitment",
+    "title": "Goa Public Service Commission (GPSC)",
+    "badge": "CIVIL SERVICES",
+    "desc": "Official portal for Goa State Civil Services recruitments, gazetted post notifications, online application entry, and examination schedules.",
+    "link": "https://gpsc.goa.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Goa",
+    "category": "transport",
+    "title": "Directorate of Transport Goa",
+    "badge": "RTA SERVICES",
+    "desc": "Access online services for Goa driving licenses, vehicle tax payments, fancy registration numbers, and RTO appointment scheduling.",
+    "link": "https://goatransport.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Goa",
+    "category": "education",
+    "title": "Directorate of Higher Education (DHE) Goa",
+    "badge": "EDUCATION",
+    "desc": "Centralized online admission portal for general stream degree colleges, student scholarship registrations, and academic welfare programs in Goa.",
+    "link": "https://dhe.goa.gov.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#16a085"
+  },
+  {
+    "state": "Goa",
+    "category": "education",
+    "title": "Goa Board of Secondary & Higher Secondary Education",
+    "badge": "BOARD EXAMS",
+    "desc": "Official GBSHSE website for SSC (10th) and HSSC (12th) curriculum downloads, private candidate registrations, and public board results.",
+    "link": "https://gbshse.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Goa",
+    "category": "grievance",
+    "title": "Goa Public Grievance Redressal Portal",
+    "badge": "GRIEVANCES",
+    "desc": "Official state portal for citizens to lodge complaints or grievances directly with various government departments and monitor tracking logs.",
+    "link": "https://pgportal.goa.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Goa",
+    "category": "tenders",
+    "title": "Goa eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Centralized public marketplace for downloading official Goa state government tender notices, vendor registrations, and digital bidding processes.",
+    "link": "https://goaeprocurement.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Goa",
+    "category": "utility",
+    "title": "Goa Electricity Department",
+    "badge": "POWER UTILITY",
+    "desc": "Official billing portal to view consumer statements, initiate secure online bill payments, track new connection requests, and report local power cuts.",
+    "link": "https://www.goaelectricity.gov.in/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Goa",
+    "category": "administration",
+    "title": "Official State Portal of Goa",
+    "badge": "GOVERNMENT",
+    "desc": "Core administrative repository for Goa cabinet gazettes, department profiles, latest notification circulars, and primary ministerial dashboards.",
+    "link": "https://www.goa.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#34495e"
+  },
+  {
+    "state": "Goa",
+    "category": "services",
+    "title": "Goa Excise Department",
+    "badge": "EXCISE SERVICES",
+    "desc": "Online management portal for digital permits, regulatory updates, commercial verification procedures, and license status tracking.",
+    "link": "https://goaexcise.gov.in/",
+    "icon": "fa-file-shield",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Goa",
+    "category": "health",
+    "title": "Directorate of Health Services Goa",
+    "badge": "HEALTHCARE",
+    "desc": "Access state medical schemes, public health facility indexes, specialized wellness registrations, and official DHS advisories.",
+    "link": "https://dhsgoa.gov.in/",
+    "icon": "fa-notes-medical",
+    "color": "#1abc9c"
+  },
+{
+    "state": "Gujarat",
+    "category": "citizen_services",
+    "title": "Digital Gujarat Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window portal for online citizen services, managing digital scholarship applications, domicile certificates, caste, and income proofs.",
+    "link": "https://www.digitalgujarat.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Gujarat",
+    "category": "land_records",
+    "title": "AnyROR @ Anywhere (Land Records)",
+    "badge": "LAND RECORDS",
+    "desc": "Official land records portal of Gujarat to view 7/12 (Satbara) document logs, 8A land details, VF6 entry data, and rural-urban land maps.",
+    "link": "https://anyror.gujarat.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Gujarat",
+    "category": "recruitment",
+    "title": "Gujarat Public Service Commission (GPSC)",
+    "badge": "CIVIL SERVICES",
+    "desc": "Official portal for Class 1, 2, and 3 administrative recruitments, competitive state examination syllabi, and public interview scorecards.",
+    "link": "https://gpsc.gujarat.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Gujarat",
+    "category": "agriculture",
+    "title": "i-Khedut Portal",
+    "badge": "FARMER SCHEMES",
+    "desc": "Official portal providing direct financial subsidies for agricultural equipment, tractor loans, pond creation, and livestock monitoring systems.",
+    "link": "https://ikhedut.gujarat.gov.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Gujarat",
+    "category": "education",
+    "title": "GSEB Board Portal",
+    "badge": "BOARD EXAMS",
+    "desc": "Official web desk of Gujarat Secondary and Higher Secondary Education Board for SSC (10th) and HSC (12th) roll numbers and results.",
+    "link": "https://www.gseb.org/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Gujarat",
+    "category": "recruitment",
+    "title": "OJAS Gujarat",
+    "badge": "ONLINE JOBS",
+    "desc": "Online Job Application System (OJAS) for state-wide department board vacancies, direct online form submissions, and exam call letters.",
+    "link": "https://ojas.gujarat.gov.in/",
+    "icon": "fa-user-tie",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Gujarat",
+    "category": "grievance",
+    "title": "SWAGAT Online Grievance Portal",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "State-wide Attention on Grievances by Application of Technology platform for tracking public complaints directly under CMO review logs.",
+    "link": "https://swagat.gujarat.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Gujarat",
+    "category": "tenders",
+    "title": "Gujarat eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Central commercial portal for Gujarat government department tender notices, multi-department corporate bidding, and vendor registry sheets.",
+    "link": "https://gujaratetenders.com/",
+    "icon": "fa-gavel",
+    "color": "#16a085"
+  },
+  {
+    "state": "Gujarat",
+    "category": "utility",
+    "title": "GUVNL Power Portal",
+    "badge": "POWER UTILITY",
+    "desc": "Official portal for Gujarat power distribution companies to manage online bill payments, view usage summaries, and request new connections.",
+    "link": "https://guvnl.gujarat.gov.in/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Gujarat",
+    "category": "transport",
+    "title": "Gujarat Commissionerate of Transport",
+    "badge": "RTO SERVICES",
+    "desc": "Access online state RTO services for permanent driving licenses, vehicle tax filings, registration status checks, and learner permit slots.",
+    "link": "https://cot.gujarat.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Gujarat",
+    "category": "agriculture",
+    "title": "GGRC Micro Irrigation System",
+    "badge": "IRRIGATION SCHEMES",
+    "desc": "Official Gujarat Green Revolution Company platform for farmers to apply for drip and sprinkler irrigation scheme subsidies.",
+    "link": "https://ggrc.co.in/",
+    "icon": "fa-faucet-drip",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Gujarat",
+    "category": "employment",
+    "title": "Directorate of Employment & Training (DET)",
+    "badge": "SKILL & JOBS",
+    "desc": "Official portal for Gujarat ITI admissions, vocational skill development programs, apprentice placement registrations, and employment listings.",
+    "link": "https://talimrojgar.gujarat.gov.in/",
+    "icon": "fa-briefcase",
+    "color": "#34495e"
+  },
+  {
+    "state": "Haryana",
+    "category": "citizen_services",
+    "title": "Saral Haryana Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window platform for automated delivery of state-wide citizen services, tracking family ID schemes, caste, and residency proofs.",
+    "link": "https://saralharyana.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Haryana",
+    "category": "land_records",
+    "title": "Jamabandi Haryana (Land Records)",
+    "badge": "LAND RECORDS",
+    "desc": "Official land records web desk to check Jamabandi Nakal logs, mutation status, registered deeds, and integrated property registration attributes.",
+    "link": "https://jamabandi.nic.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Haryana",
+    "category": "recruitment",
+    "title": "Haryana Kaushal Rozgar Nigam (HKRN)",
+    "badge": "CONTRACTUAL JOBS",
+    "desc": "Official deployment portal for tracking contractual manpower, temporary state board jobs, and centralized registration for skilled youth.",
+    "link": "https://hkrnl.iti हरियाणा.gov.in/",
+    "icon": "fa-briefcase",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Haryana",
+    "category": "recruitment",
+    "title": "HSSC Recruitment Portal",
+    "badge": "STAFF SELECTION",
+    "desc": "Haryana Staff Selection Commission platform for Group C and Group D public recruitments, online CET exams, and merit list scorecards.",
+    "link": "https://hssc.gov.in/",
+    "icon": "fa-user-tie",
+    "color": "#16a085"
+  },
+  {
+    "state": "Haryana",
+    "category": "recruitment",
+    "title": "HPSC Officer Recruitment",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Haryana Public Service Commission desk for civil services (HCS), judicial posts, engineering entries, and gazetted exam roll indices.",
+    "link": "https://hpsc.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Haryana",
+    "category": "education",
+    "title": "Board of School Education Haryana (BSEH)",
+    "badge": "BOARD EXAMS",
+    "desc": "Official school education website for HBSE secondary and senior secondary curriculum schedules, dynamic HTET logs, and public metrics results.",
+    "link": "https://bseh.org.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Haryana",
+    "category": "finance",
+    "title": "e-GRAS Haryana Treasury",
+    "badge": "ONLINE PAYMENTS",
+    "desc": "Government Receipts Accounting System for making secure online payments of state taxes, department challans, stamp duties, and registration fees.",
+    "link": "https://egrashry.nic.in/",
+    "icon": "fa-credit-card",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Haryana",
+    "category": "agriculture",
+    "title": "Meri Fasal Mera Byora",
+    "badge": "FARMER PORTAL",
+    "desc": "Integrated farmer dashboard for crop registration, tracking dynamic mandis procurement cycles, harvesting updates, and tracking MSP subsidies.",
+    "link": "https://fasal.haryana.gov.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Haryana",
+    "category": "welfare",
+    "title": "Parivar Pehchan Patra (PPP Portal)",
+    "badge": "FAMILY ID",
+    "desc": "Official repository for validating automated family profile identities, required for state social welfare linkups and target DBT tracking.",
+    "link": "https://meraparivar.haryana.gov.in/",
+    "icon": "fa-address-card",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Haryana",
+    "category": "transport",
+    "title": "Haryana Transport Department",
+    "badge": "RTO SERVICES",
+    "desc": "Access automated RTO services for vehicle registration entries, driving licenses, commercial driving permits, and payment of road tax.",
+    "link": "https://haryanatransport.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Haryana",
+    "category": "grievance",
+    "title": "CM Window Haryana",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Chief Minister's centralized grievance redressal system allowing direct complaint registration and real-time tracking across state cells.",
+    "link": "https://cmcharyana.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Haryana",
+    "category": "tenders",
+    "title": "Haryana eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Centralized commercial bidding framework for downloading official state tenders, managing dynamic vendor registries, and project allocations.",
+    "link": "https://etenders.hry.nic.in/",
+    "icon": "fa-gavel",
+    "color": "#34495e"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "category": "citizen_services",
+    "title": "e-District Himachal Pradesh",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window portal to apply online for multiple government services, including Income, Caste, Bonafide Himachali, and Character certificates.",
+    "link": "https://edistrict.hp.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "category": "land_records",
+    "title": "e-Himbhoomi (Land Records)",
+    "badge": "LAND RECORDS",
+    "desc": "Official computerization portal for Himachal Pradesh land records, enabling users to check Jamabandi details, Shajra maps, and mutation logs.",
+    "link": "https://lrc.hp.nic.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "category": "recruitment",
+    "title": "HPPSC Recruitment Desk",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Himachal Pradesh Public Service Commission portal for state administrative services, judicial entries, gazetted posts, and selection syllabi.",
+    "link": "http://www.hppsc.hp.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "category": "recruitment",
+    "title": "HP Rajya Chayan Aayog (HPRCA)",
+    "badge": "STAFF SELECTION",
+    "desc": "State recruitment platform managing competitive examinations, eligibility tests, and online registrations for non-gazetted Group C vacancies.",
+    "link": "https://hprca.hp.gov.in/",
+    "icon": "fa-user-tie",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "category": "education",
+    "title": "HPBOSE Board Portal",
+    "badge": "BOARD EXAMS",
+    "desc": "Official website of Himachal Pradesh Board of School Education for matric (10th), plus-two (12th) roll schedules, HP-TET verification, and metrics results.",
+    "link": "https://hpbose.org/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "category": "finance",
+    "title": "mKosh Himachal Treasury",
+    "badge": "TREASURY SERVICES",
+    "desc": "Official Finance Department system tracking government pension statements, employee cyber-treasury slips, state budget files, and vendor invoices.",
+    "link": "https://himkosh.hp.nic.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "category": "transport",
+    "title": "HP Transport Department",
+    "badge": "RTO SERVICES",
+    "desc": "Access digital RTO amenities for permanent driving licenses, fancy registration logs, smart card transfers, and booking driving track slots.",
+    "link": "https://himachal.nic.in/transport/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "category": "grievance",
+    "title": "Mukhyamantri Seva Sankalp Helpline (1100)",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Centralized grievance management engine for registering community complaints, tracking solutions, and reporting concerns directly to department heads.",
+    "link": "https://cmsankalp.hp.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "category": "utility",
+    "title": "HPSEB Electricity Portal",
+    "badge": "POWER UTILITY",
+    "desc": "Official dashboard for Himachal Pradesh State Electricity Board consumers to execute secure instant utility payments and access metering histories.",
+    "link": "https://www.hpseb.in/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "category": "tenders",
+    "title": "HP eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Central commercial gateway for active public works department tenders, multi-tier corporate bidding modules, and automated vendor authorization keys.",
+    "link": "https://hptenders.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#34495e"
+  },
+  
+  {
+    "state": "Karnataka",
+    "category": "citizen_services",
+    "title": "Seva Sindhu Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window platform for automated delivery of state-wide citizen services, managing certificates, welfare applications, and integration with DBT schemes.",
+    "link": "https://sevasindhu.karnataka.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Karnataka",
+    "category": "land_records",
+    "title": "Bhoomi Online (Land Records)",
+    "badge": "LAND RECORDS",
+    "desc": "Flagship land records management system of Karnataka to check RTC (Pahani) document logs, mutation status, MR records, and revenue maps.",
+    "link": "https://landrecords.karnataka.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Karnataka",
+    "category": "recruitment",
+    "title": "Karnataka Examination Authority (KEA)",
+    "badge": "ADMISSIONS & JOBS",
+    "desc": "Official gateway for professional entrance exams (KCET), state department recruitments, counselor tracking, and merit distribution metrics.",
+    "link": "https://cetonline.karnataka.gov.in/",
+    "icon": "fa-user-graduate",
+    "color": "#16a085"
+  },
+  {
+    "state": "Karnataka",
+    "category": "recruitment",
+    "title": "KPSC Recruitment Desk",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Karnataka Public Service Commission platform for Gazetted Probationers examinations, administrative vacancies, and competitive syllabi logs.",
+    "link": "https://kpsc.kar.nic.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Karnataka",
+    "category": "education",
+    "title": "Karnataka School Examination and Assessment Board (KSEAB)",
+    "badge": "BOARD EXAMS",
+    "desc": "Official educational matrix for SSLC (10th) and 2nd PUC (12th) board registrations, timeline schedules, hall tickets, and public metrics results.",
+    "link": "https://kseab.karnataka.gov.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Karnataka",
+    "category": "finance",
+    "title": "Khajane II Treasury System",
+    "badge": "TREASURY SERVICES",
+    "desc": "Integrated financial management system of Karnataka for department chalans, cyber-treasury processing, employee salary slips, and pension payouts.",
+    "link": "https://khajane2.karnataka.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Karnataka",
+    "category": "utility",
+    "title": "Bangalore One / Karnataka One",
+    "badge": "ONE SERVICES",
+    "desc": "Unified urban and rural service desks for instant electricity bill payments, water bills, municipal property taxes, and regional traffic fine lookups.",
+    "link": "https://www.karnatakaone.gov.in/",
+    "icon": "fa-building-shield",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Karnataka",
+    "category": "transport",
+    "title": "Karnataka Transport Department",
+    "badge": "RTO SERVICES",
+    "desc": "Access automated RTO functionalities for permanent driving licenses, registration status indexation, fitness certificates, and vehicle tax payments.",
+    "link": "https://transport.karnataka.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Karnataka",
+    "category": "grievance",
+    "title": "Spandana Public Grievance Portal",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Centralized citizen grievance tracking mechanism for direct escalation of complaints to state ministries, with time-bound review logs.",
+    "link": "https://spandana.karnataka.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Karnataka",
+    "category": "agriculture",
+    "title": "FRUITS Karnataka (Farmer Portal)",
+    "badge": "FARMER SCHEMES",
+    "desc": "Farmer Registration and Unified Beneficiary Information System for linking land ownership with multi-department crop subsidies and dynamic loans.",
+    "link": "https://fruits.karnataka.gov.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Karnataka",
+    "category": "utility",
+    "title": "Bescom / Mescom Power Portal",
+    "badge": "POWER UTILITY",
+    "desc": "Online utilities interface for Karnataka electricity consumers to execute instant payments, track load history, and lodge breakdown logs.",
+    "link": "https://bescom.karnataka.gov.in/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Karnataka",
+    "category": "tenders",
+    "title": "Karnataka eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Centralized marketplace for downloading official Karnataka state tenders, structural vendor listings, and multi-department corporate bidding.",
+    "link": "https://eproc.karnataka.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#34495e"
+  },
+
+{
+    "state": "Kerala",
+    "category": "citizen_services",
+    "title": "e-District Kerala Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official digital gateway to apply for multiple certificate frameworks online, including Income, Caste, Domicile, and One and Same certificate verifications.",
+    "link": "https://edistrict.kerala.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Kerala",
+    "category": "citizen_services",
+    "title": "Akshaya State Portal",
+    "badge": "AKSHAYA SERVICES",
+    "desc": "Official interface for Kerala's decentralized ICT centers, managing citizen utility payments, identity registrations, and automated e-governance access.",
+    "link": "http://www.akshaya.kerala.gov.in/",
+    "icon": "fa-circle-dot",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Kerala",
+    "category": "land_records",
+    "title": "E-Rekha (Kerala Land Records)",
+    "badge": "LAND RECORDS",
+    "desc": "Web-based land records repository to explore old and new survey records, view village revenue maps, and verify ownership status descriptions.",
+    "link": "https://erekha.kerala.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Kerala",
+    "category": "recruitment",
+    "title": "Kerala PSC Thulasi",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Public Service Commission portal utilizing One-Time Registration (OTR) profiles for managing state government job notifications and exam schedules.",
+    "link": "https://thulasi.psc.kerala.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Kerala",
+    "category": "education",
+    "title": "DHSE / Pareeksha Bhavan Kerala",
+    "badge": "BOARD EXAMS",
+    "desc": "Official examination portal for SSLC (10th) and Higher Secondary (12th) registrations, dynamic hall tickets, and public metrics result sheets.",
+    "link": "http://keralapareekshabhavan.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Kerala",
+    "category": "education",
+    "title": "Single Window Admission (HSCAP)",
+    "badge": "ADMISSIONS",
+    "desc": "Centralized admission portal for Higher Secondary central single-window registration, merit seat allotments, and course selection timelines.",
+    "link": "https://www.hscap.kerala.gov.in/",
+    "icon": "fa-user-graduate",
+    "color": "#16a085"
+  },
+  {
+    "state": "Kerala",
+    "category": "finance",
+    "title": "SPARK Kerala Payroll System",
+    "badge": "EMPLOYEE SERVICES",
+    "desc": "Service and Payroll Administrative Repository for Kerala, managing online payslips, service logs, and treasury operations for government employees.",
+    "link": "https://www.spark.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Kerala",
+    "category": "transport",
+    "title": "Kerala Motor Vehicles Department",
+    "badge": "MVD RTO SERVICES",
+    "desc": "Access digital RTA amenities via Parivahan framework for smart driving licenses, virtual vehicle fitness indices, and booking road test slots.",
+    "link": "https://mvd.kerala.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Kerala",
+    "category": "grievance",
+    "title": "Sutharya Keralam (CM Helpline)",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Chief Minister's centralized public grievance tracking mechanism for lodging complaints directly and validating time-bound solutions.",
+    "link": "https://cmo.kerala.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Kerala",
+    "category": "utility",
+    "title": "KSEB Online Payment Portal",
+    "badge": "POWER UTILITY",
+    "desc": "Official Kerala State Electricity Board digital counter for secure instant electricity bill settlements, consumption trackings, and breakdown log filings.",
+    "link": "https://wss.kseb.in/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Kerala",
+    "category": "administration",
+    "title": "PRD Kerala (Information & Public Relations)",
+    "badge": "GOVERNMENT",
+    "desc": "Official media and information desk providing authentic government orders, cabinet press notes, notifications, and cultural event logs.",
+    "link": "https://www.prd.kerala.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#34495e"
+  },
+  {
+    "state": "Kerala",
+    "category": "tenders",
+    "title": "Kerala eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Central commercial portal for downloading official Kerala state department tender notices, dynamic corporate bidding, and vendor registries.",
+    "link": "https://etenders.kerala.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#8e44ad"
+  },
+
+  {
+    "state": "Madhya Pradesh",
+    "category": "citizen_services",
+    "title": "MP Online Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window portal for executing state government services, citizen applications, university admissions, and utility billings.",
+    "link": "https://mponline.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "category": "citizen_services",
+    "title": "MP e-District Lok Seva",
+    "badge": "LOK SEVA",
+    "desc": "Official public services portal to apply online for multiple statutory certificates, including Income, Caste, and Domicile proofs.",
+    "link": "https://mpedistrict.gov.in/",
+    "icon": "fa-file-signature",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "category": "welfare",
+    "title": "Samagra Social Security Mission",
+    "badge": "SAMAGRA ID",
+    "desc": "Centralized database management system tracking Samagra family IDs, required for state social benefits, scholarship linkups, and target welfare DBT.",
+    "link": "https://samagra.gov.in/",
+    "icon": "fa-address-card",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "category": "land_records",
+    "title": "MP Bhoo-Abhilekh (Land Records)",
+    "badge": "LAND RECORDS",
+    "desc": "Official digital land records repository to view Khasra/Khatoni B-1 details, land maps, property tracking, and mutation processing status.",
+    "link": "https://mpbhulekh.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "category": "recruitment",
+    "title": "MP Employees Selection Board (MPESB)",
+    "badge": "STAFF RECRUITMENT",
+    "desc": "Formerly Vyapam, the central board managing professional entrance exams, non-gazetted group recruitments, and competitive eligibility tests.",
+    "link": "https://esb.mp.gov.in/",
+    "icon": "fa-user-tie",
+    "color": "#16a085"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "category": "recruitment",
+    "title": "MPPSC Recruitment Portal",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Madhya Pradesh Public Service Commission gateway for State Civil Services examinations, administrative hiring rosters, and dynamic syllabi.",
+    "link": "https://mppsc.mp.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "category": "education",
+    "title": "MPBSE Board Desktop",
+    "badge": "BOARD EXAMS",
+    "desc": "Official website of Madhya Pradesh Board of Secondary Education for High School (10th) and Higher Secondary (12th) updates and board results.",
+    "link": "https://mpbse.nic.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "category": "finance",
+    "title": "IFMS MP Cyber Treasury",
+    "badge": "TREASURY",
+    "desc": "Integrated Financial Management System for online tax challenges, secure department receipts processing, and checking state budget distribution files.",
+    "link": "https://mptreasury.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "category": "transport",
+    "title": "MP Transport Department",
+    "badge": "RTO SERVICES",
+    "desc": "Access digital RTO services for vehicle tax validation, commercial permit records, temporary registrations, and permanent driving license profiles.",
+    "link": "https://mptransport.org/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "category": "grievance",
+    "title": "MP CM Helpline (181)",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Chief Minister's active public grievance redressing engine for registration of citizen complaints and checking multi-department solution logs.",
+    "link": "http://cmhelpline.mp.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "category": "utility",
+    "title": "MP Urja Power Billing Portal",
+    "badge": "POWER UTILITY",
+    "desc": "Central interface covering MP Paschim, Poorv, and Madhya Kshetran electricity boards for processing instant bill payments and consumption queries.",
+    "link": "https://www.mpenwin.com/",
+    "icon": "fa-bolt",
+    "color": "#34495e"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "category": "tenders",
+    "title": "MP eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Central commercial portal for downloading official Madhya Pradesh public tenders, secure dynamic corporate bidding, and vendor registries.",
+    "link": "https://mptenders.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#8e44ad"
+  },
+
+  {
+    "state": "Maharashtra",
+    "category": "citizen_services",
+    "title": "Aaple Sarkar Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window portal of Maharashtra for online citizen services, managing applications for Income, Caste, Domicile, and Age nationality certificates.",
+    "link": "https://aaplesarkar.mahaonline.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Maharashtra",
+    "category": "scholarship",
+    "title": "MahaDBT Scholar Portal",
+    "badge": "SCHOLARSHIPS",
+    "desc": "Direct Benefit Transfer portal of Maharashtra for student scholarship workflows, post-matric educational schemes, and automated fee waiver transfers.",
+    "link": "https://mahadbt.maharashtra.gov.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Maharashtra",
+    "category": "land_records",
+    "title": "Mahabhulekh (Land Records)",
+    "badge": "LAND RECORDS",
+    "desc": "Official land records website of Maharashtra to check 7/12 (Satbara) extracts, 8A land holding details, Ferfar logs, and digitized revenue maps.",
+    "link": "https://bhulekh.mahabhumi.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Maharashtra",
+    "category": "recruitment",
+    "title": "MPSC Recruitment Desk",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Maharashtra Public Service Commission platform for State Civil Services examinations, administrative hiring procedures, and syllabus indexation.",
+    "link": "https://mpsc.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Maharashtra",
+    "category": "recruitment",
+    "title": "Mahaswayam Portal",
+    "badge": "EMPLOYMENT & SKILL",
+    "desc": "Integrated portal combining Skill Development, Employment assistance, and Entrepreneurship opportunities for Maharashtra's youth assets.",
+    "link": "https://www.mahaswayam.gov.in/",
+    "icon": "fa-briefcase",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Maharashtra",
+    "category": "education",
+    "title": "MSBSHSE Board Portal",
+    "badge": "BOARD EXAMS",
+    "desc": "Official website of Maharashtra State Board of Secondary and Higher Secondary Education for SSC (10th) and HSC (12th) timelines and board results.",
+    "link": "https://mahahsscboard.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Maharashtra",
+    "category": "finance",
+    "title": "Mahakosh Cyber Treasury",
+    "badge": "TREASURY SERVICES",
+    "desc": "Directorate of Accounts and Treasuries platform for tracking employee payroll metrics, dynamic virtual challans, and state treasury receipts.",
+    "link": "https://mahakosh.maharashtra.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Maharashtra",
+    "category": "transport",
+    "title": "Maharashtra Motor Vehicle Dept",
+    "badge": "RTO SERVICES",
+    "desc": "Access digital RTO services for processing permanent driving licenses, vehicle text logs, fancy plates booking, and fitness index checks.",
+    "link": "https://transport.maharashtra.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Maharashtra",
+    "category": "grievance",
+    "title": "Chief Minister Secretariat Grievance",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Centralized engine allowing citizens to lodge complaints directly under CMO review logs and check solution logs across state cells.",
+    "link": "https://cmogrievance.maharashtra.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Maharashtra",
+    "category": "utility",
+    "title": "Mahadiscom / MSEDCL Portal",
+    "badge": "POWER UTILITY",
+    "desc": "Official digital counter for Maharashtra State Electricity Distribution Company to settle bills instantly, review consumption patterns, and log breakdowns.",
+    "link": "https://www.mahadiscom.in/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Maharashtra",
+    "category": "citizen_services",
+    "title": "Maharashtra RTS Commission",
+    "badge": "RIGHT TO SERVICE",
+    "desc": "Official Right to Public Services portal ensuring time-bound delivery of government amenities and managing public appeal records.",
+    "link": "https://aaplesarkar.mahaonline.gov.in/en/RightToService",
+    "icon": "fa-scale-balanced",
+    "color": "#34495e"
+  },
+  {
+    "state": "Maharashtra",
+    "category": "tenders",
+    "title": "Maharashtra eProcurement",
+    "badge": "PROCUREMENT",
+    "desc": "Centralized commercial marketplace for downloading official Maharashtra state tenders, structural vendor listings, and multi-department bidding.",
+    "link": "https://mahatenders.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#c0392b"
+  },
+  
+  {
+    "state": "Manipur",
+    "category": "citizen_services",
+    "title": "e-District Manipur Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window portal of Manipur for online citizen services, managing applications for Income, Caste, Tribe, and Domicile certificates.",
+    "link": "https://manipuredistrict.mn.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Manipur",
+    "category": "land_records",
+    "title": "Louchapathap (Land Records)",
+    "badge": "LAND RECORDS",
+    "desc": "Official land records computerization portal of Manipur to check Jamabandi/Patta logs, land registration status, and mutation details.",
+    "link": "https://louchapathap.mn.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Manipur",
+    "category": "recruitment",
+    "title": "Manipur Public Service Commission (MPSC)",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official portal for Manipur State Civil Services examinations, administrative officer recruitment notifications, and exam syllabi.",
+    "link": "https://mpscmanipur.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Manipur",
+    "category": "education",
+    "title": "Board of Secondary Education Manipur (BSEM)",
+    "badge": "BOARD EXAMS",
+    "desc": "Official education desk for High School Leaving Certificate (HSLC/10th) board registrations, syllabus updates, and public results.",
+    "link": "https://bsem.nic.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Manipur",
+    "category": "education",
+    "title": "Council of Higher Secondary Education Manipur",
+    "badge": "HIGHER SECONDARY",
+    "desc": "Official COHSEM website for Higher Secondary Examination (HSE/12th) roll schedules, academic timelines, and public metrics results.",
+    "link": "https://cohsem.nic.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#16a085"
+  },
+  {
+    "state": "Manipur",
+    "category": "finance",
+    "title": "Manipur Cyber Treasury",
+    "badge": "TREASURY SERVICES",
+    "desc": "Official Department of Taxes and Treasuries portal for generating e-challans, tracking government receipt systems, and employee payroll verification.",
+    "link": "https://manipurtreasury.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Manipur",
+    "category": "transport",
+    "title": "Manipur Transport Directorate",
+    "badge": "RTO SERVICES",
+    "desc": "Access automated RTO services via Parivahan framework for smart card driving licenses, vehicle tax logging, and registration details.",
+    "link": "https://manipurtransport.mn.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Manipur",
+    "category": "pds_ration",
+    "title": "PDS Portal Manipur",
+    "badge": "RATION CARD",
+    "desc": "Official Food and Civil Supplies portal to track National Food Security Act (NFSA) allocation, apply for new Ration Cards, and view fair price shop data.",
+    "link": "https://pdsmanipur.nic.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Manipur",
+    "category": "administration",
+    "title": "Official State Portal of Manipur",
+    "badge": "GOVERNMENT",
+    "desc": "Core administrative repository for Manipur government notifications, department profiles, latest cabinet circulars, and executive listings.",
+    "link": "https://manipur.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#34495e"
+  },
+  {
+    "state": "Manipur",
+    "category": "tenders",
+    "title": "Manipur eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Central commercial platform for downloading official Manipur state tender notices, secure dynamic vendor bidding, and contract allocations.",
+    "link": "https://manipurtenders.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Manipur",
+    "category": "employment",
+    "title": "Manipur Employment Exchange Portal",
+    "badge": "EMPLOYMENT",
+    "desc": "Online registration workspace for educated unemployed youth in Manipur, facilitating skill indexing and corporate or public placement matching.",
+    "link": "https://eemn.gov.in/",
+    "icon": "fa-briefcase",
+    "color": "#c0392b"
+  },
+
+  {
+    "state": "Meghalaya",
+    "category": "citizen_services",
+    "title": "e-District Meghalaya Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window portal of Meghalaya for online citizen services, managing applications for Income, Caste, Scheduled Tribe, and Domicile certificates.",
+    "link": "https://megedistrict.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Meghalaya",
+    "category": "land_records",
+    "title": "Meghalaya Land Records Management",
+    "badge": "LAND RECORDS",
+    "desc": "Official digital platform for viewing state land records computerization, revenue surveys, registration logs, and cadastral maps.",
+    "link": "https://meglandrecords.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Meghalaya",
+    "category": "recruitment",
+    "title": "Meghalaya Public Service Commission (MPSC)",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official recruitment desk for Meghalaya State Civil Services examinations, non-technical or technical gazetted posts, and exam schedules.",
+    "link": "https://mpsc.nic.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Meghalaya",
+    "category": "education",
+    "title": "Meghalaya Board of School Education (MBOSE)",
+    "badge": "BOARD EXAMS",
+    "desc": "Official academic web workspace for SSLC (10th) and HSSLC (12th) registrations, examination routines, syllabi, and public metrics results.",
+    "link": "http://www.mbose.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Meghalaya",
+    "category": "finance",
+    "title": "Meghalaya Cyber Treasury",
+    "badge": "TREASURY SERVICES",
+    "desc": "Official Directorate of Accounts and Treasuries portal for secure online payment of state taxes, department e-challans, and employee payslips.",
+    "link": "https://megtreasury.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Meghalaya",
+    "category": "transport",
+    "title": "Meghalaya Transport Directorate",
+    "badge": "RTO SERVICES",
+    "desc": "Access automated RTO functionalities via Parivahan framework for smart driving licenses, online vehicle registration, and fitness index checks.",
+    "link": "https://megtransport.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Meghalaya",
+    "category": "pds_ration",
+    "title": "PDS Portal Meghalaya",
+    "badge": "RATION CARD",
+    "desc": "Official Food, Civil Supplies and Consumer Affairs portal to track digital Ration Cards, fair price shop allocations, and NFSA status updates.",
+    "link": "https://megfcs.gov.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Meghalaya",
+    "category": "administration",
+    "title": "Official State Portal of Meghalaya",
+    "badge": "GOVERNMENT",
+    "desc": "Core administrative repository for Meghalaya government gazette notifications, multi-department guidelines, and state policy circulars.",
+    "link": "https://meghalaya.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#34495e"
+  },
+  {
+    "state": "Meghalaya",
+    "category": "tenders",
+    "title": "Meghalaya eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Central commercial platform for downloading official Meghalaya state tenders, managing dynamic vendor registries, and corporate bidding.",
+    "link": "https://meghatenders.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Meghalaya",
+    "category": "employment",
+    "title": "Meghalaya State Employment Portal",
+    "badge": "EMPLOYMENT",
+    "desc": "Online registration setup for educated unemployed youth in Meghalaya, facilitating skill matrix indexing and corporate or public placements.",
+    "link": "https://megemployment.gov.in/",
+    "icon": "fa-briefcase",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Meghalaya",
+    "category": "recruitment",
+    "title": "DSC Recruitment Portal",
+    "badge": "DISTRICT SELECTION",
+    "desc": "Central desk for District Selection Committees (DSC) of Meghalaya managing competitive examinations and non-gazetted group recruitments.",
+    "link": "https://meghalaya.gov.in/",
+    "icon": "fa-user-tie",
+    "color": "#16a085"
+  },
+
+  {
+    "state": "Mizoram",
+    "category": "citizen_services",
+    "title": "e-District Mizoram Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window portal of Mizoram for online citizen services, managing applications for Income, Caste, Tribe, and Residential certificates.",
+    "link": "https://edistrict.mizoram.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Mizoram",
+    "category": "land_records",
+    "title": "Mizoram Land Revenue & Settlement",
+    "badge": "LAND RECORDS",
+    "desc": "Official digital platform for viewing Mizoram land records computerization, periodic land passes, revenue surveys, and allotment logs.",
+    "link": "https://landrevenue.mizoram.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Mizoram",
+    "category": "recruitment",
+    "title": "Mizoram Public Service Commission (MPSC)",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official recruitment desk for Mizoram State Civil Services examinations, technical/non-technical gazetted posts, and exam schedules.",
+    "link": "https://mpsc.mizoram.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Mizoram",
+    "category": "education",
+    "title": "Mizoram Board of School Education (MBSE)",
+    "badge": "BOARD EXAMS",
+    "desc": "Official academic web workspace for Mizoram High School Leaving Certificate (HSLC) and Higher Secondary (HSSLC) results and registries.",
+    "link": "https://www.mbse.edu.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Mizoram",
+    "category": "finance",
+    "title": "Mizoram Cyber Treasury",
+    "badge": "TREASURY SERVICES",
+    "desc": "Official Directorate of Accounts and Treasuries portal for secure online payment of state taxes, department e-challans, and payroll checks.",
+    "link": "https://mizoramtreasury.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Mizoram",
+    "category": "transport",
+    "title": "Mizoram Transport Directorate",
+    "badge": "RTO SERVICES",
+    "desc": "Access automated RTO functionalities via Parivahan framework for smart driving licenses, vehicle tax logging, and RC details.",
+    "link": "https://transport.mizoram.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Mizoram",
+    "category": "pds_ration",
+    "title": "PDS Portal Mizoram",
+    "badge": "RATION CARD",
+    "desc": "Official Food, Civil Supplies and Consumer Affairs portal to track digital Ration Cards, fair price shop data, and NFSA lists.",
+    "link": "https://fcsca.mizoram.gov.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Mizoram",
+    "category": "administration",
+    "title": "Official State Portal of Mizoram",
+    "badge": "GOVERNMENT",
+    "desc": "Core administrative repository for Mizoram government gazette notifications, multi-department guidelines, and state policy circulars.",
+    "link": "https://mizoram.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#34495e"
+  },
+  {
+    "state": "Mizoram",
+    "category": "tenders",
+    "title": "Mizoram eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Central commercial platform for downloading official Mizoram state tenders, managing dynamic vendor registries, and corporate bidding.",
+    "link": "https://mizoramtenders.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Mizoram",
+    "category": "recruitment",
+    "title": "Mizoram Subordinate Services Selection Board",
+    "badge": "STAFF SELECTION",
+    "desc": "Official MSSSB recruitment desk managing competitive examinations and non-gazetted Group B and Group C state post recruitments.",
+    "link": "https://msssb.mizoram.gov.in/",
+    "icon": "fa-user-tie",
+    "color": "#16a085"
+  },
+  {
+    "state": "Nagaland",
+    "category": "citizen_services",
+    "title": "State Portal Nagaland (e-District)",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window portal of Nagaland for online citizen services, managing applications for Income, Indigenous Inhabitant, and Scheduled Tribe proofs.",
+    "link": "https://janjagriti.nagaland.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Nagaland",
+    "category": "land_records",
+    "title": "Nagaland Land Records & Survey",
+    "badge": "LAND RECORDS",
+    "desc": "Official digital platform for viewing Nagaland land records computerization, government land surveys, maps, and acquisition logs.",
+    "link": "https://landrecords.nagaland.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Nagaland",
+    "category": "recruitment",
+    "title": "Nagaland Public Service Commission (NPSC)",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official recruitment desk for Nagaland State Civil Services examinations, technical/non-technical gazetted vacancies, and exam results.",
+    "link": "https://npsc.nagaland.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Nagaland",
+    "category": "education",
+    "title": "Nagaland Board of School Education (NBSE)",
+    "badge": "BOARD EXAMS",
+    "desc": "Official academic web workspace for Nagaland HSLC (10th) and HSSLC (12th) registrations, schedules, and public metrics results.",
+    "link": "https://nbsenl.edu.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Nagaland",
+    "category": "finance",
+    "title": "Nagaland Cyber Treasury",
+    "badge": "TREASURY SERVICES",
+    "desc": "Official Department of Treasuries and Accounts portal for secure online payment of state challenges, e-challans, and employee payslips.",
+    "link": "https://nagalandtreasury.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Nagaland",
+    "category": "transport",
+    "title": "Nagaland Motor Vehicles Department",
+    "badge": "RTO SERVICES",
+    "desc": "Access automated RTO functionalities via Parivahan framework for smart driving licenses, online vehicle registration, and fitness indices.",
+    "link": "https://nagalandmvd.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Nagaland",
+    "category": "pds_ration",
+    "title": "PDS Portal Nagaland",
+    "badge": "RATION CARD",
+    "desc": "Official Food and Civil Supplies portal to track digital Ration Cards, fair price shop allocations, and NFSA status updates in Nagaland.",
+    "link": "https://fcs.nagaland.gov.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Nagaland",
+    "category": "administration",
+    "title": "Official State Portal of Nagaland",
+    "badge": "GOVERNMENT",
+    "desc": "Core administrative repository for Nagaland government notifications, department profiles, latest cabinet decisions, and press circulars.",
+    "link": "https://nagaland.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#34495e"
+  },
+  {
+    "state": "Nagaland",
+    "category": "tenders",
+    "title": "Nagaland eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Central commercial platform for downloading official Nagaland state tenders, managing dynamic vendor registries, and corporate bidding.",
+    "link": "https://nagalandtenders.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Nagaland",
+    "category": "recruitment",
+    "title": "Nagaland Staff Selection Board (NSSB)",
+    "badge": "STAFF SELECTION",
+    "desc": "Official recruitment framework for subordinate Group C services in Nagaland, controlling online forms, exams, and merit allocations.",
+    "link": "https://nssb.nagaland.gov.in/",
+    "icon": "fa-user-tie",
+    "color": "#16a085"
+  },
+    
+  {
+    "state": "Odisha",
+    "category": "citizen_services",
+    "title": "Odisha One Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window platform for integrated citizen services, certificate applications, and multi-department utility payments.",
+    "link": "https://odishaone.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Odisha",
+    "category": "citizen_services",
+    "title": "e-District Odisha",
+    "badge": "CERTIFICATES",
+    "desc": "Online public services portal to apply for multiple statutory certificates, including Income, Caste, Resident, and Legal Heir certificates.",
+    "link": "https://edistrict.odisha.gov.in/",
+    "icon": "fa-file-signature",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Odisha",
+    "category": "land_records",
+    "title": "Bhulekh Odisha (Land Records)",
+    "badge": "LAND RECORDS",
+    "desc": "Official digital land records repository of Odisha to check RoR (Record of Rights) documents, map sheets, and mutation logs.",
+    "link": "http://bhulekh.ori.nic.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Odisha",
+    "category": "recruitment",
+    "title": "OPSC Recruitment Desk",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Odisha Public Service Commission portal for civil services, judicial posts, and Group A or B gazetted officer examinations.",
+    "link": "https://opsc.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Odisha",
+    "category": "recruitment",
+    "title": "OSSC Selection Portal",
+    "badge": "STAFF SELECTION",
+    "desc": "Odisha Staff Selection Commission gateway for competitive group B and group C state cadre recruitment notifications and schedules.",
+    "link": "https://ossc.gov.in/",
+    "icon": "fa-user-tie",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Odisha",
+    "category": "recruitment",
+    "title": "OSSSC Subordinate Recruitment",
+    "badge": "SUBORDINATE SERVICES",
+    "desc": "Official portal for district-level cadre recruitments, managing online exams for junior assistants, clerks, and field staff vacancies.",
+    "link": "https://osssc.gov.in/",
+    "icon": "fa-users-line",
+    "color": "#16a085"
+  },
+  {
+    "state": "Odisha",
+    "category": "scholarship",
+    "title": "State Scholarship Portal Odisha",
+    "badge": "SCHOLARSHIPS",
+    "desc": "Unified interface for tracking post-matric educational benefits, student registration, and automated DBT allowance schemes.",
+    "link": "https://scholarship.odisha.gov.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Odisha",
+    "category": "agriculture",
+    "title": "Krushak Odisha Portal",
+    "badge": "FARMER ASSISTANCE",
+    "desc": "Comprehensive digital farmer framework for state incentive linking, identity validation, and tracking dynamic agricultural inputs.",
+    "link": "https://krushak.odisha.gov.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Odisha",
+    "category": "education",
+    "title": "SAMS Odisha Admissions",
+    "badge": "CENTRAL ADMISSIONS",
+    "desc": "Student Academic Management System for single-window admissions across junior, degree, physical education, and post-graduate institutions.",
+    "link": "https://samsodisha.gov.in/",
+    "icon": "fa-user-graduate",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Odisha",
+    "category": "education",
+    "title": "BSE Odisha Board",
+    "badge": "BOARD EXAMS",
+    "desc": "Official Board of Secondary Education website for matriculation (10th) registries, OTET certificates, and metrics results announcements.",
+    "link": "http://bseodisha.ac.in/",
+    "icon": "fa-book-open",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Odisha",
+    "category": "finance",
+    "title": "IFMS Odisha Cyber Treasury",
+    "badge": "TREASURY SERVICES",
+    "desc": "Integrated Financial Management System for secure electronic government collection receipt tracking and dynamic department challan management.",
+    "link": "https://www.odishatreasury.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#34495e"
+  },
+  {
+    "state": "Odisha",
+    "category": "transport",
+    "title": "Odisha State Transport Authority",
+    "badge": "RTO SERVICES",
+    "desc": "Access automated RTO desks for smart driving licenses, fancy registration logs, commercial permits, and road tax indices.",
+    "link": "https://orissatransport.nic.in/",
+    "icon": "fa-car",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Odisha",
+    "category": "grievance",
+    "title": "e-Abhijoga Public Grievance",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Centralized grievance mechanism allowing community complaints submission directly to the Chief Minister's office and higher state desks.",
+    "link": "http://cmogrievance.odisha.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Odisha",
+    "category": "utility",
+    "title": "TPODISHA / Power Billing Portal",
+    "badge": "POWER UTILITY",
+    "desc": "Online utilities interface for safe state power consumer payment execution, meter logs check, and power breakdown filings.",
+    "link": "https://www.tpcentralodisha.com/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Odisha",
+    "category": "tenders",
+    "title": "Odisha eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Central commercial platform for downloading public works contracts, structural vendor rosters, and multi-department corporate bidding.",
+    "link": "https://tendersodisha.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Punjab",
+    "category": "citizen_services",
+    "title": "Sewa Kendra Punjab (mSewa)",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window ecosystem for citizen service delivery tracking, certificate entries, and multi-department public welfare processing.",
+    "link": "https://esewa.punjab.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Punjab",
+    "category": "land_records",
+    "title": "Jamabandi Punjab (PLRS)",
+    "badge": "LAND RECORDS",
+    "desc": "Official Punjab Land Records Society desk to verify Jamabandi logs, mutation tracking, integrated property registration attributes, and land maps.",
+    "link": "http://plrs.org.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Punjab",
+    "category": "recruitment",
+    "title": "PPSC Recruitment Portal",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Punjab Public Service Commission platform for elite state civil services, judicial posts, and higher executive notifications.",
+    "link": "https://ppsc.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Punjab",
+    "category": "recruitment",
+    "title": "PSSSB Selection Board",
+    "badge": "STAFF SELECTION",
+    "desc": "Punjab Subordinate Services Selection Board portal for Group C competitive examinations, clerk recruitment entries, and score logs.",
+    "link": "https://sssb.punjab.gov.in/",
+    "icon": "fa-user-tie",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Punjab",
+    "category": "recruitment",
+    "title": "Punjab Police Recruitment",
+    "badge": "POLICE JOBS",
+    "desc": "Official web window for state police sub-inspector and constable vacancy applications, physical test timelines, and merit lists.",
+    "link": "https://punjabpolice.gov.in/",
+    "icon": "fa-shield-halved",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Punjab",
+    "category": "education",
+    "title": "PSEB Board Portal",
+    "badge": "BOARD EXAMS",
+    "desc": "Official portal of Punjab School Education Board for secondary (10th) and senior secondary (12th) tracking and public board results.",
+    "link": "https://www.pseb.ac.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Punjab",
+    "category": "finance",
+    "title": "Integrated Treasury (IFMS Punjab)",
+    "badge": "TREASURY SERVICES",
+    "desc": "Official cyber-treasury interface for state employee payroll verifications, department receipt logging, and vendor statement analytics.",
+    "link": "https://ifms.punjab.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Punjab",
+    "category": "agriculture",
+    "title": "Anaaj Kharid Punjab Portal",
+    "badge": "PDS & PROCUREMENT",
+    "desc": "Official food grains procurement application framework managing arhtiya listings, crop production validation, and dynamic mill monitoring.",
+    "link": "https://anaajkharid.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Punjab",
+    "category": "transport",
+    "title": "Punjab Transport Directorate",
+    "badge": "RTO SERVICES",
+    "desc": "Access digital RTO services via parivahan platform for permanent driving licenses, vehicle tax logging, and checking registration attributes.",
+    "link": "http://punjabtransport.org/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Punjab",
+    "category": "grievance",
+    "title": "Connect Punjab Grievance Portal",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Centralized state-wide public grievance engine for submitting community suggestions and keeping tracking parameters active for solution reviews.",
+    "link": "https://connect.punjab.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#16a085"
+  },
+  {
+    "state": "Punjab",
+    "category": "utility",
+    "title": "PSPCL Power Billing Desk",
+    "badge": "POWER UTILITY",
+    "desc": "Official portal for Punjab State Power Corporation Limited to check energy statements, initiate bill processing, and request new load adjustments.",
+    "link": "https://www.pspcl.in/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Punjab",
+    "category": "tenders",
+    "title": "Punjab eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Centralized marketplace for tracking official state procurement loops, structural contractor rosters, and technical corporate bidding.",
+    "link": "https://eproc.punjab.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#34495e"
+  },
+  {
+    "state": "Punjab",
+    "category": "scholarship",
+    "title": "Dr. Ambedkar Scholarship Punjab",
+    "badge": "SCHOLARSHIPS",
+    "desc": "Official welfare portal managing post-matric scholarship workflows for minority students, document validation, and online tracking.",
+    "link": "https://scholarships.punjab.gov.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Punjab",
+    "category": "business",
+    "title": "Invest Punjab Portal",
+    "badge": "BUSINESS DESK",
+    "desc": "Single-window clearance mechanism for trade permissions, industrial land profiles, regulatory tracking, and corporate establishment verification.",
+    "link": "https://pbi.investpunjab.gov.in/",
+    "icon": "fa-briefcase",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Punjab",
+    "category": "administration",
+    "title": "Official State Portal of Punjab",
+    "badge": "GOVERNMENT",
+    "desc": "Core administrative workspace for Punjab cabinet decisions, policy guidelines, gazetted notifications, and latest executive briefings.",
+    "link": "https://punjab.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#7f8c8d"
+  },
+
+  
+  {
+    "state": "Rajasthan",
+    "category": "citizen_services",
+    "title": "Jan Aadhaar Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single family identity platform of Rajasthan, mandatory for delivering state-wide public welfare schemes and automated DBT validation.",
+    "link": "https://janhaar.rajasthan.gov.in/",
+    "icon": "fa-address-card",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Rajasthan",
+    "category": "citizen_services",
+    "title": "E-Mitra Rajasthan",
+    "badge": "E-MITRA SERVICES",
+    "desc": "Unified e-governance service delivery platform for digital certificate downloads, processing applications, and state utility bill collections.",
+    "link": "https://emitra.rajasthan.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Rajasthan",
+    "category": "land_records",
+    "title": "Apna Khata (E-Dharti)",
+    "badge": "LAND RECORDS",
+    "desc": "Official computerization portal for Rajasthan land records to view Jamabandi Nakal logs, land maps, and track mutation entry statuses.",
+    "link": "https://apnakhata.rajasthan.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Rajasthan",
+    "category": "recruitment",
+    "title": "RPSC Recruitment Desk",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Rajasthan Public Service Commission portal for RAS/RTS examinations, engineering entries, and gazetted officer hiring rosters.",
+    "link": "https://rpsc.rajasthan.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Rajasthan",
+    "category": "recruitment",
+    "title": "RSMSSB Selection Board",
+    "badge": "STAFF SELECTION",
+    "desc": "Rajasthan Staff Selection Board platform for executing non-gazetted group C competitive examinations, online forms, and merit scorecards.",
+    "link": "https://rsmssb.rajasthan.gov.in/",
+    "icon": "fa-user-tie",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Rajasthan",
+    "category": "recruitment",
+    "title": "OJAS / SSO Portal Login",
+    "badge": "SINGLE SIGN ON",
+    "desc": "Unified Single Sign On (SSO ID) ecosystem managing state job recruitment forms, citizen dashboard views, and integrated department profiles.",
+    "link": "https://sso.rajasthan.gov.in/",
+    "icon": "fa-right-to-bracket",
+    "color": "#16a085"
+  },
+  {
+    "state": "Rajasthan",
+    "category": "scholarship",
+    "title": "Rajasthan Scholarship Portal",
+    "badge": "SCHOLARSHIPS",
+    "desc": "Official Social Justice and Empowerment desk managing post-matric scholarship workflows, paperless verifications, and direct allowance trackings.",
+    "link": "https://sjmsnew.rajasthan.gov.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Rajasthan",
+    "category": "information",
+    "title": "Jan Soochna Portal",
+    "badge": "PUBLIC INFO",
+    "desc": "Proactive public disclosure framework of Rajasthan providing transparent file logs, beneficiary allocations, and information regarding all state schemes.",
+    "link": "https://jansoochna.rajasthan.gov.in/",
+    "icon": "fa-circle-info",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Rajasthan",
+    "category": "education",
+    "title": "BSER Ajmer Board Portal",
+    "badge": "BOARD EXAMS",
+    "desc": "Official Board of Secondary Education Rajasthan web setup for secondary (10th) and senior secondary (12th) timelines and public metrics results.",
+    "link": "https://rajeduboard.rajasthan.gov.in/",
+    "icon": "fa-book-open",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Rajasthan",
+    "category": "finance",
+    "title": "IFMS Rajasthan Cyber Treasury",
+    "badge": "TREASURY SERVICES",
+    "desc": "Integrated Financial Management System tracking government receipt systems, e-challans, employee payslips, and dynamic department budget files.",
+    "link": "https://ifms.rajasthan.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Rajasthan",
+    "category": "transport",
+    "title": "Rajasthan Transport Department",
+    "badge": "RTO SERVICES",
+    "desc": "Access digital RTA amenities for driving licenses, vehicle tax logging, fitness indexes, and high-security registration plates updates.",
+    "link": "https://transport.rajasthan.gov.in/",
+    "icon": "fa-car",
+    "color": "#34495e"
+  },
+  {
+    "state": "Rajasthan",
+    "category": "grievance",
+    "title": "Rajasthan Sampark Portal (181)",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Centralized citizen grievance register framework for lodging community concerns directly under administrative surveillance loops.",
+    "link": "https://sampark.rajasthan.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Rajasthan",
+    "category": "utility",
+    "title": "Discom Power Billing Desktop",
+    "badge": "POWER UTILITY",
+    "desc": "Central interface managing Jaipur, Jodhpur, and Ajmer electricity boards for executing secure instant utility bills payments.",
+    "link": "https://energy.rajasthan.gov.in/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Rajasthan",
+    "category": "tenders",
+    "title": "SPPP Rajasthan Tenders",
+    "badge": "PROCUREMENT",
+    "desc": "State Public Procurement Portal for tracking active central department tenders, vendor registration registries, and dynamic corporate bidding.",
+    "link": "https://sppp.rajasthan.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Rajasthan",
+    "category": "administration",
+    "title": "Official State Portal of Rajasthan",
+    "badge": "GOVERNMENT",
+    "desc": "Core administrative workspace for Rajasthan cabinet decisions, gazetted notifications, official circular orders, and chief minister desk details.",
+    "link": "https://rajasthan.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Sikkim",
+    "category": "citizen_services",
+    "title": "Sikkim Citizen Service Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window portal of Sikkim for automated delivery of certificates, managing applications for Income, Caste, and Certificate of Identification.",
+    "link": "https://services.sikkim.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Sikkim",
+    "category": "land_records",
+    "title": "Sikkim Land Records Computerization",
+    "badge": "LAND RECORDS",
+    "desc": "Official land revenue desk of Sikkim enabling users to verify land map grids, registration tracking indexes, and structural partition layouts.",
+    "link": "https://sikkimlandrevenue.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Sikkim",
+    "category": "recruitment",
+    "title": "Sikkim Public Service Commission (SPSC)",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official recruitment gateway for Sikkim State Civil Services examinations, administrative hiring rosters, and dynamic competitive syllabi.",
+    "link": "https://spsc.sikkim.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Sikkim",
+    "category": "education",
+    "title": "Sikkim HRDD Board Portal",
+    "badge": "EDUCATION DESK",
+    "desc": "Official Human Resource Development Department website for state scholarship registration, school statistics, and administrative directives.",
+    "link": "https://sikkimdhse.nic.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Sikkim",
+    "category": "finance",
+    "title": "Sikkim Cyber Treasury System",
+    "badge": "TREASURY SERVICES",
+    "desc": "Official Finance Department engine tracking electronic state tax collection challans, employee payroll frameworks, and budget archives.",
+    "link": "https://sikkimtreasury.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Sikkim",
+    "category": "transport",
+    "title": "Sikkim Motor Vehicles Department",
+    "badge": "RTO SERVICES",
+    "desc": "Access automated RTO functionalities via Parivahan platform for driving licenses, vehicle permit parameters, and token tax submissions.",
+    "link": "https://sikkimtransport.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Sikkim",
+    "category": "pds_ration",
+    "title": "Sikkim PDS Portal",
+    "badge": "RATION CARD",
+    "desc": "Official Food and Civil Supplies platform to monitor smart Ration Cards profiles, dealer allocations, and fair price distribution status.",
+    "link": "https://sikkimfcsca.nic.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Sikkim",
+    "category": "administration",
+    "title": "Official State Portal of Sikkim",
+    "badge": "GOVERNMENT",
+    "desc": "Core administrative repository for Sikkim government cabinet notifications, department matrices, and latest ministerial declarations.",
+    "link": "https://sikkim.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#34495e"
+  },
+  {
+    "state": "Sikkim",
+    "category": "tenders",
+    "title": "Sikkim eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Centralized commercial bidding framework for tracking active public tenders notices, contractor listings, and project allocations.",
+    "link": "https://sikkimtenders.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Sikkim",
+    "category": "utility",
+    "title": "Sikkim Power Billing Desk",
+    "badge": "POWER UTILITY",
+    "desc": "Official interface for Sikkim energy consumers to monitor digital ledger accounts, settle bills online, and log service breakdown notes.",
+    "link": "https://sikkimpower.gov.in/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Sikkim",
+    "category": "tourism",
+    "title": "Sikkim Tourism Travel Desk",
+    "badge": "TOURISM PERMITS",
+    "desc": "Official portal for executing tourist registration requests, inner line permits checks, and tracking dynamic local tour operator profiles.",
+    "link": "https://www.sikkimtourism.gov.in/",
+    "icon": "fa-mountain-sun",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Sikkim",
+    "category": "employment",
+    "title": "Sikkim Skill & Job Portal",
+    "badge": "EMPLOYMENT",
+    "desc": "Online registration workspace for local youth assets in Sikkim, enabling corporate placement matches and skill upgrade registrations.",
+    "link": "https://sikkimdes.gov.in/",
+    "icon": "fa-briefcase",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Sikkim",
+    "category": "grievance",
+    "title": "Sikkim Public Grievance Portal",
+    "badge": "GRIEVANCE",
+    "desc": "Central state grievance system allowing citizens to file complaints online and keep monitoring tracking codes for resolution logs.",
+    "link": "https://pgportal.sikkim.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Sikkim",
+    "category": "agriculture",
+    "title": "Sikkim Organic Agriculture Portal",
+    "badge": "ORGANIC FARMING",
+    "desc": "Dedicated platform offering organic certification updates, farmer registration parameters, and horticulture input management workflows.",
+    "link": "https://sikkimagrisnet.gov.in/",
+    "icon": "fa-leaf",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Sikkim",
+    "category": "environment",
+    "title": "Sikkim Forest & Environment Dept",
+    "badge": "ENVIRONMENT",
+    "desc": "Official resource base for wildlife guidelines, biodiversity board checklists, environment clearances, and eco-tourism logs.",
+    "link": "http://www.sikkimforest.gov.in/",
+    "icon": "fa-tree",
+    "color": "#16a085"
+  },
+
+  {
+    "state": "Tamil Nadu",
+    "category": "citizen_services",
+    "title": "TN e-Sevai Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window ecosystem for Tamil Nadu citizen service delivery, managing online applications for Community, Income, and Nativity certificates.",
+    "link": "https://www.tnesevai.tn.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Tamil Nadu",
+    "category": "land_records",
+    "title": "Anyka (Patta Chitta Land Records)",
+    "badge": "LAND RECORDS",
+    "desc": "Official land records computerization system of Tamil Nadu to view Patta, Chitta extracts, FMB sketches, and urban land survey logs.",
+    "link": "https://eservices.tn.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Tamil Nadu",
+    "category": "recruitment",
+    "title": "TNPSC Recruitment Desk",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Tamil Nadu Public Service Commission platform for Group I, II, and IV administrative examinations and civil service entry grids.",
+    "link": "https://www.tnpsc.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Tamil Nadu",
+    "category": "recruitment",
+    "title": "TN TRB Teacher Recruitment",
+    "badge": "TEACHER JOBS",
+    "desc": "Official Teachers Recruitment Board of Tamil Nadu managing competitive examinations, eligibility tests (TNTET), and score metrics.",
+    "link": "https://trb.tn.gov.in/",
+    "icon": "fa-user-graduate",
+    "color": "#16a085"
+  },
+  {
+    "state": "Tamil Nadu",
+    "category": "recruitment",
+    "title": "TNUSRB Police Jobs",
+    "badge": "POLICE RECRUITMENT",
+    "desc": "Tamil Nadu Uniformed Services Recruitment Board portal for sub-inspector and constable applications, physical tests, and merit logs.",
+    "link": "https://tnusrb.tn.gov.in/",
+    "icon": "fa-shield-halved",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Tamil Nadu",
+    "category": "education",
+    "title": "TN DGE Board Portal",
+    "badge": "BOARD EXAMS",
+    "desc": "Official Directorate of Government Examinations website for HSE (12th) and SSLC (10th) board roll allocations and public metrics results.",
+    "link": "https://dge.tn.gov.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Tamil Nadu",
+    "category": "education",
+    "title": "TNEA Engineering Admissions",
+    "badge": "ADMISSIONS",
+    "desc": "Official Tamil Nadu Engineering Admissions single-window counseling matrix for high school passing students seeking technical college entry.",
+    "link": "https://www.tneaonline.org/",
+    "icon": "fa-graduation-cap",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Tamil Nadu",
+    "category": "scholarship",
+    "title": "TN Moovalur Ramamirtham Ammaiyar Scheme",
+    "badge": "SCHOLARSHIPS",
+    "desc": "Official Pudhumai Penn and Tamil Pudhalvan dashboard for distributing direct benefit monthly allowances to government school students.",
+    "link": "https://www.pudhumaipenn.tn.gov.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Tamil Nadu",
+    "category": "finance",
+    "title": "IFHRMS Tamil Nadu Treasury",
+    "badge": "TREASURY",
+    "desc": "Integrated Financial and Human Resources Management System tracking state employee payroll, cyber-challans, and budget files.",
+    "link": "https://www.karuvoolam.tn.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Tamil Nadu",
+    "category": "transport",
+    "title": "Tamil Nadu Transport Department",
+    "badge": "RTO SERVICES",
+    "desc": "Access digital state RTO parameters for permanent driving licenses, registration card indexing, and vehicle tax logs.",
+    "link": "https://tnsta.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Tamil Nadu",
+    "category": "utility",
+    "title": "TANGEDCO Power Billing Desk",
+    "badge": "POWER UTILITY",
+    "desc": "Official Tamil Nadu Generation and Distribution Corporation portal for processing instant secure electricity bill payments and meter checks.",
+    "link": "https://www.tangedco.org/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Tamil Nadu",
+    "category": "grievance",
+    "title": "Mudhalvar Helpline (CM Helpline)",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Chief Minister's active public grievance redressing engine allowing direct tracking parameters for citizen complaint solution lookups.",
+    "link": "https://cmhelpline.tn.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Tamil Nadu",
+    "category": "registration",
+    "title": "TN TNREGINET Portal",
+    "badge": "REGISTRATION",
+    "desc": "Official Inspector General of Registration website for guideline value lookups, encumbrance certificates (EC), and marriage registrations.",
+    "link": "https://tnreginet.gov.in/",
+    "icon": "fa-file-contract",
+    "color": "#34495e"
+  },
+  {
+    "state": "Tamil Nadu",
+    "category": "tenders",
+    "title": "Tamil Nadu eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Centralized commercial platform for downloading public works department tenders, contractor lists, and dynamic bidding.",
+    "link": "https://tntenders.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Tamil Nadu",
+    "category": "administration",
+    "title": "Official State Portal of Tamil Nadu",
+    "badge": "GOVERNMENT",
+    "desc": "Core administrative workspace for Tamil Nadu cabinet policies, gazetted notifications, and latest ministerial circular profiles.",
+    "link": "https://www.tn.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Telangana",
+    "category": "citizen_services",
+    "title": "MeSeva Portal Telangana",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window platform for automated delivery of state citizen services, processing Caste, Income, and Residence application forms.",
+    "link": "https://ts.meeseva.telangana.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Telangana",
+    "category": "land_records",
+    "title": "Dharani Portal (Land Records)",
+    "badge": "LAND MANAGEMENT",
+    "desc": "Integrated land records management system of Telangana for agricultural land registration partitions, mutation tracking, and slots.",
+    "link": "https://dharani.telangana.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Telangana",
+    "category": "recruitment",
+    "title": "TGPSC Recruitment Portal",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Telangana Public Service Commission platform for executing Group I, II, and III civil service examinations and notifications.",
+    "link": "https://www.tspsc.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Telangana",
+    "category": "recruitment",
+    "title": "TG TSLPRB Police Recruitment",
+    "badge": "POLICE JOBS",
+    "desc": "Telangana State Level Police Recruitment Board portal for sub-inspector and constable applications, exam results, and events tracker.",
+    "link": "https://www.tslprb.in/",
+    "icon": "fa-shield-halved",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Telangana",
+    "category": "recruitment",
+    "title": "TG DSC Teacher Selection",
+    "badge": "TEACHER RECRUITMENT",
+    "desc": "Official portal for Telangana teacher recruitment schemes, managing online school education registration setups and exam roll metrics.",
+    "link": "https://tgdsc.aptonline.in/",
+    "icon": "fa-user-tie",
+    "color": "#16a085"
+  },
+  {
+    "state": "Telangana",
+    "category": "education",
+    "title": "TG TSBIE Board Portal",
+    "badge": "BOARD EXAMS",
+    "desc": "Official website of Telangana State Board of Intermediate Education for board exam timelines, question indices, and public results.",
+    "link": "https://tsbie.cgg.gov.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Telangana",
+    "category": "education",
+    "title": "TG DOST Degree Admissions",
+    "badge": "DEGREE ADMISSIONS",
+    "desc": "Degree Online Services Telangana platform for centralized single-window undergraduate college allocations and seat tracking registries.",
+    "link": "https://dost.cgg.gov.in/",
+    "icon": "fa-user-graduate",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Telangana",
+    "category": "scholarship",
+    "title": "EPASS Telangana Scholarship",
+    "badge": "SCHOLARSHIPS",
+    "desc": "Electronic Payment and Application System of Scholarships tracking post-matric fee structure releases and minority student allowance validation.",
+    "link": "https://telanganaepass.cgg.gov.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Telangana",
+    "category": "finance",
+    "title": "TG Cyber Treasury Cyberry",
+    "badge": "TREASURY SERVICES",
+    "desc": "Official state treasury and accounts network tracking department online receipts, challan indices, and employee salary sheets.",
+    "link": "https://treasury.telangana.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Telangana",
+    "category": "transport",
+    "title": "Telangana Transport Department",
+    "badge": "RTO SERVICES",
+    "desc": "Access dynamic automated RTA parameters via parivahan platform for driving licenses, international permits, and vehicle text lookups.",
+    "link": "https://transport.telangana.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Telangana",
+    "category": "utility",
+    "title": "TGSPDCO / Power Billing Portal",
+    "badge": "POWER UTILITY",
+    "desc": "Southern Power Distribution Company of Telangana portal for initiating instant power bill payments, load tracking, and breakdown logs.",
+    "link": "https://www.tgspdcl.in/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Telangana",
+    "category": "grievance",
+    "title": "Telangana Prajavani Grievance",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Centralized citizen public grievance submission system tracking multi-department performance logs under government evaluation loops.",
+    "link": "https://prajavani.telangana.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Telangana",
+    "category": "welfare",
+    "title": "TG Rythu Bandhu Portal",
+    "badge": "FARMER SCHEMES",
+    "desc": "Agriculture investment support framework tracking farmer financial assistance allocations and crop pattern monitoring grids.",
+    "link": "https://rythubandhu.telangana.gov.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Telangana",
+    "category": "tenders",
+    "title": "Telangana eProcurement",
+    "badge": "PROCUREMENT",
+    "desc": "Central commercial platform managing state commercial tenders, contract allocations, and structured vendor registries logs.",
+    "link": "https://tender.telangana.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#34495e"
+  },
+  {
+    "state": "Telangana",
+    "category": "administration",
+    "title": "Official State Portal of Telangana",
+    "badge": "GOVERNMENT",
+    "desc": "Core administrative database tracking Telangana state profile summaries, cabinet circular directives, and latest official notices.",
+    "link": "https://www.telangana.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#7f8c8d"
+  },
+
+  {
+    "state": "Tripura",
+    "category": "citizen_services",
+    "title": "e-District Tripura Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window portal of Tripura for online citizen services, managing applications for Income, Caste, ST, and Permanent Resident Certificates (PRTC).",
+    "link": "https://edistrict.tripura.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Tripura",
+    "category": "land_records",
+    "title": "Joriman - Tripura Land Records",
+    "badge": "LAND RECORDS",
+    "desc": "Official digital land records repository of Tripura to check Khatian details, plot maps, land mutation status, and revenue logs.",
+    "link": "https://land.tripura.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Tripura",
+    "category": "recruitment",
+    "title": "TPSC Recruitment Desk",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Tripura Public Service Commission platform for Civil Services examinations, engineering entries, and technical gazetted post recruitments.",
+    "link": "https://tpsc.tripura.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Tripura",
+    "category": "recruitment",
+    "title": "Tripura JRBT Portal",
+    "badge": "STAFF SELECTION",
+    "desc": "Joint Recruitment Board of Tripura portal for Group C and Group D non-gazetted state post recruitments, competitive exams, and scorecards.",
+    "link": "https://jrbtripura.com/",
+    "icon": "fa-user-tie",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Tripura",
+    "category": "recruitment",
+    "title": "Teachers Recruitment Board Tripura (TRBT)",
+    "badge": "TEACHER JOBS",
+    "desc": "Official portal for teacher selection schemes, managing online registration setups for Tripura Teachers Eligibility Test (T-TET) and exam grids.",
+    "link": "https://trb.tripura.gov.in/",
+    "icon": "fa-user-graduate",
+    "color": "#16a085"
+  },
+  {
+    "state": "Tripura",
+    "category": "education",
+    "title": "TBSE Board Portal",
+    "badge": "BOARD EXAMS",
+    "desc": "Official website of Tripura Board of Secondary Education for Madhyamik (10th) and Higher Secondary (12th) timelines, schedules, and public board results.",
+    "link": "https://tbse.tripura.gov.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Tripura",
+    "category": "scholarship",
+    "title": "Tripura State Scholarship Portal",
+    "badge": "SCHOLARSHIPS",
+    "desc": "Welfare platform for post-matric student educational benefits, monitoring multi-department allowances, and target DBT verifications.",
+    "link": "https://scholarships.gov.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Tripura",
+    "category": "finance",
+    "title": "Tripura Cyber Treasury",
+    "badge": "TREASURY SERVICES",
+    "desc": "Official Directorate of Accounts and Treasuries portal for tracking secure online state challenges, department e-challans, and employee payslips.",
+    "link": "https://tripuratreasury.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Tripura",
+    "category": "transport",
+    "title": "Tripura Transport Directorate",
+    "badge": "RTO SERVICES",
+    "desc": "Access automated RTO functionalities via Parivahan framework for smart card driving licenses, online vehicle registration, and fitness updates.",
+    "link": "https://transport.tripura.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Tripura",
+    "category": "pds_ration",
+    "title": "PDS Portal Tripura",
+    "badge": "RATION CARD",
+    "desc": "Official Food, Civil Supplies and Consumer Affairs platform to apply for new Ration Cards, track ePDS transaction logs, and dealer allocations.",
+    "link": "https://fcs.tripura.gov.in/",
+    "icon": "fa-wheat-awn",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Tripura",
+    "category": "utility",
+    "title": "TSECL Power Billing Desktop",
+    "badge": "POWER UTILITY",
+    "desc": "Official online portal for Tripura State Electricity Corporation Limited to execute secure bill payments and track consumption parameters.",
+    "link": "https://www.tsecl.in/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Tripura",
+    "category": "grievance",
+    "title": "Tripura Public Grievance Portal",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Centralized citizen public grievance submission system tracking multi-department performance logs under government evaluation loops.",
+    "link": "https://tripuragrievance.nic.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Tripura",
+    "category": "tenders",
+    "title": "Tripura eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Central commercial platform for downloading official Tripura state tenders, managing dynamic vendor registries, and corporate bidding.",
+    "link": "https://tripuratenders.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#34495e"
+  },
+  {
+    "state": "Tripura",
+    "category": "employment",
+    "title": "Tripura Employment Exchange",
+    "badge": "EMPLOYMENT DESK",
+    "desc": "Online registration setup for educated unemployed youth in Tripura, facilitating skill indexing and corporate or public placement matching.",
+    "link": "https://employment.tripura.gov.in/",
+    "icon": "fa-briefcase",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Tripura",
+    "category": "administration",
+    "title": "Official State Portal of Tripura",
+    "badge": "GOVERNMENT",
+    "desc": "Core administrative repository for Tripura cabinet choices, gazetted notifications, official circular orders, and department profiles.",
+    "link": "https://tripura.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "citizen_services",
+    "title": "e-District Uttar Pradesh Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window platform of UP for delivery of state citizen services, managing applications for Caste, Income, and Domicile certificates.",
+    "link": "https://edistrict.up.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "land_records",
+    "title": "Bhulekh Uttar Pradesh",
+    "badge": "LAND RECORDS",
+    "desc": "Official digital land records management framework of UP to check Khraon/Khatauni ownership records, share tracking grids, and mutation data.",
+    "link": "https://upbhulekh.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "recruitment",
+    "title": "UPPSC Recruitment Portal",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Uttar Pradesh Public Service Commission gateway for Combined State/Upper Subordinate Exams (PCS), judicial entries, and gazetted rosters.",
+    "link": "https://uppsc.up.nic.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "recruitment",
+    "title": "UPSSSC Selection Desk",
+    "badge": "STAFF SELECTION",
+    "desc": "Uttar Pradesh Subordinate Services Selection Commission platform for managing Preliminary Eligibility Tests (PET) and Group C post allocations.",
+    "link": "http://upsssc.gov.in/",
+    "icon": "fa-user-tie",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "recruitment",
+    "title": "UPPRPB Police Recruitment",
+    "badge": "POLICE JOBS",
+    "desc": "Uttar Pradesh Police Recruitment and Promotion Board portal for massive Constable and Sub-Inspector applications, exam updates, and physical tests.",
+    "link": "https://uppbpb.gov.in/",
+    "icon": "fa-shield-halved",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "scholarship",
+    "title": "UP Scholarship & Fee Reimbursement",
+    "badge": "SCHOLARSHIPS",
+    "desc": "Official electronic tracking system for pre-matric and post-matric student welfare schemes, institute verification, and dynamic DBT checks.",
+    "link": "https://scholarship.up.gov.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "education",
+    "title": "UPMSP Board Portal (Allahabad Board)",
+    "badge": "BOARD EXAMS",
+    "desc": "Official website of Board of High School and Intermediate Education Uttar Pradesh for 10th and 12th class roll tracking and public results.",
+    "link": "https://upmsp.edu.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "finance",
+    "title": "UP Cyber Treasury Portal",
+    "badge": "TREASURY SERVICES",
+    "desc": "Official finance department engine tracking virtual tax collection challan entries, employee payroll frameworks, and pension distribution queries.",
+    "link": "https://untreasury.up.nic.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "transport",
+    "title": "UP Transport Department",
+    "badge": "RTO SERVICES",
+    "desc": "Access digital state RTO parameters for driving licenses, vehicle tax filings, fitness index entries, and checking registration attributes.",
+    "link": "https://uptransport.upsdc.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "grievance",
+    "title": "UP Jansunwai IGRS Portal",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Integrated Grievance Redressal System (Jansunwai) for lodging community complaints directly under administrative review loops and tracking logs.",
+    "link": "https://jansunwai.up.nic.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "utility",
+    "title": "UPPCL Power Billing Desk",
+    "badge": "POWER UTILITY",
+    "desc": "Official Uttar Pradesh Power Corporation Limited portal for rural and urban grid consumers to execute secure instant online utility bill payments.",
+    "link": "https://www.upenergy.in/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "tenders",
+    "title": "UP eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Central commercial platform managing UP state department commercial tenders, contractor lists, and structured dynamic corporate bidding.",
+    "link": "https://etender.up.nic.in/",
+    "icon": "fa-gavel",
+    "color": "#34495e"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "property_registration",
+    "title": "IGRSUP Property Registration",
+    "badge": "REGISTRATION",
+    "desc": "Official Stamp and Registration Department portal of UP for processing deed registrations, marriage index tracking, and encumbrance logs.",
+    "link": "https://igrsup.gov.in/",
+    "icon": "fa-file-contract",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "welfare",
+    "title": "Sspy UP Pension Portal",
+    "badge": "SOCIAL SECURITY",
+    "desc": "Official social welfare system for online applications and verification trackers of Old Age, Widow, and Divyang pension allocations.",
+    "link": "https://sspy-up.gov.in/",
+    "icon": "fa-users-line",
+    "color": "#16a085"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "category": "administration",
+    "title": "Official State Portal of Uttar Pradesh",
+    "badge": "GOVERNMENT",
+    "desc": "Core administrative workspace for Uttar Pradesh cabinet guidelines, policy details, gazetted notifications, and latest executive briefings.",
+    "link": "https://up.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#7f8c8d"
+  },
+
+  {
+    "state": "Uttarakhand",
+    "category": "citizen_services",
+    "title": "Apuni Sarkar Portal",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window platform of Uttarakhand for delivery of state citizen services, managing online applications for Caste, Income, and Domicile certificates.",
+    "link": "https://eservices.uk.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Uttarakhand",
+    "category": "land_records",
+    "title": "Bhulekh Uttarakhand (Devbhoomi)",
+    "badge": "LAND RECORDS",
+    "desc": "Official digital land records management framework of Uttarakhand to check ROR (Khraon/Khatauni) ownership records and mutation data.",
+    "link": "http://bhulekh.uk.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "Uttarakhand",
+    "category": "recruitment",
+    "title": "UKPSC Recruitment Portal",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official Uttarakhand Public Service Commission gateway for State Civil Services examinations, judicial entries, and gazetted rosters.",
+    "link": "https://psc.uk.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Uttarakhand",
+    "category": "recruitment",
+    "title": "UKSSSC Selection Desk",
+    "badge": "STAFF SELECTION",
+    "desc": "Uttarakhand Subordinate Services Selection Commission platform for executing non-gazetted group C competitive examinations, online forms, and merit scorecards.",
+    "link": "https://sssc.uk.gov.in/",
+    "icon": "fa-user-tie",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "Uttarakhand",
+    "category": "education",
+    "title": "UBSE Board Portal",
+    "badge": "BOARD EXAMS",
+    "desc": "Official website of Uttarakhand Board of School Education for High School (10th) and Intermediate (12th) roll tracking and public results.",
+    "link": "https://ubse.uk.gov.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "Uttarakhand",
+    "category": "scholarship",
+    "title": "Uttarakhand National Scholarship Portal",
+    "badge": "SCHOLARSHIPS",
+    "desc": "Welfare platform for state post-matric student educational benefits, monitoring multi-department allowances, and target DBT verifications.",
+    "link": "https://scholarships.gov.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#2980b9"
+  },
+  {
+    "state": "Uttarakhand",
+    "category": "finance",
+    "title": "Uttarakhand Cyber Treasury",
+    "badge": "TREASURY SERVICES",
+    "desc": "Official finance department engine tracking virtual tax collection challan entries, employee payroll frameworks, and CTS receipts.",
+    "link": "https://cybertreasury.uk.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "Uttarakhand",
+    "category": "transport",
+    "title": "Uttarakhand Transport Department",
+    "badge": "RTO SERVICES",
+    "desc": "Access digital state RTO parameters for driving licenses, vehicle tax filings, fitness index entries, and checking registration attributes.",
+    "link": "https://transport.uk.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "Uttarakhand",
+    "category": "grievance",
+    "title": "UK CM Helpline (1905)",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Chief Minister's active public grievance redressing engine for registration of citizen complaints and checking multi-department solution logs.",
+    "link": "https://cmhelpline.uk.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "Uttarakhand",
+    "category": "utility",
+    "title": "UPCL Power Billing Desk",
+    "badge": "POWER UTILITY",
+    "desc": "Official Uttarakhand Power Corporation Limited portal for consumers to execute secure instant online utility bill payments and meter checks.",
+    "link": "https://www.upcl.org/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "Uttarakhand",
+    "category": "tenders",
+    "title": "Uttarakhand eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Central commercial platform managing state commercial tenders, contract allocations, and structured vendor registries logs.",
+    "link": "https://uktenders.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#34495e"
+  },
+  {
+    "state": "Uttarakhand",
+    "category": "employment",
+    "title": "Uttarakhand Employment Portal",
+    "badge": "EMPLOYMENT DESK",
+    "desc": "Online registration setup for educated unemployed youth in Uttarakhand, facilitating skill indexing and placement matching.",
+    "link": "https://employment.uk.gov.in/",
+    "icon": "fa-briefcase",
+    "color": "#0b2545"
+  },
+  {
+    "state": "Uttarakhand",
+    "category": "tourism",
+    "title": "Uttarakhand Tourism Development Board",
+    "badge": "TOURISM DESK",
+    "desc": "Official web window for Chardham Yatra registrations, hotel bookings, tourist tracking registries, and inner line permits.",
+    "link": "https://uttarakhandtourism.gov.in/",
+    "icon": "fa-mountain-sun",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "Uttarakhand",
+    "category": "police",
+    "title": "Uttarakhand Police Citizen Portal",
+    "badge": "POLICE SERVICES",
+    "desc": "Online portal for verification requests, tenant verifications, reporting lost articles, and emergency contact details tracking.",
+    "link": "https://uttarakhandpolice.uk.gov.in/",
+    "icon": "fa-shield-halved",
+    "color": "#16a085"
+  },
+  {
+    "state": "Uttarakhand",
+    "category": "administration",
+    "title": "Official State Portal of Uttarakhand",
+    "badge": "GOVERNMENT",
+    "desc": "Core administrative workspace for Uttarakhand cabinet guidelines, policy details, gazetted notifications, and latest executive briefings.",
+    "link": "https://uk.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "West Bengal",
+    "category": "citizen_services",
+    "title": "Banglarbhumi Portal",
+    "badge": "LAND RECORDS",
+    "desc": "Official land records management system of West Bengal to check Khatian/Plot maps, mutation tracking, and property metrics entries.",
+    "link": "https://banglarbhumi.gov.in/",
+    "icon": "fa-map-location-dot",
+    "color": "#d35400"
+  },
+  {
+    "state": "West Bengal",
+    "category": "citizen_services",
+    "title": "Duare Sarkar / e-District WB",
+    "badge": "CITIZEN SERVICES",
+    "desc": "Official single-window ecosystem for citizen service delivery tracking, certificate entries, and multi-department public welfare processing.",
+    "link": "https://edistrict.wb.gov.in/",
+    "icon": "fa-users-gear",
+    "color": "#2980b9"
+  },
+  {
+    "state": "West Bengal",
+    "category": "recruitment",
+    "title": "WBPSC Recruitment Portal",
+    "badge": "PUBLIC SERVICE",
+    "desc": "Official West Bengal Public Service Commission platform for executive civil services examinations (WBCS) and higher officer hirings.",
+    "link": "https://psc.wb.gov.in/",
+    "icon": "fa-id-card",
+    "color": "#0b2545"
+  },
+  {
+    "state": "West Bengal",
+    "category": "recruitment",
+    "title": "WBPRB Police Recruitment",
+    "badge": "POLICE JOBS",
+    "desc": "West Bengal Police Recruitment Board portal for Sub-Inspector and Constable vacancy applications, physical test timelines, and merit lists.",
+    "link": "https://prb.wb.gov.in/",
+    "icon": "fa-shield-halved",
+    "color": "#c0392b"
+  },
+  {
+    "state": "West Bengal",
+    "category": "recruitment",
+    "title": "WBMSC Staff Selection",
+    "badge": "MUNICIPAL SERVICE",
+    "desc": "West Bengal Municipal Service Commission platform for managing urban local body recruitments, online forms, and schedules.",
+    "link": "https://mscwb.org/",
+    "icon": "fa-user-tie",
+    "color": "#8e44ad"
+  },
+  {
+    "state": "West Bengal",
+    "category": "education",
+    "title": "WBBSE Board Desktop",
+    "badge": "SECONDARY EXAMS",
+    "desc": "Official website of West Bengal Board of Secondary Education for Madhyamik (10th) class registrations, routines, and results.",
+    "link": "https://wbbse.wb.gov.in/",
+    "icon": "fa-book-open",
+    "color": "#2c3e50"
+  },
+  {
+    "state": "West Bengal",
+    "category": "education",
+    "title": "WBCHSE Higher Secondary",
+    "badge": "HIGHER SECONDARY",
+    "desc": "Official portal of West Bengal Council of Higher Secondary Education for Uchha Madhyamik (12th) timelines and board results.",
+    "link": "https://wbchse.wb.gov.in/",
+    "icon": "fa-graduation-cap",
+    "color": "#16a085"
+  },
+  {
+    "state": "West Bengal",
+    "category": "scholarship",
+    "title": "SVMCM Scholarship Portal",
+    "badge": "SCHOLARSHIPS",
+    "desc": "Swami Vivekananda Merit-cum-Means Scholarship portal tracking student educational benefits, verification, and DBT allowances.",
+    "link": "https://svmcm.wb.gov.in/",
+    "icon": "fa-user-graduate",
+    "color": "#2980b9"
+  },
+  {
+    "state": "West Bengal",
+    "category": "finance",
+    "title": "IFMS West Bengal Treasury",
+    "badge": "TREASURY SERVICES",
+    "desc": "Integrated Financial Management System for secure electronic government collection receipt tracking and dynamic employee payroll.",
+    "link": "https://www.wbifms.gov.in/",
+    "icon": "fa-wallet",
+    "color": "#27ae60"
+  },
+  {
+    "state": "West Bengal",
+    "category": "transport",
+    "title": "West Bengal Transport Authority",
+    "badge": "RTO SERVICES",
+    "desc": "Access automated RTO desks via parivahan platform for permanent driving licenses, vehicle tax logging, and smart card status checks.",
+    "link": "https://wbttransport.wb.gov.in/",
+    "icon": "fa-car",
+    "color": "#7f8c8d"
+  },
+  {
+    "state": "West Bengal",
+    "category": "grievance",
+    "title": "Sarasari Mukhyamantri Portal",
+    "badge": "PUBLIC GRIEVANCE",
+    "desc": "Chief Minister's centralized public grievance tracking mechanism for lodging community complaints directly and validating solutions.",
+    "link": "https://wbcmo.gov.in/",
+    "icon": "fa-bullhorn",
+    "color": "#c0392b"
+  },
+  {
+    "state": "West Bengal",
+    "category": "utility",
+    "title": "WBSEDCL Power Billing Desk",
+    "badge": "POWER UTILITY",
+    "desc": "Official portal for West Bengal State Electricity Distribution Company Limited to check statements and initiate secure payments.",
+    "link": "https://www.wbsedcl.in/",
+    "icon": "fa-bolt",
+    "color": "#e67e22"
+  },
+  {
+    "state": "West Bengal",
+    "category": "welfare",
+    "title": "Kanyashree Prakalpa Portal",
+    "badge": "WELFARE SCHEMES",
+    "desc": "Official social design monitoring portal tracking dynamic state financial assistance allocations for girl child educational pathways.",
+    "link": "https://www.wbkanyashree.gov.in/",
+    "icon": "fa-users-line",
+    "color": "#1abc9c"
+  },
+  {
+    "state": "West Bengal",
+    "category": "tenders",
+    "title": "West Bengal eProcurement System",
+    "badge": "PROCUREMENT",
+    "desc": "Centralized commercial marketplace for downloading official West Bengal state tenders, structural vendor listings, and corporate bidding.",
+    "link": "https://wbtenders.gov.in/",
+    "icon": "fa-gavel",
+    "color": "#34495e"
+  },
+  {
+    "state": "West Bengal",
+    "category": "administration",
+    "title": "Official State Portal of West Bengal",
+    "badge": "GOVERNMENT",
+    "desc": "Core administrative workspace for West Bengal cabinet choices, gazetted notifications, official circular orders, and department profiles.",
+    "link": "https://wb.gov.in/",
+    "icon": "fa-building-columns",
+    "color": "#7f8c8d"
+  }
+
   ]
 }
