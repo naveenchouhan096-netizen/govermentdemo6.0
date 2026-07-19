@@ -16,13 +16,15 @@ document.addEventListener("DOMContentLoaded", () => {
       localServicesDatabase = data.localServicesDatabase;
       console.log("Database successfully loaded from JSON file.");
 
-      // Default par "All States" set karne ke liye 'all' value assign kar rahe hain
+      // 1. Dropdown elements ko select karein
       const stateSelectEl = document.getElementById('stateSelect');
-      if (stateSelectEl) {
-        stateSelectEl.value = 'all'; // Default value set ki
-      }
+      const serviceTypeSelectEl = document.getElementById('serviceTypeSelect');
 
-      // Default categories list populate karne aur filtering chalu karne ke liye
+      // 2. Default par value set karein
+      if (stateSelectEl) stateSelectEl.value = 'all';
+      if (serviceTypeSelectEl) serviceTypeSelectEl.value = ''; // -- All Services --
+
+      // 3. Categories populate karein aur data display karein
       updateCategories();
       filterLocalServices();
     })
@@ -31,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const grid = document.getElementById('stateServicesGrid');
       if (grid) {
         grid.innerHTML = `<div class="error-msg" style="grid-column: 1/-1; text-align: center; padding: 20px;">
-          <p style="color: #e74c3c; font-weight: 600;">⚠️ "JSON Database could not be loaded! Stop your VS Code Live Server and run it again."</p>
+          <p style="color: #e74c3c; font-weight: 600;">⚠️ JSON Database load nahi ho saka! Apne VS Code ke Live Server ko stop karke dobara chalaein.</p>
         </div>`;
       }
     });
@@ -44,11 +46,12 @@ function updateCategories() {
   const stateSelect = document.getElementById('stateSelect').value.toLowerCase().replace(/_/g, '').trim();
   const serviceSelect = document.getElementById('serviceTypeSelect');
 
+  // Purani categories ko clear karke default text banaye rakhein
   serviceSelect.innerHTML = '<option value="">-- All Services / Select Category --</option>';
 
   if (!stateSelect) return;
 
-  // Agar "All States" ya default selected hai, to default categories list render karein
+  // Agar "All States" select hua hai, to default filter dropdown options populate karein
   if (stateSelect === 'all') {
     const defaultOptions = [
       { val: "administration", text: "Local Administration (DM/Tehsil/Police)" },
@@ -117,10 +120,11 @@ function filterLocalServices() {
   const matches = localServicesDatabase.filter(item => {
     const dbState = item.state.toLowerCase().replace(/_/g, '').trim();
     const dbCategory = item.category.toLowerCase().trim();
-    
+
+    // Fix logic: Agar state 'all' hai aur category khali hai, to true return karein (saare services dikhane ke liye)
     const isStateMatch = (selectedState === 'all' || dbState === selectedState);
-    const isCategoryMatch = (selectedCategory ? (dbCategory === selectedCategory) : true);
-    
+    const isCategoryMatch = (selectedCategory === '' || dbCategory === selectedCategory);
+
     return isStateMatch && isCategoryMatch;
   });
 
