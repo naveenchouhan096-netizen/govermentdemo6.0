@@ -6,10 +6,103 @@
   <title>Smart Local Services Locator - GovHub</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="../css/state-style.css">
+  
+  <!-- ========================================== -->
+  <!-- PREMIUM MODAL CSS (EXACT MATCH)            -->
+  <!-- ========================================== -->
+  <style>
+    .custom-modal {
+      display: none; 
+      position: fixed; 
+      z-index: 2000; 
+      left: 0;
+      top: 0;
+      width: 100%; 
+      height: 100%; 
+      overflow: auto; 
+      background-color: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(5px);
+    }
+    .modal-content-box {
+      background-color: #ffffff;
+      margin: 5% auto; 
+      padding: 30px;
+      border: none;
+      width: 90%;
+      max-width: 650px;
+      border-radius: 12px;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      position: relative;
+      animation: modalFadeIn 0.25s ease-out;
+      max-height: 85vh;
+      overflow-y: auto;
+    }
+    @keyframes modalFadeIn {
+      from { transform: translateY(-30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    .close-modal-btn {
+      color: #718096;
+      position: absolute;
+      top: 20px;
+      right: 25px;
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: color 0.2s;
+    }
+    .close-modal-btn:hover {
+      color: #1a202c;
+    }
+    .modal-header-layout {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-bottom: 1px solid #edf2f7;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+    }
+    .modal-main-icon {
+      font-size: 24px;
+      color: #0056b3;
+    }
+    .modal-header-title {
+      margin: 0;
+      color: #0f172a;
+      font-size: 22px;
+      font-weight: 700;
+    }
+    /* Dynamic Inside Content Classes */
+    .modal-section-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: #0056b3;
+      margin-top: 20px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .modal-section-desc {
+      font-size: 14.5px;
+      color: #4a5568;
+      line-height: 1.6;
+      margin: 0 0 15px 0;
+    }
+    .modal-list {
+      margin: 5px 0 15px 0;
+      padding-left: 20px;
+      color: #4a5568;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .modal-list li {
+      margin-bottom: 6px;
+    }
+  </style>
 </head>
 <body>
 
-  
     <nav class="navbar">
       <div class="logo">
         <i class="fa-solid fa-landmark"></i>
@@ -27,7 +120,6 @@
         <i class="fa-solid fa-bars"></i>
       </div>
     </nav>
-  </header>
 
   <main class="main-content">
     <section class="state-services-panel">
@@ -102,6 +194,24 @@
         </div>
       </div>
 
+      <!-- ========================================== -->
+      <!-- DYNAMIC STRUCTURE FOR DETAILS POPUP        -->
+      <!-- ========================================== -->
+      <div id="detailsModal" class="custom-modal">
+        <div class="modal-content-box">
+          <span class="close-modal-btn" onclick="closeModal()">&times;</span>
+          
+          <div class="modal-header-layout">
+            <i class="fa-solid fa-circle-info modal-main-icon"></i>
+            <h2 id="modalTitle" class="modal-header-title">Service Details</h2>
+          </div>
+          
+          <div id="modalBody" class="modal-body-text">
+            <!-- Data will be loaded via state-app.js dynamically -->
+          </div>
+        </div>
+      </div>
+
       <div class="back-container" style="text-align: center; margin-top: 40px; border-top: 1px solid #e2e8f0; padding-top: 20px;">
         <a href="../index.html" class="back-link" style="text-decoration: none; color: #0056b3; font-weight: 600; font-size: 14px;">
           <i class="fa-solid fa-arrow-left"></i> Back to Main Dashboard
@@ -112,5 +222,23 @@
   </main>
 
   <script src="../js/state-app.js"></script>
+
+  <!-- ========================================== -->
+  <!-- MODAL CONTROLLER FUNCTIONS                 -->
+  <!-- ========================================== -->
+  <script>
+    function closeModal() {
+      document.getElementById('detailsModal').style.display = 'none';
+      document.body.style.overflow = 'auto'; // Background scrolling reset
+    }
+    
+    // Close modal if user clicks anywhere outside the box
+    window.onclick = function(event) {
+      const modal = document.getElementById('detailsModal');
+      if (event.target == modal) {
+        closeModal();
+      }
+    }
+  </script>
 </body>
 </html>
