@@ -6,7 +6,16 @@ let activeCategories = []; // Tracks which checkboxes are ticked
 let allServices = []; // Master array holding all the fetched service data
 let grid;             // The HTML container where cards will be drawn
 let searchInput;      // The search bar input element
-
+// Global Configuration for Category Colors
+const categoryColors = {
+    "Identity & Documents": { bg: "#e9f2ff", text: "#1565ff" }, // Blue
+    "Finance & Tax": { bg: "#e6fcf5", text: "#0ca678" },        // Green
+    "Health & Wellness": { bg: "#fff0f6", text: "#d6336c" },    // Pink
+    "Education & Jobs": { bg: "#fff4e6", text: "#f59f00" },     // Orange
+    "Travel & Transport": { bg: "#f3f0ff", text: "#7048e8" },   // Purple
+    "Housing & Utilities": { bg: "#e3fafc", text: "#1098ad" },  // Cyan
+    "Safety & Grievances": { bg: "#ffe3e3", text: "#fa5252" }   // Red
+};
 // Pagination configuration to prevent the browser from freezing on huge lists
 const BATCH_SIZE = 12; // Number of cards to load per click
 let currentIndex = BATCH_SIZE; // Tracks how many items are currently displayed
@@ -44,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         allServices = dataArrays.flat(); 
         generateFilterCheckboxes();
         // Initial render: draws the first batch of cards
+        allServices.sort(() => Math.random() - 0.5);
         renderCards(allServices); 
     })
     .catch(error => {
@@ -204,11 +214,15 @@ function renderCards(servicesToDisplay, isAppending = false) {
         // Map tags to HTML safely
         const tagsHTML = service.tags ? service.tags.map(tag => `<span class="service-tag">${tag}</span>`).join('') : '';
 
+        // If the category is somehow missing or misspelled, it defaults to gray.
+        const theme = categoryColors[service.category] || { bg: "#f4f6f9", text: "#555" };
         // Inject the data into the HTML structure
         card.innerHTML = `
             <div class="card-header">
-                <div class="icon-box"><i class="${service.icon}"></i></div>
-                <div class="service-category">${service.category}</div>
+                <div class="icon-box" style="background-color: ${theme.bg}; color: ${theme.text};">
+                    <i class="${service.icon}"></i>
+                </div>
+                <div class="service-category" style="color: ${theme.text};">${service.category}</div>
             </div>
             <h3 class="service-title">${service.title}</h3>
             <div class="tags-container">
