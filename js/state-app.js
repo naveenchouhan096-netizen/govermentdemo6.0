@@ -16,18 +16,22 @@ document.addEventListener("DOMContentLoaded", () => {
       localServicesDatabase = data.localServicesDatabase;
       console.log("Database successfully loaded from JSON file.");
 
-      const stateSelect = document.getElementById('stateSelect').value;
-      if (stateSelect) {
-        updateCategories();
-        filterLocalServices();
+      // Default par "All States" set karne ke liye 'all' value assign kar rahe hain
+      const stateSelectEl = document.getElementById('stateSelect');
+      if (stateSelectEl) {
+        stateSelectEl.value = 'all'; // Default value set ki
       }
+
+      // Default categories list populate karne aur filtering chalu karne ke liye
+      updateCategories();
+      filterLocalServices();
     })
     .catch(error => {
       console.error("Error loading local services database:", error);
       const grid = document.getElementById('stateServicesGrid');
       if (grid) {
         grid.innerHTML = `<div class="error-msg" style="grid-column: 1/-1; text-align: center; padding: 20px;">
-          <p style="color: #e74c3c; font-weight: 600;">⚠️ JSON Database load nahi ho saka! Apne VS Code ke Live Server ko stop karke dobara chalaein.</p>
+          <p style="color: #e74c3c; font-weight: 600;">⚠️ "JSON Database could not be loaded! Stop your VS Code Live Server and run it again."</p>
         </div>`;
       }
     });
@@ -44,7 +48,7 @@ function updateCategories() {
 
   if (!stateSelect) return;
 
-  // Agar "All States" select hua hai, to default categories show karenge
+  // Agar "All States" ya default selected hai, to default categories list render karein
   if (stateSelect === 'all') {
     const defaultOptions = [
       { val: "administration", text: "Local Administration (DM/Tehsil/Police)" },
@@ -110,7 +114,6 @@ function filterLocalServices() {
     return;
   }
 
-  // Yahan condition lagayi hai: Agar 'all' hai to saare states match honge, nahi to specific state filter hoga
   const matches = localServicesDatabase.filter(item => {
     const dbState = item.state.toLowerCase().replace(/_/g, '').trim();
     const dbCategory = item.category.toLowerCase().trim();
