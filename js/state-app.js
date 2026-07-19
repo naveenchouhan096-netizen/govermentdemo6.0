@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(data => {
       localServicesDatabase = data.localServicesDatabase;
       console.log("Database successfully loaded from JSON file.");
-      
+
       const stateSelect = document.getElementById('stateSelect').value;
       if (stateSelect) {
         updateCategories();
@@ -43,6 +43,23 @@ function updateCategories() {
   serviceSelect.innerHTML = '<option value="">-- All Services / Select Category --</option>';
 
   if (!stateSelect) return;
+
+  // Agar "All States" select hua hai, to default categories show karenge
+  if (stateSelect === 'all') {
+    const defaultOptions = [
+      { val: "administration", text: "Local Administration (DM/Tehsil/Police)" },
+      { val: "certificates", text: "Certificates & Identity (आय/जाति/निवास)" },
+      { val: "municipal", text: "Municipal & Utilities (नगर निगम/टैक्स)" },
+      { val: "health", text: "Local Healthcare & Emergency" }
+    ];
+    defaultOptions.forEach(opt => {
+      const optionEl = document.createElement('option');
+      optionEl.value = opt.val;
+      optionEl.textContent = opt.text;
+      serviceSelect.appendChild(optionEl);
+    });
+    return;
+  }
 
   const matches = localServicesDatabase.filter(item => {
     const dbState = item.state.toLowerCase().replace(/_/g, '').trim();
@@ -93,10 +110,15 @@ function filterLocalServices() {
     return;
   }
 
+  // Yahan condition lagayi hai: Agar 'all' hai to saare states match honge, nahi to specific state filter hoga
   const matches = localServicesDatabase.filter(item => {
     const dbState = item.state.toLowerCase().replace(/_/g, '').trim();
     const dbCategory = item.category.toLowerCase().trim();
-    return dbState === selectedState && (selectedCategory ? (dbCategory === selectedCategory) : true);
+    
+    const isStateMatch = (selectedState === 'all' || dbState === selectedState);
+    const isCategoryMatch = (selectedCategory ? (dbCategory === selectedCategory) : true);
+    
+    return isStateMatch && isCategoryMatch;
   });
 
   if (matches.length === 0) {
@@ -111,10 +133,10 @@ function filterLocalServices() {
           <div class="card-icon-box" style="color: #0056b3; background-color: #eef6ff;"><i class="fa-solid fa-globe"></i></div>  
           <span class="card-badge">STATE PORTAL</span>  
         </div>  
-        <h4 class="card-title">${formattedState.toUpperCase()} Official Portal</h4>  
-        <p class="card-desc">Visit the main official state platform for digital citizen services, notifications, and administrative links.</p>  
+        <h4 class="card-title">${selectedState === 'all' ? 'All States Official Portals' : formattedState.toUpperCase() + ' Official Portal'}</h4>  
+        <p class="card-desc">Visit the official platform for digital citizen services, notifications, and administrative links.</p>  
         <div class="card-actions">  
-          <a href="${fallbackLink}" target="_blank" class="btn-official" style="width:100%; text-align: center; background-color: #0056b3; color: white; padding: 10px; border-radius: 6px; text-decoration: none; display: inline-block;">Visit Official Site <i class="fa-solid fa-arrow-up-right-from-square"></i></a>  
+          <a href="${selectedState === 'all' ? 'https://www.india.gov.in' : fallbackLink}" target="_blank" class="btn-official" style="width:100%; text-align: center; background-color: #0056b3; color: white; padding: 10px; border-radius: 6px; text-decoration: none; display: inline-block;">Visit Official Site <i class="fa-solid fa-arrow-up-right-from-square"></i></a>  
         </div>  
       </div>`;  
     return;
@@ -157,35 +179,30 @@ function createCardHTML(item) {
 // PREMIUM STRUCTURAL CONTENT MODAL ENGINE (WITH AUTODETECT WEBSITE LOGIC)
 function showDetails(title, description, eligibility, fees, documents, steps) {
     document.getElementById('modalTitle').innerText = title;
-    
-    // Website Ke Naam se details define karna (Automatic checking system)
+
     let finalEligibility = eligibility;
     let finalFees = fees;
     let finalDocs = documents;
     let finalSteps = steps;
 
-    // Check if website matches Sewa Setu Portal
     if (title.includes("Sewa Setu")) {
         finalEligibility = "Any permanent resident citizen of Assam.";
         finalFees = "Varies from ₹10 to ₹30 depending upon specific citizen certificate.";
-        finalDocs = "Aadhaar Card, Active Mobile Number, Address Proof, Passport size photo";
+        finalDocs = "[Aadhaar Redacted], Active Mobile Number, Address Proof, Passport size photo";
         finalSteps = "1. Click 'Official Site' to open Sewa Setu.<br>2. Click on Login/Register.<br>3. Fill out required data fields.<br>4. Upload certificates and complete submission.";
     } 
-    // Check if website matches EODB Assam
     else if (title.includes("EODB")) {
         finalEligibility = "Entrepreneurs, Business Owners, and Startups operating in the state.";
         finalFees = "Statutory Government Licensing fees applicable based on business category.";
         finalDocs = "Business PAN Card, Partnership Deed/MoA, Land Ownership/Lease papers, Trade Identification";
         finalSteps = "1. Open the Single Window Agency portal.<br>2. Register a new investor profile.<br>3. Apply for Clearances/NOCs.<br>4. Pay fees online and track status.";
     }
-    // Check if website matches Mission Basundhara
     else if (title.includes("Basundhara")) {
         finalEligibility = "Land owners and citizens needing revenue services in the state.";
         finalFees = "Nominal land mutation and record update charges.";
         finalDocs = "Old Land Revenue Receipts, Jamabandi Copy, Legal Heir Certificate (if applicable)";
         finalSteps = "1. Navigate to the Basundhara Portal.<br>2. Choose Land Mutation / Partition option.<br>3. Enter Dag/Patta numbers carefully.<br>4. Upload land records and submit form.";
     }
-    // Check if website matches Sadbhavana Portal
     else if (title.includes("Sadbhavana")) {
         finalEligibility = "Citizens with pending files or grievances in the state Secretariat.";
         finalFees = "Completely Free of Cost.";
@@ -193,13 +210,11 @@ function showDetails(title, description, eligibility, fees, documents, steps) {
         finalSteps = "1. Open Sadbhavana web desk.<br>2. Enter your tracking number or old file number.<br>3. Describe the current status or grievance.<br>4. Submit to state cell for processing.";
     }
 
-    // Fallback options agar upar koi bhi match na kare
     if(!finalEligibility) finalEligibility = "Any resident citizen matching the specific state department criteria.";
     if(!finalFees) finalFees = "Free of Cost / Nominal Online Portal Charges.";
-    if(!finalDocs) finalDocs = "Identity Proof (Aadhaar Card, Voter Card), Address Proof / Resident Certificate, Passport size photograph";
+    if(!finalDocs) finalDocs = "Identity Proof (Identity Card, Voter Card), Address Proof / Resident Certificate, Passport size photograph";
     if(!finalSteps) finalSteps = "1. Click on 'Official Site' to open the state dashboard.<br>2. Complete register/login procedures.<br>3. Fill out the application form fields accurately.<br>4. Upload needed files & submit.";
 
-    // Render layout dynamically
     let bodyLayout = `
         <div class="modal-section-title"><i class="fa-solid fa-user-shield"></i> Eligibility</div>
         <p class="modal-section-desc">${finalEligibility}</p>
