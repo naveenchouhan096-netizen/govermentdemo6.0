@@ -6,7 +6,7 @@
   <title>Smart Local Services Locator - GovHub</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="../css/state-style.css">
-  
+
   <!-- ========================================== -->
   <!-- PREMIUM MODAL CSS (EXACT MATCH)            -->
   <!-- ========================================== -->
@@ -138,6 +138,8 @@
           <label><i class="fa-solid fa-flag"></i> 1. Select State:</label>
           <select id="stateSelect" onchange="updateCategories()">
             <option value="">-- Select State --</option>
+            <!-- Naya Option Yahan Add Kar Diya Hai -->
+            <option value="all">-- All States --</option>
             <option value="Andhra Pradesh">Andhra Pradesh (आंध्र प्रदेश)</option>
             <option value="Arunachal Pradesh">Arunachal Pradesh (अरुणाचल प्रदेश)</option>
             <option value="Assam">Assam (असम)</option>
@@ -200,12 +202,12 @@
       <div id="detailsModal" class="custom-modal">
         <div class="modal-content-box">
           <span class="close-modal-btn" onclick="closeModal()">&times;</span>
-          
+
           <div class="modal-header-layout">
             <i class="fa-solid fa-circle-info modal-main-icon"></i>
             <h2 id="modalTitle" class="modal-header-title">Service Details</h2>
           </div>
-          
+
           <div id="modalBody" class="modal-body-text">
             <!-- Data will be loaded via state-app.js dynamically -->
           </div>
@@ -217,7 +219,7 @@
           <i class="fa-solid fa-arrow-left"></i> Back to Main Dashboard
         </a>
       </div>
-      
+
     </section>
   </main>
 
@@ -231,7 +233,7 @@
       document.getElementById('detailsModal').style.display = 'none';
       document.body.style.overflow = 'auto'; // Background scrolling reset
     }
-    
+
     // Close modal if user clicks anywhere outside the box
     window.onclick = function(event) {
       const modal = document.getElementById('detailsModal');
