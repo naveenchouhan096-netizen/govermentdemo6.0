@@ -1,0 +1,349 @@
+/* ==========================================
+   1. GLOBAL & RESET STYLES
+   ========================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ==========================================
+   2. BODY & PAGE LAYOUT STYLES
+   ========================================== */
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, rgba(11, 25, 44, 0.75), rgba(20, 15, 45, 0.75)),
+              url('https://images.unsplash.com/photo-1587474260584-136574528ed5?q=80&w=1920') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* ==========================================
+   3. NAVBAR & HEADER STYLES
+   (Aapke HTML me <header class="navbar-container"> hai)
+   ========================================== */
+.navbar-container {
+  width: 100%;
+  background-color: #ffffff; /* Clean white navbar background */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: fixed; /* Header ko screen ke top par lock karega */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 5%;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Logo Styling */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #0b2545;
+}
+
+.logo i {
+  color: #1565ff;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #475569;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease-in-out;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+/* Hover & Active States for Nav Links */
+.nav-links li a:hover, 
+.nav-links li a.active {
+  color: #0056b3 !important;
+  background-color: #eef6ff;
+}
+
+.nav-links li a:hover i,
+.nav-links li a.active i {
+  color: #0056b3 !important;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* ==========================================
+   4. PORTAL WRAPPER & ANIMATIONS
+   (Top space margin ko adjust kiya gaya hai)
+   ========================================== */
+.portal-wrapper {
+  width: 100%;
+  max-width: 420px;
+  margin-top: 100px; /* Fixed Navbar ke neeche proper spacing ke liye */
+  margin-bottom: 40px;
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { transform: translateY(-16px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* ==========================================
+   5. PORTAL HEADER (Emblem & Title)
+   ========================================== */
+.portal-header {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.portal-header .emblem {
+  height: 50px;
+  margin-bottom: 8px;
+  filter: brightness(0) invert(1);
+}
+
+.portal-header h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.portal-header .sub-title {
+  font-size: 13px;
+  color: #cbd5e1;
+  margin-top: 2px;
+}
+
+/* ==========================================
+   6. AUTHENTICATION CARD CONTAINER
+   ========================================== */
+.auth-card {
+  background: #ffffff;
+  width: 100%;
+  padding: 35px 30px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-card h2 {
+  color: #1e293b;
+  font-size: 22px;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.auth-card .form-tagline {
+  font-size: 13px;
+  color: #64748b;
+  margin-bottom: 22px;
+}
+
+/* ==========================================
+   7. FORM TAB SWITCHER (Sign In / Sign Up)
+   ========================================== */
+.tab-switch {
+  display: flex;
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 4px;
+  margin-bottom: 24px;
+}
+
+.tab-btn {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #64748b;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.tab-btn.active {
+  background: #ffffff;
+  color: #d32f2f;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* ==========================================
+   8. FORM FIELDS & BUTTONS
+   ========================================== */
+.auth-form {
+  display: none;
+  text-align: left;
+  animation: fadeIn 0.3s ease;
+}
+
+.auth-form.active {
+  display: block;
+}
+
+.input-group {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.input-group label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 6px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.input-group input:focus {
+  border-color: #d32f2f;
+}
+
+.input-group input.input-error {
+  border-color: #e63946;
+}
+
+.field-error {
+  display: none;
+  font-size: 12px;
+  color: #e63946;
+  margin-top: 5px;
+}
+
+.field-error.show {
+  display: block;
+}
+
+.password-group .toggle-password {
+  position: absolute;
+  right: 14px;
+  top: 41px;
+  color: #64748b;
+  cursor: pointer;
+}
+
+.btn-submit {
+  width: 100%;
+  background-color: #d32f2f;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  margin-top: 5px;
+}
+
+.btn-submit:hover {
+  background-color: #b71c1c;
+}
+
+.card-links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+}
+
+.card-links a {
+  color: #475569;
+  text-decoration: none;
+  font-size: 13px;
+  transition: color 0.2s;
+}
+
+.card-links a:hover {
+  color: #d32f2f;
+}
+
+.switch-form-link {
+  font-weight: 600;
+  color: #1e293b;
+  cursor: pointer;
+}
+
+.switch-form-link:hover {
+  color: #d32f2f;
+}
+
+/* ==========================================
+   9. SUCCESS TOAST & NOTIFICATIONS
+   ========================================== */
+.success-banner {
+  display: none;
+  background: #e8f7ee;
+  color: #1a7d3a;
+  border: 1px solid #b7e4c7;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-bottom: 16px;
+  text-align: left;
+  align-items: center;
+  gap: 8px;
+}
+
+.success-banner.show {
+  display: flex;
+}
+
+/* ==========================================
+   10. MEDIA QUERIES (Mobile Responsive)
+   ========================================== */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Hide for mobile nav toggle */
+  }
+  
+  .hamburger {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .auth-card {
+    padding: 28px 20px;
+  }
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In / Sign Up - Government Portal</title>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- CSS File -->
+  <link rel="stylesheet" href="../css/sig insig up.css">
+</head>
+<body>
+  
+  <!-- Fixed Header / Navbar Section -->
+  <header class="navbar-container">
+    <nav class="navbar">
+
+      <!-- Logo -->
+      <div class="logo">
+        <!-- Clean, Sharp & Solid Dark Tricolor Landmark Logo -->
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 85" width="50" height="50" style="margin-right: 12px; display: inline-block; vertical-align: middle;">
+            <!-- Roof (Premium Dark Saffron) -->
+            <polygon points="50,5 98,32 2,32" fill="#C65A00" rx="2" />
+            
+            <!-- Top Beam (Solid Light Cream/White for contrast) -->
+            <rect x="8" y="35" width="84" height="6" fill="#F4F4F6" rx="1" />
+            
+            <!-- Pillars (Solid Crisp White with Subtle Inner Shadows/Borders) -->
+            <g fill="#FFFFFF" stroke="#D1D5DB" stroke-width="0.7">
+                <rect x="14" y="44" width="10" height="24" rx="1" />
+                <rect x="34" y="44" width="10" height="24" rx="1" />
+                <rect x="54" y="44" width="10" height="24" rx="1" />
+                <rect x="74" y="44" width="10" height="24" rx="1" />
+            </g>
+            
+            <!-- Ashoka Chakra (Deep Royal Navy Blue - Sharp Details) -->
+            <circle cx="49" cy="56" r="8" stroke="#001833" stroke-width="1.5" fill="none" />
+            <path d="M49,48 L49,64 M41,56 L57,56 M43,50 L55,62 M43,62 L55,50" stroke="#001833" stroke-width="0.8" />
+            
+            <!-- Base (Premium Dark Green) -->
+            <rect x="2" y="71" width="96" height="9" rx="3" fill="#0B5304" />
+        </svg>
+
+        <!-- Text -->
+        <span style="color: #001833; font-size: 22px; font-family: sans-serif; display: inline-block; vertical-align: middle;">
+            Government<strong style="font-weight: 800;">Portal</strong>
+        </span>
+      </div>  
+  
+      <!-- Navigation Links -->
+      <ul class="nav-links" id="navLinks">
+        <li>
+            <a href="../index.html">
+                <i class="fa-solid fa-house"></i> Home
+            </a>
+        </li>
+
+        <li>
+            <a href="central-services.html">
+                <i class="fa-solid fa-building-columns"></i>
+                Central Services
+            </a>
+        </li>
+
+        <li>
+            <a href="state-services.html">
+                <i class="fa-solid fa-map-location-dot"></i>
+                State Services
+            </a>
+        </li>
+
+        <li>
+            <a href="scheme.html">
+                <i class="fa-solid fa-layer-group"></i>
+                All Schemes
+            </a>
+        </li>
+
+        <li>
+            <a href="about.html">
+                <i class="fa-solid fa-circle-info"></i>
+                About Us
+            </a>
+        </li>
+
+        <li>
+            <a href="sig in sig up.html" class="active">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                Sign In / Sign Up
+            </a>
+        </li>
+      </ul>
+
+    </nav>
+  </header> <!-- Header successfully closed here -->
+
+  <!-- Main Portal Content Section -->
+  <div class="portal-wrapper">
+
+    <div class="portal-header">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" alt="Emblem" class="emblem">
+      <h1>Government Portal</h1>
+      <p class="sub-title">Government Portal of India</p>
+    </div>
+
+    <div class="auth-card">
+
+      <div class="tab-switch">
+        <button type="button" class="tab-btn active" id="loginTabBtn" onclick="showForm('login')">Sign In</button>
+        <button type="button" class="tab-btn" id="signupTabBtn" onclick="showForm('signup')">Sign Up</button>
+      </div>
+
+      <!-- LOGIN FORM -->
+      <form class="auth-form active" id="loginForm" novalidate>
+        <h2>Citizen Login</h2>
+        <p class="form-tagline">Sign in to access your government services</p>
+
+        <div class="success-banner" id="loginSuccess">
+          <i class="fa-solid fa-circle-check"></i>
+          <span>Signed in successfully.</span>
+        </div>
+
+        <div class="input-group">
+          <label for="loginUser">Username or Email</label>
+          <input type="text" id="loginUser" placeholder="Enter username or email" required>
+          <div class="field-error" id="loginUserError">Please enter your username or email.</div>
+        </div>
+
+        <div class="input-group password-group">
+          <label for="loginPassword">Password</label>
+          <input type="password" id="loginPassword" placeholder="Enter password" required>
+          <i class="fa-regular fa-eye-slash toggle-password" onclick="togglePassword('loginPassword', this)"></i>
+          <div class="field-error" id="loginPasswordError">Please enter your password.</div>
+        </div>
+
+        <button type="submit" class="btn-submit">Sign In</button>
+
+        <div class="card-links">
+          <a href="#" onclick="return false;">Forgot Password?</a>
+          <a href="#" class="switch-form-link" onclick="showForm('signup'); return false;">New User? Create an Account</a>
+        </div>
+      </form>
+
+      <!-- SIGNUP FORM -->
+      <form class="auth-form" id="signupForm" novalidate>
+        <h2>Create Account</h2>
+        <p class="form-tagline">Register to access government services online</p>
+
+        <div class="success-banner" id="signupSuccess">
+          <i class="fa-solid fa-circle-check"></i>
+          <span>Account created successfully.</span>
+        </div>
+
+        <div class="input-group">
+          <label for="signupName">Full Name</label>
+          <input type="text" id="signupName" placeholder="Enter your full name" required>
+          <div class="field-error" id="signupNameError">Please enter your full name.</div>
+        </div>
+
+        <div class="input-group">
+          <label for="signupEmail">Email Address</label>
+          <input type="email" id="signupEmail" placeholder="Enter your email" required>
+          <div class="field-error" id="signupEmailError">Please enter a valid email address.</div>
+        </div>
+
+        <div class="input-group">
+          <label for="signupMobile">Mobile Number</label>
+          <input type="tel" id="signupMobile" placeholder="Enter 10-digit mobile number" required>
+          <div class="field-error" id="signupMobileError">Please enter a valid 10-digit mobile number.</div>
+        </div>
+
+        <div class="input-group password-group">
+          <label for="signupPassword">Create Password</label>
+          <input type="password" id="signupPassword" placeholder="Create a password" required>
+          <i class="fa-regular fa-eye-slash toggle-password" onclick="togglePassword('signupPassword', this)"></i>
+          <div class="field-error" id="signupPasswordError">Password must be at least 8 characters.</div>
+        </div>
+
+        <div class="input-group password-group">
+          <label for="signupConfirmPassword">Confirm Password</label>
+          <input type="password" id="signupConfirmPassword" placeholder="Re-enter your password" required>
+          <i class="fa-regular fa-eye-slash toggle-password" onclick="togglePassword('signupConfirmPassword', this)"></i>
+          <div class="field-error" id="signupConfirmPasswordError">Passwords do not match.</div>
+        </div>
+
+        <button type="submit" class="btn-submit">Create Account</button>
+
+        <div class="card-links">
+          <span>Already have an account? <span class="switch-form-link" onclick="showForm('login')">Sign In</span></span>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="../js/sig in sig up.js"></script>
+</body>
+</html>
