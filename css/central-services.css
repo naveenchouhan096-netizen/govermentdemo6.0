@@ -540,3 +540,37 @@ html {
     border-top: 1px solid #eef2f7;
     padding-top: 20px;
 }
+
+/* ===================================
+   Floating Official Logo Badge
+=================================== */
+.service-card {
+    position: relative; /* CRITICAL: This allows the badge to position itself relative to the card */
+    margin-top: 25px;   /* Adds extra space above the card so the overlapping badge doesn't hit the card above it */
+}
+
+.official-logo-badge {
+    position: absolute;
+    top: -24px;         
+    left: 50%;                     /* Push to middle */
+    transform: translateX(-50%);   /* Center it perfectly */
+ width: 48px;
+    height: 48px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #ffffff; /* Creates a clean white cutout effect against the background */
+    z-index: 5;
+}
+
+
+.badge-img {
+    width: 100%;
+    height: 100%;
+    /* Change 'cover' to 'contain' so the whole logo is visible */
+    object-fit: contain; 
+    /* Add padding so the logo doesn't touch the very edge of the circle */
+    padding: 6px; 
+    border-radius: 50%;
+}
+

@@ -6,16 +6,90 @@ let activeCategories = []; // Tracks which checkboxes are ticked
 let allServices = []; // Master array holding all the fetched service data
 let grid;             // The HTML container where cards will be drawn
 let searchInput;      // The search bar input element
+// The universal fallback logo for any government site not yet in the dictionary
+const defaultGovEmblem = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/512px-Emblem_of_India.svg.png";
+// High-Resolution Custom Logos for major Indian Government domains
+const customLogos = {
+    // ==========================================
+    // 1. IDENTITY & CIVIL REGISTRATION
+    // ==========================================
+    "uidai.gov.in": "https://upload.wikimedia.org/wikipedia/en/c/cf/Aadhaar_Logo.svg",
+    "eci.gov.in": "https://upload.wikimedia.org/wikipedia/commons/3/36/Election_Commission_of_India_logo.svg",
+    "voters.eci.gov.in": "https://upload.wikimedia.org/wikipedia/commons/3/36/Election_Commission_of_India_logo.svg",
+    "passportindia.gov.in": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Emblem_of_India.svg",
+    "digilocker.gov.in": "https://upload.wikimedia.org/wikipedia/commons/a/a2/DigiLocker_logo.svg",
+    "crsorgi.gov.in": "", // Birth & Death Registration
+
+    // ==========================================
+    // 2. FINANCE, TAX & BANKING
+    // ==========================================
+    "incometax.gov.in": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Income_Tax_Department_India_logo.svg/512px-Income_Tax_Department_India_logo.svg.png",
+    "gst.gov.in": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Emblem_of_India.svg",
+    "epfindia.gov.in": "https://upload.wikimedia.org/wikipedia/en/3/33/Employees%27_Provident_Fund_Organisation_Logo.svg", 
+    "esic.gov.in": "", // Employee State Insurance
+    "protean-tinpan.com": "", // NSDL PAN Card Services
+    "utiitsl.com": "", // UTI PAN Card Services
+
+    // ==========================================
+    // 3. TRANSPORT & TRAVEL
+    // ==========================================
+    "parivahan.gov.in": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Ministry_of_Road_Transport_and_Highways.svg",
+    "irctc.co.in": "https://upload.wikimedia.org/wikipedia/en/4/45/IRCTC_Logo.svg",
+    "indianrailways.gov.in": "https://upload.wikimedia.org/wikipedia/en/8/87/Indian_Railways_logo.svg",
+
+    // ==========================================
+    // 4. HEALTH & WELFARE
+    // ==========================================
+    "cowin.gov.in": "https://upload.wikimedia.org/wikipedia/commons/f/fa/CoWIN_logo.svg",
+    "pmjay.gov.in": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Emblem_of_India.svg", // Ayushman Bharat
+    "ndhm.gov.in": "", // ABHA Health ID
+    "esanjeevani.mohfw.gov.in": "", // Telemedicine
+
+    // ==========================================
+    // 5. EDUCATION, SKILLS & JOBS
+    // ==========================================
+    "scholarships.gov.in": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Emblem_of_India.svg",
+    "upsc.gov.in": "", // Union Public Service Commission
+    "ssc.gov.in": "", // Staff Selection Commission
+    "nta.ac.in": "", // National Testing Agency (JEE/NEET)
+    "apprenticeshipindia.gov.in": "", // Skill India
+
+    // ==========================================
+    // 6. BUSINESS & COMMERCE
+    // ==========================================
+    "mca.gov.in": "", // Ministry of Corporate Affairs
+    "udyamregistration.gov.in": "", // MSME Registration
+    "startupindia.gov.in": "", 
+
+    // ==========================================
+    // 7. HOUSING, AGRICULTURE & UTILITIES
+    // ==========================================
+    "indiapost.gov.in": "https://upload.wikimedia.org/wikipedia/en/2/28/India_Post_Logo.svg",
+    "pmkisan.gov.in": "", // PM Kisan Samman Nidhi
+    "pmaymis.gov.in": "", // PM Awas Yojana (Housing)
+    "mylpg.in": "", // Gas Cylinder Booking
+
+    // ==========================================
+    // 8. GRIEVANCE, LAW & GENERAL PORTALS
+    // ==========================================
+    "pgportal.gov.in": "", // CPGRAMS (Public Grievances)
+    "ecourts.gov.in": "", // eCourts Services
+    "umang.gov.in": "https://upload.wikimedia.org/wikipedia/commons/2/22/Umang_logo.svg",
+    "mygov.in": "https://upload.wikimedia.org/wikipedia/commons/8/8c/MyGov_logo.svg",
+    "nic.in": "https://upload.wikimedia.org/wikipedia/commons/9/93/National_Informatics_Centre_logo.svg"
+};
+
 // Global Configuration for Category Colors
 const categoryColors = {
-    "Identity & Documents": { bg: "#e9f2ff", text: "#1565ff" }, // Blue
-    "Finance & Tax": { bg: "#e6fcf5", text: "#0ca678" },        // Green
-    "Health & Wellness": { bg: "#fff0f6", text: "#d6336c" },    // Pink
-    "Education & Jobs": { bg: "#fff4e6", text: "#f59f00" },     // Orange
-    "Travel & Transport": { bg: "#f3f0ff", text: "#7048e8" },   // Purple
-    "Housing & Utilities": { bg: "#e3fafc", text: "#1098ad" },  // Cyan
-    "Safety & Grievances": { bg: "#ffe3e3", text: "#fa5252" }   // Red
+    "identity & documents": { bg: "#e9f2ff", text: "#1565ff" }, // Blue
+    "finance & tax": { bg: "#e6fcf5", text: "#0ca678" },        // Green
+    "health & wellness": { bg: "#fff0f6", text: "#d6336c" },    // Pink
+    "education & jobs": { bg: "#fff4e6", text: "#f59f00" },     // Orange
+    "travel & transport": { bg: "#f3f0ff", text: "#7048e8" },   // Purple
+    "housing & utilities": { bg: "#e3fafc", text: "#1098ad" },  // Cyan
+    "safety & grievances": { bg: "#ffe3e3", text: "#fa5252" }   // Red
 };
+
 // Pagination configuration to prevent the browser from freezing on huge lists
 const BATCH_SIZE = 12; // Number of cards to load per click
 let currentIndex = BATCH_SIZE; // Tracks how many items are currently displayed
@@ -201,12 +275,13 @@ function renderCards(servicesToDisplay, isAppending = false) {
         return; // Stop running the function here
     }
 
+    
     // SLICE THE ARRAY: Get only the items we want to render in this specific batch
     // If appending, start from previous index. If new load, start from 0.
     const startIndex = isAppending ? currentIndex - BATCH_SIZE : 0;
     const currentBatch = servicesToDisplay.slice(startIndex, currentIndex);
 
-    // Build the HTML for each card in the current batch
+       // Build the HTML for each card in the current batch
     currentBatch.forEach(service => {
         const card = document.createElement('div');
         card.className = 'service-card';
@@ -214,10 +289,45 @@ function renderCards(servicesToDisplay, isAppending = false) {
         // Map tags to HTML safely
         const tagsHTML = service.tags ? service.tags.map(tag => `<span class="service-tag">${tag}</span>`).join('') : '';
 
-        // If the category is somehow missing or misspelled, it defaults to gray.
-        const theme = categoryColors[service.category] || { bg: "#f4f6f9", text: "#555" };
+        // Safely match colors
+        const safeCategory = service.category ? service.category.trim().toLowerCase() : "";
+        const theme = categoryColors[safeCategory] || { bg: "#f4f6f9", text: "#555" };
+
+      // --- OFFLINE/MANUAL LOGO EXTRACTOR LOGIC ---
+        let domain = "";
+        let logoUrl = "";
+        let showBadge = false;
+        
+        try {
+            // Extracts domain and removes 'www.' 
+            domain = new URL(service.officialLink).hostname.replace('www.', '');
+        } catch (e) {
+            domain = ""; 
+        }
+        
+        if (domain) {
+            showBadge = true; // We have a valid link, so we will show a badge
+            
+            // Check if the domain ends with any of our mapped portals
+            let matchedKey = Object.keys(customLogos).find(key => domain.endsWith(key));
+            
+            if (matchedKey) {
+                // If found, use the specific department logo
+                logoUrl = customLogos[matchedKey];
+            } else {
+                // If not found, use the gorgeous default Indian Emblem
+                logoUrl = defaultGovEmblem; 
+            }
+        }
+        // ----------------------------------------
+
         // Inject the data into the HTML structure
         card.innerHTML = `
+            <!-- The Floating Official Badge with Failsafe -->
+            <div class="official-logo-badge" style="display: ${showBadge ? 'block' : 'none'};">
+                <img src="${logoUrl}" alt="" class="badge-img" onerror="this.parentElement.style.display='none';">
+            </div>
+
             <div class="card-header">
                 <div class="icon-box" style="background-color: ${theme.bg}; color: ${theme.text};">
                     <i class="${service.icon}"></i>
