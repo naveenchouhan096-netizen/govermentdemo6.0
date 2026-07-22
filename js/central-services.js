@@ -90,6 +90,16 @@ const categoryColors = {
     "safety & grievances": { bg: "#ffe3e3", text: "#fa5252" }   // Red
 };
 
+// Global Configuration for Category Colors
+const categoryColors = {
+    "Identity & Documents": { bg: "#e9f2ff", text: "#1565ff" }, // Blue
+    "Finance & Tax": { bg: "#e6fcf5", text: "#0ca678" },        // Green
+    "Health & Wellness": { bg: "#fff0f6", text: "#d6336c" },    // Pink
+    "Education & Jobs": { bg: "#fff4e6", text: "#f59f00" },     // Orange
+    "Travel & Transport": { bg: "#f3f0ff", text: "#7048e8" },   // Purple
+    "Housing & Utilities": { bg: "#e3fafc", text: "#1098ad" },  // Cyan
+    "Safety & Grievances": { bg: "#ffe3e3", text: "#fa5252" }   // Red
+};
 // Pagination configuration to prevent the browser from freezing on huge lists
 const BATCH_SIZE = 12; // Number of cards to load per click
 let currentIndex = BATCH_SIZE; // Tracks how many items are currently displayed
@@ -321,6 +331,8 @@ function renderCards(servicesToDisplay, isAppending = false) {
         }
         // ----------------------------------------
 
+        // If the category is somehow missing or misspelled, it defaults to gray.
+        const theme = categoryColors[service.category] || { bg: "#f4f6f9", text: "#555" };
         // Inject the data into the HTML structure
         card.innerHTML = `
             <!-- The Floating Official Badge with Failsafe -->
