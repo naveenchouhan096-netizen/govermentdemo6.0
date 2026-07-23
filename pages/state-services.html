@@ -6,120 +6,102 @@
   <title>Smart Local Services Locator - GovHub</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="../css/state-style.css">
-
-  <!-- ========================================== -->
-  <!-- PREMIUM MODAL CSS (EXACT MATCH)            -->
-  <!-- ========================================== -->
-  <style>
-    .custom-modal {
-      display: none; 
-      position: fixed; 
-      z-index: 2000; 
-      left: 0;
-      top: 0;
-      width: 100%; 
-      height: 100%; 
-      overflow: auto; 
-      background-color: rgba(0, 0, 0, 0.4);
-      backdrop-filter: blur(5px);
-    }
-    .modal-content-box {
-      background-color: #ffffff;
-      margin: 5% auto; 
-      padding: 30px;
-      border: none;
-      width: 90%;
-      max-width: 650px;
-      border-radius: 12px;
-      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-      position: relative;
-      animation: modalFadeIn 0.25s ease-out;
-      max-height: 85vh;
-      overflow-y: auto;
-    }
-    @keyframes modalFadeIn {
-      from { transform: translateY(-30px); opacity: 0; }
-      to { transform: translateY(0); opacity: 1; }
-    }
-    .close-modal-btn {
-      color: #718096;
-      position: absolute;
-      top: 20px;
-      right: 25px;
-      font-size: 24px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: color 0.2s;
-    }
-    .close-modal-btn:hover {
-      color: #1a202c;
-    }
-    .modal-header-layout {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      border-bottom: 1px solid #edf2f7;
-      padding-bottom: 15px;
-      margin-bottom: 20px;
-    }
-    .modal-main-icon {
-      font-size: 24px;
-      color: #0056b3;
-    }
-    .modal-header-title {
-      margin: 0;
-      color: #0f172a;
-      font-size: 22px;
-      font-weight: 700;
-    }
-    /* Dynamic Inside Content Classes */
-    .modal-section-title {
-      font-size: 15px;
-      font-weight: 600;
-      color: #0056b3;
-      margin-top: 20px;
-      margin-bottom: 8px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .modal-section-desc {
-      font-size: 14.5px;
-      color: #4a5568;
-      line-height: 1.6;
-      margin: 0 0 15px 0;
-    }
-    .modal-list {
-      margin: 5px 0 15px 0;
-      padding-left: 20px;
-      color: #4a5568;
-      font-size: 14px;
-      line-height: 1.6;
-    }
-    .modal-list li {
-      margin-bottom: 6px;
-    }
-  </style>
 </head>
 <body>
 
-    <nav class="navbar">
-      <div class="logo">
-        <i class="fa-solid fa-landmark"></i>
-        <span>Government<strong>Portal</strong></span>
-      </div>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="../index.html"><i class="fa-solid fa-house"></i> Home</a></li>
-        <li><a href="central-services.html"><i class="fa-solid fa-building-columns"></i> Central Services</a></li>
-        <li><a href="state-services.html" class="active"><i class="fa-solid fa-map-location-dot"></i> State Services</a></li>
-        <li><a href="all-schemes.html"><i class="fa-solid fa-layer-group"></i> All Schemes</a></li>
-        <li><a href="../pages/about.html"><i class="fa-solid fa-circle-info"></i> About Us</a></li>
-        <li><a href="#login"><i class="fa-solid fa-right-to-bracket"></i> Sign In / Sign Up</a></li>
-      </ul>
-      <div class="hamburger" id="hamburger">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-    </nav>
+     <header class="navbar-container">
+        
+        
+
+        <!-- Main Navigation -->
+        <nav class="navbar">
+
+            <!-- Logo -->
+       <div class="logo">
+    <!-- Clean, Sharp & Solid Dark Tricolor Landmark Logo -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 85" width="50" height="50" style="margin-right: 12px; display: inline-block; vertical-align: middle;">
+        <!-- Roof (Premium Dark Saffron) -->
+        <polygon points="50,5 98,32 2,32" fill="#C65A00" rx="2" />
+        
+        <!-- Top Beam (Solid Light Cream/White for contrast) -->
+        <rect x="8" y="35" width="84" height="6" fill="#F4F4F6" rx="1" />
+        
+        <!-- Pillars (Solid Crisp White with Subtle Inner Shadows/Borders) -->
+        <g fill="#FFFFFF" stroke="#D1D5DB" stroke-width="0.7">
+            <rect x="14" y="44" width="10" height="24" rx="1" />
+            <rect x="34" y="44" width="10" height="24" rx="1" />
+            <rect x="54" y="44" width="10" height="24" rx="1" />
+            <rect x="74" y="44" width="10" height="24" rx="1" />
+        </g>
+        
+        <!-- Ashoka Chakra (Deep Royal Navy Blue - Sharp Details) -->
+        <circle cx="49" cy="56" r="8" stroke="#001833" stroke-width="1.5" fill="none" />
+        <path d="M49,48 L49,64 M41,56 L57,56 M43,50 L55,62 M43,62 L55,50" stroke="#001833" stroke-width="0.8" />
+        
+        <!-- Base (Premium Dark Green) -->
+        <rect x="2" y="71" width="96" height="9" rx="3" fill="#0B5304" />
+    </svg>
+
+    <!-- Text (Matching Deep Royal Navy Blue) -->
+    <span style="color: #001833; font-size: 22px; font-family: sans-serif; display: inline-block; vertical-align: middle;">
+        Government<strong style="font-weight: 800;">Portal</strong>
+    </span>
+</div>
+ <!-- the logo code end -->
+            <!-- Navigation Links -->
+<ul class="nav-links" id="navLinks">
+
+    <li>
+        <a href="../index.html">
+            <i class="fa-solid fa-house"></i> Home
+        </a>
+    </li>
+
+    <li>
+        <a href="central-services.html">
+            <i class="fa-solid fa-building-columns"></i>
+            Central Services
+        </a>
+    </li>
+
+    <li>
+        <a href="state-services.html"  class="active">
+            <i class="fa-solid fa-map-location-dot"></i>
+            State Services
+        </a>
+    </li>
+
+    <li>
+        <a href="all-schemes.html">
+            <i class="fa-solid fa-layer-group"></i>
+            All Schemes
+        </a>
+    </li>
+
+    <li>
+        <a href="about.html">
+            <i class="fa-solid fa-circle-info"></i>
+            About Us
+        </a>
+    </li>
+
+    <li>
+        <a href="#login">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            Sign In / Sign Up
+        </a>
+    </li>
+
+</ul>
+
+            <!-- Hamburger -->
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </nav>
+
+    </header>
 
   <main class="main-content">
     <section class="state-services-panel">
@@ -138,7 +120,6 @@
           <label><i class="fa-solid fa-flag"></i> 1. Select State:</label>
           <select id="stateSelect" onchange="updateCategories()">
             <option value="">-- Select State --</option>
-            <!-- Naya Option Yahan Add Kar Diya Hai -->
             <option value="all">-- All States --</option>
             <option value="Andhra Pradesh">Andhra Pradesh (आंध्र प्रदेश)</option>
             <option value="Arunachal Pradesh">Arunachal Pradesh (अरुणाचल प्रदेश)</option>
@@ -231,10 +212,9 @@
   <script>
     function closeModal() {
       document.getElementById('detailsModal').style.display = 'none';
-      document.body.style.overflow = 'auto'; // Background scrolling reset
+      document.body.style.overflow = 'auto';
     }
 
-    // Close modal if user clicks anywhere outside the box
     window.onclick = function(event) {
       const modal = document.getElementById('detailsModal');
       if (event.target == modal) {

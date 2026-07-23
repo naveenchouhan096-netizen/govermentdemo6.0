@@ -1,0 +1,319 @@
+.govt-scheme-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 80px 8%;
+    background: linear-gradient(
+        135deg,
+        #ff9933,
+        #ffffff,
+        #138808
+    );
+    min-height: 90vh;
+    flex-wrap: wrap;
+}
+
+.banner-content {
+    flex: 1;
+    min-width: 320px;
+}
+
+.badge {
+    background: rgba(255,255,255,0.8);
+    color: #222;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.banner-content h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #111;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 1.1rem;
+    color: #333;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.banner-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn-primary {
+    background: #138808;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+}
+
+.btn-secondary {
+    background: #ff9933;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-secondary:hover {
+    transform: translateY(-3px);
+}
+
+.banner-image {
+    flex: 1;
+    text-align: center;
+}
+
+.banner-image img {
+    width: 100%;
+    max-width: 550px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+@media(max-width:768px){
+    .banner-content h1{
+        font-size:2rem;
+    }
+
+    .govt-scheme-banner{
+        text-align:center;
+    }
+}
+
+/* this is the code navbar css  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+}
+
+
+/* Top Utility Bar */
+.top-bar {
+  background-color: #0b2545;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 5%;
+  font-size: 13px;
+}
+
+.top-links a {
+  color: #f4a261;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+
+
+/* Main Navbar */
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 5%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  
+  /* --- Yeh changes add kiye hain --- */
+  position: fixed;   /* Navbar ko ek jagah lock karne ke liye */
+  top: 0;            /* Screen ke bilkul top par rakhne ke liye */
+  left: 0;           /* Left side se start karne ke liye */
+  width: 100%;       /* Pura screen cover karne ke liye */
+  box-sizing: border-box; /* Padding ki wajah se width screen se bahar na jaye */
+  z-index: 1000;     /* Taaki scroll karne par content iske niche rahe */
+}
+
+.logo {
+  font-size: 24px;
+  color: #0b2545;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* logo ka code yaha se suru hua hai */
+
+/* Logo Container Layout */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+/* SVG Icon Styling */
+.logo svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Text Styling (Navy Blue for professional look) */
+.logo span {
+    color: #002147; 
+    font-size: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* logo code end */
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+
+  white-space: nowrap; /* Prevents the text from wrapping to the next line */
+  display: flex;       /* Turns the link into a flex container */
+  align-items: center; /* Vertically centers the icon and the text */
+  gap: 8px;            /* Adds a consistent gap between the icon and the text */
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #0056b3;
+  background-color: #eef2f7;
+}
+
+/* Dropdown Menu */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  min-width: 220px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  display: block;
+  font-weight: normal;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.dropdown-content a:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Responsive Hamburger Menu */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #0b2545;
+}
+
+@media (max-width: 850px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background-color: #ffffff;
+    flex-direction: column;
+    gap: 0;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+    z-index: 999; /* Ensures it stays above hero section */
+  }
+
+  .nav-links.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links a {
+    display: block;
+    padding: 15px 20px;
+    border-radius: 0;
+  }
+
+  .dropdown-content {
+    position: static;
+    box-shadow: none;
+    background-color: #f9f9f9;
+    padding-left: 20px;
+  }
+}
+/* card hai css ka data ka  */
+#schemes-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    padding:40px;
+}
+
+.scheme-card{
+    background:#fff;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.scheme-card h3{
+    color:#0b2545;
+    margin-bottom:10px;
+}

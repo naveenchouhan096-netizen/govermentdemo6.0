@@ -6,6 +6,7 @@ let activeCategories = []; // Tracks which checkboxes are ticked
 let allServices = []; // Master array holding all the fetched service data
 let grid;             // The HTML container where cards will be drawn
 let searchInput;      // The search bar input element
+
 // The universal fallback logo for any government site not yet in the dictionary
 const defaultGovEmblem = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/512px-Emblem_of_India.svg.png";
 // High-Resolution Custom Logos for major Indian Government domains
@@ -88,6 +89,18 @@ const categoryColors = {
     "travel & transport": { bg: "#f3f0ff", text: "#7048e8" },   // Purple
     "housing & utilities": { bg: "#e3fafc", text: "#1098ad" },  // Cyan
     "safety & grievances": { bg: "#ffe3e3", text: "#fa5252" }   // Red
+};
+
+
+// Global Configuration for Category Colors
+const categoryColors = {
+    "Identity & Documents": { bg: "#e9f2ff", text: "#1565ff" }, // Blue
+    "Finance & Tax": { bg: "#e6fcf5", text: "#0ca678" },        // Green
+    "Health & Wellness": { bg: "#fff0f6", text: "#d6336c" },    // Pink
+    "Education & Jobs": { bg: "#fff4e6", text: "#f59f00" },     // Orange
+    "Travel & Transport": { bg: "#f3f0ff", text: "#7048e8" },   // Purple
+    "Housing & Utilities": { bg: "#e3fafc", text: "#1098ad" },  // Cyan
+    "Safety & Grievances": { bg: "#ffe3e3", text: "#fa5252" }   // Red
 };
 
 // Pagination configuration to prevent the browser from freezing on huge lists
@@ -321,6 +334,8 @@ function renderCards(servicesToDisplay, isAppending = false) {
         }
         // ----------------------------------------
 
+        // If the category is somehow missing or misspelled, it defaults to gray.
+        const theme = categoryColors[service.category] || { bg: "#f4f6f9", text: "#555" };
         // Inject the data into the HTML structure
         card.innerHTML = `
             <!-- The Floating Official Badge with Failsafe -->

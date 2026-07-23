@@ -1,23 +1,40 @@
 /* ==========================================================================
-   1. GLOBAL RESET & BASE STYLES
+   1. GLOBAL RESET & BASE STYLES (Central & About Page Size Se Match Karne Ke Liye)
    ========================================================================== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Standardized Font[cite: 3] */
 }
 
 body {
-    background-color: #f4f7f6;
-    color: #333;
+    background-color: #f8fafc; /* Premium light background */
+    color: #222222;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-size: 16px; /* Base size reset */
+    line-height: 1.6;
+}
+
+html {
+    scrollbar-gutter: stable;
+    overflow-x: hidden; 
+}
+
+/* Ensure your main container handles its own width correctly */
+.page-content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 5%;
+    min-height: 60vh;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 /* ==========================================================================
-   2. GLOBAL TOP HEADER NAVBAR STYLES
+   2. GLOBAL TOP HEADER NAVBAR STYLES (Size Match & Hover Effect Fix)
    ========================================================================== */
 .navbar-container {
     width: 100%;
@@ -27,7 +44,7 @@ body {
 }
 
 .top-bar {
-    background-color: #0b2545;
+    background-color: #0b2545; /* Deep Government Blue Top Line[cite: 3] */
     color: #ffffff;
     padding: 8px 5%;
     display: flex;
@@ -45,7 +62,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 5%;
+    padding: 18px 5%; /* Increased padding for better header height */
     border-bottom: 1px solid #e2e8f0;
 }
 
@@ -53,35 +70,46 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 20px;
+    font-size: 22px; /* Uniform broad size[cite: 3] */
     font-weight: 700;
     color: #0b2545;
 }
 
 .logo i {
-    color: #0056b3;
+    color: #1565ff;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 24px; /* Matches layout proportions[cite: 3] */
     align-items: center;
 }
 
 .nav-links li a {
     text-decoration: none;
     color: #475569;
-    font-size: 14px;
+    font-size: 15px; /* Exact uniform text size[cite: 3] */
     font-weight: 600;
     display: flex;
     align-items: center;
     gap: 6px;
-    transition: color 0.2s;
+    transition: all 0.2s ease-in-out;
+    padding: 10px 16px; /* Padding badhai taaki blue background sahi bada dikhe */
+    border-radius: 6px; /* Smooth professional corners */
 }
 
-.nav-links li a:hover, .nav-links li a.active {
-    color: #0056b3;
+/* Jab mouse lekar jae (Hover) ya jab page active ho (Dark Blue Block Fix) */
+.nav-links li a:hover, 
+.nav-links li a.active {
+    color: #0056b3 !important;      /* Text white ho jayega */
+    background-color: #eef6ff;    /* Saffron ya light blue se switch karke exact premium bright blue */
+}
+
+/* Icon ka color bhi hover/active par properly white karne ke liye */
+.nav-links li a:hover i,
+.nav-links li a.active i {
+    color: #0056b3 !important;
 }
 
 .hamburger {
@@ -102,26 +130,26 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     background: #ffffff;
-    padding: 25px;
+    padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
 .panel-header-clean {
-    border-bottom: 2px solid #e2e8f0;
-    padding-bottom: 12px;
-    margin-bottom: 15px;
+    border-bottom: 2px solid #eef2f7;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .panel-title-text {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 700;
     color: #0b2545;
 }
 
 .panel-subtitle {
-    font-size: 14px;
-    color: #64748b;
+    font-size: 15px;
+    color: #666;
     margin-bottom: 25px;
 }
 
@@ -133,10 +161,10 @@ body {
     gap: 20px;
     align-items: flex-end;
     background: #f8fafc;
-    padding: 20px;
+    padding: 25px;
     border-radius: 8px;
     border: 1px solid #e2e8f0;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .form-group {
@@ -147,20 +175,25 @@ body {
 }
 
 .form-group label {
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     color: #475569;
 }
 
 .form-group select {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #cbd5e1;
+    padding: 14px;
+    border: 2px solid #eef2f7;
     border-radius: 6px;
     background-color: #ffffff;
-    font-size: 14px;
+    font-size: 15px;
     color: #1e293b;
     outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-group select:focus {
+    border-color: #1565ff;
 }
 
 .form-group-btn {
@@ -168,24 +201,25 @@ body {
 }
 
 .btn-search {
-    background-color: #0056b3;
+    background-color: #1565ff;
     color: #ffffff;
     padding: 12px 20px;
     border: none;
     border-radius: 6px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
-    height: 45px;
+    height: 50px;
     width: 100%;
+    transition: background 0.3s ease;
 }
 
 .btn-search:hover {
-    background-color: #0b2545;
+    background-color: #0e4fcd;
 }
 
 /* ==========================================================================
@@ -194,92 +228,114 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 25px;
+    gap: 30px;
     width: 100%;
 }
 
 .service-card {
     background: #ffffff;
-    border: 1px solid #e2e8f0;
+    border: 1px solid #f0f0f0;
     border-radius: 12px;
-    padding: 24px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(21,101,255,0.1);
+    border-color: #cde6ff;
 }
 
 .card-top {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 15px;
     margin-bottom: 15px;
 }
 
 .card-icon-box {
-    width: 42px;
-    height: 42px;
-    background-color: #eef6ff;
-    color: #0056b3;
-    border-radius: 8px;
+    width: 45px;
+    height: 45px;
+    background-color: #e9f2ff;
+    color: #1565ff;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .card-badge {
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
-    color: #0056b3;
+    color: #1565ff;
     text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .card-title {
-    font-size: 18px;
+    font-size: 19px;
     color: #0b2545;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    line-height: 1.4;
 }
 
 .card-desc {
-    font-size: 13px;
-    color: #64748b;
+    font-size: 14px;
+    color: #555;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .card-actions {
     display: flex;
     gap: 10px;
-    border-top: 1px solid #f1f5f9;
+    border-top: 1px solid #f0f0f0;
     padding-top: 15px;
+    margin-top: auto;
 }
 
 .btn-details {
     flex: 1;
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
-    color: #475569;
+    color: #0b2545;
     text-decoration: none;
-    padding: 8px 0;
+    padding: 12px;
+    background: #f4f6f9;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.btn-details:hover {
+    background: #e2e8f0;
 }
 
 .btn-official {
     flex: 1;
     text-align: center;
-    background-color: #0056b3;
+    background-color: #1565ff;
     color: #ffffff;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     text-decoration: none;
-    padding: 9px 0;
+    padding: 12px;
     border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 6px;
+    transition: 0.3s ease;
+}
+
+.btn-official:hover {
+    background-color: #0e4fcd;
 }
 
 .initial-msg {
@@ -290,6 +346,7 @@ body {
     border: 1px dashed #cbd5e1;
     border-radius: 10px;
     color: #64748b;
+    font-size: 15px;
 }
 
 /* ==========================================================================
@@ -297,7 +354,7 @@ body {
    ========================================================================== */
 @media (max-width: 992px) {
     .nav-links {
-        display: none; /* Mobile par list hidden toggle event ke liye */
+        display: none; /* Mobile setup hidden properties[cite: 3] */
     }
     .hamburger {
         display: block;
@@ -310,4 +367,106 @@ body {
         flex: 1;
         width: 100%;
     }
+}
+
+/* ==========================================================================
+   7. PREMIUM DYNAMIC MODAL STYLES
+   ========================================================================== */
+.custom-modal {
+    display: none; 
+    position: fixed; 
+    z-index: 2000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(11, 37, 69, 0.6);
+    backdrop-filter: blur(4px);
+}
+
+.modal-content-box {
+    background-color: #ffffff;
+    margin: 5% auto; 
+    padding: 30px;
+    border: none;
+    width: 90%;
+    max-width: 650px;
+    border-radius: 12px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+    position: relative;
+    animation: modalFadeIn 0.3s ease;
+    max-height: 85vh;
+    overflow-y: auto;
+}
+
+@keyframes modalFadeIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.close-modal-btn {
+    color: #888;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.close-modal-btn:hover {
+    color: #e63946;
+}
+
+.modal-header-layout {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid #eef2f7;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.modal-main-icon {
+    font-size: 24px;
+    color: #1565ff;
+}
+
+.modal-header-title {
+    margin: 0;
+    color: #0b2545;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.modal-section-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1565ff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.modal-section-desc {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.6;
+    margin: 0 0 15px 0;
+}
+
+.modal-list {
+    margin: 5px 0 15px 0;
+    padding-left: 24px;
+    color: #444;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.modal-list li {
+    margin-bottom: 10px;
 }

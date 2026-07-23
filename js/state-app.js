@@ -16,11 +16,17 @@ document.addEventListener("DOMContentLoaded", () => {
       localServicesDatabase = data.localServicesDatabase;
       console.log("Database successfully loaded from JSON file.");
 
-      const stateSelect = document.getElementById('stateSelect').value;
-      if (stateSelect) {
-        updateCategories();
-        filterLocalServices();
-      }
+      // 1. Dropdown elements ko select karein
+      const stateSelectEl = document.getElementById('stateSelect');
+      const serviceTypeSelectEl = document.getElementById('serviceTypeSelect');
+
+      // 2. Default par value set karein
+      if (stateSelectEl) stateSelectEl.value = 'all';
+      if (serviceTypeSelectEl) serviceTypeSelectEl.value = ''; // -- All Services --
+
+      // 3. Categories populate karein aur data display karein
+      updateCategories();
+      filterLocalServices();
     })
     .catch(error => {
       console.error("Error loading local services database:", error);
@@ -40,11 +46,12 @@ function updateCategories() {
   const stateSelect = document.getElementById('stateSelect').value.toLowerCase().replace(/_/g, '').trim();
   const serviceSelect = document.getElementById('serviceTypeSelect');
 
+  // Purani categories ko clear karke default text banaye rakhein
   serviceSelect.innerHTML = '<option value="">-- All Services / Select Category --</option>';
 
   if (!stateSelect) return;
 
-  // Agar "All States" select hua hai, to default categories show karenge
+  // Agar "All States" select hua hai, to default filter dropdown options populate karein
   if (stateSelect === 'all') {
     const defaultOptions = [
       { val: "administration", text: "Local Administration (DM/Tehsil/Police)" },
@@ -110,14 +117,14 @@ function filterLocalServices() {
     return;
   }
 
-  // Yahan condition lagayi hai: Agar 'all' hai to saare states match honge, nahi to specific state filter hoga
   const matches = localServicesDatabase.filter(item => {
     const dbState = item.state.toLowerCase().replace(/_/g, '').trim();
     const dbCategory = item.category.toLowerCase().trim();
-    
+
+    // Fix logic: Agar state 'all' hai aur category khali hai, to true return karein (saare services dikhane ke liye)
     const isStateMatch = (selectedState === 'all' || dbState === selectedState);
-    const isCategoryMatch = (selectedCategory ? (dbCategory === selectedCategory) : true);
-    
+    const isCategoryMatch = (selectedCategory === '' || dbCategory === selectedCategory);
+
     return isStateMatch && isCategoryMatch;
   });
 
