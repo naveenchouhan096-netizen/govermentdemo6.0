@@ -14,8 +14,8 @@ const customLogos = {
     // 1. IDENTITY & CIVIL REGISTRATION
     // ==========================================
     "uidai.gov.in": "https://upload.wikimedia.org/wikipedia/en/c/cf/Aadhaar_Logo.svg",
-    "eci.gov.in": "https://upload.wikimedia.org/wikipedia/commons/3/36/Election_Commission_of_India_logo.svg",
-    "voters.eci.gov.in": "https://upload.wikimedia.org/wikipedia/commons/3/36/Election_Commission_of_India_logo.svg",
+    "eci.gov.in": "https://upload.wikimedia.org/wikipedia/commons/7/72/Election_Commission_of_India_Logo.svg",
+    "voters.eci.gov.in": "https://upload.wikimedia.org/wikipedia/commons/7/72/Election_Commission_of_India_Logo.svg",
     "passportindia.gov.in": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Emblem_of_India.svg",
     "digilocker.gov.in": "https://upload.wikimedia.org/wikipedia/commons/a/a2/DigiLocker_logo.svg",
     "crsorgi.gov.in": "", // Birth & Death Registration
