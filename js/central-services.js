@@ -11,26 +11,25 @@ let searchInput;      // The search bar input element
 const defaultGovEmblem = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/512px-Emblem_of_India.svg.png";
 // High-Resolution Custom Logos for major Indian Government domains
 const customLogos = {
-
     // ==========================================
-  // 1. IDENTITY & CIVIL REGISTRATION
-  // ==========================================
-  "uidai.gov.in": "https://upload.wikimedia.org/wikipedia/en/c/cf/Aadhaar_Logo.svg", // VERIFIED
-  "eci.gov.in": "https://upload.wikimedia.org/wikipedia/commons/7/72/Election_Commission_of_India_Logo.svg", // FIXED 
-  "voters.eci.gov.in": "https://upload.wikimedia.org/wikipedia/commons/7/72/Election_Commission_of_India_Logo.svg", // FIXED
-  "passportindia.gov.in": "https://pspcdn.passportindia.gov.in/cdn/emblem_new.webp", //Added *(not sure)
-  "digilocker.gov.in": "https://upload.wikimedia.org/wikipedia/commons/1/1f/DigiLocker.svg", // FIXED 
-  "crsorgi.gov.in": "https://dc.crsorgi.gov.in/assets/logo/crs-logo.png", // Added
+    // 1. IDENTITY & CIVIL REGISTRATION
+    // ==========================================
+    "uidai.gov.in": "https://upload.wikimedia.org/wikipedia/en/c/cf/Aadhaar_Logo.svg",
+    "eci.gov.in": "https://upload.wikimedia.org/wikipedia/commons/7/72/Election_Commission_of_India_Logo.svg",
+    "voters.eci.gov.in": "https://upload.wikimedia.org/wikipedia/commons/7/72/Election_Commission_of_India_Logo.svg",
+    "passportindia.gov.in": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Emblem_of_India.svg",
+    "digilocker.gov.in": "https://upload.wikimedia.org/wikipedia/commons/a/a2/DigiLocker_logo.svg",
+    "crsorgi.gov.in": "", // Birth & Death Registration
 
     // ==========================================
     // 2. FINANCE, TAX & BANKING
     // ==========================================
-    "incometax.gov.in": "https://en.wikipedia.org/wiki/File:Logo_of_Income_Tax_Department_India.png", // Fixed
-    "gst.gov.in": "", // no confirmed GST-specific logo file
-    "epfindia.gov.in": "https://en.wikipedia.org/wiki/File:EPFO_official_logo.gif", //Added
-    "esic.gov.in": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Employee_State_Insurance_Corporation_Logo.png/250px-Employee_State_Insurance_Corporation_Logo.png", // no confirmed file — Employee State Insurance
-    "protean-tinpan.com": "", // no confirmed file — NSDL PAN Card Services
-    "utiitsl.com": "", // no confirmed file — UTI PAN Card Services
+    "incometax.gov.in": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Income_Tax_Department_India_logo.svg/512px-Income_Tax_Department_India_logo.svg.png",
+    "gst.gov.in": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Emblem_of_India.svg",
+    "epfindia.gov.in": "https://upload.wikimedia.org/wikipedia/en/3/33/Employees%27_Provident_Fund_Organisation_Logo.svg", 
+    "esic.gov.in": "", // Employee State Insurance
+    "protean-tinpan.com": "", // NSDL PAN Card Services
+    "utiitsl.com": "", // UTI PAN Card Services
 
     // ==========================================
     // 3. TRANSPORT & TRAVEL
@@ -38,6 +37,7 @@ const customLogos = {
     "parivahan.gov.in": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Ministry_of_Road_Transport_and_Highways.svg",
     "irctc.co.in": "https://upload.wikimedia.org/wikipedia/en/4/45/IRCTC_Logo.svg",
     "indianrailways.gov.in": "https://upload.wikimedia.org/wikipedia/en/8/87/Indian_Railways_logo.svg",
+
     // ==========================================
     // 4. HEALTH & WELFARE
     // ==========================================
